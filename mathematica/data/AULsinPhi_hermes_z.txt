@@ -1,0 +1,27 @@
+#======================================================================
+# These are published data of the HERMES Collaboration. You are free to 
+# use these data in any publication. However, you must make a reference 
+# to the following publication: A. Airapetian et al, Physics Letters B 
+# 622 (2005) 14-22 [hep-ex/0505042]
+#======================================================================
+#
+# legend
+# 
+# columns	
+#   1 		<x>
+#   2		<z> 
+#   3		<P_hperp> in GeV
+#   4		<y>
+#   5		<Q^2> in GeV^2
+# 6,7,8		pi+ 2<sin(phi)>, stat, syst (all pions)
+# 9,10,11	pi- 2<sin(phi)>, stat, syst (all pions)
+# 12,13,14	pi+ 2<sin(phi)>, stat, syst (pions from exclusive VM subtracted)
+# 15,16,17	pi- 2<sin(phi)>, stat, syst (pions from exclusive VM subtracted)
+#
+#
+# z-dependence (in column 2)
+#
+0.065 0.26 0.42 0.71 2.3 0.027 0.009 0.002  0.000 0.012 0.000 0.028 0.009 0.002  0.000 0.012 0.000 
+0.080 0.35 0.45 0.62 2.5 0.029 0.008 0.002 -0.018 0.011 0.001 0.030 0.009 0.002 -0.019 0.012 0.001 
+0.091 0.47 0.48 0.55 2.4 0.033 0.008 0.002 -0.002 0.011 0.000 0.035 0.009 0.002 -0.002 0.012 0.000 
+0.098 0.62 0.49 0.49 2.3 0.033 0.011 0.002 -0.021 0.015 0.001 0.037 0.012 0.002 -0.024 0.018 0.001 
