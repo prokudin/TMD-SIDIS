@@ -1045,9 +1045,9 @@ For completeness we quote the WW-type approximations for FFs
 	G^\perp(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}& 0 \, ,
 	\label{Eq:WW-type-FF-2}\\
 	D^\perp(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}
-	& \hspace{11mm}z\,D_1(z,\pperp)\,, \label{Eq:WW-type-FF-3}\\
+	& \hspace{11mm}z\,D_1(z,\pperp^2)\,, \label{Eq:WW-type-FF-3}\\
 	H(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}& 
-	-\frac{\pperp^2}{zM_h^2}\;H_1^\perp(z,\pperp)\,. \label{Eq:WW-type-FF-4}
+	-\frac{\pperp^2}{zM_h^2}\;H_1^\perp(z,\pperp^2)\,. \label{Eq:WW-type-FF-4}
 \ea\end{subequations}
 Having introduced the WW- and WW-type approximations, we will review
 in the following what is currently known from theory and experiment 
@@ -1697,7 +1697,22 @@ The four functions $f_1^a, \; g_1^a, \; h_1^a,\; D_1^a$
 are related to twist-2 collinear functions. All collinear functions are calculated at $Q^2 = 2.4$ (GeV$^2$). Collinear $f_1(x)$ are from Ref.~\cite{Martin:2009iq},  $g_1(x)$ are from Ref.~\cite{Gluck:1998xa}, and $D_1(z)$ are from Ref. ~\cite{deFlorian:2007aj}.The other four 
 $f_{1T}^{\perp a},  \;h_1^{\perp a},\; H_1^{\perp a} \,$  
 have no collinear counterparts, and we consider their (1)-moments, while 
-for $ h_{1T}^{\perp a}$  we consider the (2)-moment, see App.~\ref{App:basis} for details.
+for $ h_{1T}^{\perp a}$  we consider the (2)-moment,
+such that parametrizations of TMD functions read
+\begin{subequations}\ba
+f^a_1(x,\kperp^2) &=& f^a_1(x)\;
+    \frac{e^{-\kperp^2/\avkperp_{f_1}}}{\pi\avkperp_{f_1}} \, ,\\
+    D^a_1(z,\pperp^2) &=& D_1^a(z)\,
+    \frac{e^{-\pperp^2/\avpperp_{D_1}}}{\pi\avpperp_{D_1}} \, ,\\
+g^a_1(x,\kperp^2) &=& g^a_1(x)\;
+    \frac{e^{-\kperp^2/\avkperp_{g_1}}}{\pi\avkperp_{g_1}} \, ,\\    
+f_{1T}^{\perp q}(x,\kperp^2) &=&  f_{1T}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{f_{1T}^\perp}^2} e^{-\kperp^2/{\avkperp_{f_{1T}^\perp}}} \, ,\\
+h_{1}^{q} (x, \kperp^2) &=&h_{1}^{q} (x)  \frac{e^{-{\kperp^2}/{\avkperp_{h_1} }}}{\pi \avkperp_{h_1}}\, ,\\
+H_{1}^{\perp}(z,\pperp^2) &=&  H_{1}^{\perp (1)}(z)   \frac{2 z^2 m_h^2}{\pi \avpperp_{H_{1}^\perp}^2} e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}\, ,\\
+h_{1}^{\perp q}(x,\kperp^2) &=&  h_{1}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{h_{1}^\perp}^2} e^{-\kperp^2/{\avkperp_{h_{1}^\perp}}}\, ,\\
+h_{1T}^{\perp q}(x,\kperp^2) &=&  h_{1T}^{\perp (2) q}(x)   \frac{2 M^4}{\pi \avkperp_{h_{1T}^\perp}^3} e^{-\kperp^2/{\avkperp_{h_{1T}^\perp}}} \, ,
+\ea\end{subequations}
+see App.~\ref{App:basis} for details.
 
 
 
@@ -1793,6 +1808,12 @@ M_n^h(x,z,\Phperp)  \equiv 2 \pi \Phperp \frac{F_{UU}(x,z,\Phperp) }{ x \sum_q e
 \ee
 at $\la Q^2\ra=2.87\,{\rm GeV}^2$,
 $\la x\ra  =0.15$, $\la z\ra  =0.22$ for $\pi^+$ production on the proton target.
+In Fig.~\ref{FUU-show-pT-dependence} (c) we plot COMPASS multiplicity \cite{Aghasyan:2017ctw}
+\be
+n^h(x,z,\Phperp)  \equiv \pi \frac{F_{UU}(x,z,\Phperp) }{ x \sum_q e_q^2\,f^q_1(x)}
+\ee
+at $\la Q^2\ra=20\,{\rm GeV}^2$,
+$\la x\ra  =0.15$, $\la z\ra  =0.2$ for $h^+$ production on the deuterium target.
 
 To streamline the presentation we refer to the comprehensive Appendix 
 on the used parametrizations (App.~\ref{App:basis}), and for 
@@ -1803,6 +1824,7 @@ technical details on the Gauss Ansatz (App.~\ref{App:factor}).
 \centering
 \includegraphics[width=0.3\textwidth]{\FigPath/Fig02a-JLab-ratio-pT-v5.pdf}  (a)
 \includegraphics[width=0.37\textwidth]{\FigPath/hermes_pip.pdf} (b)
+\includegraphics[width=0.37\textwidth]{\FigPath/compass_hp.pdf} (c)
 \caption{\label{FUU-show-pT-dependence}
 Examples of the description of transverse momenta of hadrons in 
 unpolarized SIDIS. 
@@ -1810,8 +1832,10 @@ unpolarized SIDIS.
 $\la x\ra  =0.24$, $\la z\ra  =0.30$ measured at JLab with a 5.75 GeV 
 beam \cite{Osipenko:2008aa}. Theoretical curve from Gauss model 
 following Ref.~\cite{Schweitzer:2010tt}.
-(b) Example for HERMES multiplicities at $\la Q^2\ra=2.87\,{\rm GeV}^2$,
-$\la x\ra  =0.15$, $\la z\ra  =0.22$.}
+(b) Example for HERMES multiplicities \cite{Airapetian:2012ki} at $\la Q^2\ra=2.87\,{\rm GeV}^2$,
+$\la x\ra  =0.15$, $\la z\ra  =0.22$.
+(b) Example for COMPASS multiplicities \cite{Aghasyan:2017ctw} at $\la Q^2\ra=20\,{\rm GeV}^2$,
+$\la x\ra  =0.15$, $\la z\ra  =0.2$.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1867,7 +1891,7 @@ ${\cal G}(\Phperp)$, the structure function $F_{LL}$  reads
 \includegraphics[width=0.32\textwidth]{\FigPath/all_jlab_pi0}  
 \includegraphics[width=0.32\textwidth]{\FigPath/all_jlab_pim}  
 \caption{\label{jlab_ALL} 
-	$p_2 A_{LL}$ asymmetry compared with Jefferson Lab experimental 
+	$A_{LL,\la y\ra}$ asymmetry compared with Jefferson Lab experimental 
 	results Ref.~\cite{Avakian:2010ae} for $\pi^+$ (left panel) and 
 	$\pi^-$ (right panel). Solid lines are computations with mean 
 	values of kinematic variables  $\langle x \rangle = 0.25$, 
@@ -1957,18 +1981,16 @@ in (\ref{FUTsiv-Gauss}).
 
 
 The asymmetries $A_{UT}^{\sin(\phi_h-\phi_S)}= F_{UT}^{\sin(\phi_h-\phi_S)}/F_{UU}$  
-for Jefferson Lab 12 GeV are plotted in Fig.~\ref{aut_f1t_jlab}.
+and comparison to HERMES data \cite{Airapetian:2009ae} are plotted in Fig.~\ref{aut_f1t_jlab}.
 
-\PS{\bf (We should plot here HERMES and/or COMPASS data, two samples
-just for illustrative purposes. We can add a comment that Jefferson Lab 12
-data will significantly improve the experimental constraints.)}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b!]
 \centering
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_x.pdf}  
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_PT.pdf}
-\caption{\label{aut_f1t_jlab} $A_{UT}^{\sin(\phi_h-\phi_S)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\caption{\label{aut_f1t_jlab} Comparison of calculation of $A_{UT}^{\sin(\phi_h-\phi_S)}$  using fit results of Ref.~\cite{Anselmino:2011gs} as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at $\la x\ra = 0.15$, $\la z\ra = 0.34$, $\la Q^2\ra = 2.4$ GeV$^2$ and HERMES data \cite{Airapetian:2009ae}.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1993,12 +2015,10 @@ where $\lambda=z^2 \avkperp_{h_1} + \avpperp_{H_1^\perp}$ and
 $b^{(1)}_{\rm A}=2m_h$ and $c^{(1)}_{\rm A} = \sqrt{\pi}\,m_h$,
 see App.~\ref{App:convol-details} for details.
 
-Asymmetries $A_{UT}^{\sin(\phi_h+\phi_S)}=F_{UT}^{\sin(\phi_h+\phi_S)}/F_{UU}$
-for Jefferson Lab 12 GeV are plotted in Fig.~\ref{aut_h1_jlab}.
+The asymmetries $A_{UT}^{\sin(\phi_h+\phi_S)}=F_{UT}^{\sin(\phi_h+\phi_S)}/F_{UU}$
+and comparison to HERMES data \cite{Airapetian:2010ds} are plotted in Fig.~\ref{aut_h1_jlab}.
 
-\PS{\bf (We should plot here HERMES and/or COMPASS data, two samples
-just for illustrative purposes. We can add a comment that Jefferson Lab 12
-data will significantly improve the experimental constraints.)}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2006,7 +2026,7 @@ data will significantly improve the experimental constraints.)}
 \centering
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTCollins_x.pdf}  
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTCollins_PT.pdf}
-\caption{\label{aut_h1_jlab} $A_{UT}^{\sin(\phi_h+\phi_S)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\caption{\label{aut_h1_jlab} Comparison of calculation of $A_{UT}^{\sin(\phi_h+\phi_S)}$  using fit results of Ref.~\cite{Anselmino:2013vqa} as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at $\la x\ra = 0.15$, $\la z\ra = 0.34$, $\la Q^2\ra = 2.4$ GeV$^2$ and HERMES data \cite{Airapetian:2009ae}.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2027,11 +2047,9 @@ The structure function $F_{UU}^{\cos(2\phi_h)}$ reads
 	\label{eq:asymmetry_auu_cos2phi}
 \ea\end{subequations}
 where $\lambda=z^2 \avkperp_{h_1^\perp} + \avpperp_{H_1^\perp}$ and
-$b^{(2)}_{\rm AB}=\red{4}M_Nm_h$ and $c^{(2)}_{\rm AB} = 4M_Nm_h$,
+$b^{(2)}_{\rm AB}=4M_Nm_h$ and $c^{(2)}_{\rm AB} = 4M_Nm_h$,
 see App.~\ref{App:convol-details}.
 
-Asymmetries $A_{UU}^{\cos(2\phi_h)}=F_{UU}^{\cos(2\phi_h)}/F_{UU}$  for  
-Jefferson Lab 12 GeV are plotted in Fig.~\ref{auu_cos2phi_jlab}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2039,19 +2057,14 @@ Jefferson Lab 12 GeV are plotted in Fig.~\ref{auu_cos2phi_jlab}.
 \centering
 \includegraphics[width=0.45\textwidth]{\FigPath/AUUcos2phi_x.pdf} 
 \includegraphics[width=0.45\textwidth]{\FigPath/AUUcos2phi_PT.pdf}
-\caption{\label{auu_cos2phi_jlab} $A_{UU}^{\cos(2\phi_h)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\caption{\label{auu_cos2phi_jlab} Comparison of calculation of $A_{UU}^{\cos(2\phi_h)}$  using fit results of Ref.~\cite{Barone:2015ksa} as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at $\la x\ra = 0.15$, $\la z\ra = 0.34$, $\la Q^2\ra = 2.4$ GeV$^2$ and HERMES data \cite{Giordano:2009hi}.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\PS{\bf (We should plot here HERMES and/or COMPASS data, two samples
-just for illustrative purposes. We can add a comment that Jefferson Lab 12
-data will significantly improve the experimental constraints. I would also
-skip the Cahn effect for simplicity, and add a comment of the following
-kind:)}
-
-In the (to be updated) Fig.~\ref{auu_cos2phi_jlab} we plot only the
+Asymmetries $A_{UU}^{\cos(2\phi_h)}=F_{UU}^{\cos(2\phi_h)}/F_{UU}$  for  
+HERMES are plotted in Fig.~\ref{auu_cos2phi_jlab}.
+In the Fig.~\ref{auu_cos2phi_jlab} we plot only the
 Boer-Mulders contribution to $A_{UU}^{\cos(2\phi_h)}$ which does not describe
 the data accurately. In fact, it is suspected that this observable receives 
 a significant contribution from the Cahn effect \cite{Cahn:1978se}, a 
@@ -2088,22 +2101,14 @@ The structure function $F_{UT}^{\sin(3\phi_h-\phi_S)}$ reads
 	\label{eq:asymmetry_aut_h1tp} \\
 	F_{UT}^{\sin(3\phi_h-\phi_S)}(x,z,\la\Phperp\ra) 
 	&=& x\sum_q e_q^2\,h_{1T}^{\perp (2) q}(x)\,H_1^{\perp(1)q}(z)\;  
-	c^{(3)}\,\biggl(\frac{z} {\lambda^{1/2}}\biggr)^{\!\red{3}}\,,
+	c^{(3)}\,\biggl(\frac{z} {\lambda^{1/2}}\biggr)^{3}\,,
 \ea\end{subequations}
 where $\lambda=z^2 \avkperp_{h_{1T}^\perp} + \avpperp_{H_1^\perp}$ and
-$b^{(3)}=2M_N^2m_h$ and $c^{(3)}_{\rm  } = 3\sqrt{\pi} \,M_N^2m_h$,
+$b^{(3)}=2M_N^2m_h$ and $c^{(3)}_{\rm  } = 3/2\sqrt{\pi} \,M_N^2m_h$,
 see App.~\ref{App:convol-details}.
 
 Asymmetries $A_{UT}^{\sin(3 \phi_h - \phi_S)}=F_{UT}^{\sin(3 \phi_h - \phi_S)}/F_{UU}$ for 
-Jefferson Lab 12 GeV are plotted in Fig.~\ref{aut_h1tp_jlab}.
-
-\
-
-\PS{\bf (We should plot here COMPASS data for illustrative purposes. 
-I would propose to add a comment of the type:)}
-
-\
-
+COMPASS data \cite{Parsamyan:2010se} are plotted in Fig.~\ref{aut_h1tp_jlab}.
 Clearly, the pretzelosity TMD is the least known of the basis TMDs.
 Nevertheless it is of fundamental importance, as it provides one of the
 basis functions in our approach. It is so difficult to access it 
@@ -2123,7 +2128,7 @@ to significantly improve our knowledge of this TMD.
 \centering
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTPretzelosity_x.pdf}  
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTPretzelosity_PT.pdf}
-\caption{\label{aut_h1tp_jlab} $A_{UT}^{\sin(3 \phi_h - \phi_S)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\caption{\label{aut_h1tp_jlab}  Comparison of calculation of $A_{UT}^{\sin(3 \phi_h - \phi_S)}$  using fit results of Ref.~\cite{Lefky:2014eia} as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at $\la x\ra = 0.15$, $\la z\ra = 0.34$, $\la Q^2\ra = 2.4$ GeV$^2$ and preliminary COMPASS data \cite{Parsamyan:2010se}.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2150,7 +2155,7 @@ In this section we discuss the associated asymmetries.
 	$g^{\perp (1) q}_{1T}(x)$ (left panel) and
 	$h^{\perp (1) q}_{1L}(x)$ distributions (right panel) for 
 	$u$- and $d$-flavor. 
-	\PS{\bf (Please, remove sea quarks in left panel).}}
+}
 \end{figure}
 
 \subsection{\boldmath Leading twist $A_{LT}^{\cos(\phi_h-\phi_S)}$}
@@ -2192,27 +2197,39 @@ constrained by the positivity bound \cite{Bacchetta:1999kz}
 	\frac{\kperp^2}{M^2}\left( (g^{\perp q}_{1T}(x,\kperp^2))^2 
 	+ (f_{1T}^{\perp q}(x,\kperp^2))^2\right) \le (f_{1}^{q}(x,\kperp^2))^2 
 \ee
-which the parametrizations for $f^{\perp q}_{1T}$ and $g^{\perp q}_{1T}$
-used in this work of course satisfy \PS{\bf (do they??)}.
+so that one has
+\be
+\frac{f_{1}^{q}(x)^2}{16\pi M^2} - \frac{f_{1T}^{\perp q}(x)^2}{4\pi \avkperp_{f_{1T}^\perp} } -
+\frac{g_{1T}^{\perp q}(x)^2}{4\pi \avkperp_{g_{1T}^\perp} } \ge 0
+\label{eq:positivity}
+\ee
+see Fig.~\ref{g1t_pos}.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/g1t_positivity.pdf}  
+	\caption{\label{g1t_pos} 
+	LHS of Eq.~\eqref{eq:positivity}.
+}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/ALT_x.pdf}  
-\includegraphics[width=0.45\textwidth]{\FigPath/ALT_PT.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/ALT_COMPASS_x.pdf}  
 	\caption{\label{g1t_jlab} 
-	$A_{LT}^{\cos(\phi_h -\phi_S)}$  as a function of $ x $ (left panel), 
-	and as a function of $P_{hT}$ (right panel) at typical kinematics 
-	of Jefferson Lab 12 GeV, 
+	$A_{LT}^{\cos(\phi_h -\phi_S)}$  as a function of $ x $  at typical kinematics 
+	of COMPASS, 
 	$\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
 	\newline\PS{Can we compare here to COMPASS data from 
 	\cite{Kotzinian:2007uv}?}}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The asymmetry  $A_{LT}^{\cos(\phi_h -\phi_S)}$ as a function of $x$ and $P_{hT}$ 
-for Jefferson Lab 12 GeV is plotted in Fig.~\ref{g1t_jlab}.
+The asymmetry  $A_{LT}^{\cos(\phi_h -\phi_S)}$ as a function of $x$  
+for COMPASS is plotted in Fig.~\ref{g1t_jlab}.
 
 
 \newpage
@@ -2220,18 +2237,6 @@ for Jefferson Lab 12 GeV is plotted in Fig.~\ref{g1t_jlab}.
 	Leading twist $A_{UL}^{\sin2\phi_h}$ Kotzinian-Mulders  asymmetry}
 \label{Sec-6.2:FULsin2phi}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b!]
-\centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AULsin2phi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/AULsin2phi_PT.pdf}
-	\caption{\label{aul_jlab} 
-	$A_{UL}^{\sin(2\phi_h)}$  as a function of $ x $ (left panel), and   
-	as a function of $P_{hT}$ (right panel) at typical kinematics of 
-	Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, 
-	$\la Q^2\ra = 2.4$ GeV$^2$.}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We assume Gaussian form for Kotzinian-Mulders function $h_{1L}^{\perp a}$:
 \be
@@ -2242,12 +2247,19 @@ We assume Gaussian form for Kotzinian-Mulders function $h_{1L}^{\perp a}$:
 We will use WW-type approximation from Eq.~(\ref{Eq:WW-approx-h1L}) 
 for calculation of $h_{1L}^{\perp (1) a}(x)$ and for the estimates of the 
 asymmetry $\avkperp_{h_{1L}^\perp} = \avkperp_{h_{1}} = 0.25$ (GeV$^2$).
-Notice that the Boer-Mulders function and $h^{\perp q}_{1L}$ obey the
+Notice that the Kotzinian-Mulders function and $h^{\perp q}_{1L}$ obey the
 positivity bound \cite{Bacchetta:1999kz}
 \be
 	\frac{\kperp^2}{M^2}\left( (h^{\perp q}_{1L}(x,\kperp^2))^2 + 
 	(h_{1}^{\perp q}(x,\kperp^2))^2\right) \le (f_{1}^{q}(x,\kperp^2))^2 \, .
 \ee
+so that one has
+\be
+\frac{f_{1}^{q}(x)^2}{16\pi M^2} - \frac{h_{1}^{\perp q}(x)^2}{4\pi \avkperp_{h_{1}^\perp} } -
+\frac{h_{1L}^{\perp q}(x)^2}{4\pi \avkperp_{h_{1TL}^\perp} } \ge 0
+\label{eq:positivity1}
+\ee
+which is plottde in Fig.~\ref{h1l_pos}. Notice that for $d$-quark the positivity is violated that may be due to the big Boer-Mulders $d$-quark function from Ref.~\cite{Barone:2015ksa}. As far as determination of the size of Boer-Mulders functions is far from ideal, we cautiously keep the present result. Future determinations of Boer-Mulders functions will help to clarify the issue of positivity constraints.
 
 The structure function $F_{UL}^{\sin(2\phi_h)}$ reads
 \begin{subequations}\ba
@@ -2271,7 +2283,27 @@ Fig.~\ref{g1t_h1l_functions}.
 The asymmetries $A_{UL}^{\sin(2\phi_h)}=F_{UL}^{\sin(2\phi_h)}/F_{UU}$  for 
 Jefferson Lab 12 GeV are plotted in Fig.~\ref{aul_jlab}.
  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/h1lperp_positivity.pdf}  
+	\caption{\label{h1l_pos} 
+	LHS of Eq.~\eqref{eq:positivity1}.
+}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsin2phi_COMPASS_x.pdf}  
+	\caption{\label{aul_jlab} 
+	$A_{UL}^{\sin(2\phi_h)}$  as a function of $ x $  at typical kinematics 
+	of COMPASS, 
+	$\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+	}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%
 \newpage
 %========= SECTION 8: TWIST-3 IN WW-TYPE APPROXIMATION ===============
 \section{Subleading twist asymmetries in WW-type approximation}
@@ -2957,9 +2989,8 @@ Bla, bla, bla.
 
 
 \section{Acknowledgments}
-This work was partially supported by the U.S.\
-Department of Energy under Contract No.~DE-AC05-06OR23177 (A.P.) and by the National Science Foundation
-under Contract No. PHY-1623454 (A.P.).
+The authors would like to thank their families for the constant support during work on this project. This work was partially supported by the U.S.\
+Department of Energy under Contract No.~DE-AC05-06OR23177 (A.P.) and by the National Science Foundation under Contract No. PHY-1623454 (A.P.).
 
 
  
@@ -3602,7 +3633,7 @@ with
 \begin{itemize}
 
 \item	I reshuffled some subsections with good intentions.
-	Please, see whether you like it.
+	Please, see whether you like it. {\color{red} AP good for me}
 
 \item	Introduced a new procedure: first assume Gauss Ansatz,
 	then evaluate convolution integrals, finally use WW.
@@ -3612,6 +3643,7 @@ with
 	2. There is less model dependence due to the simpler expressions.\\
 	3. In the new expressions it is more natural to incorporate the 
 	sum rules (\ref{Eq:sum-rules-T-odd}) for T-odd twist-3 functions.
+	{\color{red} AP good for me, we need to expand a little on differences with the previous version.}
 
 \item   The numerical results are obtained with 
 	DSS'07 and GRV'00 and GRSV'98.
@@ -3619,12 +3651,13 @@ with
 	I agree that DSS is acceptable (if we do not touch kaons). 
 	However, we should use a more modern input for $f_1^q(x)$ and 
 	$g_1^q(x)$ (even though I know and understand that it does not matter).
+	 {\color{red} AP good for me, I implemented MRSTW instead.}
 
 \item 	I introduced 
 	{\textbackslash}begin\{subequations\} $\dots$
 	{\textbackslash}end\{subequations\}. Notice that it comes
 	before equations arrays start and after they end, and it can
-	contain text in-between.
+	contain text in-between.  {\color{red} AP good for me}
 
 \item	notation: in all(?) formulas 
 	{\{{\textbackslash}bf $\dots$\}} changed to
@@ -3633,7 +3666,7 @@ with
 	Eqs.~(\ref{Eq:correlator},~\ref{Eq:correlator-FF})
 	(Fourier variables of ${\bm k}_\perp$, ${\bm p}_\perp$)\\
 	In Eq.~(\ref{Eq:correlator-FF}) the integration is over
-	$\xi^+$ (not $\xi^-$), and $(-\infty)\to(+\infty)$.
+	$\xi^+$ (not $\xi^-$), and $(-\infty)\to(+\infty)$.  {\color{red} AP good for me}
 
 \item	more serious: in Eq.~(\ref{Eq:correlator-FF}) replacement 
 	${\bm p}_\perp = \bfpperp$ was wrong. Correct:
@@ -3645,24 +3678,24 @@ with
 	 \ref{eq:DeltaTr-twist-3c},
 	 \ref{Eq:WW-type-FF-4}). \\
 	Luckily no influence on numerical results. \red{Please, double check 
-	(\ref{eq:DeltaTr-twist-2a}-\ref{eq:DeltaTr-twist-3c})!}
+	(\ref{eq:DeltaTr-twist-2a}-\ref{eq:DeltaTr-twist-3c})!}  {\color{red} AP have no time, anybody?}
 
 \item	in several places correction $D_q^h(z)\to D_1^q(z)$, \\
 	correction $H^\perp(z,\pperp^2) \to H(z,\pperp^2)$
-	in (\ref{Eq:WW-type-FF-4})
+	in (\ref{Eq:WW-type-FF-4})  {\color{red} AP good for me}
 
 \item	after Eq.~(\ref{Eq:TMD-pdfs-VI}) changed
 	$\epsilon_T^{ij}\equiv\epsilon^{-+ij}$ to
 	$\epsilon^{ij}\equiv\epsilon^{-+ij}$
-	(we use throughout $\epsilon^{ij}$)
+	(we use throughout $\epsilon^{ij}$)  {\color{red} AP good for me}
 
 \item 	corrected sign of term with $f_T^\perp$ in (\ref{Eq:sub-TMD-pdfs-III}). 
-	Should be negative. Compare to \cite{Bacchetta:2006tn}. 
+	Should be negative. Compare to \cite{Bacchetta:2006tn}.   {\color{red} AP good for me, thank you}
 
 \item	corrected sign typos in 
 	Eq.~(\ref{FUTsinphiS}) (term with $\tilde{D}^\perp$) and 
 	Eq.~(\ref{FLTsin(2phi-phiS)}) (term with $\tilde{G}^\perp$)\\
-	Both drop out in WW, so no consequence.
+	Both drop out in WW, so no consequence.  {\color{red} AP good for me}
 
 \item 	the figure names \\ {\tt
 	ALLcosPhi\_x.pdf, ALLcosPhi\_PT.pdf,  \\
@@ -3670,17 +3703,17 @@ with
   	AULsinPhi\_x.pdf, AULsinPhi\_PT.pdf} \\
 	were spelled incorrectly (in latex source: {\tt Phi}. Name of file
 	{\tt phi}).\\
-	Fixed in latex file, names of figures are unchanged.
+	Fixed in latex file, names of figures are unchanged.  {\color{red} AP good for me}
 
 \item	We should not show predictions for JLab 12,
 	but compare to available data. Often we will have huge error bars.
-	Then we can say that JLab 12 will resolve the situation.
+	Then we can say that JLab 12 will resolve the situation.  {\color{red} AP good for me, I change that}
 
 \item	Often we write $M$ or $M_N$ and mean the nucleon mass.
 	I would prefer $M_N$ but writing $M$ everywhere would be less work.
 	We write sometimes $H^\perp(z,\pperp^2)$ and sometimes
 	$H^\perp(z,\pperp)$, etc. We have to agree on a common notation. 
-	I propose without square.
+	I propose without square.  {\color{red} AP good for me, I prefer $H^\perp(z,\pperp^2)$}
 
 
 {}

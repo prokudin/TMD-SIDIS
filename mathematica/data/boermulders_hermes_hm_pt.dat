@@ -1,0 +1,24 @@
+###########################################################################
+#                                                                         #
+#  Please arrange the terms of using the data with the HERMES management  #
+# (management@hermes.desy.de) and make a reference to the proceedings of  #
+#                                                                         #
+# Measurement of azimuthal asymmetries of the                             # 
+#      unpolarized cross-section at HERMES, HERMES collaboration,         #
+# (Francesca Giordano, Rebecca Lamb).                                     #
+# To appear in the proceedings of the SPIN2008 conference,                #  
+# Charlottesville, VA, United States,                                     #
+# October 6th-17th, 2008.                                                 # 
+#                                                                         #
+########################################################################### 
+############################################
+#            cos2phi moments               #
+#   for h- extracted with Hydrogen target  #
+#           as a function of Pt            #
+#      	                                   #
+# <Pt>   2<cos2phi>  stat.error sys. error #
+############################################
+ 0.138   -0.0018     0.012      0.013
+ 0.276    0.012      0.0086     0.011
+ 0.421    0.029      0.0080     0.016
+ 0.603    0.037      0.011      0.026
