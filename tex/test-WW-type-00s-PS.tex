@@ -1948,6 +1948,18 @@ The practical predictions depend only weakly on the choice of parameters.
 \subsection{\boldmath Leading twist $A_{UT}^{\sin(\phi_h-\phi_S)}$ Sivers asymmetry}
 \label{Sec-5.3:Sivers-basis}
 
+The $F_{UT}^{\sin(\phi_h-\phi_S)}$ modulation of SIDIS cross section is related to  the Sivers function~\cite{Sivers:1989cc}, which describes the number density of unpolarized quarks inside a 
+transversely polarized proton, has so far received the widest attention, 
+from both phenomenological and experimental points of view. 
+
+The Sivers function $f_{1T}^\perp$ is related to initial and final state interactions of the struck quark and the rest of the nucleon and could not exist 
+without the contribution of the orbital angular momentum of partons to the spin of the nucleon. 
+As such it encodes the correlation between the partonic intrinsic motion and the transverse spin of the nucleon, and it generates a dipole deformation in momentum space.
+
+Over the years, the Sivers function has been extracted from SIDIS data
+by several groups, with consistent results 
+\cite{Anselmino:2010bs,Anselmino:2005ea,Anselmino:2005an,Collins:2005ie,Vogelsang:2005cs,Anselmino:2008sga,Bacchetta:2011gx,Echevarria:2014xaa}. 
+
 The structure function $F_{UT}^{\sin(\phi_h-\phi_S)}$ reads
 \begin{subequations}\ba
 	F_{UT}^{\sin(\phi_h-\phi_S)}(x,z,\Phperp) 
@@ -1999,6 +2011,14 @@ and comparison to HERMES data \cite{Airapetian:2009ae} are plotted in Fig.~\ref{
 
 \subsection{\boldmath Leading twist $A_{UT}^{\sin(\phi_h+\phi_S)}$ Collins asymmetry}
 \label{Sec-5.4:Collins-basis}
+
+The $F_{UT}^{\sin(\phi_h+\phi_S)}$ modulation of the SIDIS cross section is due to convolution of the transversity distribution $h_1$, which is the only source of information on the tensor charge of the 
+nucleon, and the Collins FF $H_1^\perp$, that decodes the fundamental correlation between
+the transverse spin of a fragmenting quark and the transverse momentum
+of the final produced hadron. 
+
+There are many extractions of $h_1$ and $H_1^\perp$ from a combined fit of SIDIS and $e^+e^-$ data, for instance those of Refs.~\cite{Anselmino:2013vqa,Kang:2014zza,Anselmino:2015sxa}.
+
 
 The structure function $F_{UT}^{\sin(\phi_h+\phi_S)}$ reads
 \begin{subequations}\ba
@@ -2199,8 +2219,8 @@ constrained by the positivity bound \cite{Bacchetta:1999kz}
 \ee
 so that one has
 \be
-\frac{f_{1}^{q}(x)^2}{16\pi M^2} - \frac{f_{1T}^{\perp q}(x)^2}{4\pi \avkperp_{f_{1T}^\perp} } -
-\frac{g_{1T}^{\perp q}(x)^2}{4\pi \avkperp_{g_{1T}^\perp} } \ge 0
+\frac{(f_{1}^{q}(x))^2}{16\pi M^2} - \frac{(f_{1T}^{\perp q}(x))^2}{4\pi \avkperp_{f_{1T}^\perp} } -
+\frac{(g_{1T}^{\perp q}(x))^2}{4\pi \avkperp_{g_{1T}^\perp} } \ge 0
 \label{eq:positivity}
 \ee
 see Fig.~\ref{g1t_pos}.
@@ -2222,7 +2242,7 @@ see Fig.~\ref{g1t_pos}.
 	\caption{\label{g1t_jlab} 
 	$A_{LT}^{\cos(\phi_h -\phi_S)}$  as a function of $ x $  at typical kinematics 
 	of COMPASS, 
-	$\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+	$\la x\ra = 0.05$, $\la z\ra = 0.36$, $\la Q^2\ra = 2.4$ GeV$^2$.
 	\newline\PS{Can we compare here to COMPASS data from 
 	\cite{Kotzinian:2007uv}?}}
 \end{figure}
@@ -2255,8 +2275,8 @@ positivity bound \cite{Bacchetta:1999kz}
 \ee
 so that one has
 \be
-\frac{f_{1}^{q}(x)^2}{16\pi M^2} - \frac{h_{1}^{\perp q}(x)^2}{4\pi \avkperp_{h_{1}^\perp} } -
-\frac{h_{1L}^{\perp q}(x)^2}{4\pi \avkperp_{h_{1TL}^\perp} } \ge 0
+\frac{(f_{1}^{q}(x))^2}{16\pi M^2} - \frac{(h_{1}^{\perp q}(x))^2}{4\pi \avkperp_{h_{1}^\perp} } -
+\frac{(h_{1L}^{\perp q}(x))^2}{4\pi \avkperp_{h_{1TL}^\perp} } \ge 0
 \label{eq:positivity1}
 \ee
 which is plottde in Fig.~\ref{h1l_pos}. Notice that for $d$-quark the positivity is violated that may be due to the big Boer-Mulders $d$-quark function from Ref.~\cite{Barone:2015ksa}. As far as determination of the size of Boer-Mulders functions is far from ideal, we cautiously keep the present result. Future determinations of Boer-Mulders functions will help to clarify the issue of positivity constraints.
@@ -2300,7 +2320,7 @@ Jefferson Lab 12 GeV are plotted in Fig.~\ref{aul_jlab}.
 	\caption{\label{aul_jlab} 
 	$A_{UL}^{\sin(2\phi_h)}$  as a function of $ x $  at typical kinematics 
 	of COMPASS, 
-	$\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+	$\la x\ra = 0.05$, $\la z\ra = 0.36$, $\la Q^2\ra = 2.4$ GeV$^2$.
 	}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%
@@ -2396,6 +2416,7 @@ structure function
 	F_{LT}^{\cos\phi_S}(x,z)
 	&=& -\frac{2M}{Q}\; x^2 \sum_q e_q^2\, g_T^q(x)\,D_1^q(z)\, ,
 \ea\end{subequations}
+{\color{blue} AP - I disagree with \ref{Eq:FLTcosphiS-Gauss} see my notes}
 with the width $\lambda= z^2 \avkperp_{g_T} + \avpperp_{D_1}$
 in the Gaussian ${\cal G}(\Phperp)$. We estimate $g_T^a(x)$ in terms 
 of $g_1^a(x)$ according to Eq.~(\ref{Eq:WW-original1}) assuming for 
@@ -2461,7 +2482,7 @@ estimate $g_L^{\perp(1) a}(x)$ according to Eq.~(\ref{Eq:WW-type-gLperp}) as
 	g_1^a(x) \,.
 \ee
 The asymmetries $A_{LL}^{\cos\phi_S}=F_{LL}^{\cos\phi_S}/F_{UU}$  for 
-Jefferson Lab 12 GeV are plotted in Fig.~\ref{allcosphi_jlab}.
+COMPASS are plotted in Fig.~\ref{allcosphi_jlab}.
 
 \ \\
 \PS{We should include a comparison to 
@@ -2470,15 +2491,18 @@ COMPASS data \cite{Kotzinian:2007uv,Parsamyan:2010se}.}
 \
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b!]
+\begin{figure}[h!]
 \centering
-\includegraphics[width=0.4\textwidth]{figs/ALLcosphi_x.pdf} 
-\includegraphics[width=0.4\textwidth]{figs/ALLcosphi_PT.pdf}
-\caption{\label{allcosphi_jlab} $A_{LL}^{\cos\phi_h}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
-}
+\includegraphics[width=0.45\textwidth]{\FigPath/ALLcosphi_COMPASS_x.pdf}  
+	\caption{\label{allcosphi_jlab} 
+	$A_{LL}^{\cos(\phi_h)}$  as a function of $ x $  at typical kinematics 
+	of COMPASS, 
+	$\la x\ra = 0.05$, $\la z\ra = 0.36$, $\la Q^2\ra = 2.4$ GeV$^2$.
+	}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 
 \newpage
 \subsection{\boldmath Subleading twist $A_{UL}^{\sin\phi_h}$ }
