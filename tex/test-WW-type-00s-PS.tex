@@ -2211,19 +2211,19 @@ $\lambda  = z^2 \avkperp_{g_{1T}^\perp} + \avpperp_{D_1}$,
 $b^{(1)}_{\rm B} = 2M_N$,
 $c^{(1)}_{\rm B} = \sqrt{\pi}\,M_N$,
 see App.~\ref{App:convol-details} for details.
-We remind that $g^{\perp q}_{1T}$ and the Sivers function are both 
+The $g^{\perp q}_{1T}$ and the Sivers function $f^{\perp q}_{1T}$ are both 
 constrained by the positivity bound \cite{Bacchetta:1999kz} 
 \be
 	\frac{\kperp^2}{M^2}\left( (g^{\perp q}_{1T}(x,\kperp^2))^2 
 	+ (f_{1T}^{\perp q}(x,\kperp^2))^2\right) \le (f_{1}^{q}(x,\kperp^2))^2 
 \ee
-so that one has
+so that using our Gaussian parametrizations from Eqs.~(\ref{Eq:Gauss-f1-D1},\ref{eq:g1t},\ref{sivers_new}) one has
 \be
 \frac{(f_{1}^{q}(x))^2}{16\pi M^2} - \frac{(f_{1T}^{\perp q}(x))^2}{4\pi \avkperp_{f_{1T}^\perp} } -
 \frac{(g_{1T}^{\perp q}(x))^2}{4\pi \avkperp_{g_{1T}^\perp} } \ge 0
 \label{eq:positivity}
 \ee
-see Fig.~\ref{g1t_pos}.
+see Fig.~\ref{g1t_pos} where RHS of this equation multiplied by $16\pi M^2$ is shown.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
@@ -2273,13 +2273,13 @@ positivity bound \cite{Bacchetta:1999kz}
 	\frac{\kperp^2}{M^2}\left( (h^{\perp q}_{1L}(x,\kperp^2))^2 + 
 	(h_{1}^{\perp q}(x,\kperp^2))^2\right) \le (f_{1}^{q}(x,\kperp^2))^2 \, .
 \ee
-so that one has
+so that using our Gaussian parametrizations from Eqs.~(\ref{Eq:Gauss-f1-D1},\ref{eq:h1l_final},\ref{bm_new})  one has
 \be
 \frac{(f_{1}^{q}(x))^2}{16\pi M^2} - \frac{(h_{1}^{\perp q}(x))^2}{4\pi \avkperp_{h_{1}^\perp} } -
 \frac{(h_{1L}^{\perp q}(x))^2}{4\pi \avkperp_{h_{1TL}^\perp} } \ge 0
 \label{eq:positivity1}
 \ee
-which is plottde in Fig.~\ref{h1l_pos}. Notice that for $d$-quark the positivity is violated that may be due to the big Boer-Mulders $d$-quark function from Ref.~\cite{Barone:2015ksa}. As far as determination of the size of Boer-Mulders functions is far from ideal, we cautiously keep the present result. Future determinations of Boer-Mulders functions will help to clarify the issue of positivity constraints.
+which, multiplied by $16\pi M^2$,  is plotted in Fig.~\ref{h1l_pos}. Notice that for $d$-quark the positivity is violated that may be due to the big Boer-Mulders $d$-quark function from Ref.~\cite{Barone:2015ksa}. As far as determination of the size of Boer-Mulders functions is far from ideal, we cautiously keep the present result. Future determinations of Boer-Mulders functions will help to clarify the issue of positivity constraints.
 
 The structure function $F_{UL}^{\sin(2\phi_h)}$ reads
 \begin{subequations}\ba
@@ -2407,8 +2407,23 @@ In the WW-type approximation the structure function
 $F_{LT}^{\cos\phi_S}$ is due to $g_T^a(x,\kperp)$ and $D_1^a(z,\pperp)$ 
 whose collinear counterparts are more or less well known, see
 Secs.~\ref{Sec-3.4:WW-classic-experiment} and \ref{Sec-5.1:FUU-basis}.
-Assuming the Gaussian Ansatz for $g_T^a(x,\kperp)$ yields for the
-structure function 
+
+We assume the Gaussian Ansatz for $g_T^a(x,\kperp)$ 
+\be
+	g^{q}_{T}(x,\kperp^2) = 
+	g^{q}_{T}(x)\,\frac{1}{\pi \avkperp_{g_{T}}}\,
+	e^{-\kperp^2/{\avkperp_{g_{T}}}}\;,
+	\label{eq:gtnew}
+\ee
+where $g^{q}_{T}(x)$ is calculated according to Eq.~\ref{Eq:WW-original1}.
+Notice that we could have used WW-type relation of Eq.~(\ref{Eq:WW-type-6}) to relate $g^{q}_{T}(x,\kperp^2)$
+and $g^{\perp q}_{1T}(x,\kperp^2)$ however we choose not to do it. In fact Eq.~(\ref{Eq:WW-type-6}) suggests kinematical zero 
+$g^{q}_{T}(x, 0) = 0$  which is not supported by the model calculations \cite{Avakian:2010br} and thus  Eq.~(\ref{Eq:WW-type-6}) can be used only in its integrated form. 
+The Eq.~(\ref{Eq:WW-type-6}) is not exact and is not on the same footing as WW-approximation of Eq.~(\ref{Eq:WW-original1}), and we parametrize directly $g^{q}_{T}(x,\kperp^2)$ using the Gaussian shape. For illustrative purpose we show ``violation'' of  Eq.~(\ref{Eq:WW-type-6}) in Fig.~\ref{altcosphi_wwtype}.
+
+
+$F_{LT}^{\cos\phi_S}$
+structure function then reads 
 \begin{subequations}\ba
 	F_{LT}^{\cos\phi_S}(x,z,\Phperp) 
 	&=& -\frac{2M}{Q}\; x^2 \sum_q e_q^2\,g_T^q(x)\,D_1^q(z)\;   
@@ -2416,7 +2431,6 @@ structure function
 	F_{LT}^{\cos\phi_S}(x,z)
 	&=& -\frac{2M}{Q}\; x^2 \sum_q e_q^2\, g_T^q(x)\,D_1^q(z)\, ,
 \ea\end{subequations}
-{\color{blue} AP - I disagree with \ref{Eq:FLTcosphiS-Gauss} see my notes}
 with the width $\lambda= z^2 \avkperp_{g_T} + \avpperp_{D_1}$
 in the Gaussian ${\cal G}(\Phperp)$. We estimate $g_T^a(x)$ in terms 
 of $g_1^a(x)$ according to Eq.~(\ref{Eq:WW-original1}) assuming for 
@@ -2433,7 +2447,7 @@ the Gaussian width $\avkperp_{g_T}=\avkperp_{g_1}$.\footnote{
 	preferable as it helps to minimize model dependence.}
 
 Asymmetries $A_{LT}^{\cos\phi_S} = F_{LT}^{\cos\phi_S}/F_{UU}$ for 
-Jefferson Lab 12 GeV are plotted in Fig.~\ref{altcosphi_jlab}.
+COMPASS are plotted in Fig.~\ref{altcosphi_jlab}.
 Notice that the asymmetry scales at small transverse hadron
 momenta as $A_{LT}^{\cos\phi_S} \propto (\Phperp)^0$ which makes
 it easier to measure if longitudinally polarized lepton beams
@@ -2447,14 +2461,20 @@ COMPASS data \cite{Kotzinian:2007uv,Parsamyan:2010se}.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/ALTcosPhi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/ALTcosPhi_PT.pdf}
-\caption{\label{altcosphi_jlab} $A_{LT}^{\cos\phi_S}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\includegraphics[width=0.45\textwidth]{\FigPath/ALTcosPhi_COMPASS_x.pdf} 
+\caption{\label{altcosphi_jlab} $A_{LT}^{\cos\phi_S}$  as a function of $ x $.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- 
+ %%%%%%%%%%%%%
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/gT_vs_g1Tperp_wwtype.pdf} 
+\caption{\label{altcosphi_wwtype} RHS and LHS of Eq.~\ref{Eq:WW-type-6}.
+}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
