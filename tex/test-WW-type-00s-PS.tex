@@ -2648,6 +2648,23 @@ In the structure function $F_{UT}^{\sin\phi_S}$ we encounter 3 interesting
 new features. This is the first case with more than 1 contribution after 
 applying the WW-type approximation. Assuming Gauss Ans\"atze for the TMDs
 $f_T^q(x,\kperp)$, $h_T^{\perp q}(x,\kperp)$, $h_T^q(x,\kperp)$ 
+\begin{subequations}
+\be
+f_T^q(x,\kperp^2) = f_T^q(x) \,\frac{1}{\pi \avkperp_{f_{T}}}\,
+	e^{-\kperp^2/{\avkperp_{f_{T}}}}\;,
+	\label{eq:fTnew}
+\ee
+\be
+h_T^{\perp q}(x,\kperp^2) =h_T^{\perp (1) q}(x) \,\frac{2 M^2}{\pi \avkperp_{h_{T}^\perp}^2}\,
+	e^{-\kperp^2/{\avkperp_{h_{T}^\perp}}}\;,
+	\label{eq:hTperpnew}
+\ee
+\be
+h_T^{q}(x,\kperp^2) =h_T^{(1) q}(x) \,\frac{2 M^2}{\pi \avkperp_{h_{T}}^2}\,
+	e^{-\kperp^2/{\avkperp_{h_{T}}}}\;,
+	\label{eq:hTnew}
+\ee
+\end{subequations}
 we obtain 
 \begin{subequations}\begin{alignat}{1}
 	F_{UT}^{\sin\phi_S}(x,z,\Phperp) 
@@ -2768,7 +2785,7 @@ structure function $F_{UT}^{\sin\phi_S}(x,z)$ in WW-type approximation,
 see Eq.~(\ref{Eq:FUT-collinear}). 
 
 The asymmetries $A_{UT}^{\sin\phi_S}=F_{UT}^{\sin\phi_S}/F_{UU}$  for 
-Jefferson Lab 12 GeV are plotted in Fig.~\ref{autsinphi_jlab}.
+COMPASS are plotted in Fig.~\ref{autsinphi_jlab}.
 \PS{Compare to HERMES data \cite{Schnell:2010zza}?
 Is there by now final data? Will be interesting!}
 
@@ -2776,9 +2793,8 @@ Is there by now final data? Will be interesting!}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTsinphi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTsinphi_PT.pdf}
-\caption{\label{autsinphi_jlab} $A_{UT}^{\sin\phi_S}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTsinphiS_COMPASS_x.pdf} 
+\caption{\label{autsinphi_jlab} $A_{UT}^{\sin\phi_S}$  as a function of $ x $ for COMPASS.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2797,22 +2813,35 @@ implicit assumption of WW-type approximations).
 
 The structure function $F_{UU}^{\cos\phi_h}$, Eq.~(\ref{Eq:FUUcosphi}),
 contains after the WW-type approximation two contributions. Assuming
-Gaussian Ans\"atze for $h^{q}(x,\kperp)$ and $f^\perp(x,\pperp)$ we obtain
+Gaussian Ans\"atze for $h^{q}(x,\kperp)$ and $f^\perp(x,\pperp)$ 
+\begin{subequations}
+\be
+h^q(x,\kperp^2) = h^q(x) \,\frac{1}{\pi \avkperp_{h}}\,
+	e^{-\kperp^2/{\avkperp_{h}}}\;,
+	\label{eq:hnew}
+\ee
+\be
+f^{\perp q}(x,\kperp^2) =f^{\perp (1) q}(x) \,\frac{2 M^2}{\pi \avkperp_{f^\perp}^2}\,
+	e^{-\kperp^2/{\avkperp_{f^\perp}}}\;,
+	\label{eq:fperpnew}
+\ee
+\end{subequations}
+we obtain
 \begin{subequations}\begin{alignat}{1}
 	F_{UU}^{\cos\phi_h}(x,z,\Phperp) 
-	= \red{+}\,\frac{2M}{Q}\;x\sum_q e_q^2\,\Biggl[
+	= +\,\frac{2M}{Q}\;x\sum_q e_q^2\,\Biggl[
 	  x\,h^{q}(x)\,H_1^{\perp(1)q}(z)\;b^{(1)}_{\rm A}\,
 	  \biggl(\frac{z \Phperp} {\lambda}\biggr)\, & { \cal G}(\Phperp)
 	  \nonumber\\
-	\red{-} x\,f^{\perp(1)q}(x)\,D_1^q(z)\;b^{(1)}_{\rm B}\,
+	- x\,f^{\perp(1)q}(x)\,D_1^q(z)\;b^{(1)}_{\rm B}\,
 	  \biggl(\frac{z \Phperp} {\lambda}\biggr)\, & { \cal G}(\Phperp ) 
 	\Biggr] \label{Eq:XXXa}\\
 	F_{UU}^{\cos\phi_h}(x,z,\la\Phperp\ra) 
-	= \red{+}\,\frac{2M}{Q}\;x\sum_q e_q^2\,\Biggl[
+	= +\,\frac{2M}{Q}\;x\sum_q e_q^2\,\Biggl[
 	  x\,h^{q}(x)\,H_1^{\perp(1)q}(z)\;c^{(1)}_{\rm A}\;
 	  \biggl(\frac{z}{\lambda^{1/2}}\biggr)&
 	  \nonumber\\
-	\red{-}x\,f^{\perp(1)q}(x)\,D_1^q(z)\;c^{(1)}_{\rm B}\;
+	-x\,f^{\perp(1)q}(x)\,D_1^q(z)\;c^{(1)}_{\rm B}\;
 	  \biggl(\frac{z}{\lambda^{1/2}}\biggr)&
 	\Biggr] \label{Eq:XXXb}
 \end{alignat}\end{subequations}
@@ -2853,7 +2882,7 @@ approximations, and reminds us that the WW-type approximations as well
 as the entire TMD formalism must be applied to small $\Phperp\ll Q$,
 and in the case of $A_{UU}^{\cos\phi_h}$ preferably for $\Phperp < 1\,$GeV,
 as shown in Fig.~\ref{auucosphi_jlab}. \\
-\PS{(Alexei: did you notice it \cite{Anselmino:2005nn}? How did you treat it?)}
+\PS{(Alexei: did you notice it \cite{Anselmino:2005nn}? How did you treat it? AP we did notice and did nothing.)}
 
 The asymmetries $A_{UU}^{\cos\phi_h}$  for 
 Jefferson Lab 12 GeV are plotted in Fig.~\ref{auucosphi_jlab}.
@@ -2869,23 +2898,12 @@ Jefferson Lab 12 GeV are plotted in Fig.~\ref{auucosphi_jlab}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_PT.pdf}
-\caption{\label{auucosphi_jlab} $A_{UU}^{\cos\phi_h}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_COMPASS_x.pdf} 
+\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_COMPASS_PT.pdf} 
+\caption{\label{auucosphi_jlab} $A_{UU}^{\cos\phi_h}$  for COMPASS.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\
-
-\ \\
-\PS{We may potentially run into positivity issues also for other observables. 
-However, I would suggest not to worry too much. We see in the pictures that 
-the respective asymmetries are smaller than 100$\,\%$ for reasonably small 
-$\Phperp$ and can be happy with that! But perhaps we should include a 
-comment somewhere?}
-
-
 %------ BEGIN FIGURE 4: Phperp(z) AND Phperp^2(z) at HERMES ----------
         \begin{figure}[b!]
         \vspace{-0.6cm}
@@ -2903,13 +2921,31 @@ comment somewhere?}
         \end{figure}
 %------ END FIGURE 4 -------------------------------------------------
 
+\
+
+\ \\
+\PS{We may potentially run into positivity issues also for other observables. 
+However, I would suggest not to worry too much. We see in the pictures that 
+the respective asymmetries are smaller than 100$\,\%$ for reasonably small 
+$\Phperp$ and can be happy with that! But perhaps we should include a 
+comment somewhere?}
+
+
+
 \newpage
 \subsection{\boldmath Subleading twist  $A_{UT}^{\sin(2\phi_h-\phi_S)}$ }
 \label{Sec-7.8:FUTsin2phi-phiS}
 
 In this last asymmetry we encounter the first case with more than 
 1 contribution in our treatment. Assuming Gauss Ans\"atze for 
-$f_T^{\perp q}(x,\kperp)$, $h_T^{\perp q}(x,\kperp)$, $h_T^q(x,\kperp)$ we find
+$f_T^{\perp q}(x,\kperp)$, $h_T^{\perp q}(x,\kperp)$ (Eq.~\ref{eq:hTperpnew}), $h_T^q(x,\kperp)$ (Eq.~\ref{eq:hTnew}),
+\be
+	f^{\perp q}_{T}(x,\kperp^2) = 
+	f^{\perp (2) q}_{T}(x)\,\frac{2 M^4}{\pi \avkperp^3_{f_{T}^{\perp} }}\,
+	e^{-\kperp^2/{\avkperp_{f_{T}^{\perp} }}}\;,
+	\label{eq:ftperpnew}
+\ee
+we find
 \begin{subequations}\begin{alignat}{1}
 	F_{UT}^{\sin(2\phi_h -\phi_S)}(x,z,\Phperp) \; \; 
 	= \; \; \; \;
@@ -2969,9 +3005,8 @@ for Jefferson Lab 12 GeV are plotted in Fig.~\ref{autsin2phi_jlab}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTsin2phi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTsin2phi_PT.pdf}
-\caption{\label{autsin2phi_jlab} $A_{UT}^{\sin(2\phi_h- \phi_S)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTsin2PhiminusPhiS_COMPASS_x.pdf} 
+\caption{\label{autsin2phi_jlab} $A_{UT}^{\sin(2\phi_h- \phi_S)}$  for COMPASS.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -3058,8 +3093,8 @@ Department of Energy under Contract No.~DE-AC05-06OR23177 (A.P.) and by the Nati
 This Appendix describes the technical details of the parametrizations
 used in this work.
 
-\subsection{\boldmath Unpolarised functions $f_1^a(x,k_\perp)$ 
-			and $D_1(z,P_\perp)$}
+\subsection{\boldmath Unpolarised functions $f_1^a(x,k_\perp^2)$ 
+			and $D_1(z,P_\perp^2)$}
 \label{App:basis-f1-D1}
 
 In this work we use the leading-order parametrizations 
@@ -3070,8 +3105,8 @@ $Q^2=2.4\,{\rm GeV}^2$ typical for many currently available SIDIS data.
 These parameterizations were used in \cite{Anselmino:2005nn} and other 
 works whose extractions we adopt. 
 
-To describe the transverse momentum dependence of $f_1^a(x,k_\perp)$ 
-and $D_1(z,P_\perp)$ we use the Gaussian Ansatz in 
+To describe the transverse momentum dependence of $f_1^a(x,k_\perp^2)$ 
+and $D_1(z,P_\perp^2)$ we use the Gaussian Ansatz in 
 Eqs.~(\ref{Eq:Gauss-f1-D1}). All early 
 \cite{Anselmino:2005nn,Collins:2005ie,D'Alesio:2007jt,Schweitzer:2010tt}
 and some recent \cite{Signori:2013mda} analyses employed flavor and 
@@ -3156,17 +3191,17 @@ can be considered to be in good agreement.
 \end{table}
 
 
-\subsection{\boldmath Helicity distribution $g_1^a(x,k_\perp)$}
+\subsection{\boldmath Helicity distribution $g_1^a(x,k_\perp^2)$}
 \label{App:basis-g1}
 
-For the helicity PDF $g_1^a(x)=\int d^2k_\perp\,g_1^a(x,k_\perp)\equiv 
-\int d^2k_\perp\,g_{1L}^a(x,k_\perp)$ we use in this work the leading-order 
+For the helicity PDF $g_1^a(x)=\int d^2k_\perp\,g_1^a(x,k_\perp^2)\equiv 
+\int d^2k_\perp\,g_{1L}^a(x,k_\perp^2)$ we use in this work the leading-order 
 parameterizations from \cite{Gluck:1998xa}.
 If not otherwise stated the parametrizations are taken at the scale 
 $Q^2=2.5\,{\rm GeV}^2$.
 
 In lack of phenomenological information on the $k_\perp$-dependence of
-$g_1^a(x,k_\perp)$ we explore lattice QCD results from \cite{Hagler:2009mb}
+$g_1^a(x,k_\perp^2)$ we explore lattice QCD results from \cite{Hagler:2009mb}
 to constrain the Gaussian width in Eq.~(\ref{eq:g1}). 
 On a lattice with pion and nucleon masses 
 $m_\pi\approx 500\,{\rm MeV}$ and $M_N=1.291(23)\,{\rm GeV}$ 
@@ -3236,7 +3271,7 @@ f_{1T}^{\perp (1) q}(x)  = -\frac{\sqrt{\frac{e}{2}} \ \avkperp M_1^3}{M (\avkpe
 We can rewrite parameterizations of Sivers functions as
 
 \ba
-f_{1T}^{\perp q}(x,\kperp) =  f_{1T}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{f_{1T}^\perp}^2} e^{-\kperp^2/{\avkperp_{f_{1T}^\perp}}}
+f_{1T}^{\perp q}(x,\kperp^2) =  f_{1T}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{f_{1T}^\perp}^2} e^{-\kperp^2/{\avkperp_{f_{1T}^\perp}}}
 \label{sivers_new} \ .
 \ea
 
@@ -3331,7 +3366,7 @@ We also define the following variable:
 We can rewrite the parameterizations of Collins FF as
 
 \ba
-H_{1}^{\perp}(z,\pperp) =  H_{1}^{\perp (1)}(z)   \frac{2 z^2 m_h^2}{\pi \avpperp_{H_{1}^\perp}^2} e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}
+H_{1}^{\perp}(z,\pperp^2) =  H_{1}^{\perp (1)}(z)   \frac{2 z^2 m_h^2}{\pi \avpperp_{H_{1}^\perp}^2} e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}
 \label{coll-funct_new} \, .
 \ea
 
@@ -3362,7 +3397,7 @@ h_{1}^{\perp (1) q}(x)  = -\frac{\sqrt{\frac{e}{2}} \ \avkperp M_{BM}^3}{M (\avk
 We can rewrite parameterization of Boer-Mulders functions as
 
 \ba
-h_{1}^{\perp q}(x,\kperp) =  h_{1}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{h_{1}^\perp}^2} e^{-\kperp^2/{\avkperp_{h_{1}^\perp}}}\label{bm_new} \ .
+h_{1}^{\perp q}(x,\kperp^2) =  h_{1}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{h_{1}^\perp}^2} e^{-\kperp^2/{\avkperp_{h_{1}^\perp}}}\label{bm_new} \ .
 \ea
  
  
@@ -3407,7 +3442,7 @@ h_{1T}^{\perp (2) a}(x) =  \frac{h^{\perp a}_{1T}(x) \avkperp_{h_{1T}^\perp}^3}{
 We can rewrite parametrization of pretzelosity   functions as
 
 \ba
-h_{1T}^{\perp q}(x,\kperp) =  h_{1T}^{\perp (2) q}(x)   \frac{2 M^4}{\pi \avkperp_{h_{1T}^\perp}^3} e^{-\kperp^2/{\avkperp_{h_{1T}^\perp}}}
+h_{1T}^{\perp q}(x,\kperp^2) =  h_{1T}^{\perp (2) q}(x)   \frac{2 M^4}{\pi \avkperp_{h_{1T}^\perp}^3} e^{-\kperp^2/{\avkperp_{h_{1T}^\perp}}}
 \label{pretzelosity_new} \ .
 \ea
 
@@ -3427,7 +3462,7 @@ $\alpha$ &=& $2.5\pm1.5$ & $\beta$ &=& $2$ fixed \\
 %
  
 \newpage
-\section{Convolution integrals and expressions in Gaussian Ansatz}}
+\section{Convolution integrals and expressions in Gaussian Ansatz}
 \label{App:factor}
 
 In this Appendix we explain the notation for convolution integrals
@@ -3670,7 +3705,7 @@ with
 \begin{alignat}{7}
 	c^{(0)}_{\rm  } 	&= 1 \, , \\
 	c^{(1)}_{\rm A} 	&= \sqrt{\pi}\,m_h	\, , &
-	c^{(1)}_{\rm A} 	&= \sqrt{\pi}\,M_N	\, , \\
+	c^{(1)}_{\rm B} 	&= \sqrt{\pi}\,M_N	\, , \\
 	c^{(2)}_{\rm AB} 	&= 4M_Nm_h		\, , \;\;\;\;\;\; & 
 	c^{(2)}_{\rm C} 	&= M_N^2 		\, , \;\;\;\;\;\;\;\;\;\; & 
 	c^{(2)}_{\rm B}	&= 0 			\, ,\\
