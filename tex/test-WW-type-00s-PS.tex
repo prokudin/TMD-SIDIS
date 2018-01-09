@@ -2536,7 +2536,13 @@ This asymmetry is sizable despite being twist-3. Although it was subject to
 numerous phenomenological studies, this asymmetry still remains unexplained.
 
 Retaining the only non-zero term in the WW-type approximation, and
-assuming for $h_L^q(x,\kperp)$ a Gaussian Ansatz, we obtain
+assuming for $h_L^q(x,\kperp)$ a Gaussian Ansatz 
+\be
+h_L^q(x,\kperp^2) = h_L^q(x) \,\frac{1}{\pi \avkperp_{h_{L}}}\,
+	e^{-\kperp^2/{\avkperp_{h_{L}}}}\;,
+	\label{eq:hLnew}
+\ee
+we obtain
 for the structure function 
 \begin{subequations}\ba
 	F_{UL}^{\sin\phi_h}(x,z,\Phperp) 
@@ -2552,7 +2558,7 @@ $b^{(1)}_{\rm A}=2m_h$ and $c^{(1)}_{\rm A} = \sqrt{\pi}\,m_h$,
 see App.~\ref{App:convol-details} for details. We now approximate 
 $\avkperp_{h_L}=\avkperp_{h_1}$ and explore (\ref{Eq:WW-type-6}) to estimate
 \be
-	xh_L^q(x) = h_{1L}^{\perp(1)q}(x)
+	xh_L^q(x) = -2 h_{1L}^{\perp(1)q}(x)
 \ee
 and finally express $h_{1L}^{\perp(1)q}(x)$ in terms of $h_1^a(x)$
 using (\ref{Eq:WW-approx-h1L}). $h_{1L}^{\perp(1)q}(x)$  is shown in Fig.~\ref{g1t_h1l_functions}.
@@ -2566,9 +2572,9 @@ for COMPASS is plotted in Fig.~\ref{aulsinphi_jlab} (a). We also compare our cal
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_COMPASS_x.pdf} (a)
-\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_HERMES_x.pdf} (b)
-\caption{\label{aulsinphi_jlab} $A_{UL}^{\sin\phi_h}$  as a function of $ x $  for COMPASS (a), and  comparison to HERMES data \cite{Airapetian:2005jc} (b).
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_HERMES_x.pdf} (a)
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_COMPASS_x.pdf} (b)
+\caption{\label{aulsinphi_jlab} $A_{UL}^{\sin\phi_h}$  as a function of $ x $ , comparison to HERMES data \cite{Airapetian:2005jc} (a), and predictions for COMPASS (b).
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2581,21 +2587,13 @@ for COMPASS is plotted in Fig.~\ref{aulsinphi_jlab} (a). We also compare our cal
 \label{Sec-7.5:FLTcos2phi-phiS}
 
 Retaining the only non-zero term in the WW-type approximation, and
-assuming for $g_T^{\perp a}(x,\kperp)$ a Gaussian Ansatz, we obtain
-for the structure function 
-\begin{subequations}\ba
-	F_{LT}^{\cos(2\phi_h - \phi_S)}(x,z,\Phperp) 
-	&=& \red{-}x \sum_q e_q^2\,x\,g_{T}^{\perp (2) q}(x)\,D_1^q(z)\; 
-	b^{(2)}_{C}\,\biggl(\frac{z \Phperp} {\lambda}\biggr)^{\!2}\,
-	{ \cal G}(\Phperp)\, , \\
-	F_{LT}^{\cos(2\phi_h - \phi_S)}(x,z,\la\Phperp\ra) 
-	&=& \red{-}x \sum_q e_q^2\,x\,g_{T}^{\perp (2) q}(x)\,D_1^q(z)\;  
-	c^{(2)}_{C}\,\biggl(\frac{z} {\lambda^{1/2}}\biggr)^{\!2}\,
-	\label{eq:asymmetry_auu_cos2phi}
-\ea\end{subequations}
-where $\lambda=z^2 \avkperp_{g_{T}^\perp} + \avpperp_{D_1}$ and 
-$b^{(2)}_{\rm C}=c^{(2)}_{\rm C} = M_N^2$, 
-see App.~\ref{App:convol-details} for details. 
+assuming for $g_T^{\perp a}(x,\kperp)$ a Gaussian Ansatz
+\be
+	g^{\perp q}_{T}(x,\kperp^2) = 
+	g^{\perp (2) q}_{T}(x)\,\frac{2 M^4}{\pi \avkperp^3_{g_{T}^{\perp} }}\,
+	e^{-\kperp^2/{\avkperp_{g_{T}^{\perp} }}}\;,
+	\label{eq:gtperpnew}
+\ee
 We estimate $\avkperp_{g_{T}^\perp}=\avkperp_{g_1}$ and explore
 the WW-type approximation (\ref{Eq:WW-type-gTperp}), 
 \be
@@ -2605,8 +2603,25 @@ the WW-type approximation (\ref{Eq:WW-type-gTperp}),
 where we finally express $g_{1T}^{\perp (1)q}(x)$ in terms of $g_1^q(x)$ 
 according to Eq.~(\ref{Eq:WW-approx-g1T}).
 
+We obtain
+for the structure function 
+\begin{subequations}\ba
+	F_{LT}^{\cos(2\phi_h - \phi_S)}(x,z,\Phperp) 
+	&=& -\frac{2M}{Q} x \sum_q e_q^2\,x\,g_{T}^{\perp (2) q}(x)\,D_1^q(z)\; 
+	b^{(2)}_{C}\,\biggl(\frac{z \Phperp} {\lambda}\biggr)^{\!2}\,
+	{ \cal G}(\Phperp)\, , \\
+	F_{LT}^{\cos(2\phi_h - \phi_S)}(x,z,\la\Phperp\ra) 
+	&=& -\frac{2M}{Q} x \sum_q e_q^2\,x\,g_{T}^{\perp (2) q}(x)\,D_1^q(z)\;  
+	c^{(2)}_{C}\,\biggl(\frac{z} {\lambda^{1/2}}\biggr)^{\!2}\,
+	\label{eq:asymmetry_auu_cos2phi}
+\ea\end{subequations}
+where $\lambda=z^2 \avkperp_{g_{T}^\perp} + \avpperp_{D_1}$ and 
+$b^{(2)}_{\rm C}=c^{(2)}_{\rm C} = M_N^2$, 
+see App.~\ref{App:convol-details} for details. 
+
+
 The asymmetry  $A_{LT}^{\cos(\phi_h -\phi_S)}=F_{LT}^{\cos(\phi_h -\phi_S)}/F_{UU}$ 
-as a function of $x$ and $P_{hT}$ for Jefferson Lab 12 GeV is plotted in 
+as a function of $x$ and $P_{hT}$ for COMPASS is plotted in 
 Fig.~\ref{altcos2phi_jlab}.
 
 \ \\
@@ -2618,9 +2633,8 @@ COMPASS data \cite{Kotzinian:2007uv,Parsamyan:2010se}.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/ALTcos2phi_x.pdf} 
-\includegraphics[width=0.45\textwidth]{\FigPath/ALTcos2phi_PT.pdf}
-\caption{\label{altcos2phi_jlab} $A_{LT}^{\cos(2\phi_h - \phi_S)}$  as a function of $ x $ (left panel), and   as a function of $P_{hT}$ (right panel) at typical kinematics of Jefferson Lab 12 GeV, $\la x\ra = 0.25$, $\la z\ra = 0.54$, $\la Q^2\ra = 2.4$ GeV$^2$.
+\includegraphics[width=0.45\textwidth]{\FigPath/ALTcos2PhiminusPhiS_COMPASS_x.pdf} 
+\caption{\label{altcos2phi_jlab} $A_{LT}^{\cos(2\phi_h - \phi_S)}$  as a function of $ x $ for COMPASS.
 }
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
