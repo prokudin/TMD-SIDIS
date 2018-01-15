@@ -259,13 +259,13 @@ B.~U. Musch, P.~Hagler, J.~W. Negele and A.~Schafer, \emph{{Exploring quark
   D83} (2011) 094507}, [\href{https://arxiv.org/abs/1011.1213}{{\tt
   1011.1213}}].
 
-\bibitem{Yoon:2016dyh}
-B.~Yoon, T.~Bhattacharya, M.~Engelhardt, J.~Green, R.~Gupta, P.~Hägler et~al.,
-  \emph{{Lattice QCD calculations of nucleon transverse momentum-dependent
-  parton distributions using clover and domain wall fermions}},  in
-  \emph{{Proceedings, 33rd International Symposium on Lattice Field Theory
-  (Lattice 2015): Kobe, Japan, July 14-18, 2015}}, SISSA, SISSA, 2015.
-\newblock \href{https://arxiv.org/abs/1601.05717}{{\tt 1601.05717}}.
+\bibitem{Yoon:2017qzo}
+B.~Yoon, M.~Engelhardt, R.~Gupta, T.~Bhattacharya, J.~R. Green, B.~U. Musch
+  et~al., \emph{{Nucleon Transverse Momentum-dependent Parton Distributions in
+  Lattice QCD: Renormalization Patterns and Discretization Effects}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.96.094508}{\emph{Phys. Rev.} {\bf
+  D96} (2017) 094508}, [\href{https://arxiv.org/abs/1706.03406}{{\tt
+  1706.03406}}].
 
 \bibitem{Engelhardt:2015xja}
 M.~Engelhardt, P.~Hägler, B.~Musch, J.~Negele and A.~Schäfer, \emph{{Lattice
@@ -287,9 +287,6 @@ B.~U. Musch, P.~Hagler, M.~Engelhardt, J.~W. Negele and A.~Schafer,
   \href{http://dx.doi.org/10.1103/PhysRevD.85.094510}{\emph{Phys. Rev.} {\bf
   D85} (2012) 094510}, [\href{https://arxiv.org/abs/1111.4249}{{\tt
   1111.4249}}].
-
-\bibitem{Micheal-new}
-M.~Engelhardt, \emph{{to be published}}, .
 
 \bibitem{Hagler:2003is}
 {\scshape LHPC} collaboration, LHPC et~al., \emph{{Transverse structure of
@@ -549,6 +546,12 @@ J.~Collins, L.~Gamberg, A.~Prokudin, T.~C. Rogers, N.~Sato and B.~Wang,
   D87} (2013) 074029}, [\href{https://arxiv.org/abs/1212.5407}{{\tt
   1212.5407}}].
 
+\bibitem{Aghasyan:2017ctw}
+{\scshape COMPASS} collaboration, M.~Aghasyan et~al.,
+  \emph{{Transverse-momentum-dependent Multiplicities of Charged Hadrons in
+  Muon-Deuteron Deep Inelastic Scattering}},
+  \href{https://arxiv.org/abs/1709.07374}{{\tt 1709.07374}}.
+
 \bibitem{Osipenko:2008aa}
 {\scshape CLAS Collaboration} collaboration, M.~Osipenko et~al.,
   \emph{{Measurement of unpolarized semi-inclusive pi+ electroproduction off
@@ -564,6 +567,109 @@ J.~Collins, L.~Gamberg, A.~Prokudin, T.~C. Rogers, N.~Sato and B.~Wang,
   \href{http://dx.doi.org/10.1103/PhysRevLett.105.262002}{\emph{Phys. Rev.
   Lett.} {\bf 105} (2010) 262002}, [\href{https://arxiv.org/abs/1003.4549}{{\tt
   1003.4549}}].
+
+\bibitem{Sivers:1989cc}
+D.~W. Sivers, \emph{Single spin production asymmetries from the hard scattering
+  of point - like constituents}, {\emph{Phys. Rev.} {\bf D41} (1990) 83}.
+
+\bibitem{Anselmino:2010bs}
+M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
+  \emph{{New insight on the Sivers transverse momentum dependent distribution
+  function}}, \href{http://dx.doi.org/10.1088/1742-6596/295/1/012062}{\emph{J.
+  Phys. Conf. Ser.} {\bf 295} (2011) 012062},
+  [\href{https://arxiv.org/abs/1012.3565}{{\tt 1012.3565}}].
+
+\bibitem{Anselmino:2005ea}
+M.~Anselmino et~al., \emph{Extracting the sivers function from polarized sidis
+  data and making predictions}, {\emph{Phys. Rev.} {\bf D72} (2005) 094007},
+  [\href{https://arxiv.org/abs/hep-ph/0507181}{{\tt hep-ph/0507181}}].
+
+\bibitem{Anselmino:2005an}
+M.~Anselmino et~al., \emph{{Comparing extractions of Sivers functions}},
+  \href{https://arxiv.org/abs/hep-ph/0511017}{{\tt hep-ph/0511017}}.
+
+\bibitem{Vogelsang:2005cs}
+W.~Vogelsang and F.~Yuan, \emph{Single-transverse spin asymmetries: From dis to
+  hadronic collisions}, {\emph{Phys. Rev.} {\bf D72} (2005) 054028}.
+
+\bibitem{Anselmino:2008sga}
+M.~Anselmino et~al., \emph{{Sivers Effect for Pion and Kaon Production in Semi-
+  Inclusive Deep Inelastic Scattering}},
+  \href{http://dx.doi.org/10.1140/epja/i2008-10697-y}{\emph{Eur. Phys. J.} {\bf
+  A39} (2009) 89--100}, [\href{https://arxiv.org/abs/0805.2677}{{\tt
+  0805.2677}}].
+
+\bibitem{Bacchetta:2011gx}
+A.~Bacchetta and M.~Radici, \emph{{Constraining quark angular momentum through
+  semi-inclusive measurements}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.107.212001}{\emph{Phys. Rev.
+  Lett.} {\bf 107} (2011) 212001}, [\href{https://arxiv.org/abs/1107.5755}{{\tt
+  1107.5755}}].
+
+\bibitem{Echevarria:2014xaa}
+M.~G. Echevarria, A.~Idilbi, Z.-B. Kang and I.~Vitev, \emph{{QCD Evolution of
+  the Sivers Asymmetry}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.89.074013}{\emph{Phys. Rev.} {\bf
+  D89} (2014) 074013}, [\href{https://arxiv.org/abs/1401.5078}{{\tt
+  1401.5078}}].
+
+\bibitem{Airapetian:2009ae}
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Observation of
+  the Naive-T-odd Sivers Effect in Deep-Inelastic Scattering}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.103.152002}{\emph{Phys. Rev.
+  Lett.} {\bf 103} (2009) 152002}, [\href{https://arxiv.org/abs/0906.3918}{{\tt
+  0906.3918}}].
+
+\bibitem{Anselmino:2011gs}
+M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
+  \emph{{Sivers Distribution Functions and the Latest SIDIS Data}},  in
+  \emph{{19th International Workshop on Deep-Inelastic Scattering and Related
+  Subjects (DIS 2011) Newport News, Virginia, April 11-15, 2011}}, 2011.
+\newblock \href{https://arxiv.org/abs/1107.4446}{{\tt 1107.4446}}.
+
+\bibitem{Anselmino:2013vqa}
+M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
+  \emph{{Simultaneous extraction of transversity and Collins functions from new
+  SIDIS and e+e- data}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.87.094019}{\emph{Phys. Rev.} {\bf
+  D87} (2013) 094019}, [\href{https://arxiv.org/abs/1303.3822}{{\tt
+  1303.3822}}].
+
+\bibitem{Kang:2014zza}
+Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Nucleon tensor charge from
+  Collins azimuthal asymmetry measurements}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.071501}{\emph{Phys. Rev.} {\bf
+  D91} (2015) 071501}, [\href{https://arxiv.org/abs/1410.4877}{{\tt
+  1410.4877}}].
+
+\bibitem{Anselmino:2015sxa}
+M.~Anselmino, M.~Boglione, U.~D'Alesio, J.~O. Gonzalez~Hernandez, S.~Melis,
+  F.~Murgia et~al., \emph{{Collins functions for pions from SIDIS and new
+  $e^+e^-$ data: a first glance at their transverse momentum dependence}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.92.114023}{\emph{Phys. Rev.} {\bf
+  D92} (2015) 114023}, [\href{https://arxiv.org/abs/1510.05389}{{\tt
+  1510.05389}}].
+
+\bibitem{Airapetian:2010ds}
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Effects of
+  transversity in deep-inelastic scattering by polarized protons}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2010.08.012}{\emph{Phys. Lett.}
+  {\bf B693} (2010) 11--16}, [\href{https://arxiv.org/abs/1006.4221}{{\tt
+  1006.4221}}].
+
+\bibitem{Barone:2015ksa}
+V.~Barone, M.~Boglione, J.~O. Gonzalez~Hernandez and S.~Melis,
+  \emph{{Phenomenological analysis of azimuthal asymmetries in unpolarized
+  semi-inclusive deep inelastic scattering}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.074019}{\emph{Phys. Rev.} {\bf
+  D91} (2015) 074019}, [\href{https://arxiv.org/abs/1502.04214}{{\tt
+  1502.04214}}].
+
+\bibitem{Giordano:2009hi}
+{\scshape HERMES Collaboration} collaboration, F.~Giordano and R.~Lamb,
+  \emph{{Measurement of azimuthal asymmetries of the unpolarized cross section
+  at HERMES}}, {\emph{AIP Conf.Proc.} {\bf 1149} (2009) 423--426},
+  [\href{https://arxiv.org/abs/0901.2438}{{\tt 0901.2438}}].
 
 \bibitem{Cahn:1978se}
 R.~N. Cahn, \emph{{Azimuthal Dependence in Leptoproduction: A Simple Parton
@@ -586,13 +692,17 @@ V.~Barone, S.~Melis and A.~Prokudin, \emph{{Azimuthal asymmetries in
   Rev.} {\bf D82} (2010) 114025}, [\href{https://arxiv.org/abs/1009.3423}{{\tt
   1009.3423}}].
 
-\bibitem{Barone:2015ksa}
-V.~Barone, M.~Boglione, J.~O. Gonzalez~Hernandez and S.~Melis,
-  \emph{{Phenomenological analysis of azimuthal asymmetries in unpolarized
-  semi-inclusive deep inelastic scattering}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.91.074019}{\emph{Phys. Rev.} {\bf
-  D91} (2015) 074019}, [\href{https://arxiv.org/abs/1502.04214}{{\tt
-  1502.04214}}].
+\bibitem{Parsamyan:2010se}
+B.~Parsamyan, \emph{{Transverse spin dependent azimuthal asymmetries at
+  COMPASS}}, {\emph{J.Phys.Conf.Ser.} {\bf 295} (2011) 012046},
+  [\href{https://arxiv.org/abs/1012.0155}{{\tt 1012.0155}}].
+
+\bibitem{Lefky:2014eia}
+C.~Lefky and A.~Prokudin, \emph{{Extraction of the distribution function
+  $h^{\perp}_{1T}$ from experimental data}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.034010}{\emph{Phys. Rev.} {\bf
+  D91} (2015) 034010}, [\href{https://arxiv.org/abs/1411.0580}{{\tt
+  1411.0580}}].
 
 \bibitem{Kotzinian:2007uv}
 {\scshape COMPASS collaboration} collaboration, A.~Kotzinian, \emph{{Beyond
@@ -652,11 +762,6 @@ M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia et~al.,
   \href{http://dx.doi.org/10.1103/PhysRevD.83.114019}{\emph{Phys.Rev.} {\bf
   D83} (2011) 114019}, [\href{https://arxiv.org/abs/1101.1011}{{\tt
   1101.1011}}].
-
-\bibitem{Parsamyan:2010se}
-B.~Parsamyan, \emph{{Transverse spin dependent azimuthal asymmetries at
-  COMPASS}}, {\emph{J.Phys.Conf.Ser.} {\bf 295} (2011) 012046},
-  [\href{https://arxiv.org/abs/1012.0155}{{\tt 1012.0155}}].
 
 \bibitem{Airapetian:1999tv}
 {\scshape HERMES Collaboration} collaboration, A.~Airapetian et~al.,
@@ -718,12 +823,6 @@ H.~Mkrtchyan, P.~Bosted, G.~Adams, A.~Ahmidouch, T.~Angelescu et~al.,
   {\bf B665} (2008) 20--25}, [\href{https://arxiv.org/abs/0709.3020}{{\tt
   0709.3020}}].
 
-\bibitem{Giordano:2009hi}
-{\scshape HERMES Collaboration} collaboration, F.~Giordano and R.~Lamb,
-  \emph{{Measurement of azimuthal asymmetries of the unpolarized cross section
-  at HERMES}}, {\emph{AIP Conf.Proc.} {\bf 1149} (2009) 423--426},
-  [\href{https://arxiv.org/abs/0901.2438}{{\tt 0901.2438}}].
-
 \bibitem{Joosten:2009zz}
 {\scshape COMPASS Collaboration} collaboration, R.~Joosten, \emph{{Unpolarized
   azimuthal asymmetries from the COMPASS experiment at CERN}},
@@ -736,20 +835,6 @@ A.~V. Efremov, K.~Goeke, S.~Menzel, A.~Metz and P.~Schweitzer, \emph{{Sivers
   \href{http://dx.doi.org/10.1016/j.physletb.2005.03.010}{\emph{Phys. Lett.}
   {\bf B612} (2005) 233--244},
   [\href{https://arxiv.org/abs/hep-ph/0412353}{{\tt hep-ph/0412353}}].
-
-\bibitem{Anselmino:2008sga}
-M.~Anselmino et~al., \emph{{Sivers Effect for Pion and Kaon Production in Semi-
-  Inclusive Deep Inelastic Scattering}},
-  \href{http://dx.doi.org/10.1140/epja/i2008-10697-y}{\emph{Eur. Phys. J.} {\bf
-  A39} (2009) 89--100}, [\href{https://arxiv.org/abs/0805.2677}{{\tt
-  0805.2677}}].
-
-\bibitem{Anselmino:2011gs}
-M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
-  \emph{{Sivers Distribution Functions and the Latest SIDIS Data}},  in
-  \emph{{19th International Workshop on Deep-Inelastic Scattering and Related
-  Subjects (DIS 2011) Newport News, Virginia, April 11-15, 2011}}, 2011.
-\newblock \href{https://arxiv.org/abs/1107.4446}{{\tt 1107.4446}}.
 
 \bibitem{Aybat:2011ge}
 S.~M. Aybat, J.~C. Collins, J.-W. Qiu and T.~C. Rogers, \emph{{The QCD
@@ -765,13 +850,6 @@ L.~Gamberg, Z.-B. Kang and A.~Prokudin, \emph{{Indication on the
   Lett.} {\bf 110} (2013) 232301}, [\href{https://arxiv.org/abs/1302.3218}{{\tt
   1302.3218}}].
 
-\bibitem{Bacchetta:2011gx}
-A.~Bacchetta and M.~Radici, \emph{{Constraining quark angular momentum through
-  semi-inclusive measurements}},
-  \href{http://dx.doi.org/10.1103/PhysRevLett.107.212001}{\emph{Phys. Rev.
-  Lett.} {\bf 107} (2011) 212001}, [\href{https://arxiv.org/abs/1107.5755}{{\tt
-  1107.5755}}].
-
 \bibitem{Anselmino:2012aa}
 M.~Anselmino, M.~Boglione and S.~Melis, \emph{{A Strategy towards the
   extraction of the Sivers function with TMD evolution}},
@@ -785,28 +863,6 @@ P.~Sun and F.~Yuan, \emph{{Energy Evolution for the Sivers Asymmetries in Hard
   Rev.} {\bf D88} (2013) 034016}, [\href{https://arxiv.org/abs/1304.5037}{{\tt
   1304.5037}}].
 
-\bibitem{Echevarria:2014xaa}
-M.~G. Echevarria, A.~Idilbi, Z.-B. Kang and I.~Vitev, \emph{{QCD Evolution of
-  the Sivers Asymmetry}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.89.074013}{\emph{Phys. Rev.} {\bf
-  D89} (2014) 074013}, [\href{https://arxiv.org/abs/1401.5078}{{\tt
-  1401.5078}}].
-
-\bibitem{Anselmino:2013vqa}
-M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
-  \emph{{Simultaneous extraction of transversity and Collins functions from new
-  SIDIS and e+e- data}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.87.094019}{\emph{Phys. Rev.} {\bf
-  D87} (2013) 094019}, [\href{https://arxiv.org/abs/1303.3822}{{\tt
-  1303.3822}}].
-
-\bibitem{Kang:2014zza}
-Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Nucleon tensor charge from
-  Collins azimuthal asymmetry measurements}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.91.071501}{\emph{Phys. Rev.} {\bf
-  D91} (2015) 071501}, [\href{https://arxiv.org/abs/1410.4877}{{\tt
-  1410.4877}}].
-
 \bibitem{Kang:2015msa}
 Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Extraction of Quark
   Transversity Distribution and Collins Fragmentation Functions with QCD
@@ -814,26 +870,11 @@ Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Extraction of Quark
   Rev.} {\bf D93} (2016) 014009}, [\href{https://arxiv.org/abs/1505.05589}{{\tt
   1505.05589}}].
 
-\bibitem{Anselmino:2015sxa}
-M.~Anselmino, M.~Boglione, U.~D'Alesio, J.~O. Gonzalez~Hernandez, S.~Melis,
-  F.~Murgia et~al., \emph{{Collins functions for pions from SIDIS and new
-  $e^+e^-$ data: a first glance at their transverse momentum dependence}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.92.114023}{\emph{Phys. Rev.} {\bf
-  D92} (2015) 114023}, [\href{https://arxiv.org/abs/1510.05389}{{\tt
-  1510.05389}}].
-
 \bibitem{Gluck:2000dy}
 M.~Gluck, E.~Reya, M.~Stratmann and W.~Vogelsang, \emph{{Models for the
   polarized parton distributions of the nucleon}},
   \href{http://dx.doi.org/10.1103/PhysRevD.63.094005}{\emph{Phys. Rev.} {\bf
   D63} (2001) 094005}, [\href{https://arxiv.org/abs/hep-ph/0011215}{{\tt
   hep-ph/0011215}}].
-
-\bibitem{Lefky:2014eia}
-C.~Lefky and A.~Prokudin, \emph{{Extraction of the distribution function
-  $h^{\perp}_{1T}$ from experimental data}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.91.034010}{\emph{Phys. Rev.} {\bf
-  D91} (2015) 034010}, [\href{https://arxiv.org/abs/1411.0580}{{\tt
-  1411.0580}}].
 
 \end{thebibliography}\endgroup
