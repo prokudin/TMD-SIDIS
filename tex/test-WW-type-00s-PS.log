@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.17)  14 JAN 2018 19:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.17)  21 MAY 2018 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,20 +314,20 @@ LaTeX Warning: Label `Eq:Gaussian-integrals-working-III' multiply defined.
 )
 \openout1 = `test-WW-type-00s-PS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 210.
-LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -357,7 +357,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 210.
+Package hyperref Info: Link coloring ON on input line 214.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -367,31 +367,31 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 210.
-LaTeX Info: Redefining \pageref on input line 210.
-LaTeX Info: Redefining \nameref on input line 210.
+LaTeX Info: Redefining \ref on input line 214.
+LaTeX Info: Redefining \pageref on input line 214.
+LaTeX Info: Redefining \nameref on input line 214.
 
 (./test-WW-type-00s-PS.out) (./test-WW-type-00s-PS.out)
 \@outlinefile=\write3
 \openout3 = `test-WW-type-00s-PS.out'.
 
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 213.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 217.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 213.
+LaTeX Font Info:    Try loading font information for U+msa on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 213.
+LaTeX Font Info:    Try loading font information for U+msb on input line 217.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 213.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 217.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -406,7 +406,7 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
  [1] [2]
 
 LaTeX Warning: File `./figs/Fig02a-kin-SIDIS-UT.eps' not found on input line 34
-5.
+9.
 
 Package epstopdf Info: Source file: <./figs/Fig02a-kin-SIDIS-UT.eps>
 (epstopdf)             Output file: <./figs/Fig02a-kin-SIDIS-UT-eps-converted-t
@@ -415,7 +415,7 @@ o.pdf>
 (epstopdf)                    size: 12819 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figs/Fig02a-kin-SIDIS-UT
 -eps-converted-to.pdf ./figs/Fig02a-kin-SIDIS-UT.eps>
-(epstopdf)             \includegraphics on input line 345.
+(epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -428,7 +428,7 @@ lowed
 File: ./figs/Fig02a-kin-SIDIS-UT-eps-converted-to.pdf Graphic file (type pdf)
  <use ./figs/Fig02a-kin-SIDIS-UT-eps-converted-to.pdf>
 Package pdftex.def Info: ./figs/Fig02a-kin-SIDIS-UT-eps-converted-to.pdf used o
-n input line 345.
+n input line 349.
 (pdftex.def)             Requested size: 213.39566pt x 102.18295pt.
  [3 <./figs/Fig02a-kin-SIDIS-UT-eps-converted-to.pdf>] [4] [5] [6]
 Underfull \vbox (badness 1418) has occurred while \output is active []
@@ -440,88 +440,88 @@ Underfull \vbox (badness 3333) has occurred while \output is active []
 [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lowercase' on input line 905.
+(hyperref)                removing `\lowercase' on input line 909.
 
 [10] [11] [12]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/g2.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<./figs/g2.pdf, id=546, 260.975pt x 159.59625pt>
+<./figs/g2.pdf, id=546, 260.975pt x 160.6pt>
 File: ./figs/g2.pdf Graphic file (type pdf)
  <use ./figs/g2.pdf>
-Package pdftex.def Info: ./figs/g2.pdf used on input line 1123.
-(pdftex.def)             Requested size: 258.12645pt x 157.85707pt.
+Package pdftex.def Info: ./figs/g2.pdf used on input line 1127.
+(pdftex.def)             Requested size: 258.12645pt x 158.84988pt.
  [13 <./figs/g2.pdf>] [14] [15] [16] [17] [18]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/f1.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<./figs/f1.pdf, id=818, 260.975pt x 171.64125pt>
+<./figs/f1.pdf, id=800, 260.975pt x 171.64125pt>
 File: ./figs/f1.pdf Graphic file (type pdf)
  <use ./figs/f1.pdf>
-Package pdftex.def Info: ./figs/f1.pdf used on input line 1663.
+Package pdftex.def Info: ./figs/f1.pdf used on input line 1667.
 (pdftex.def)             Requested size: 172.07993pt x 113.17618pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/f1Tperp.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<./figs/f1Tperp.pdf, id=819, 260.975pt x 164.615pt>
+<./figs/f1Tperp.pdf, id=801, 260.975pt x 164.615pt>
 File: ./figs/f1Tperp.pdf Graphic file (type pdf)
  <use ./figs/f1Tperp.pdf>
-Package pdftex.def Info: ./figs/f1Tperp.pdf used on input line 1664.
+Package pdftex.def Info: ./figs/f1Tperp.pdf used on input line 1668.
 (pdftex.def)             Requested size: 172.07993pt x 108.54324pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/g1.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<./figs/g1.pdf, id=820, 260.975pt x 163.61125pt>
+<./figs/g1.pdf, id=802, 260.975pt x 163.61125pt>
 File: ./figs/g1.pdf Graphic file (type pdf)
  <use ./figs/g1.pdf>
-Package pdftex.def Info: ./figs/g1.pdf used on input line 1666.
+Package pdftex.def Info: ./figs/g1.pdf used on input line 1670.
 (pdftex.def)             Requested size: 172.07993pt x 107.8814pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1perpBM.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<./figs/h1perpBM.pdf, id=821, 260.975pt x 164.615pt>
+<./figs/h1perpBM.pdf, id=803, 260.975pt x 164.615pt>
 File: ./figs/h1perpBM.pdf Graphic file (type pdf)
  <use ./figs/h1perpBM.pdf>
-Package pdftex.def Info: ./figs/h1perpBM.pdf used on input line 1667.
+Package pdftex.def Info: ./figs/h1perpBM.pdf used on input line 1671.
 (pdftex.def)             Requested size: 172.07993pt x 108.54324pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<./figs/h1.pdf, id=822, 260.975pt x 163.61125pt>
+<./figs/h1.pdf, id=804, 260.975pt x 163.61125pt>
 File: ./figs/h1.pdf Graphic file (type pdf)
  <use ./figs/h1.pdf>
-Package pdftex.def Info: ./figs/h1.pdf used on input line 1669.
+Package pdftex.def Info: ./figs/h1.pdf used on input line 1673.
 (pdftex.def)             Requested size: 172.07993pt x 107.8814pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1Tperp.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<./figs/h1Tperp.pdf, id=823, 260.975pt x 156.585pt>
+<./figs/h1Tperp.pdf, id=805, 260.975pt x 156.585pt>
 File: ./figs/h1Tperp.pdf Graphic file (type pdf)
  <use ./figs/h1Tperp.pdf>
-Package pdftex.def Info: ./figs/h1Tperp.pdf used on input line 1670.
+Package pdftex.def Info: ./figs/h1Tperp.pdf used on input line 1674.
 (pdftex.def)             Requested size: 172.07993pt x 103.24844pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/D1.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<./figs/D1.pdf, id=824, 260.975pt x 170.6375pt>
+<./figs/D1.pdf, id=806, 260.975pt x 170.6375pt>
 File: ./figs/D1.pdf Graphic file (type pdf)
  <use ./figs/D1.pdf>
-Package pdftex.def Info: ./figs/D1.pdf used on input line 1673.
+Package pdftex.def Info: ./figs/D1.pdf used on input line 1677.
 (pdftex.def)             Requested size: 172.07993pt x 112.51433pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/H1perp.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<./figs/H1perp.pdf, id=825, 260.975pt x 162.6075pt>
+<./figs/H1perp.pdf, id=807, 260.975pt x 162.6075pt>
 File: ./figs/H1perp.pdf Graphic file (type pdf)
  <use ./figs/H1perp.pdf>
-Package pdftex.def Info: ./figs/H1perp.pdf used on input line 1674.
+Package pdftex.def Info: ./figs/H1perp.pdf used on input line 1678.
 (pdftex.def)             Requested size: 172.07993pt x 107.21954pt.
 
 [19] [20 <./figs/f1.pdf> <./figs/f1Tperp.pdf
@@ -555,105 +555,105 @@ iple pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1731.
+(hyperref)                removing `math shift' on input line 1735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1731.
+(hyperref)                removing `subscript' on input line 1735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1731.
+(hyperref)                removing `math shift' on input line 1735.
 
 [21]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/Fig02a-JLab-ratio-pT-v5.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/Fig02a-JLab-ratio-pT-v5.pdf, id=1322, 356.33125pt x 339.2675pt>
+<./figs/Fig02a-JLab-ratio-pT-v5.pdf, id=1184, 356.33125pt x 339.2675pt>
 File: ./figs/Fig02a-JLab-ratio-pT-v5.pdf Graphic file (type pdf)
 
 <use ./figs/Fig02a-JLab-ratio-pT-v5.pdf>
 Package pdftex.def Info: ./figs/Fig02a-JLab-ratio-pT-v5.pdf used on input line 
-1828.
+1832.
 (pdftex.def)             Requested size: 129.06322pt x 122.88165pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/hermes_pip.pdf): PDF inclusion: 
 found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/hermes_pip.pdf, id=1323, 260.975pt x 173.64874pt>
+<./figs/hermes_pip.pdf, id=1185, 260.975pt x 173.64874pt>
 File: ./figs/hermes_pip.pdf Graphic file (type pdf)
 
 <use ./figs/hermes_pip.pdf>
-Package pdftex.def Info: ./figs/hermes_pip.pdf used on input line 1829.
+Package pdftex.def Info: ./figs/hermes_pip.pdf used on input line 1833.
 (pdftex.def)             Requested size: 159.17426pt x 105.91232pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/compass_hp.pdf): PDF inclusion: 
 found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/compass_hp.pdf, id=1324, 260.975pt x 175.65625pt>
+<./figs/compass_hp.pdf, id=1186, 260.975pt x 175.65625pt>
 File: ./figs/compass_hp.pdf Graphic file (type pdf)
 
 <use ./figs/compass_hp.pdf>
-Package pdftex.def Info: ./figs/compass_hp.pdf used on input line 1830.
+Package pdftex.def Info: ./figs/compass_hp.pdf used on input line 1834.
 (pdftex.def)             Requested size: 159.17426pt x 107.13673pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1850.
+(hyperref)                removing `math shift' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1850.
+(hyperref)                removing `subscript' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1850.
+(hyperref)                removing `math shift' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1850.
+(hyperref)                removing `math shift' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1850.
+(hyperref)                removing `subscript' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 1850.
+(hyperref)                removing `\perp' on input line 1854.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1850.
+(hyperref)                removing `math shift' on input line 1854.
 
 [22]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/all_jlab_pip.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/all_jlab_pip.pdf, id=1356, 260.975pt x 165.61874pt>
+<./figs/all_jlab_pip.pdf, id=1218, 260.975pt x 165.61874pt>
 File: ./figs/all_jlab_pip.pdf Graphic file (type pdf)
 
 <use ./figs/all_jlab_pip.pdf>
-Package pdftex.def Info: ./figs/all_jlab_pip.pdf used on input line 1893.
+Package pdftex.def Info: ./figs/all_jlab_pip.pdf used on input line 1897.
 (pdftex.def)             Requested size: 137.66919pt x 87.3681pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/all_jlab_pi0.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/all_jlab_pi0.pdf, id=1357, 260.975pt x 165.61874pt>
+<./figs/all_jlab_pi0.pdf, id=1219, 260.975pt x 165.61874pt>
 File: ./figs/all_jlab_pi0.pdf Graphic file (type pdf)
 
 <use ./figs/all_jlab_pi0.pdf>
-Package pdftex.def Info: ./figs/all_jlab_pi0.pdf used on input line 1894.
+Package pdftex.def Info: ./figs/all_jlab_pi0.pdf used on input line 1898.
 (pdftex.def)             Requested size: 137.66919pt x 87.3681pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/all_jlab_pim.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/all_jlab_pim.pdf, id=1358, 260.975pt x 165.61874pt>
+<./figs/all_jlab_pim.pdf, id=1220, 260.975pt x 165.61874pt>
 File: ./figs/all_jlab_pim.pdf Graphic file (type pdf)
 
 <use ./figs/all_jlab_pim.pdf>
-Package pdftex.def Info: ./figs/all_jlab_pim.pdf used on input line 1895.
+Package pdftex.def Info: ./figs/all_jlab_pim.pdf used on input line 1899.
 (pdftex.def)             Requested size: 137.66919pt x 87.3681pt.
  [23 <./figs/Fig02a-JLab-ratio-pT-v5.pdf> <./figs/hermes_pip.pdf> <./figs/compa
 ss_hp.pdf
@@ -671,285 +671,289 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figs/all_jlab_pim.pdf): PDF inclusion
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1951.
+(hyperref)                removing `subscript' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1951.
+(hyperref)                removing `superscript' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 1951.
+(hyperref)                removing `\mathop' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 1951.
+(hyperref)                removing `\mathgroup' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 1951.
+(hyperref)                removing `\symoperators' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 1951.
+(hyperref)                removing `\@ifnextchar' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 1951.
+(hyperref)                removing `\phi' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1951.
+(hyperref)                removing `subscript' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 1951.
+(hyperref)                removing `\phi' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1951.
+(hyperref)                removing `subscript' on input line 1955.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1955.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTSivers_x.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTSivers_x.pdf, id=1711, 260.975pt x 164.615pt>
+<./figs/AUTSivers_x.pdf, id=1573, 260.975pt x 164.615pt>
 File: ./figs/AUTSivers_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUTSivers_x.pdf>
-Package pdftex.def Info: ./figs/AUTSivers_x.pdf used on input line 2006.
+Package pdftex.def Info: ./figs/AUTSivers_x.pdf used on input line 2010.
 (pdftex.def)             Requested size: 193.59155pt x 122.11209pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTSivers_PT.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTSivers_PT.pdf, id=1712, 260.975pt x 167.62625pt>
+<./figs/AUTSivers_PT.pdf, id=1574, 260.975pt x 168.63pt>
 File: ./figs/AUTSivers_PT.pdf Graphic file (type pdf)
 
 <use ./figs/AUTSivers_PT.pdf>
-Package pdftex.def Info: ./figs/AUTSivers_PT.pdf used on input line 2007.
-(pdftex.def)             Requested size: 193.59155pt x 124.34584pt.
- [25 <./figs/AUTSivers_x.pdf> <./figs/AUTSivers_PT.pdf
+Package pdftex.def Info: ./figs/AUTSivers_PT.pdf used on input line 2011.
+(pdftex.def)             Requested size: 193.59155pt x 125.09042pt.
+ [25]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2019.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2019.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_x.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/AUTCollins_x.pdf, id=1596, 260.975pt x 159.59625pt>
+File: ./figs/AUTCollins_x.pdf Graphic file (type pdf)
+
+<use ./figs/AUTCollins_x.pdf>
+Package pdftex.def Info: ./figs/AUTCollins_x.pdf used on input line 2054.
+(pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_PT.pdf): PDF inclusio
+n: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/AUTCollins_PT.pdf, id=1597, 260.975pt x 163.61125pt>
+File: ./figs/AUTCollins_PT.pdf Graphic file (type pdf)
+
+<use ./figs/AUTCollins_PT.pdf>
+Package pdftex.def Info: ./figs/AUTCollins_PT.pdf used on input line 2055.
+(pdftex.def)             Requested size: 193.59155pt x 121.3675pt.
+ [26 <./figs/AUTSivers_x.pdf> <./figs/AUTSivers_PT.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTSivers_PT.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2015.
+(hyperref)                removing `math shift' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2015.
+(hyperref)                removing `subscript' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2015.
+(hyperref)                removing `superscript' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2015.
+(hyperref)                removing `\mathop' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2015.
+(hyperref)                removing `\mathgroup' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2015.
+(hyperref)                removing `\symoperators' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2015.
+(hyperref)                removing `\@ifnextchar' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2015.
+(hyperref)                removing `\phi' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2015.
+(hyperref)                removing `subscript' on input line 2062.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2015.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2015.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2015.
-
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_x.pdf): PDF inclusion
-: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTCollins_x.pdf, id=1863, 260.975pt x 159.59625pt>
-File: ./figs/AUTCollins_x.pdf Graphic file (type pdf)
-
-<use ./figs/AUTCollins_x.pdf>
-Package pdftex.def Info: ./figs/AUTCollins_x.pdf used on input line 2050.
-(pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_PT.pdf): PDF inclusio
-n: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTCollins_PT.pdf, id=1864, 260.975pt x 159.59625pt>
-File: ./figs/AUTCollins_PT.pdf Graphic file (type pdf)
-
-<use ./figs/AUTCollins_PT.pdf>
-Package pdftex.def Info: ./figs/AUTCollins_PT.pdf used on input line 2051.
-(pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
- [26 <./figs/AUTCollins_x.pdf> <./figs/AUTCollins_PT.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_PT.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2058.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2058.
+(hyperref)                removing `math shift' on input line 2062.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcos2phi_x.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUUcos2phi_x.pdf, id=2007, 260.975pt x 164.615pt>
+<./figs/AUUcos2phi_x.pdf, id=1660, 260.975pt x 159.59625pt>
 File: ./figs/AUUcos2phi_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUUcos2phi_x.pdf>
-Package pdftex.def Info: ./figs/AUUcos2phi_x.pdf used on input line 2081.
-(pdftex.def)             Requested size: 193.59155pt x 122.11209pt.
+Package pdftex.def Info: ./figs/AUUcos2phi_x.pdf used on input line 2085.
+(pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcos2phi_PT.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUUcos2phi_PT.pdf, id=2008, 260.975pt x 164.615pt>
+<./figs/AUUcos2phi_PT.pdf, id=1661, 260.975pt x 163.61125pt>
 File: ./figs/AUUcos2phi_PT.pdf Graphic file (type pdf)
 
 <use ./figs/AUUcos2phi_PT.pdf>
-Package pdftex.def Info: ./figs/AUUcos2phi_PT.pdf used on input line 2082.
-(pdftex.def)             Requested size: 193.59155pt x 122.11209pt.
- [27 <./figs/AUUcos2phi_x.pdf> <./figs/AUUcos2phi_PT.pdf
+Package pdftex.def Info: ./figs/AUUcos2phi_PT.pdf used on input line 2086.
+(pdftex.def)             Requested size: 193.59155pt x 121.3675pt.
+ [27 <./figs/AUTCollins_x.pdf> <./figs/AUTCollins_PT.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTCollins_PT.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figs/AUUcos2phi_x.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcos2phi_x.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./figs/AUUcos2phi_PT.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcos2phi_PT.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->]
+>] [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2115.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2115.
+(hyperref)                removing `math shift' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2115.
+(hyperref)                removing `subscript' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2115.
+(hyperref)                removing `superscript' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2115.
+(hyperref)                removing `\mathop' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2115.
+(hyperref)                removing `\mathgroup' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2115.
+(hyperref)                removing `\symoperators' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2115.
+(hyperref)                removing `\@ifnextchar' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2115.
+(hyperref)                removing `\phi' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2115.
+(hyperref)                removing `subscript' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2115.
+(hyperref)                removing `\phi' on input line 2119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2115.
+(hyperref)                removing `subscript' on input line 2119.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2119.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTPretzelosity_x.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTPretzelosity_x.pdf, id=2168, 260.975pt x 159.59625pt>
+<./figs/AUTPretzelosity_x.pdf, id=1787, 260.975pt x 159.59625pt>
 File: ./figs/AUTPretzelosity_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUTPretzelosity_x.pdf>
-Package pdftex.def Info: ./figs/AUTPretzelosity_x.pdf used on input line 2152.
+Package pdftex.def Info: ./figs/AUTPretzelosity_x.pdf used on input line 2156.
 (pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTPretzelosity_PT.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTPretzelosity_PT.pdf, id=2169, 260.975pt x 159.59625pt>
+<./figs/AUTPretzelosity_PT.pdf, id=1788, 260.975pt x 163.61125pt>
 File: ./figs/AUTPretzelosity_PT.pdf Graphic file (type pdf)
 
 <use ./figs/AUTPretzelosity_PT.pdf>
-Package pdftex.def Info: ./figs/AUTPretzelosity_PT.pdf used on input line 2153.
+Package pdftex.def Info: ./figs/AUTPretzelosity_PT.pdf used on input line 2157.
 
-(pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
- [28 <./figs/AUTPretzelosity_x.pdf> <./figs/AUTPretzelosity_PT.pdf
+(pdftex.def)             Requested size: 193.59155pt x 121.3675pt.
+ [29 <./figs/AUTPretzelosity_x.pdf> <./figs/AUTPretzelosity_PT.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTPretzelosity_PT.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
@@ -957,269 +961,282 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/g1t.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<./figs/g1t.pdf, id=2313, 260.975pt x 167.62625pt>
+<./figs/g1t.pdf, id=1851, 260.975pt x 167.62625pt>
 File: ./figs/g1t.pdf Graphic file (type pdf)
  <use ./figs/g1t.pdf>
-Package pdftex.def Info: ./figs/g1t.pdf used on input line 2175.
+Package pdftex.def Info: ./figs/g1t.pdf used on input line 2179.
 (pdftex.def)             Requested size: 193.59155pt x 124.34584pt.
 
 
-LaTeX Warning: File `./figs/h1lperp.pdf' not found on input line 2176.
-
-
-! Package pdftex.def Error: File `./figs/h1lperp.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2176 ...th=0.45\textwidth]{\FigPath/h1lperp.pdf}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1Lperp.pdf): PDF inclusion: fou
+nd PDF version <1.5>, but at most version <1.4> allowed
+<./figs/h1Lperp.pdf, id=1852, 260.975pt x 164.615pt>
+File: ./figs/h1Lperp.pdf Graphic file (type pdf)
+ <use ./figs/h1Lperp.pdf>
+Package pdftex.def Info: ./figs/h1Lperp.pdf used on input line 2180.
+(pdftex.def)             Requested size: 193.59155pt x 122.11209pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2184.
+(hyperref)                removing `math shift' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2184.
+(hyperref)                removing `subscript' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2184.
+(hyperref)                removing `superscript' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2184.
+(hyperref)                removing `\mathop' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2184.
+(hyperref)                removing `\mathgroup' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2184.
+(hyperref)                removing `\symoperators' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2184.
+(hyperref)                removing `\@ifnextchar' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2184.
+(hyperref)                removing `\phi' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2184.
+(hyperref)                removing `subscript' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2184.
+(hyperref)                removing `\phi' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2184.
+(hyperref)                removing `subscript' on input line 2188.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2184.
+(hyperref)                removing `math shift' on input line 2188.
 
-[29 <./figs/g1t.pdf>]
+
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/g1t_positivity.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/g1t_positivity.pdf, id=2386, 260.975pt x 170.6375pt>
+<./figs/g1t_positivity.pdf, id=1863, 260.975pt x 170.6375pt>
 File: ./figs/g1t_positivity.pdf Graphic file (type pdf)
 
 <use ./figs/g1t_positivity.pdf>
-Package pdftex.def Info: ./figs/g1t_positivity.pdf used on input line 2234.
+Package pdftex.def Info: ./figs/g1t_positivity.pdf used on input line 2238.
 (pdftex.def)             Requested size: 193.59155pt x 126.5796pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/ALT_COMPASS_x.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/ALT_COMPASS_x.pdf, id=2388, 260.975pt x 164.615pt>
+<./figs/ALT_COMPASS_x.pdf, id=1865, 260.975pt x 164.615pt>
 File: ./figs/ALT_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/ALT_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/ALT_COMPASS_x.pdf used on input line 2244.
+Package pdftex.def Info: ./figs/ALT_COMPASS_x.pdf used on input line 2248.
 (pdftex.def)             Requested size: 193.59155pt x 122.11209pt.
- [30 <./figs/g1t_positivity.pdf> <./figs/ALT_COMPASS_x.pdf
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <./figs/g1t.pdf> <./figs/h1Lperp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1Lperp.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2264.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2264.
+
+[31 <./figs/g1t_positivity.pdf> <./figs/ALT_COMPASS_x.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/ALT_COMPASS_x.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2260.
+Package natbib Warning: Citation `Jawalkar:2017ube' on page 32 undefined on inp
+ut line 2311.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/h1lperp_positivity.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/h1lperp_positivity.pdf, id=2519, 260.975pt x 166.6225pt>
+<./figs/h1lperp_positivity.pdf, id=2084, 260.975pt x 170.6375pt>
 File: ./figs/h1lperp_positivity.pdf Graphic file (type pdf)
 
 <use ./figs/h1lperp_positivity.pdf>
-Package pdftex.def Info: ./figs/h1lperp_positivity.pdf used on input line 2312.
+Package pdftex.def Info: ./figs/h1lperp_positivity.pdf used on input line 2316.
 
-(pdftex.def)             Requested size: 193.59155pt x 123.60126pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 193.59155pt x 126.5796pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsin2phi_COMPASS_x.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AULsin2phi_COMPASS_x.pdf, id=2521, 260.975pt x 157.58875pt>
+<./figs/AULsin2phi_COMPASS_x.pdf, id=2086, 260.975pt x 157.58875pt>
 File: ./figs/AULsin2phi_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/AULsin2phi_COMPASS_x.pdf>
 Package pdftex.def Info: ./figs/AULsin2phi_COMPASS_x.pdf used on input line 232
-2.
+6.
 (pdftex.def)             Requested size: 193.59155pt x 116.89998pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsin2phi_JLAB_x.pdf): PDF incl
+usion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/AULsin2phi_JLAB_x.pdf, id=2087, 260.975pt x 162.6075pt>
+File: ./figs/AULsin2phi_JLAB_x.pdf Graphic file (type pdf)
 
-[31]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2341.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2341.
-
-
-Underfull \vbox (badness 1303) has occurred while \output is active []
-
+<use ./figs/AULsin2phi_JLAB_x.pdf>
+Package pdftex.def Info: ./figs/AULsin2phi_JLAB_x.pdf used on input line 2327.
+(pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
  [32 <./figs/h1lperp_positivity.pdf> <./figs/AULsin2phi_COMPASS_x.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsin2phi_COMPASS_x.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [33]
+> <./figs/AULsin2phi_JLAB_x.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsin2phi_JLAB_x.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2406.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2406.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2406.
+(hyperref)                removing `math shift' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2406.
+(hyperref)                removing `subscript' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2406.
+(hyperref)                removing `superscript' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2406.
+(hyperref)                removing `\mathop' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2406.
+(hyperref)                removing `\mathgroup' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2406.
+(hyperref)                removing `\symoperators' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2406.
+(hyperref)                removing `\@ifnextchar' on input line 2346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2406.
+(hyperref)                removing `\phi' on input line 2346.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2346.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2346.
+
+[33]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathop' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathgroup' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\symoperators' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2411.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2411.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/ALTcosPhi_COMPASS_x.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/ALTcosPhi_COMPASS_x.pdf, id=2691, 260.975pt x 159.59625pt>
+<./figs/ALTcosPhi_COMPASS_x.pdf, id=2299, 260.975pt x 159.59625pt>
 File: ./figs/ALTcosPhi_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/ALTcosPhi_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/ALTcosPhi_COMPASS_x.pdf used on input line 2467
+Package pdftex.def Info: ./figs/ALTcosPhi_COMPASS_x.pdf used on input line 2472
 .
 (pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
 
@@ -1230,12 +1247,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/gT_vs_g1Tperp_wwtype.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/gT_vs_g1Tperp_wwtype.pdf, id=2692, 260.975pt x 168.63pt>
+<./figs/gT_vs_g1Tperp_wwtype.pdf, id=2300, 260.975pt x 168.63pt>
 File: ./figs/gT_vs_g1Tperp_wwtype.pdf Graphic file (type pdf)
 
 <use ./figs/gT_vs_g1Tperp_wwtype.pdf>
-Package pdftex.def Info: ./figs/gT_vs_g1Tperp_wwtype.pdf used on input line 247
-6.
+Package pdftex.def Info: ./figs/gT_vs_g1Tperp_wwtype.pdf used on input line 248
+1.
 (pdftex.def)             Requested size: 193.59155pt x 125.09042pt.
 
 
@@ -1244,53 +1261,53 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [34]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2485.
+(hyperref)                removing `math shift' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2485.
+(hyperref)                removing `subscript' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2485.
+(hyperref)                removing `superscript' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2485.
+(hyperref)                removing `\mathop' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2485.
+(hyperref)                removing `\mathgroup' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2485.
+(hyperref)                removing `\symoperators' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2485.
+(hyperref)                removing `\@ifnextchar' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2485.
+(hyperref)                removing `\phi' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2485.
+(hyperref)                removing `subscript' on input line 2490.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2485.
+(hyperref)                removing `math shift' on input line 2490.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/ALLcosphi_COMPASS_x.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/ALLcosphi_COMPASS_x.pdf, id=2709, 260.975pt x 157.58875pt>
+<./figs/ALLcosphi_COMPASS_x.pdf, id=2317, 260.975pt x 157.58875pt>
 File: ./figs/ALLcosphi_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/ALLcosphi_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/ALLcosphi_COMPASS_x.pdf used on input line 2521
+Package pdftex.def Info: ./figs/ALLcosphi_COMPASS_x.pdf used on input line 2526
 .
 (pdftex.def)             Requested size: 193.59155pt x 116.89998pt.
 
@@ -1304,117 +1321,127 @@ nclusion: multiple pdfs with page group included in a single page
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2531.
+(hyperref)                removing `math shift' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2531.
+(hyperref)                removing `subscript' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2531.
+(hyperref)                removing `superscript' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2531.
+(hyperref)                removing `\mathop' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2531.
+(hyperref)                removing `\mathgroup' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2531.
+(hyperref)                removing `\symoperators' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2531.
+(hyperref)                removing `\@ifnextchar' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2531.
+(hyperref)                removing `\phi' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2531.
+(hyperref)                removing `subscript' on input line 2536.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2531.
+(hyperref)                removing `math shift' on input line 2536.
 
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsinphi_HERMES_x.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AULsinphi_HERMES_x.pdf, id=2893, 260.975pt x 162.6075pt>
+<./figs/AULsinphi_HERMES_x.pdf, id=2501, 260.975pt x 162.6075pt>
 File: ./figs/AULsinphi_HERMES_x.pdf Graphic file (type pdf)
 
 <use ./figs/AULsinphi_HERMES_x.pdf>
-Package pdftex.def Info: ./figs/AULsinphi_HERMES_x.pdf used on input line 2578.
+Package pdftex.def Info: ./figs/AULsinphi_HERMES_x.pdf used on input line 2583.
 
 (pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsinphi_COMPASS_x.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AULsinphi_COMPASS_x.pdf, id=2894, 260.975pt x 162.6075pt>
+<./figs/AULsinphi_COMPASS_x.pdf, id=2502, 260.975pt x 162.6075pt>
 File: ./figs/AULsinphi_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/AULsinphi_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/AULsinphi_COMPASS_x.pdf used on input line 2579
+Package pdftex.def Info: ./figs/AULsinphi_COMPASS_x.pdf used on input line 2584
 .
+(pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsinphi_JLAB_x.pdf): PDF inclu
+sion: found PDF version <1.5>, but at most version <1.4> allowed
+<./figs/AULsinphi_JLAB_x.pdf, id=2503, 260.975pt x 162.6075pt>
+File: ./figs/AULsinphi_JLAB_x.pdf Graphic file (type pdf)
+
+<use ./figs/AULsinphi_JLAB_x.pdf>
+Package pdftex.def Info: ./figs/AULsinphi_JLAB_x.pdf used on input line 2585.
 (pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
  [36 <./figs/ALLcosphi_COMPASS_x.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2589.
+(hyperref)                removing `math shift' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2589.
+(hyperref)                removing `subscript' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2589.
+(hyperref)                removing `superscript' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2589.
+(hyperref)                removing `\mathop' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2589.
+(hyperref)                removing `\mathgroup' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2589.
+(hyperref)                removing `\symoperators' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2589.
+(hyperref)                removing `\@ifnextchar' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2589.
+(hyperref)                removing `\phi' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2589.
+(hyperref)                removing `subscript' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2589.
+(hyperref)                removing `\phi' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2589.
+(hyperref)                removing `subscript' on input line 2595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2589.
+(hyperref)                removing `math shift' on input line 2595.
 
 
-Overfull \hbox (10.47734pt too wide) in paragraph at lines 2592--2594
+Overfull \hbox (10.47734pt too wide) in paragraph at lines 2598--2600
 \T1/cmr/m/n/10.95 Retaining the only non-zero term in the WW-type ap-prox-i-ma-
 tion, and as-sum-ing for $\OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 (\OML/cmm/m
 /it/10.95 x; k[]\OT1/cmr/m/n/10.95 )$
@@ -1424,471 +1451,483 @@ tion, and as-sum-ing for $\OML/cmm/m/it/10.95 g[]\OT1/cmr/m/n/10.95 (\OML/cmm/m
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/ALTcos2PhiminusPhiS_COMPASS_x.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf, id=2973, 260.975pt x 159.59625pt>
+<./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf, id=2582, 260.975pt x 159.59625pt>
 File: ./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf>
 Package pdftex.def Info: ./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf used on input
- line 2639.
+ line 2645.
 (pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
  [37 <./figs/AULsinphi_HERMES_x.pdf> <./figs/AULsinphi_COMPASS_x.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsinphi_COMPASS_x.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->]
+> <./figs/AULsinphi_JLAB_x.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/AULsinphi_JLAB_x.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [38 <./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2647.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2647.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2647.
+(hyperref)                removing `math shift' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2647.
+(hyperref)                removing `subscript' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2647.
+(hyperref)                removing `superscript' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2647.
+(hyperref)                removing `\mathop' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2647.
+(hyperref)                removing `\mathgroup' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2647.
+(hyperref)                removing `\symoperators' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2647.
+(hyperref)                removing `\@ifnextchar' on input line 2653.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2647.
+(hyperref)                removing `\phi' on input line 2653.
 
-[38 <./figs/ALTcos2PhiminusPhiS_COMPASS_x.pdf>] [39]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 2653.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2653.
+
+[39]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTsinphiS_COMPASS_x.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTsinphiS_COMPASS_x.pdf, id=3213, 260.975pt x 159.59625pt>
+<./figs/AUTsinphiS_COMPASS_x.pdf, id=2876, 260.975pt x 159.59625pt>
 File: ./figs/AUTsinphiS_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUTsinphiS_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/AUTsinphiS_COMPASS_x.pdf used on input line 279
-9.
+Package pdftex.def Info: ./figs/AUTsinphiS_COMPASS_x.pdf used on input line 280
+5.
 (pdftex.def)             Requested size: 193.59155pt x 118.38914pt.
- [40 <./figs/AUTsinphiS_COMPASS_x.pdf>]
+ [40]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2808.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2808.
+(hyperref)                removing `math shift' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2808.
+(hyperref)                removing `subscript' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2808.
+(hyperref)                removing `superscript' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2808.
+(hyperref)                removing `\mathop' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2808.
+(hyperref)                removing `\mathgroup' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2808.
+(hyperref)                removing `\symoperators' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2808.
+(hyperref)                removing `\@ifnextchar' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2808.
+(hyperref)                removing `\phi' on input line 2814.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2808.
+(hyperref)                removing `subscript' on input line 2814.
 
-[41]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2814.
+
+[41 <./figs/AUTsinphiS_COMPASS_x.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcosphi_COMPASS_x.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUUcosphi_COMPASS_x.pdf, id=3315, 260.975pt x 165.61874pt>
+<./figs/AUUcosphi_COMPASS_x.pdf, id=2977, 260.975pt x 165.61874pt>
 File: ./figs/AUUcosphi_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUUcosphi_COMPASS_x.pdf>
-Package pdftex.def Info: ./figs/AUUcosphi_COMPASS_x.pdf used on input line 2904
+Package pdftex.def Info: ./figs/AUUcosphi_COMPASS_x.pdf used on input line 2910
 .
 (pdftex.def)             Requested size: 193.59155pt x 122.85667pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcosphi_COMPASS_PT.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUUcosphi_COMPASS_PT.pdf, id=3316, 260.975pt x 162.6075pt>
+<./figs/AUUcosphi_COMPASS_PT.pdf, id=2978, 260.975pt x 162.6075pt>
 File: ./figs/AUUcosphi_COMPASS_PT.pdf Graphic file (type pdf)
 
 <use ./figs/AUUcosphi_COMPASS_PT.pdf>
-Package pdftex.def Info: ./figs/AUUcosphi_COMPASS_PT.pdf used on input line 290
-5.
+Package pdftex.def Info: ./figs/AUUcosphi_COMPASS_PT.pdf used on input line 291
+1.
 (pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/Fig06-EMC-cosphi-z.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/Fig06-EMC-cosphi-z.pdf, id=3317, 361.35pt x 375.4025pt>
+<./figs/Fig06-EMC-cosphi-z.pdf, id=2979, 361.35pt x 375.4025pt>
 File: ./figs/Fig06-EMC-cosphi-z.pdf Graphic file (type pdf)
 
 <use ./figs/Fig06-EMC-cosphi-z.pdf>
-Package pdftex.def Info: ./figs/Fig06-EMC-cosphi-z.pdf used on input line 2913.
+Package pdftex.def Info: ./figs/Fig06-EMC-cosphi-z.pdf used on input line 2919.
 
 (pdftex.def)             Requested size: 219.1054pt x 227.62204pt.
  [42 <./figs/AUUcosphi_COMPASS_x.pdf> <./figs/AUUcosphi_COMPASS_PT.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUUcosphi_COMPASS_PT.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
-> <./figs/Fig06-EMC-cosphi-z.pdf>] [43]
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2939.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2939.
+(hyperref)                removing `math shift' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 2939.
+(hyperref)                removing `subscript' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathop' on input line 2939.
+(hyperref)                removing `superscript' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathgroup' on input line 2939.
+(hyperref)                removing `\mathop' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\symoperators' on input line 2939.
+(hyperref)                removing `\mathgroup' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 2939.
+(hyperref)                removing `\symoperators' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2939.
+(hyperref)                removing `\@ifnextchar' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2939.
+(hyperref)                removing `\phi' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 2939.
+(hyperref)                removing `subscript' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 2939.
+(hyperref)                removing `\phi' on input line 2945.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 2939.
+(hyperref)                removing `subscript' on input line 2945.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 2945.
+
+[43 <./figs/Fig06-EMC-cosphi-z.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/AUTsin2PhiminusPhiS_COMPASS_x.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf, id=3482, 260.975pt x 162.6075pt>
+<./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf, id=3152, 260.975pt x 162.6075pt>
 File: ./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf>
 Package pdftex.def Info: ./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf used on input
- line 3011.
+ line 3017.
 (pdftex.def)             Requested size: 193.59155pt x 120.62292pt.
  [44 <./figs/AUTsin2PhiminusPhiS_COMPASS_x.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lowercase' on input line 3026.
+(hyperref)                removing `\lowercase' on input line 3032.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 3026.
+(hyperref)                removing `\@ifnextchar' on input line 3032.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3026.
+(hyperref)                removing `math shift' on input line 3032.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.81503pt
-(hyperref)                removed on input line 3026.
+(hyperref)                removed on input line 3032.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3026.
+(hyperref)                removing `math shift' on input line 3032.
 
 [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3100.
+(hyperref)                removing `math shift' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3100.
+(hyperref)                removing `subscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3100.
+(hyperref)                removing `superscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3100.
+(hyperref)                removing `subscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3100.
+(hyperref)                removing `\perp' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3100.
+(hyperref)                removing `superscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3100.
+(hyperref)                removing `math shift' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3100.
+(hyperref)                removing `math shift' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3100.
+(hyperref)                removing `subscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3100.
+(hyperref)                removing `subscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3100.
+(hyperref)                removing `\perp' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3100.
+(hyperref)                removing `superscript' on input line 3106.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3100.
+(hyperref)                removing `math shift' on input line 3106.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3197.
+(hyperref)                removing `math shift' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3197.
+(hyperref)                removing `subscript' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3197.
+(hyperref)                removing `superscript' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3197.
+(hyperref)                removing `subscript' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3197.
+(hyperref)                removing `\perp' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3197.
+(hyperref)                removing `superscript' on input line 3203.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3197.
+(hyperref)                removing `math shift' on input line 3203.
 
 [46]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3249.
+(hyperref)                removing `math shift' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3249.
+(hyperref)                removing `subscript' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3249.
+(hyperref)                removing `superscript' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3249.
+(hyperref)                removing `\perp' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3249.
+(hyperref)                removing `subscript' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3249.
+(hyperref)                removing `\perp' on input line 3255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3249.
+(hyperref)                removing `math shift' on input line 3255.
 
 [47]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3302.
+(hyperref)                removing `math shift' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3302.
+(hyperref)                removing `subscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3302.
+(hyperref)                removing `superscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3302.
+(hyperref)                removing `subscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3302.
+(hyperref)                removing `\perp' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3302.
+(hyperref)                removing `math shift' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3302.
+(hyperref)                removing `math shift' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3302.
+(hyperref)                removing `subscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3302.
+(hyperref)                removing `superscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3302.
+(hyperref)                removing `\perp' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3302.
+(hyperref)                removing `subscript' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3302.
+(hyperref)                removing `\perp' on input line 3308.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3302.
+(hyperref)                removing `math shift' on input line 3308.
 
 [48]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3376.
+(hyperref)                removing `math shift' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3376.
+(hyperref)                removing `subscript' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3376.
+(hyperref)                removing `superscript' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3376.
+(hyperref)                removing `\perp' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3376.
+(hyperref)                removing `subscript' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3376.
+(hyperref)                removing `\perp' on input line 3382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3376.
+(hyperref)                removing `math shift' on input line 3382.
 
 [49]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3420.
+(hyperref)                removing `math shift' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3420.
+(hyperref)                removing `subscript' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 3420.
+(hyperref)                removing `superscript' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3420.
+(hyperref)                removing `\perp' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 3420.
+(hyperref)                removing `subscript' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\perp' on input line 3420.
+(hyperref)                removing `\perp' on input line 3426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 3420.
+(hyperref)                removing `math shift' on input line 3426.
 
 [50] [51] [52] [53] (./test-WW-type-00s-PS.bbl [54] [55] [56] [57] [58]
 [59] [60]) [61]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3728
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3734
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3728.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3734.
 
 
 [62]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3818.
- [63]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3818.
- (./test-WW-type-00s-PS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3818.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3818.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3824.
+[63]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3824.
+ (./test-WW-type-00s-PS.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3824.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3824.
 
 Package rerunfilecheck Info: File `test-WW-type-00s-PS.out' has not changed.
 (rerunfilecheck)             Checksum: 8CB49E3B872A2713ACE4E7B4DFACBD61;3998.
@@ -1896,16 +1935,16 @@ Package rerunfilecheck Info: File `test-WW-type-00s-PS.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3818.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3824.
  ) 
 Here is how much of TeX's memory you used:
- 8305 strings out of 494976
- 122926 string characters out of 6179136
- 222337 words of memory out of 5000000
- 10888 multiletter control sequences out of 15000+600000
+ 8323 strings out of 494976
+ 123413 string characters out of 6179136
+ 222403 words of memory out of 5000000
+ 10903 multiletter control sequences out of 15000+600000
  35267 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,16n,32p,1130b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,32p,1130b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bmusch/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/
 bmusch/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/bmusch/.te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/bmusch/.texmf-var/fo
@@ -1944,10 +1983,11 @@ amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-
-Output written on test-WW-type-00s-PS.pdf (65 pages, 2958717 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on test-WW-type-00s-PS.pdf (65 pages, 2750511 bytes).
 PDF statistics:
- 5017 PDF objects out of 5155 (max. 8388607)
- 461 named destinations out of 1000 (max. 500000)
- 585 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4685 PDF objects out of 5155 (max. 8388607)
+ 462 named destinations out of 1000 (max. 500000)
+ 600 words of extra memory for PDF output out of 10000 (max. 10000000)
 
