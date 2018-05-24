@@ -184,15 +184,10 @@
 %\
 %===================  ABSTRACT =======================================
 %\begin{abstract}
-<<<<<<< HEAD
+
 \abstract{
 We present the complete cross-section for pion production in semi-inclusive
 deep-inelastic scattering up to power-suppressed ${\cal O}(1/Q^2)$ terms in
-=======
-\abstract{ 
-We present the complete cross-section for pion production in semi-inclusive 
-deep-inelastic scattering up to power-suppressed ${\cal O}(1/Q^2)$ terms in 
->>>>>>> a078f4f6a8ac7894fcd52dbfa7ddfaa609392a73
 the Wandzura--Wilczek-type approximation \ps{which consists in a systematic
 neglect of $\bar{q}gq$--terms with respect to $\bar{q}q$--correlators.}
 We compute all twist-2 and twist-3 structure functions and the corresponding 
@@ -3547,7 +3542,7 @@ corresponding to seven free parameters, and parameters are shown in Table~\ref{t
 \hline
 $N_u=0.40$ & $\alpha_u=0.35$ & $\beta_u=2.6$ \\
 $N_d=-0.97$ & $\alpha_d=0.44$ & $\beta_d=0.90$\\
-& $M_1^2=0.19\textrm{(GeV}^2$) &   \\
+& $M_1^2=0.19\; \textrm{(GeV}^2$) &   \\
 \hline
 \end{tabular}
 \caption{Best values of the fit of the Sivers functions. Table from Ref.~\cite{Anselmino:2011gs}}
@@ -3639,16 +3634,23 @@ the transverse polarization asymmetry of quarks inside an unpolarized
 nucleon. The Boer-Mulders functions were studied phenomenologically in 
 Refs.~\cite{Barone:2009hw,Barone:2010gk,Barone:2015ksa}
 
-The following parametrizations was used in Ref.~\cite{Barone:2015ksa}:
+Ref.~\cite{Barone:2010gk} used the parametrization in which Boer-Mulders function is proportional to the Sivers functions, such that:
 \ba
 \avkperp_{h_1^\perp} &=& \frac{\avkperp \, M^2_{BM}}{\avkperp + M^2_{BM}} \, , \\
 h_{1}^{\perp}(x, \kperp^2) &= &
 - \,\frac{M}{M_{BM}}  
-\sqrt{2e}\; N_q 
+\sqrt{2e}\; N_{BM}^q N_q (x)
 \, f_{q/p} (x, Q)\frac{e^{-\kperp^2/\avkperp_{h_{1}^{\perp}}}}{\pi\avkperp},  
 \label{BM-dist}
 \ea
- 
+ where  
+%
+\ba
+{\cal N}_q(x)= N_q \, x^{\alpha} (1-x)^{\beta} \,
+\frac{(\alpha + \beta)^{(\alpha +\beta)}}
+{\alpha^{\alpha} \beta^{\beta}}\; .
+ \ea
+
 The first moment of Boer-Mulders function is:
 \ba
 h_{1}^{\perp (1) q}(x)  = -\frac{\sqrt{\frac{e}{2}} \ \avkperp M_{BM}^3}{M (\avkperp + M_{BM}^2)^2}  \ {N}_q f_q(x, Q) = -\sqrt{\frac{e}{2}} \frac{1}{M M_{BM}}  \frac{\avkperp_{h_1^\perp}^2}{\avkperp}    \ {N}_q  f_q(x, Q)
@@ -3661,19 +3663,32 @@ We can rewrite parametrizations of Boer-Mulders functions as
 h_{1}^{\perp q}(x,\kperp^2) =  h_{1}^{\perp (1) q}(x)   \frac{2 M^2}{\pi \avkperp_{h_{1}^\perp}^2} e^{-\kperp^2/{\avkperp_{h_{1}^\perp}}}\label{bm_new} \ .
 \ea
  
- 
-%
-\begin{table}[htb]
+ \begin{table}
 \centering
-\begin{tabular}{l c l l c l}
+\begin{tabular}{crl}
 \hline
- $N_{u}$ &=& $-0.49 \pm 0.15$ & $N_{d}$ &=& $-1 \pm 0.2$\\
- $M_{BM}^2$ &=& $0.1 \pm  0.2$&\multicolumn{3}{l}{(GeV$^2$)}\\ 
+$N_{BM}^u=2.1\pm0.1$ & $N_{BM}^d=$&$-1.111\pm0.001$   \\
+Fixed & parameters: &  \\
+$N_u=0.35$ & $\alpha_u=0.73$ & $\beta_u=3.46$ \\
+$N_d=-0.9$ & $\alpha_d=1.08$ & $\beta_d=3.46$\\
+& $M_{BM}^2=$&$0.34\; \textrm{(GeV}^2$)    \\
 \hline
 \end{tabular}
-\caption{Fitted parameters of Boer-Mulders quark distributions. Values are from Ref.~\cite{Barone:2015ksa}}
+\caption{Fitted parameters of Boer-Mulders quark distributions. Values are from Ref.~\cite{Barone:2009hw}.}
 \label{fitparbm}
 \end{table}
+%
+%\begin{table}[htb]
+%\centering
+%\begin{tabular}{l c l l c l}
+%\hline
+ %$N_{u}$ &=& $-0.49 \pm 0.15$ & $N_{d}$ &=& $-1 \pm 0.2$\\
+% $M_{BM}^2$ &=& $0.1 \pm  0.2$&\multicolumn{3}{l}{(GeV$^2$)}\\ 
+%\hline
+%\end{tabular}
+%\caption{Fitted parameters of Boer-Mulders quark distributions. Values are from Ref.~\cite{Barone:2015ksa}}
+%\label{fitparbm}
+%\end{table}
  
 \subsection{\boldmath Pretzelosity distribution $h_{1T}^{\perp}(x,k_\perp)$}
 \label{App:basis-h1Tperp}
