@@ -1,0 +1,19 @@
+# 
+# Data from Osipenko paper for Q^2=2.37 GeV^2
+# arXiv:0809.1153v5, Fig.14
+#
+#
+# for this data set <x>=0.34, <z>=0.30 
+#
+# Fraction = differential cross section normalized 
+# with respect to its value at Phperp^2=0
+#
+# Phperp^2   Fraction  stat
+# (GeV^2)    
+#
+  0.005      0.92	0.25
+  0.129	     0.44	0.004
+  0.217      0.28	0.003
+  0.340      0.14	0.001
+  0.507      0.047	0.0005
+  0.743      0.012	0.0001
