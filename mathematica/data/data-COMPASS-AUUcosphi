@@ -1,0 +1,24 @@
+#  
+#   \bibitem{Adolph:2014pwc} 
+#   C.~Adolph {\it et al.} [COMPASS Collaboration],
+#   %``Measurement of azimuthal hadron asymmetries in 
+#   semi-inclusive deep inelastic scattering off unpolarised nucleons,''
+#   Nucl.\ Phys.\ B {\bf 886}, 1046 (2014)
+#   doi:10.1016/j.nuclphysb.2014.07.019
+#   [arXiv:1401.6284 [hep-ex]].
+#   %%CITATION = doi:10.1016/j.nuclphysb.2014.07.019;%%
+#
+#
+#  INDEX 0: DATA ON AUU = A_{UU}^{cos(phi)}
+#
+# x-range          pos.hadrons     neg.hadrons
+#  
+# min-x   max-x    AUU     err     AUU     err
+#
+  0.003   0.008  -0.036   0.006  -0.024   0.006
+  0.008   0.013  -0.044   0.003  -0.022   0.003
+  0.013   0.020  -0.051   0.003  -0.039   0.003
+  0.020   0.032  -0.052   0.003  -0.037   0.003
+  0.032   0.050  -0.057   0.004  -0.037   0.004
+  0.050   0.080  -0.048   0.004  -0.031   0.005
+  0.080   0.130  -0.048   0.006  -0.032   0.007
