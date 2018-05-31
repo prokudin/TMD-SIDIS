@@ -18,6 +18,7 @@
 
 \bibliographystyle{JHEP}
 
+\usepackage{lineno} % page numbers
 
 %=================== USE COLOURS =====================================
 
@@ -30,6 +31,8 @@
     linkcolor=black,
     urlcolor=black
 }
+
+
 
 \newcommand{\green}[1]{{\color{green} #1}}
 \newcommand{\blue}[1]{{\color{blue} #1}}
@@ -215,6 +218,8 @@ understanding of the TMD theory beyond leading twist.
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\linenumbers % line numbers
+
 \maketitle
 
 \flushbottom
@@ -334,6 +339,8 @@ studies to explain either why the pertinent $\bar{q}gq$--terms are
 so small or so sizable. In either case our results will deepen the 
 understanding of  $\bar{q}gq$--correlations and help to guide 
 further developments.}
+
+All results of this projects are publicly available via open source \texttt{github.com}\footnote{\href{https://github.com/prokudin/WW-SIDIS}{https://github.com/prokudin/WW-SIDIS}} in the form of a \texttt{mathematica}~\cite{Mathematica} package. A dedicated \texttt{Python} package will be released in the future. Details about implementation and description of the package can be found in Appendix~\ref{app:package}.
 
 \newpage
 %======= SECTION 2: SIDIS & TMDs & FFs ===============================
@@ -1988,9 +1995,9 @@ of sea and valence quark TMDs \cite{Schweitzer:2012hh}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b!]
 \centering
-\includegraphics[height=3cm]{\FigPath/Fig02a-JLab-ratio-pT-v5-NEW.pdf}  \quad
-\includegraphics[height=3cm]{\FigPath/hermes_pip.pdf} \quad
-\includegraphics[height=3cm]{\FigPath/compass_hp.pdf} 
+\includegraphics[height=3.2cm]{\FigPath/Fig02a-JLab-ratio-pT-v5-NEW.pdf}  \quad
+\includegraphics[height=3.2cm]{\FigPath/hermes_pip.pdf} \quad
+\includegraphics[height=3.2cm]{\FigPath/compass_hp.pdf} 
 \caption{\label{FUU-show-pT-dependence}
 Examples of the 
 	description of transverse momenta of hadrons in unpolarized SIDIS. 
@@ -2035,7 +2042,7 @@ flavor-dependence of the involved Gaussian widths.
 The normalization $\int d^2\Phperp \,{\cal G}(\Phperp)=1$ 
 correctly connects the structure function $F_{UU}(x,z,\Phperp)$ 
 in (\ref{Eq:FUU-Phperp}) with its $\Phperp$--integrated counterpart
-(\ref{Eq:FUU}). In our effective description this is step is trivial. In 
+(\ref{Eq:FUU}). In our effective description this step is trivial. In 
 QCD the connection of TMDs to PDFs is subtle \cite{Collins:2016hqq}.
 Figure~\ref{FUU-show-pT-dependence} illustrates how the Gaussian Ansatz
 describes selected SIDIS data:
@@ -2207,8 +2214,8 @@ COMPASS data are described equally well by the fit \cite{Anselmino:2011gs}. }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b!]
 \centering
-\includegraphics[width=0.43\textwidth]{\FigPath/AUTSivers_x.pdf}  \hspace{5mm}
-\includegraphics[width=0.43\textwidth]{\FigPath/AUTSivers_PT.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_x.pdf}  \hspace{5mm}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_PT.pdf}
 \caption{\label{aut_f1t_jlab} The Sivers asymmetry $A_{UT}^{\sin(\phi_h-\phi_S)}$  
 	as a function of $ x $ (left panel) and $P_{hT}$ (right panel).
 	The data are from the HERMES experiment and refer to the mean values
@@ -3331,9 +3338,9 @@ of the nucleon.
 
 \section{Acknowledgments}
 First and foremost, the authors would like to thank their families for patience and
-constant support throughout writing this paper. This work was 
+constant support throughout writing this paper. The authors would like to thank Werner Vogelsang for many useful discussions. This work was 
 partially supported by the U.S.\ Department of Energy under 
-Contract No.~DE-AC05-06OR23177 (A.P.) and by the National 
+Contract No.~DE-AC05-06OR23177 (A.P.) and within TMD Collaboration framework, and by the National 
 Science Foundation under Contract No.\ PHY-1623454 (A.P.)
 and Contract No.\ PHY-1406298 (P.S.).
 
@@ -4124,6 +4131,9 @@ with
 	\label{Eq:Gaussian-integrals-working-III}
 \end{alignat}
 
+\newpage
+\subsection{Mathematica package}
+\label{app:package}
 
 \bibliography{\BibPath/biblio_ww}
 
