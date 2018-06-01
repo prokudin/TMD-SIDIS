@@ -136,7 +136,7 @@
 \author[c]{A.~V.~Efremov} 
 \author[d,e]{A.~Kotzinian} 
 \author[f]{B.~U.~Musch} 
-\author[e]{B.~Parsamyan} 
+\author[k]{B.~Parsamyan} 
 \author[g,b]{A.~Prokudin} 
 \author[h]{M.~Schlegel} 
 \author[i]{G.~Schnell} 
@@ -158,6 +158,7 @@
   	Regensburg, 93040 Regensburg, Germany}
 \affiliation[g]{Division of Science, Penn State Berks, Reading, 
 	PA 19610, USA}
+\affiliation[k]{CERN, 1211 Geneva 23, Switzerland}
 \affiliation[h]{Department of Physics, New Mexico State University, 
 	Las Cruces, NM 88003-001, USA}
 \affiliation[i]{Department of Theoretical Physics, University of the Basque 
@@ -3015,10 +3016,18 @@ The final result in Eq.~(\ref{Eq:FUTsinphiS-final}) is the
 consistent result for the structure function $F_{UT}^{\sin\phi_S}(x,z)$ in 
 WW-type approximation, see Eq.~(\ref{Eq:FUT-collinear}). Our prediction 
 is therefore $A_{UT}^{\sin\phi_S}(x)=F_{UT}^{\sin\phi_S}(x)/F_{UU}(x)=0$.
-This is compatible with preliminary data from HERMES \cite{Schnell:2010zza}
+{\color{green} Even though this is compatible with preliminary data from HERMES \cite{Schnell:2010zza}
 and COMPASS \cite{Parsamyan:2015dfa} over a wide range of $x$, see 
-Fig.~\ref{autsinphi_jlab} below. Merely for negative hadrons at 
-large-$x$ there might be a disagreement with our prediction.
+Fig.~\ref{autsinphi_jlab} below, one must notice that for negative hadrons at 
+large-$x$ there is a disagreement with our prediction.
+
+In fact at this point we should notice that WW approximation has its limitations, especially for the case of $A_{UT}^{\sin\phi_S}(x)$ one would expect that this asymmetry is sensitive to $\tilde H$ (which we neglect in this approximation):
+\begin{equation}
+F_{UT}^{\sin\phi_S}(x,z) 
+	= -x \,\frac{2m_h}{Q}\;\sum_q e_q^2\,
+	h_1^{q}(x)\; \frac{\tilde H_1^{q}(z)}{z} 
+\end{equation}	
+As pointed out in Ref.~\cite{Kanazawa:2015ajw}, both $H_1^{\perp(1)q}$ and $\tilde H_1^{q}$ are related to integrals of underlying function $H_{FU}^{q,\Im}(z,z_1)$ and thus, strictly  speaking, neglecting $\tilde H_1^{q}$ would mean neglecting  $H_1^{\perp(1)q}$ as well. Thus, particularly in the fragmentation sector WW-type approximation has serious limitations.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b]
