@@ -380,13 +380,13 @@ to SIDIS structure at leading (Sec.~\ref{Sec-6:twist-2-and-WW})
 and subleading (Sec.~\ref{Sec-7:twist-3-and-WW}) twist, and
 conclude with a critical discussion (Sec.~\ref{Sec-8:conclusions}).
 The Appendices \ref{App:basis} and \ref{App:factor} contain 
-technical details. \ps{In App.~C we describe an open source 
+technical details. \AP{In App.~C we describe an open source 
 package publicly available on \texttt{github.com}\footnote{\href{%
 	https://github.com/prokudin/WW-SIDIS}{
 	https://github.com/prokudin/WW-SIDIS}} 
-	inplemented in \texttt{mathematica}~\cite{Mathematica} 
+	implemented in \texttt{mathematica}~\cite{Mathematica} 
 	(already available) and \texttt{Python} 
-	(to be released in near future).}
+	(to be released in the near future).}
 
 
 
@@ -4425,7 +4425,27 @@ with
 \section{Mathematica package}
 \label{app:package}
 
-Bla, bla. \red{Alexei: please, paste here your text.}
+\AP{The package available to wide physics community is needed for several reasons. First of all it is intended to facilitate visualization, reproduction, and verification of our results presented in this paper. Second, the package may prove useful for experimental community that needs estimates of measured quantities for certain kinematics of a particular experiment. Third, the phenomenological community will have an easy access to our result for comparison and/or use in phenomenological or theoretical papers. The authors believe that the open source access to the codes used in a project is the right way of handling scientific information in the 21$^{st}$ century. Collinear parton distribution functions are well tabulated in \texttt{LHAPDF} project \cite{Buckley:2014ana}, collinear fragmentation function still need a dedicated repository. There exist already several databases already being developed for extensions of collinear one dimensional picture of the nucleon structure.  Generalized Parton Distributions are present in the framework, called \texttt{PARTONS} \cite{Berthou:2015oaw}, several extractions of Transverse Momentum Dependent distributions are tabulated in \texttt{TMDlib} project \cite{Hautmann:2014kza}. 
+
+
+If you use this package, please, site this paper and the link to the repository. Please, acknowledge using any of the extracted TMDs present in this package. The corresponding \texttt{bibitem} codes are present in the description of each TMD function. 
+
+The source code of the project can be downloaded or cloned from the open source repository: \texttt{https://github.com/prokudin/WW-SIDIS}. Using  \texttt{Mathematica}  run the  file named \texttt{example.nb}, you will see an example of usage of the code, code description and several visualizations of functions, asymmetries, and SIDIS cross-sections. Make sure that you do not move \texttt{example.nb} to another directory as it uses grids for TMDs, PDFs, and FFs.
+
+SIDIS cross section examples are present in Fig.~\ref{fig:package} .
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/cross_section_phih.pdf} 
+\includegraphics[width=0.45\textwidth]{\FigPath/cross_section_phiS.pdf} 
+\caption{\label{fig:package} 
+	Left panel:  $\phi_h$ dependence of the SIDIS cross section at $\phi_S = \pi/2$. 
+	Right panel:  $\phi_S$ dependence of the SIDIS cross section at $\phi_h = 0$. 
+	 Also $x = 0.3$, $z=0.2$, $\Phperp = 0.5$ GeV, 
+	$Q^2$ = 2.4 GeV$^2$, and the beam energy $E_{beam}$ = 5.7 GeV, averaged over beam helicities,  transverse proton target polarization.}
+\end{figure}
+}
 
 
 \newpage
