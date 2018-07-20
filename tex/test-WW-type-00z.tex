@@ -11,6 +11,15 @@
 
 \allowdisplaybreaks
 
+
+
+% section 5.4 - is transversity really the only information on the tensor charge. how about lattice?
+% FIgure 7: is it the <y> asymmetry (including prefactors)?
+% section 5.6 (lines 819 ff) partially repetition (cubic Phperp suppression) and need reference to HERMES plot.
+% figure 16 claims to be A_{LL}^{\cos\phi} but is just A_{LL}
+
+
+
 %\usepackage[utf8]{inputenc} 
 
 
@@ -74,28 +83,28 @@
 \def\C{_{_C}}
 
 %Editing commands
-\newcommand{\TD}[1]{{{\bf TODO:} \color[rgb]{0.65,0,0.15} #1}}
-\newcommand{\AP}[1]{{\bf AP:} {\color{red} #1}}
+%\newcommand{\TD}[1]{{{\bf TODO:} \color[rgb]{0.65,0,0.15} #1}}
+%\newcommand{\AP}[1]{{\bf AP:} {\color{red} #1}}
 
 \definecolor{darkgreen}{rgb}{0,0.65,0}
 \definecolor{orange}{rgb}{1,0.4,0.1}
 \newcommand{\darkgreen}[1]{{\color{darkgreen} #1}}
 \newcommand{\orange}[1]{{\color{orange}#1}}
 
-\newcommand{\ak}[1]{\orange{#1}}
-\newcommand{\ps}[1]{\blue{#1}}
-\newcommand{\gs}[1]{{\color[rgb]{0.65,0,0.65}#1}}
-\newcommand{\bp}[1]{{\color[rgb]{0,0.65,0.35}#1}}
-\newcommand{\ms}[1]{\darkgreen{#1}}
-\newcommand{\kt}[1]{{\color[rgb]{0.1,0.5,0}#1}}
+%\newcommand{\ak}[1]{\orange{#1}}
+%\newcommand{\ps}[1]{\blue{#1}}
+%\newcommand{\gs}[1]{{\color[rgb]{0.65,0,0.65}#1}}
+%\newcommand{\bp}[1]{{\color[rgb]{0,0.65,0.35}#1}}
+%\newcommand{\ms}[1]{\darkgreen{#1}}
+%\newcommand{\kt}[1]{{\color[rgb]{0.1,0.5,0}#1}}
 
 
-\newcommand{\SB}[1]{{\bf SB:} {\color{magenta} #1}}
+%\newcommand{\SB}[1]{{\bf SB:} {\color{magenta} #1}}
 
 \newcommand{\asym}[2]{{A_{#1}^{#2}}}
 \newcommand{\asympre}[2]{{A_{#1,\langle y\rangle}^{#2}}}
 
-
+\newcommand{\WWtype}{\ensuremath{\stackrel{\text{\scriptsize WW--type}}{\approx}}}
 
 
 
@@ -137,7 +146,7 @@
 %===================  TITLE, AUTHORS, AFFILIATIONS ===================
 
  
-\preprint{\red{version ``00y''}; JLAB-THY-18-XXXX}
+\preprint{\red{version ``00z''}; \today; JLAB-THY-18-XXXX}
 
 \title{	Semi-Inclusive Deep Inelastic Scattering 
 	in Wandzura-Wilczek-type approximation}
@@ -165,7 +174,7 @@
 	375036 Yerevan, Armenia}
 \affiliation[e]{INFN, Sezione di Torino, 
 	10125 Torino, Italy}
-\affiliation[f]{Institut f\"ur Theoretische Physik, Universit\"at 
+\affiliation[f]{Institut f\''ur Theoretische Physik, Universit\''at 
   	Regensburg, 93040 Regensburg, Germany}
 \affiliation[g]{Division of Science, Penn State Berks, Reading, 
 	PA 19610, USA}
@@ -175,8 +184,8 @@
 \affiliation[i]{Department of Theoretical Physics, University of the Basque 
 	Country UPV/EHU, 48080 Bilbao, Spain, and
 	IKERBASQUE, Basque Foundation for Science, 48013 Bilbao, Spain}
-\affiliation[j]{Institute for Theoretical Physics, Universit\"at T\"ubingen,
-	D-72076 T\"ubingen, Germany} % Auf der Morgenstelle 14, 
+\affiliation[j]{Institute for Theoretical Physics, Universit\''at T\''ubingen,
+	D-72076 T\''ubingen, Germany} % Auf der Morgenstelle 14, 
 
 % e-mail addresses: one for each author, in the same order as the authors
 \emailAdd{saman.bastami@uconn.edu}
@@ -222,7 +231,7 @@ understanding of the TMD theory beyond leading twist.
                 % photons, or other nonhadronic particles (energy > 10 GeV)
 \keywords{
 	Wandzura--Wilczek approximation, 
-	semi-inclusive deep inelastic scattering,
+	semi-inclusive deep-inelastic scattering,
 	transverse momentum dependent distribution and fragmentation 
 	functions, spin and azimuthal asymmetries, leading and subleading twist}
 
@@ -231,42 +240,42 @@ understanding of the TMD theory beyond leading twist.
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\linenumbers % line numbers
+%\linenumbers % line numbers
 
 \maketitle
 
 \flushbottom
-
-\subsection*{Color Legend}
-
-General comments: 
-	\TD{dark red color, command: {$\backslash{\rm TD}\{\dots\}$}}\\
-Alexei's corrections: 
-	\AP{redish color, command: {$\backslash{\rm AP}\{\dots\}$}}\\
-Aram's corrections: 
-	\ak{orange color, command: {$\backslash{\rm ak}\{\dots\}$}}\\
-Bakur's corrections: 
-	\bp{green-blue color, command: {$\backslash{\rm bp}\{\dots\}$}}\\
-Gunar's corrections: 
-	\gs{violett color, command: {$\backslash{\rm gs}\{\dots\}$}}\\
-Kemal's corrections: 
-	\kt{greenish color, command: {$\backslash{\rm kt}\{\dots\}$}}\\
-Marc's corrections: 
-	\ms{green color, command: {$\backslash{\rm ms}\{\dots\}$}}\\
-Peter's corrections: 
-	\ps{blue color, command: {$\backslash{\rm ps}\{\dots\}$}}\\
-Anatoli Vasilievich, Bakur, Bernie, Saman: \\
-	corrections already introduced in black color \& confirmed by e-mail.
-
-
 \newpage
+%\subsection*{Color Legend}
+
+%General comments: 
+%	\TD{dark red color, command: {$\backslash{\rm TD}\{\dots\}$}}\\
+%Alexei's corrections: 
+%	\AP{redish color, command: {$\backslash{\rm AP}\{\dots\}$}}\\
+%Aram's corrections: 
+%	\ak{orange color, command: {$\backslash{\rm ak}\{\dots\}$}}\\
+%Bakur's corrections: 
+%	\bp{green-blue color, command: {$\backslash{\rm bp}\{\dots\}$}}\\
+%Gunar's corrections: 
+%	\gs{violett color, command: {$\backslash{\rm gs}\{\dots\}$}}\\
+%Kemal's corrections: 
+%	\kt{greenish color, command: {$\backslash{\rm kt}\{\dots\}$}}\\
+%Marc's corrections: 
+%	\ms{green color, command: {$\backslash{\rm ms}\{\dots\}$}}\\
+%Peter's corrections: 
+%	\ps{blue color, command: {$\backslash{\rm ps}\{\dots\}$}}\\
+%Anatoli Vasilievich, Bakur, Bernie, Saman: \\
+%	corrections already introduced in black color \& confirmed by e-mail.
+
+
+
 %======= SECTION 1: INTRODUCTION =====================================
 \section{Introduction}
 \label{Sec-1:introduction}
 
 A great deal of what is known about the quark-gluon structure of 
-nucleon is due to studies of parton distribution functions (PDFs) 
-in deep-inelastic reactions. Leading--twist PDFs  tell us  how likely 
+nucleons is due to studies of parton distribution functions (PDFs) 
+in deep-inelastic reactions. Leading-twist PDFs  tell us  how likely 
 it is to find an unpolarized parton 
 (described by PDF $f_1^a(x)$, $a=q,\,\bar q,\,g$) 
 or a longitudinally polarized parton 
@@ -282,40 +291,40 @@ well-known, and the frontier has been extended in the last years
 to go beyond the one-dimensional picture offered by those PDFs.
 
 One way to do this consists in a systematic inclusion of transverse 
-parton momenta $\kperp$ whose effects manifest themselves in terms of
+parton momenta $\kperp$, whose effects manifest themselves in terms of
 transverse momenta of the reaction products in the final state.
 If these transverse momenta are much smaller than the hard scale $Q$
 of the process, the formal description is given in terms of 
 transverse momentum dependent distribution functions (TMDs) 
-and fragmentation functions (FFs)
+and fragmentation functions (FFs),
 which are defined in terms of quark-quark correlators 
 \cite{Kotzinian:1994dv,Mulders:1995dh,Boer:1997nt,Goeke:2005hb,Bacchetta:2006tn},
-and depend on two independent variables: \bp{for TMDs,} 
+and depend on two independent variables: for TMDs, 
 on the fraction $x$ of nucleon 
-momentum carried by parton and intrinsic transverse momentum $\kperp$ 
-of the parton, \bp{For FFs, on the fraction $z$ of the parton momentum 
+momentum carried by the parton and intrinsic transverse momentum $\kperp$ 
+of the parton. For FFs, on the fraction $z$ of the parton momentum 
 transferred to the hadron for and the transverse momentum of the hadron
-acquired during the fragmentation process}. 
+acquired during the fragmentation process. 
 Being a vector in the plane transverse with respect to 
 the light-cone direction singled out by the hard momentum flow in the process,
 $\kperp$ allows us to access novel information on the nucleon spin structure 
-through correlations of $\kperp$ with nucleon and/or parton spin. The 
+through correlations of $\kperp$ with the nucleon and/or parton spin. The 
 latter is a well-defined concept for twist-2 TMDs interpreted in 
-the infinite momentum frame or in lightcone quantization formalism.
+the infinite momentum frame or in the lightcone quantization formalism.
 
 One powerful tool to study TMDs are measurements of the 
 semi-inclusive deep-inelastic scattering (SIDIS) process.
 By exploring various possibilities for the lepton beam and target 
-polarizations unambiguous information can be accessed on the 8 leading--twist 
+polarizations unambiguous information can be accessed on the 8 leading-twist 
 TMDs \cite{Boer:1997nt} and, if one assumes factorization, on certain
-linear combinations of the 16 subleading--twist TMDs 
+linear combinations of the 16 subleading-twist TMDs 
 \cite{Goeke:2005hb,Bacchetta:2006tn}.
 	It is important to stress that this information could not have 
 	been obtained without advances in target polarization techniques 
 	employed in the HERMES, COMPASS and JLab experiments 
 	\cite{Stock:1994vv,Crabb:1997cy,Goertz:2002vv}.
 Complementary information can be obtained 
-from the Drell-Yan process \cite{Arnold:2008kf}, 
+from the Drell--Yan process \cite{Arnold:2008kf}, 
 and $e^+e^-$ annihilation \cite{Metz:2016swz}.
 
 In QCD the TMDs are independent functions. Each TMD contains unique
@@ -328,15 +337,15 @@ there is little model-independent information on TMDs.
 An important question with practical applications is:
 do useful {\sl approximations} for TMDs exist? 
 Experience from collinear PDFs encourages to explore this possibility: 
-the twist-3 $g_T^a(x)$ and $h_L^a(x)$ can be \bp{respectively} expressed 
+the twist-3 $g_T^a(x)$ and $h_L^a(x)$ can be respectively expressed 
 in terms of contributions from twist-2 $g_1^a(x)$ and $h_1^a(x)$, and 
-additional quark-gluon-quark ($\bar{q}gq$) correlations or current 
-quark mass terms \cite{Wandzura:1977qf,Jaffe:1991ra}
+additional quark-gluon-quark ($\bar{q}gq$) correlations or current-quark 
+mass terms \cite{Wandzura:1977qf,Jaffe:1991ra}
 (the index $a=q\,,\bar q$ does not include gluons for
-$h_1^a$, $h_L^a$ and other chiral odd TMDs below).
+$h_1^a$, $h_L^a$ and other chiral-odd TMDs below).
 We shall refer to the latter generically as $\bar{q}gq$--terms, keeping in 
 mind one deals in each case with matrix elements of different operators.
-The $\bar{q}gq$--correlations contain new insights on hadron structure 
+The $\bar{q}gq$--correlations contain new insights on hadron structure,
 which are worthwhile exploring for their own sake, 
 see \cite{Jaffe:1989xx} on $g_T^a(x)$.
 
@@ -357,14 +366,14 @@ different, and in the context of TMDs one often prefers to speak
 about WW-type approximations.
 
 The present work is the first study of all SIDIS structure functions up to 
-twist-3 in a unique approach. Our results are of importance for experiments 
-\bp{performed or in preparation at HERMES, COMPASS,} Jefferson Lab (JLab) with 
-12$\,$GeV beam energy upgrade, or proposed in the long-term 
+twist-3 in a unique approach. Our results are of importance for measurements 
+performed or in preparation at HERMES, COMPASS, Jefferson Lab (JLab) with 
+12$\,$GeV beam-energy upgrade, or proposed in the long-term 
 (Electron Ion Collider), and provide helpful input for the 
 development of Monte Carlo event generators \cite{Avakian:2015vha}.
 
-\bp{Our predictions, whether confirmed or not supported by current and 
-future experimental data, will in any case provide a useful benchmark,}
+Our predictions, whether confirmed or not supported by current and 
+future experimental data, will in any case provide a useful benchmark,
 and call for dedicated theoretical studies to explain (i) why the 
 pertinent $\bar{q}gq$--terms are small or (ii) why they are sizable. 
 In either case our results will deepen the understanding of 
@@ -382,22 +391,22 @@ a basis of 6 TMDs and 2 FFs (Sec.~\ref{Sec-4:SIDIS-in-WW-approximation}),
 and review how these basis functions describe available data 
 (Sec.~\ref{Sec-5:twist-2+basis}).
 We will systematically apply the WW and/or WW-type approximations
-to SIDIS structure at leading (Sec.~\ref{Sec-6:twist-2-and-WW}) 
+to SIDIS structure functions at leading (Sec.~\ref{Sec-6:twist-2-and-WW}) 
 and subleading (Sec.~\ref{Sec-7:twist-3-and-WW}) twist, and
 conclude with a critical discussion (Sec.~\ref{Sec-8:conclusions}).
 The Appendices \ref{App:basis} and \ref{App:factor} contain 
 technical details. 
-	In App.~C we describe \bp{an open source package implemented 
+	In App.~C we describe an open-source package implemented 
 	in \texttt{mathematica}~\cite{Mathematica} (already available) 
-	and \texttt{Python} (to be released in the near future) which is 
-	made publicly available on \texttt{github.com}.}\footnote{\href{%
+	and \texttt{Python} (to be released in the near future) that is 
+	made publicly available on \texttt{github.com}: {\href{
 	https://github.com/prokudin/WW-SIDIS}{
 	https://github.com/prokudin/WW-SIDIS}} 
 
 
 
 
-\newpage
+
 %======= SECTION 2: SIDIS & TMDs & FFs ===============================
 \section{The SIDIS process in terms of TMDs and FFs}
 \label{Sec-2:SIDIS+TMDs+FF}
@@ -405,7 +414,7 @@ technical details.
 In this section we review the description of the SIDIS process, 
 define structure functions, PDFs, TMDs, FFs and recall how they
 describe the SIDIS structure functions.
-
+\newpage
 \subsection{The SIDIS process}
 \label{Sec-2.1:SIDIS+structure-functions}
 
@@ -415,17 +424,17 @@ describe the SIDIS structure functions.
 \centering
 	\includegraphics[width=7.2cm]{\FigPath/Fig02a-kin-SIDIS-UT-NEW.pdf}
         \caption{\label{fig-kin-SIDIS}
-    	Kinematics of SIDIS process $lN\to l^\prime h X$
-	in 1-photon exchange approximation.}
+    	Kinematics of the SIDIS process $lN\to l^\prime h X$
+	in the 1-photon exchange approximation.}
 \vspace{-5mm}
 \end{wrapfigure}
 %------ END FIGURE 1 -------------------------------------------------
 
 The SIDIS process  $lN\to l^\prime h X$ is sketched in 
-Fig.~\ref{fig-kin-SIDIS}. Here $l$ and $P$ are momenta of incoming 
+Fig.~\ref{fig-kin-SIDIS}. Here, $l$ and $P$ are the momenta of the incoming 
 lepton and nucleon, $l^\prime$ and $P_h$ are the momenta of the outgoing
-lepton and produced hadron. The virtual photon momentum $q=l-l^\prime$ 
-\bp{defines} the z-axis, and $l^\prime$ points in the direction of the x-axis 
+lepton and produced hadron. The virtual-photon momentum $q=l-l^\prime$ 
+defines the z-axis, and $l^\prime$ points in the direction of the x-axis 
 from which azimuthal angles are counted. The relevant kinematic invariants 
 are
 \ba
@@ -437,19 +446,19 @@ are
 \label{eq:xyz}\;\;\;\;\ea
 Note that we consider the production of unpolarized hadrons in DIS of 
 charged leptons (electrons, positrons, muons) at $Q^2 \ll M_Z^2$ 
-in the single photon exchange approximation,
-\bp{where $M_Z$ denotes the mass of the $Z^0$ electroweak gauge boson.}
+in the single-photon exchange approximation,
+where $M_Z$ denotes the mass of the $Z^0$ electroweak gauge boson.
 In addition to $x$, $y$, $z$ the cross section is also differential 
 in the azimuthal angle $\phi_h$ of the produced hadron, the square 
 of its momentum component $\Phperp$ perpendicular with respect to the 
-virtual photon momentum.  The cross section is also 
+virtual-photon momentum.  The cross section is also 
 differential with respect to the azimuthal angle $\psi_l$ 
-\bp{characterizing the overall orientation of the lepton scattering plane 
+ characterizing the overall orientation of the lepton scattering plane 
 around the incoming lepton direction. The angle is calculated with respect 
 to an arbitrary reference axis, which in case of transversely polarized 
-targets is chosen to be the direction of $S_T$. In DIS limit 
+targets is chosen to be the direction of $S_T$. In the DIS limit 
 $\psi_l \approx \phi_S$, where the latter is the azimuthal angle of 
-the spin-vector defined as in Fig.~\ref{fig-kin-SIDIS}.}
+the spin-vector defined as in Fig.~\ref{fig-kin-SIDIS}.
 It is convenient to define the unpolarized 
 lepton--quark scattering subprocess cross section
 \ba\label{Eq:sigma0-FUU}
@@ -483,7 +492,7 @@ polarization of the virtual photon (sometimes denoted as $F_{UU,T}$),
 and we %systematically 
 neglect $1/Q^2$ corrections in kinematic factors 
 and a structure function (sometimes denoted as $F_{UU,L}$) arising from
-longitudinal polarization of the virtual photon (and \bp{another} the 
+longitudinal polarization of the virtual photon (and another  
 structure function $\propto S_T\,\sin( \phi_h-\phi_S)$, see below).
 The structure functions 
 (and asymmetries) also depend on $Q^2$ via the scale dependence of 
@@ -527,17 +536,17 @@ Neglecting $1/Q^2$ corrections, the kinematic prefactors $p_i$ are given by
 	p_1 = \frac{1-y}{1-y+\frac12\,y^2} 		\, , \;\;\;
 	p_2 = \frac{y(1-\frac12\,y)}{1-y+\frac12\,y^2}	\, , \;\;\;
 	p_3 = \frac{(2-y)\sqrt{1-y}}{1-y+\frac12\,y^2} 	\, , \;\;\;
-	p_4 = \frac{y\sqrt{1-y}}{1-y+\frac12\,y^2}     	\, .
+	p_4 = \frac{y\sqrt{1-y}}{1-y+\frac12\,y^2}     	\, ,
 \ee
-and the asymmetries are defined as \bp{follows}
+and the asymmetries are defined as follows
 \be
 	A_{XY}^{\rm weight}\equiv A_{XY}^{\rm weight}(x,z,\Phperp)=
 	\frac{F_{XY}^{\rm weight}(x,z,\Phperp)}{F_{UU}(x,z,\Phperp)}.
 \ee
-Here the first \bp{subscript} $X=U(L)$ denotes the unpolarized beam
+Here the first subscript $X=U(L)$ denotes the unpolarized beam
 (longitudinally polarized beam with helicity $\lambda$). The second 
-\bp{subscript} $Y=U(L,T)$ refers to the target which can be unpolarized
-(or longitudinally, transversely polarized with respect to virtual photon).
+subscript $Y=U(L\text{ or }T)$ refers to the target, which can be unpolarized
+(longitudinally or transversely polarized with respect to virtual photon).
 The superscript ``weight'' indicates the azimuthal dependence with no index 
 indicating an isotropic angular distribution of the produced hadrons.
 
@@ -545,9 +554,9 @@ In the partonic description the structure functions in
 (\ref{Eq:SIDIS-leading})    are ``twist-2.'' Those in
 (\ref{Eq:SIDIS-subleading}) are ``twist-3'' and contain a
 factor $M_N/Q$ in their definitions, see below, 
-\bp{where $M_N$ is the nucleon mass.} In our treatment to $1/Q^2$ 
-accuracy we neglect two structure functions due to longitudinal virtual 
-photon polarization which contribute at order ${\cal O}(M_N^2/Q^2)$ in the 
+where $M_N$ is the nucleon mass. In our treatment to $1/Q^2$ 
+accuracy we neglect two structure functions due to longitudinal virtual-photon 
+polarization, which contribute at order ${\cal O}(M_N^2/Q^2)$ in the 
 partonic description of the process, one being $F_{UU,L}$ and the other 
 contributing to the $\sin(\phi_h-\phi_S)$ angular distribution 
 \cite{Bacchetta:2006tn}.
@@ -557,7 +566,7 @@ $N(\phi_h)$. This means the kinematic prefactors $p_i$ and $1/(x\,y\,Q^2)$
 are included in the numerators or denominators of the asymmetries which
 are averaged over $y$ within experimental kinematics. We will call the 
 corresponding asymmetries $\asympre{XY}{\rm weight}$.
-For instance, in unpolarized case one has 
+For instance, in the unpolarized case one has 
 \be
 	N(x,\dots,\phi) = \frac{N_0(x,\dots)}{2\pi} \biggl(1
 		+ \cos\phi\;\asympre{UU}{\cos\phi_h}(x,\dots)
@@ -616,7 +625,7 @@ and summing over hadrons as
 	\label{Eq:DIS-zero}
 \end{alignat}\end{subequations}
 where $\gamma=2M_Nx/Q$ signals the twist-3 character of $F_{LT}^{\cos\phi_S}(x,z)$.
-Notice that $F_{UT}^{\sin\phi_S}(x,z)$ has no DIS counterpart due to time reversal
+Notice that $F_{UT}^{\sin\phi_S}(x,z)$ has no DIS counterpart due to time-reversal
 symmetry of strong interactions, and terms suppressed by $1/Q^2$ are 
 consequently neglected throughout this work including the twist-4 DIS 
 structure function $F_L(x)$.
@@ -636,18 +645,18 @@ where the Wilson-lines refer to the SIDIS process
 \cite{Collins:2002kn}. For a generic four-vector $a^\mu$ we define
 the light-cone coordinates $a^\mu=(a^+,a^-,a_\perp)$ with 
 $a^\pm=(a^0\pm a^3)/\sqrt{2}$. 
-The light-cone direction is singled out by the virtual photon momentum 
+The light-cone direction is singled out by the virtual-photon momentum 
 and transverse vectors like $\bfkperp$ are perpendicular to it. In the
-virtual-photon--nucleon center-of-mass frame, nucleon and the partons 
+virtual-photon--nucleon center-of-mass frame, the nucleon and the partons 
 inside it move in the $(+)$--lightcone direction, while the struck 
-quark and the produced hadron move in $(-)$--light-cone direction.
+quark and the produced hadron move in the $(-)$--light-cone direction.
 In the nucleon rest frame the polarization vector is given by 
 $S=(0,{\bm S}_T,S_L)$ with ${\bm S}_T^2+S_L^2=1$.
 
-The 8 leading--twist TMDs \cite{Boer:1997nt} are projected out from 
+The 8 leading-twist TMDs \cite{Boer:1997nt} are projected out from 
 the correlator (\ref{Eq:correlator}) as follows (\blue{blue: T-even} TMDs, 
 \red{red: T-odd} TMDs; all TMDs depend on $x$, $k_\perp$, renormalization 
-scale and carry a flavor index which we do not indicate for brevity)
+scale and carry a flavor index which we do not indicate for brevity):
 \begin{subequations}\ba
     \frac12\;{\rm Tr}\biggl[\gamma^+ \;\Phi(x,\bfkperp)\biggr]
     &=& \hspace{5mm}
@@ -702,7 +711,7 @@ are given by
 	\frac12{\rm Tr}\biggl[i\,\sigma^{+-}\,\gamma_5\,\Phi(x,\bfkperp)\biggr] 
 	&=& \frac{M_N}{P^+}\biggl[
     	S_L\,\blue{h_L} + \frac{\bfkperp\cdot{\bm S}_T}{M_N}\,\blue{h_T}
-    	\biggr]. \label{Eq:TMD-pdfs-VI}
+    	\biggr], \label{Eq:TMD-pdfs-VI}
 \ea\end{subequations}
 where $\kappa^{jk}\equiv (\kperp^j \kperp^k-\frac12\,\bfkperp^{\:2}\delta^{jk})$.
 The indices $j,k,l$ refer to the plane transverse with respect to the
@@ -750,8 +759,8 @@ The fragmentation functions are similarly defined in terms of the correlator
 	 {p^- \!=\! P_h^-/z}
 	 {${\bm p}_\perp \!=\! -\bfpperp/z$.}
     \ee
-In this work we will consider only unpolarized final state hadrons.
-If the produced hadron moves fast in the $(-)$ light cone direction, 
+In this work we will consider only unpolarized final-state hadrons.
+If the produced hadron moves fast in the $(-)$ light-cone direction, 
 the twist-2 FFs are projected out as 
 \begin{subequations}\ba
 	\frac{1}{2}{\rm Tr}\big[\gamma^-\Delta(z,\bfpperp)\big]
@@ -782,7 +791,7 @@ $H(z)$ while the other structures drop out due to their $\pperp$ dependence.
 
 The structure functions in 
 Eqs.~(\ref{Eq:SIDIS-leading},~\ref{Eq:SIDIS-subleading}) are described 
-in Bjorken limit at tree level in terms of convolutions of TMDs 
+in the Bjorken limit at tree level in terms of convolutions of TMDs 
 and FFs. We define the unit vector $\bfhp   = \bfPhperp/\Phperp$ 
 and use the following convolution integrals 
 (see Appendix \ref{ApendixB1} for details) 
@@ -800,23 +809,23 @@ The 8 leading--twist structure functions are
 \begin{subequations}
 \label{Eqs:structure-functions-twist-2}
 \ba
- F_{UU}	&=&{\cal C}\biggl[\;\omega^{\{0\}}\,f_1 D_1 \;\biggr] \label{FUU}\\
- F_{LL}	&=&{\cal C}\biggl[\;\omega^{\{0\}}\,g_1 D_1 \;\biggr] \label{FLL}\\
+ F_{UU}	&=&{\cal C}\biggl[\;\omega^{\{0\}}\,f_1 D_1 \;\biggr] \, , \label{FUU}\\
+ F_{LL}	&=&{\cal C}\biggl[\;\omega^{\{0\}}\,g_1 D_1 \;\biggr] \, , \label{FLL}\\
  F_{UT}^{\sin\left(\phi_h +\phi_S\right)} 
-	&=& {\cal C}\biggl[\;\omega^{\{1\}}_{\rm A} \,h_{1} H_1^{\perp}\;\biggr]
+	&=& {\cal C}\biggl[\;\omega^{\{1\}}_{\rm A} \,h_{1} H_1^{\perp}\;\biggr] \, ,
 	\label{Eq:FUTCol}\\
  F_{UT}^{\sin\left(\phi_h -\phi_S\right)} 
-	&=& {\cal C}\biggl[-\,\omega^{\{1\}}_{\rm B} \,f_{1T}^{\perp } D_1\,\biggr]
+	&=& {\cal C}\biggl[-\,\omega^{\{1\}}_{\rm B} \,f_{1T}^{\perp } D_1\,\biggr] \, ,
 	\label{Eq:FUTSiv}\\
  F_{LT}^{\cos(\phi_h -\phi_S)} 
-	&=& {\cal C}\biggl[\,\omega^{\{1\}}_{\rm B} \,g_{1T}^\perp D_1\biggr] 
+	&=& {\cal C}\biggl[\,\omega^{\{1\}}_{\rm B} \,g_{1T}^\perp D_1\biggr] \, ,
 	\label{Eq:FLT-twist-2}\\
  F_{UU}^{\cos 2\phi_h} 	
 	&=& {\cal C}\biggl[\;\omega^{\{2\}}_{\rm AB}\,h_{1}^{\perp }\,H_{1}^{\perp }\;
-	\biggr] \label{F_UUcos2phi}\\
+	\biggr] \, , \label{F_UUcos2phi}\\
  F_{UL}^{\sin 2\phi_h} 	
 	&=& {\cal C}\biggl[\;\omega^{\{2\}}_{\rm AB}\,h_{1L}^{\perp } H_{1}^{\perp }\; 
-	\biggr] \label{F_UUsin2phi}\\
+	\biggr] \, , \label{F_UUsin2phi}\\
  F_{UT}^{\sin\left(3\phi_h -\phi_S\right)} 
 	&=& {\cal C}\biggl[\;\omega^{\{3\}}_{\rm { }}\,h_{1T}^{\perp } H_1^{\perp }\; 
 	\biggr] \, . \hspace{75mm} \label{Eq:FUTpretzel}
@@ -832,7 +841,7 @@ At subleading--twist we have the structure functions
 	\biggl( x h\,H_{1}^{\perp } 
    	+ r_h^{ }\,\,f_1 \frac{\tilde{D}^{\perp }}{z}\biggr)
 	- \omega^{\{1\}}_{\rm B} \biggl( x  f^{\perp } D_1
-   	+ r_h^{ }\,\,h_{1}^{\perp } \frac{\tilde{H}}{z}\biggr)\biggr]\;
+   	+ r_h^{ }\,\,h_{1}^{\perp } \frac{\tilde{H}}{z}\biggr)\biggr] ,
 	\label{Eq:FUUcosphi}\\
 	F_{LU}^{\sin\phi_h}  
 	&=& 
@@ -842,7 +851,7 @@ At subleading--twist we have the structure functions
    	+ r_h^{ }\,\,f_1\frac{\tilde{G}^{\perp }}{z}\,\biggr)
    	+\omega^{\{1\}}_{\rm B}
    	\biggl( x   g^{\perp }  D_1 
-   	+ r_h^{ }\,\, h_1^{\perp } \,\frac{\tilde{E}}{z} \biggr)\biggr]\;
+   	+ r_h^{ }\,\, h_1^{\perp } \,\frac{\tilde{E}}{z} \biggr)\biggr] ,
 	\label{FLUsinphi}\;\;\;\;\;\\
 	F_{UL}^{\sin\phi_h} 
  	&=& 
@@ -852,7 +861,7 @@ At subleading--twist we have the structure functions
    	+ r_h^{ }\,\,g_{1}\frac{\tilde{G}^{\perp } }{z}\biggr)
    	+\omega^{\{1\}}_{\rm B}
     	\biggl( x  f_{L}^{\perp }  D_1 \!
-   	- r_h^{ }\,\, h_{1L}^{\perp }  \frac{\tilde{H}}{z}\biggr)\biggr]\;
+   	- r_h^{ }\,\, h_{1L}^{\perp }  \frac{\tilde{H}}{z}\biggr)\biggr] ,
 	\label{FULsinphi}\\
 	F_{LL}^{\cos \phi_h} 
  	&=& 
@@ -862,7 +871,7 @@ At subleading--twist we have the structure functions
    	- r_h^{ }\,\,g_{1}   \frac{\tilde{D}^{\perp }}{z}\biggr)
    	-\omega^{\{1\}}_{\rm B}
    	\biggl( x   g_L^{\perp }   D_1
-   	+  r_h^{ }\,\,h_{1L}^{\perp } \frac{\tilde{E}}{z}\biggr)\biggr]
+   	+  r_h^{ }\,\,h_{1L}^{\perp } \frac{\tilde{E}}{z}\biggr)\biggr]  ,
 	\label{FLLcosphi}\;\;\;\;\;\;\;\;\;\\
 	F_{UT}^{\sin \phi_S } 
 	&=&  
@@ -875,7 +884,7 @@ At subleading--twist we have the structure functions
    	+ r_h^{ }\, g_{1T}^\perp \,\frac{\tilde{G}^{\perp }}{z}
    	- x   h_{T}^{\perp }  H_{1}^{\perp } 
 	+ r_h^{ }\, f_{1T}^{\perp } \,\frac{\tilde{D}^{\perp }}{z}
-   	\biggr) \biggr]\; \label{FUTsinphiS}\\ 
+   	\biggr) \biggr]\, , \label{FUTsinphiS}\\ 
 	F_{LT}^{\cos \phi_S} 
 	&=& 
 	\frac{2M_N}{Q}\,{\cal C}\biggl[
@@ -887,7 +896,7 @@ At subleading--twist we have the structure functions
    	- r_h^{ }\, g_{1T}^\perp \,\frac{\tilde{D}^{\perp }}{z}
    	+  x   e_{T}^{\perp }  H_{1}^{\perp } 
    	+ r_h^{ }\,f_{1T}^{\perp }\,\frac{\tilde{G}^{\perp }}{z}\biggr)\biggr]
-	\; \label{FLTcosphiS} \\ \hspace{-5mm}
+	\, , \label{FLTcosphiS} \\ \hspace{-5mm}
 	F_{UT}^{\sin(2\phi_h -\phi_S)} 
 	&=& 
 	\frac{2M_N}{Q}\,{\cal C}\biggl[\phantom{-}
@@ -901,7 +910,7 @@ At subleading--twist we have the structure functions
 	+
    	\omega^{\{2\}}_{\rm C}
    	\biggl( x   f_T^{\perp } D_1
-   	- r_h^{ }\, \, h_{1T}^{\perp }  \frac{\tilde{H}}{z}\biggr) \biggr]\\
+   	- r_h^{ }\, \, h_{1T}^{\perp }  \frac{\tilde{H}}{z}\biggr) \biggr] \, , \\
 	F_{LT}^{\cos(2\phi_h - \phi_S)} 
 	&=& \frac{2M_N}{Q}\,{\cal C}\biggl[
    	- \frac{\omega^{\{2\}}_{\rm AB}}{2}
@@ -912,7 +921,7 @@ At subleading--twist we have the structure functions
 	&&\hspace{1.3cm}
    	- \omega^{\{2\}}_{\rm C}
    	\biggl( x   g_T^{\perp }   D_1
-   	+ r_h^{ }\, \, h_{1T}^{\perp }  \frac{\tilde{E}}{z}\biggr)\biggr]\; 
+   	+ r_h^{ }\, \, h_{1T}^{\perp }  \frac{\tilde{E}}{z}\biggr)\biggr]\, ,
 	\label{FLTsin(2phi-phiS)}
 \ea\end{subequations}
 where $r_h = m_h/M_N$ and 
@@ -946,36 +955,36 @@ at the given order $n$.
  factor $M/Q$. We also recall that we neglect two structure functions
  (denoted in  \cite{Bacchetta:2006tn} 
  as $F_{UU,L}$ and $F_{UT,L}^{\sin( \phi_h-\phi_S)}$) 
- due to longitudinal virtual photon polarization which are 
+ due to longitudinal virtual-photon polarization, which are 
  of order ${\cal O}(M^2/Q^2)$ in the TMD partonic description.
 
-The structures surviving $\Phperp$--integration of the SIDIS cross section in 
+The structure functions surviving $\Phperp$--integration of the SIDIS cross section in 
 (\ref{Eq:SIDIS-leading-integrated},~\ref{Eq:SIDIS-subleading-integrated})
 are associated with the trivial weights $\omega^{\{0\}}$ and expressed in 
 terms of collinear PDFs and FFs as follows (here the 
-sum rules (\ref{Eq:sum-rules-T-odd}) are used)
+sum rules (\ref{Eq:sum-rules-T-odd}) are used):
 \begin{subequations}\ba
-	F_{UU}(x,z) &=& x\sum\limits_ae_a^2\,f_1^a(x)\,D_1^a(z)
+	F_{UU}(x,z) &=& x\sum\limits_ae_a^2\,f_1^a(x)\,D_1^a(z) \, ,
 	\label{Eq:FUU-collinear}\\
-	F_{LL}(x,z) &=& x\sum\limits_ae_a^2\,g_1^a(x)\,D_1^a(z)
+	F_{LL}(x,z) &=& x\sum\limits_ae_a^2\,g_1^a(x)\,D_1^a(z) \, ,
 	\label{Eq:FLL-collinear}\\
  	F_{LT}^{\cos\phi_S}(x,z) &=& -\,\frac{2M_N}{Q}\; x\sum_a e_a^2\,
-	\biggl(x\,g_T^q(x)\,D_1^a(z)+r_h\,h_1^a(x)\frac{\tilde{E}^a(z)}{z}\biggr)
+	\biggl(x\,g_T^q(x)\,D_1^a(z)+r_h\,h_1^a(x)\frac{\tilde{E}^a(z)}{z}\biggr) \, ,
 	\label{Eq:FLT-collinear}\\
 	 F_{UT}^{\sin\phi_S}(x,z) &=& -\,\frac{2\,m_h}{Q}\; x\sum_a e_a^2\,
-	h_1^a(x)\frac{\tilde{H}^a(z)}{z}
+	h_1^a(x)\frac{\tilde{H}^a(z)}{z} \, .
 	\label{Eq:FUT-collinear}
 \ea\end{subequations}
 Finally, integrating over $z$, summing over hadrons, and 
-using the sum rules for the T-odd FFs 
+using the sum rules for the T-odd FFs, 
 $\sum_h\int d z\;\tilde{E}^a(z)=0$ and
-$\sum_h\int d z\;\tilde{H}^a(z)=0$ we recover
+$\sum_h\int d z\;\tilde{H}^a(z)=0$, we recover
 Eqs.~(\ref{Eq:DIS-F1}--\ref{Eq:DIS-zero}) and obtain for the DIS structure 
 functions
 \begin{subequations}\ba
-    F_1(x) & = & \frac{1}{2}\sum_a e_a^2\,f_1^a(x) \label{Eq:DIS-F1-II}\\
-    g_1(x) & = & \frac{1}{2}\sum_a e_a^2\,g_1^a(x) \label{Eq:DIS-g1-II}\\
-    g_2(x) & = & \frac{1}{2}\sum_a e_a^2\,g_T^a(x)\;-\;g_1(x) \label{Eq:DIS-g2}
+    F_1(x) & = & \frac{1}{2}\sum_a e_a^2\,f_1^a(x) \, , \label{Eq:DIS-F1-II}\\
+    g_1(x) & = & \frac{1}{2}\sum_a e_a^2\,g_1^a(x) \, , \label{Eq:DIS-g1-II}\\
+    g_2(x) & = & \frac{1}{2}\sum_a e_a^2\,g_T^a(x)\;-\;g_1(x)  \; .\label{Eq:DIS-g2}
 	\hspace{25mm}
 \ea\end{subequations}
 
@@ -989,9 +998,9 @@ of the subleading-twist structure functions in
 (\ref{Eqs:structure-functions-twist-3}) is based on the
 {\it assumption} that that SIDIS cross section factorizes.
 
-In fact, a lot of progress has been achieved in recent years in the 
+A lot of progress has been achieved in recent years in the 
 theoretical understanding of leading-twist observables within the TMD 
-framework --- including definition, renormalization and evolution of 
+framework, including definition, renormalization and evolution of 
 leading-twist TMDs \cite{Aybat:2011zv,Aybat:2011ge,Echevarria:2014xaa},
 NLO corrections within the TMD framework \cite{Ma:2013aca}, and  
 phenomenological fits with evolution \cite{Aybat:2011ta,Kang:2015msa}.
@@ -1000,7 +1009,7 @@ only poorly developed. Still to the present day, the state-of-the-art
 approach to subleading-twist TMD observables is the one of 
 Refs.~\cite{Kotzinian:1994dv,Mulders:1995dh,Boer:1997nt,Goeke:2005hb,
 Bacchetta:2006tn}, 
-based on a TMD tree-level formalism which we adopt here.
+based on a TMD tree-level formalism, which we adopt here.
 In fact, the results of Refs.~\cite{Metz:2004je,Gamberg:2006ru}
 indicate doubts even in the tree-level formalism. 
 Recently, an attempt was made to remedy these doubts \cite{Chen:2016hgw}.
@@ -1013,7 +1022,7 @@ approach based on WW-type approximations pursued in this work might
 lead to more insight into these observables, and eventually might 
 trigger more theory efforts in the future.
 
-%\newpage
+%
 %======= SECTION 3: WW APPROXIMATIONS ================================
 \section{WW and WW-type approximations}
 \label{Sec-3:WW}
@@ -1025,7 +1034,7 @@ equations of motion to separate contributions from $\bar{q}q$--terms
 and $\bar{q}gq$--terms and assumes that the latter can be neglected 
 with respect to the leading $\bar{q}q$--terms with a useful accuracy
 (here the $\la\dots\ra$ denote symbolically the matrix elements 
-which enter the definitions of TMDs or FFs)
+which enter the definitions of TMDs or FFs):
 \be\label{Eq:WW-generic}
 	\biggl|\frac{\la\bar{q}gq\ra}{\la\bar{q}q\ra}\biggr| \ll 1\,.
 \ee
@@ -1042,8 +1051,8 @@ is somewhat special, see below and the review \cite{Efremov:2002qh}.
 The origin of the approximations is as follows.
 The operators defining $g_T^a(x)$ and~$h_L^a(x)$ can be decomposed by means 
 of QCD equations of motion in twist-2 parts, and pure twist-3 
-(interaction dependent) $\bar{q}gq$--terms and current quark mass
-terms. We denote $\bar{q}gq$--terms and mass-terms collectively 
+(interaction dependent) $\bar{q}gq$--terms and current-quark mass
+terms. We denote $\bar{q}gq$--terms and mass terms collectively 
 and symbolically by functions with a tilde.
 Such decompositions are possible because $g_T^a(x)$ and $h_L^a(x)$ are 
 ``twist-3'' not according to the ``strict QCD definition''
@@ -1054,12 +1063,12 @@ of twist \cite{Jaffe:1996zw}
 prefactors, it contributes to cross sections in a partonic 
 description suppressed by $(M/Q)^{t-2}$ where $M$ is a generic 
 hadronic and $Q$ the hard scale).
-The two definitions coincide for twist-2 quantities, but higher twist
+The two definitions coincide for twist-2 quantities, but higher-twist
 observables in general contain ``contaminations'' by leading twist.
 
 In this way one obtains the decompositions and, if they apply, WW 
 approximations \cite{Wandzura:1977qf,Jaffe:1991ra} (keep in mind 
-here tilde terms contain pure twist-3 and current quark mass terms)
+here tilde terms contain pure twist-3 and current-quark mass terms)
 \begin{subequations}\begin{alignat}{3}
    	g_T^a(x) &=& 
         \phantom{2x}\;\int_x^1\frac{ d y}{y}\,g_1^a(y) + &\tilde{g}_T^a(x)
@@ -1070,7 +1079,7 @@ here tilde terms contain pure twist-3 and current quark mass terms)
         \stackrel{\rm WW}{\approx} 2x\int_x^1\frac{ d y}{y^2}\,h_1^a(y)\;,
 	\label{Eq:WW-original2}\\
    	x\,e^a(x) &=& x\,&\tilde{e}^a(x) \;\stackrel{\rm WW}{\approx} 
-	\;\;\;\; 0 \label{Eq:WW-original-e}
+	\;\;\;\; 0 \, , \label{Eq:WW-original-e}
 \end{alignat}\end{subequations}
 where we included $e^a(x)$ which is a special case in the sense that it 
 receives no twist-2 contribution. 
@@ -1086,7 +1095,7 @@ derived from the QCD equations of motion and further
 constraint relations, called Lorentz-Invariance Relations (LIRs), 
 (see recent review \cite{Kanazawa:2015ajw} and references therein) 
 into a twist-2 part, and dynamical twist-3 (interactions dependent) 
-$\bar{q}gq$-terms and current quark mass terms.
+$\bar{q}gq$-terms and current-quark mass terms.
 
 We will come back to (\ref{Eq:WW-original1},~\ref{Eq:WW-original2}) and 
 review the theoretical predictions and supporting experiments, but before
@@ -1108,48 +1117,48 @@ In the T-even case one obtains the following approximations,
 where the terms on the left-hand-side are twist-3, those on the 
 right-hand-side (if any) are twist-2,
 \begin{subequations}\ba
-xe^q(x,\kperp^2)	&\stackrel{\rm WW-type}{\approx}& 
+xe^q(x,\kperp^2)	&\WWtype& 
 			0, 
 			\label{Eq:WW-type-1}\\
-xf^{\perp q}(x,\kperp^2)  &\stackrel{\rm WW-type}{\approx}& 
+xf^{\perp q}(x,\kperp^2)  &\WWtype& 
 			f_{1}^q(x,\kperp^2),
 			\label{Eq:WW-type-Cahn}\phantom{\frac11}\\
-xg_L^{\perp q}(x,\kperp^2)&\stackrel{\rm WW-type}{\approx}& 
+xg_L^{\perp q}(x,\kperp^2)&\WWtype& 
 			g_{1}^q(x,\kperp^2),
 			\label{Eq:WW-type-gLperp}\phantom{\frac11}\\
-xg_T^{\perp q}(x,\kperp^2)&\stackrel{\rm WW-type}{\approx}& 
+xg_T^{\perp q}(x,\kperp^2)&\WWtype& 
 			g_{1T}^{\perp q}(x,\kperp^2),\phantom{\frac11}
 			\label{Eq:WW-type-gTperp}\\
-xg_T^q(x,\kperp^2)   	&\stackrel{\rm WW-type}{\approx}& 
+xg_T^q(x,\kperp^2)   	&\WWtype& 
              		g_{1T}^{\perp(1)q}(x,\kperp^2), 
 			\label{Eq:WW-type-gT}\\
-xh_L^q(x,\kperp^2)	&\stackrel{\rm WW-type}{\approx}& -2 \,
+xh_L^q(x,\kperp^2)	&\WWtype& -2 \,
                        	h_{1L}^{\perp(1)q}(x,\kperp^2),\phantom{\frac11}
                        	\label{Eq:WW-type-6}\\
-xh_T^q(x,\kperp^2)      &\stackrel{\rm WW-type}{\approx}& 
+xh_T^q(x,\kperp^2)      &\WWtype& 
                        	- h_1^q(x,\kperp^2) - h_{1T}^{\perp(1)}(x,\kperp^2),
                        	\label{Eq:WW-type-7}\\
-xh_T^{\perp q}(x,\kperp^2)&\stackrel{\rm WW-type}{\approx}& 
+xh_T^{\perp q}(x,\kperp^2)&\WWtype& 
                        	\phantom{-}h_1^q(x,\kperp^2)-h_{1T}^{\perp(1)}(x,\kperp^2).
                        	\phantom{\frac11} \label{Eq:WW-type-8}
 \ea\end{subequations}
 In the T-odd case one obtains the approximations
 \begin{subequations}\ba
-xe_L^q(x,\kperp^2)         	&\stackrel{\rm WW-type}{\approx}& 0, 
+xe_L^q(x,\kperp^2)         	&\WWtype& 0, 
 			\label{Eq:WW-type-eLperp}\\
-xe_T^q(x,\kperp^2)         	&\stackrel{\rm WW-type}{\approx}& 0, \\
-xe_T^{\perp q}(x,\kperp^2) 	&\stackrel{\rm WW-type}{\approx}& 0, \\
-xg^{\perp q}(x,\kperp^2)   	&\stackrel{\rm WW-type}{\approx}& 0, 
+xe_T^q(x,\kperp^2)         	&\WWtype& 0, \\
+xe_T^{\perp q}(x,\kperp^2) 	&\WWtype& 0, \\
+xg^{\perp q}(x,\kperp^2)   	&\WWtype& 0, 
                        	\label{Eq:WW-type-gperp}\\
-xf_L^{\perp q}(x,\kperp^2) 	&\stackrel{\rm WW-type}{\approx}& 0, 
+xf_L^{\perp q}(x,\kperp^2) 	&\WWtype& 0, 
 			\label{Eq:WW-type-fLperp}\phantom{\frac11}\\
-xf_T^{\perp q}(x,\kperp^2) 	&\stackrel{\rm WW-type}{\approx}& 
+xf_T^{\perp q}(x,\kperp^2) 	&\WWtype& 
                        	\phantom{-}\,f_{1T}^{\perp q}(x,\kperp^2),
 			\phantom{\frac11}
                        	\label{Eq:WW-type-fTperp}\\
-xf_T^{q}(x,\kperp^2)       	&\stackrel{\rm WW-type}{\approx}& 
+xf_T^{q}(x,\kperp^2)       	&\WWtype& 
                        	-\,f_{1T}^{\perp(1)q}(x,\kperp^2), \label{Eq:WW-type-fT}\\
-xh^q(x,\kperp^2)           	&\stackrel{\rm WW-type}{\approx}& 
+xh^q(x,\kperp^2)           	&\WWtype& 
                        	- 2\,{h_1^{\perp(1)}(x,\kperp^2)}.\phantom{\frac11 XXXXx} 
                        	\label{Eq:WW-type-last} 
 \ea\end{subequations}
@@ -1165,10 +1174,10 @@ WW approximations (\ref{Eq:WW-original1},~\ref{Eq:WW-original2}) with the
 WW-type approximations (\ref{Eq:WW-type-gT},~\ref{Eq:WW-type-6}).
 This yields \cite{Tangerman:1994bb,Mulders:1995dh,Avakian:2007mv}%
 \begin{subequations}\ba
-   	g_{1T}^{\perp(1)a}(x)&\stackrel{\rm WW-type}{\approx}& 
+   	g_{1T}^{\perp(1)a}(x)&\WWtype& 
         \phantom{-} x\,\int_x^1\frac{d y}{y\;}\,g_1^a(y) \;,
 	\label{Eq:WW-approx-g1T}\\
-    	h_{1L}^{\perp(1)a}(x)&\stackrel{\rm WW-type}{\approx}& -
+    	h_{1L}^{\perp(1)a}(x)&\WWtype& -
 	x^2\!\int_x^1\frac{d y}{y^2\;}\,h_1^a(y)\;.
 	\label{Eq:WW-approx-h1L}
 \ea\end{subequations}
@@ -1182,16 +1191,16 @@ of how the azimuthal angles are defined \cite{Bacchetta:2006tn}.
 For completeness we quote the WW-type approximations for FFs
 \cite{Bacchetta:2006tn}
 \begin{subequations}\ba
-	E(z,\pperp^2)      &\stackrel{\rm WW-type}{\approx}& 0 \, ,
+	E(z,\pperp^2)      &\WWtype& 0 \, ,
 	\label{Eq:WW-type-FF-1}\\
-	G^\perp(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}& 0 \, ,
+	G^\perp(z,\pperp^2) &\WWtype& 0 \, ,
 	\label{Eq:WW-type-FF-2}\\
-	D^\perp(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}
+	D^\perp(z,\pperp^2) &\WWtype
 	& \hspace{11mm}z\,D_1(z,\pperp^2)\,, \label{Eq:WW-type-FF-3}\\
-	H(z,\pperp^2) &\stackrel{\rm WW-type}{\approx}& 
+	H(z,\pperp^2) &\WWtype& 
 	-\frac{\pperp^2}{zM_h^2}\;H_1^\perp(z,\pperp^2)\,. \label{Eq:WW-type-FF-4}
 \ea\end{subequations}
-Having introduced the WW- and WW-type approximations, we will review
+Having introduced the WW and WW-type approximations, we will review
 in the following what is currently known from theory and experiment 
 about the WW(-type) approximations.
 
@@ -1207,11 +1216,11 @@ the QCD vacuum \cite{Shuryak:1981ff,Diakonov:1983hh,Diakonov:1995qy}.
 This semi-classical approach assumes that properties of the QCD vacuum 
 are dominated by instantons and anti-instantons, topological non-perturbative 
 gluon field configurations, which form a strongly interacting medium.
-The approach provides a natural mechanism for dynamical chiral symmetry 
+The approach provides a natural mechanism for dynamical chiral-symmetry 
 breaking, the dominant feature of strong interactions in the nonperturbative
 regime. It was shown with variational and numerical methods that the 
 instantons form a dilute medium characterized by a non-trivial small parameter
-$\rho/R\sim1/3$ \cite{Shuryak:1981ff,Diakonov:1983hh,Diakonov:1995qy}
+$\rho/R\sim1/3$ \cite{Shuryak:1981ff,Diakonov:1983hh,Diakonov:1995qy},
 where $\rho$ and $R$ denote respectively the average instanton size $\rho$
 and separation $R$.
 
@@ -1220,7 +1229,7 @@ it was predicted that matrix elements of the $\bar{q}gq$ operators defining
 $\tilde{g}_T^a(x)$ \cite{Balla:1997hf} and $\tilde{h}_L^a(x)$ 
 \cite{Dressler:1999hc} are strongly suppressed by powers of the small
 parameter $\rho/R$ with respect to contributions from the 
-respective twist-2 parts which are of order $(\rho/R)^0$. 
+respective twist-2 parts, which are of order $(\rho/R)^0$. 
 For Mellin moments it was found \cite{Balla:1997hf,Dressler:1999hc}
 \be\label{Eq:WW-instanoton}
 	\frac{\tilde{g}_T^q}{g_T^q} \sim \frac{\tilde{h}_L^q}{h_L^q} 
@@ -1230,14 +1239,14 @@ For Mellin moments it was found \cite{Balla:1997hf,Dressler:1999hc}
 \ee
 which strongly supports the generic approximation
 in Eq.~(\ref{Eq:WW-generic}) with the instanton packing fraction providing 
-the non-trivial small parameter justifying the neglect of tilde-terms. 
+the non-trivial small parameter justifying the neglect of tilde terms. 
 The predictions for $\tilde{g}_T^a(x)$ \cite{Balla:1997hf}
-were made before the advent of the first precise data on $g_2(x)$
+were made before the advent of the first precise data on $g_2(x)$,
 which we discuss next.
 The instanton calculus has not yet been applied to $\tilde{e}^a(x)$.
 
 
-%\newpage
+%
 \subsection{Tests of WW approximation in DIS experiments}
 \label{Sec-3.4:WW-classic-experiment}
 
@@ -1290,7 +1299,7 @@ and estimate the impact of this uncertainty as
 The effect of $\varepsilon_1$ is to change the magnitude
 of $g_2(x)_{\rm WW}$, $\varepsilon_2$ varies the position of its zero.
 The $x$--dependence of $\varepsilon_2$ preserves $\lim_{x\to1}g_2(x)= 0$; 
-we use $\epsilon=0.05$ which yields $\varepsilon_2\approx 20\,\%$ up to 
+we use $\epsilon=0.05$, which yields $\varepsilon_2\approx 20\,\%$ up to 
 the highest measured $x$--bin.
 The good agreement of $g_2(x)_{\rm WW}$ with data is encouraging,
 and in line with theory predictions \cite{Balla:1997hf}.
@@ -1306,7 +1315,7 @@ Presently $h_L^a(x)$ is unknown.
 With phenomenological information on $h_1^a(x)$
 \cite{Efremov:2006qm,Anselmino:2007fs,Anselmino:2008jk}, 
 the WW approximation (\ref{Eq:WW-original2}) for $h_L^a(x)$ could 
-be tested experimentally in Drell-Yan \cite{Koike:2008du}.
+be tested experimentally in Drell--Yan \cite{Koike:2008du}.
 
 
 \subsection{Tests in lattice QCD}
@@ -1338,7 +1347,7 @@ based on the lattice data
 published in Refs.~\cite{Hagler:2009mb,Musch:2010ka}. 
 These early works explored all nucleon and quark polarizations, but 
 they used a gauge link that does not incorporate the final or initial 
-state interactions present in SIDIS or Drell-Yan experiments. In other 
+state interactions present in SIDIS or Drell--Yan experiments. In other 
 words, the transverse momentum dependent quantities computed in
 \cite{Hagler:2009mb,Musch:2010ka} are not precisely the TMDs measurable 
 in experiment. More caveats will be discussed along the way.
@@ -1351,12 +1360,12 @@ Eqs.~(\ref{Eq:WW-approx-g1T},~\ref{Eq:WW-approx-h1L}) by $x^N$
 with $N=0,\,1,\,2,\,\dots$ and integrate over $x\in[-1,1]$ which yields
 \ba
         \int_{-1}^1 d x\;x^N
-       g_{1T}^{\perp(1)q}(x)&\stackrel{\rm WW-type}{\approx}&
+       g_{1T}^{\perp(1)q}(x)&\WWtype&
         \phantom{-} \,\frac{1}{N+2} \int_{-1}^1 d x \;x^{N+1}g_1^q(x)
         \;,
     \label{Eq:WW-approx-g1T-d}\\
         \int_{-1}^1 d x\;x^N
-        h_{1L}^{\perp(1)q}(x)&\stackrel{\rm WW-type}{\approx}&
+        h_{1L}^{\perp(1)q}(x)&\WWtype&
         -\,\frac{1}{N+3} \int_{-1}^1 d x\: x^{N+1}\,h_1^q(x)
         \;.
     \label{Eq:WW-approx-h1L-d}
@@ -1434,8 +1443,8 @@ The gauge link that goes into the evaluation of the quark-quark correlator
 introduces a power divergence that has to be subtracted. 
 Ref.~\cite{Musch:2010ka} employs a subtraction scheme on the lattice
 but establishes no connection with a subtraction scheme designed for 
-experimental TMDs and the corresponding gauge link geometry. 
-The gauge link renormalization mainly 
+experimental TMDs and the corresponding gauge-link geometry. 
+The gauge-link renormalization mainly 
 influences the width of the Gaussian fits; the amplitudes are only slightly 
 affected, so it may not play a big role for our discussion. Altogether, the 
 significance of our numerical ``tests'' of WW-relations should be taken 
@@ -1469,13 +1478,13 @@ Eq.~(\ref{Eq:WW-approx-g1T-d}) we obtain
         &\stackrel{!}{\approx}
         \underbrace{\frac{1}{2}\int d x\;x\,g_1^u(x)}
         _{= 0.104(9) \;\mbox{\footnotesize Ref.~\cite{Hagler:2007xi}}}
-        \hspace{3mm} , \nonumber \\
+        \hspace{2mm} , \nonumber \\
         \underbrace{\int d x\;g_{1T}^{\perp(1)d}(x)}
         _{= -0.0232(42) \;\mbox{\footnotesize Ref.~\cite{Musch:2010ka}}}
         &\stackrel{!}{\approx}
         \underbrace{\frac{1}{2}\int d x\;x\,g_1^d(x)}
         _{= -0.025(9) \;\mbox{\footnotesize Ref.~\cite{Hagler:2007xi}}}
-        \hspace{3mm}, 
+        \hspace{2mm}, 
         \label{Eq:test-WW-type-lattice-g1T}
 \ea
 which confirms the approximation (\ref{Eq:WW-approx-g1T-d}) for $N=0$
@@ -1507,13 +1516,13 @@ $N=0$ we obtain
         &\stackrel{!}{\approx}&
         \underbrace{-\,\frac{1}{3}\int d x\;x\,h_1^u(x)}
         _{= -0.093(3) \;\mbox{\footnotesize Ref.~\cite{Hagler:2007xi}}}
-        \hspace{3mm} , \hspace{7mm} \nonumber \\
+        \hspace{2mm} , \hspace{7mm} \nonumber \\
         \underbrace{\int d x\;h_{1L}^{\perp(1)d}(x)}
         _{= 0.0137(34) \;\mbox{\footnotesize Ref.~\cite{Musch:2010ka}}}
         &\stackrel{!}{\approx}&
         \underbrace{-\,\frac{1}{3}\int d x\;x\,h_1^d(x)}
         _{= 0.018(1) \;\mbox{\footnotesize Ref.~\cite{Hagler:2007xi}}}
-        \hspace{3mm}. 
+        \hspace{2mm}, 
         \label{Eq:test-WW-type-lattice-h1L}
 \ea
 which again confirms the WW-type approximation within the statistical
@@ -1533,9 +1542,9 @@ is small with respect to $\bar{q}q$--matrix elements.
 
 Second, we have to revisit carefully which approximations the above
 lattice calculations actually test. As mentioned above, in
-the lattice study \cite{Hagler:2009mb,Musch:2010ka} a specific choice for
+the lattice study \cite{Hagler:2009mb,Musch:2010ka}, a specific choice for
 the path of the gauge link was chosen, which is actually different
-from the paths required in SIDIS or Drell-Yan. With the path choice of
+from the paths required in SIDIS or Drell--Yan. With the path choice of
 \cite{Hagler:2009mb,Musch:2010ka} there are effectively only (T-even)
 $A_i$ amplitudes, the $B_i$ amplitudes are absent.
 Therefore the test (\ref{Eq:test-WW-type-lattice-g1T}) of the WW-type
@@ -1564,7 +1573,7 @@ It is important to stress that in view of the pioneering and
 exploratory status of the TMD lattice calculations
 \cite{Hagler:2009mb,Musch:2010ka}, this is already a remarkable and very
 interesting result. Thus, apart from the instanton calculus
-\cite{Dressler:1999hc} also lattice data provide support for
+\cite{Dressler:1999hc}, also lattice data provide support for
 the validity of the WW approximation (\ref{Eq:WW-original2}).
 At the same time, however, we also have to admit that we do
 not really reach our goal of testing the WW-type approximations
@@ -1574,7 +1583,7 @@ WW-type approximations from models.
 
 
 
-\newpage
+
 \subsection{Tests in models}
 \label{Sec-3.6:models}
 
@@ -1589,25 +1598,25 @@ below $1\,{\rm GeV}$.
 
 Turning to TMDs, we recall that in models without gluon 
 degrees of freedom certain relations among TMDs hold, the 
-so-called quark model Lorentz-invariance relations (qLIRs)
+so-called quark-model Lorentz-invariance relations (qLIRs)
 \cite{Tangerman:1994bb,Mulders:1995dh}.\footnote{Notice that
 	the qLIRs of \cite{Tangerman:1994bb,Mulders:1995dh} are 
 	valid only in quark models with no gluons and should not
-	be confused with the LIRs of \cite{Kanazawa:2015ajw} which 
+	be confused with the LIRs of \cite{Kanazawa:2015ajw}, which 
 	are exact relations in QCD, see Sec.~\ref{Sec-3.1:WW-classic}.
-	In literature both are often simply referred to as LIRs.
+	In the literature, both are often simply referred to as LIRs.
 	This ambiguity is unfortunate.}
-Initially thought to be exact \cite{Tangerman:1994bb,Mulders:1995dh}
+Initially thought to be exact \cite{Tangerman:1994bb,Mulders:1995dh},
 qLIRs were shown  to be invalid in models with gluons 
 \cite{Kundu:2001pk,Schlegel:2004rg} and in QCD \cite{Goeke:2003az}.
 They originate from decomposing the (completely unintegrated)
 quark correlator in terms of Lorentz-invariant amplitudes, and 
 TMDs are certain integrals over those amplitudes.
 When gluons are absent, the correlator consists
-of 12 amplitudes \cite{Tangerman:1994bb,Mulders:1995dh}, i.e.\ fewer 
+of 12 amplitudes \cite{Tangerman:1994bb,Mulders:1995dh}, i.e., fewer 
 amplitudes than TMDs which implies relations: the qLIRs. 
 In QCD the correct Lorentz decomposition requires the consideration of 
-gauge links which introduces further amplitudes. As a result one has 
+gauge links, which introduces further amplitudes. As a result one has 
 as many amplitudes as TMDs and no relations exist \cite{Goeke:2003az}. 
 However, qLIRs ``hold'' in QCD in the WW-type approximation 
 \cite{Metz:2008ib}. In models without gluon degrees of freedom 
@@ -1643,7 +1652,7 @@ in this model are quarks, antiquarks and Goldstone bosons which are
 strongly coupled (the coupling constant is $\sim 4$) and has to be
 solved using nonperturbative techniques (expansion in $1/N_c$ where
 $N_c$ is the number of colors) with the nucleon described as a 
-chiral soliton. In general the model predicts non-zero tilde-terms, for 
+chiral soliton. In general, the model predicts non-zero tilde-terms, for 
 instance $\tilde{e}^a(x)\neq 0$ 
 \cite{Schweitzer:2003uy,Ohnishi:2003mf,Cebulla:2007ej}.
 However, despite strong interactions in this effective theory, the tilde 
@@ -1698,19 +1707,19 @@ approximations, it is possible to express all SIDIS structure functions
 in terms of the basis functions. 
 Notice that SIDIS alone is of course not sufficient to determine the basis
 functions uniquely: the 8 basis functions appear in 6 SIDIS structure functions.
-It is crucial to take advantage of other processes: Drell-Yan for PDFs and TMDs
+It is crucial to take advantage of other processes: Drell--Yan for PDFs and TMDs
 and hadron production in $e^+e^-$ annihilation for FFs. Other processes 
 play also important roles.
 
 These basis functions allow us to describe, in WW-type approximation,
 all other TMDs. The experiment will tell us how well the approximations work.
 In some cases, however, we know in advance that the WW-type approximations 
-have limitations, see next section.
+have limitations, see next Section.
 
 \subsection{Limitation of WW-type approximation}
 \label{Sec-3.8:limitations}
 
-The approximation may work in the case when: TMD or FF 
+The approximation may work in the case when the TMD or FF 
 $=\la\bar{q}q\ra + \la\bar{q}gq\ra \approx \la\bar{q}q\ra \neq 0$ with 
 a ``controlled approximation'' in the spirit of Eq.~(\ref{Eq:WW-generic}).
 We know cases where this works, see
@@ -1720,7 +1729,7 @@ $| \la\bar{q}gq\ra  | \ll  |\la\bar{q}q\ra|$ for a given operator.
 At least in such cases the approximation has a chance to work.
 
 However, it may happen that after applying the QCD equations
-of motion one ends up in the situation that: a given function 
+of motion one ends up in the situation that a given function 
 $=\la\bar{q}q\ra + \la\bar{q}gq\ra$ with $\la\bar{q}q\ra = 0$.
 This happens for the T-even TMD 
 	$e^a$ in Eqs.~(\ref{Eq:WW-original-e},~\ref{Eq:WW-type-1}), 
@@ -1743,7 +1752,7 @@ Sec.~\ref{Sec-2:SIDIS+TMDs+FF} and
 Eqs.~(\ref{Eqs:structure-functions-twist-3}). 
 We shall see that some structure functions are potentially more and 
 others potentially less affected by this generic limitation. In any 
-case phenomenological work has to be carried out to find out whether 
+case, phenomenological work has to be carried out to find out whether 
 or not the approximation works. 
 
 
@@ -1757,7 +1766,7 @@ also $H_1^{\perp(1)q}$ would vanish, indicating that the WW-type
 approximation has to be used with care in the chiral-odd FF sector.
 
 Similar limitations exist also for TMDs. This is manifest in particular 
-for those twist-3 T-odd TMDs which appear in the decomposition of the 
+for those twist-3 T-odd TMDs that appear in the decomposition of the 
 correlator (\ref{Eq:correlator}) with no prefactor of $\kperp$.
 There are three cases: $f_T^a(x,k_\perp)$, $h^a(x,\kperp)$, $e_L^a(x,\kperp)$.
 Such TMDs in principle survive integration of the correlator over $\kperp$
@@ -1767,7 +1776,7 @@ PDF versions of T-odd TMDs vanish: they have a simple straight gauge link
 along the lightcone, and such objects vanish due to parity and time-reversal 
 symmetry of strong interactions. This argument does not apply to other T-odd 
 TMDs because they drop out from the $\kperp$--integrated correlator due to 
-explicit factors of e.g.\ $\kperp^j$ in the case of the Sivers function.
+explicit factors of, e.g., $\kperp^j$ in the case of the Sivers function.
 
 Let us first discuss the case of $f_T^a(x,k_\perp)$. Taking the  
 WW-type approximation (\ref{Eq:WW-type-fT}) literally means
@@ -1775,7 +1784,7 @@ $x\int d^2 k_\perp\,f_T^a(x,k_\perp)\,\stackrel{!?}{=}
 -f_{1T}^{\perp(1)a}(x)\neq0$ 
 at variance with the sum rule (\ref{Eq:sum-rules-T-odd}). We 
 have $xf_T^a(x,k_\perp)=x\tilde{f}_T^a(x,k_\perp)-f_{1T}^{\perp(1)a}(x,k_\perp)$ 
-from QCD equations of motion \cite{Bacchetta:2006tn} which yields
+from QCD equations of motion \cite{Bacchetta:2006tn}, which yields
 (\ref{Eq:WW-type-fT}). The point is that in this case it is 
 essential to keep the tilde-function. 
 The situation for the chirally and T-odd twist-3 
@@ -1784,11 +1793,11 @@ function in (\ref{Eq:sum-rules-T-odd}) causes no issues since
 $e_L^a(x,k_\perp)=\tilde{e}_L^a(x,k_\perp)\approx0$ in WW-type approximation.
 
 Does it mean WW-type approximations fail for $f_T^a(x,k_\perp)$ 
-and $h^a(x,k_\perp)$? Not necessarily. The approximations may
+and $h^a(x,k_\perp)$? Not necessarily! The approximations may
 work in some but not all regions of $\kperp$, but the sum rules 
 (\ref{Eq:sum-rules-T-odd}) include integration over all $k_\perp$. 
-Notice also that e.g.\ $f_{1T}^{\perp (1),q}(x)$ is related to the 
-soft-gluon-pole matrix element $F_{FT}(x,x)$ \cite{Boer:2003cm,Ji:2006ub}
+Notice also that, e.g., $f_{1T}^{\perp (1),q}(x)$ is related to the 
+soft-gluon-pole matrix element $F_{FT}(x,x)$ \cite{Boer:2003cm,Ji:2006ub},
 which is a $\bar{q}gq$-term that one would naturally neglect 
 in WW-type approximation.
 In this sense (\ref{Eq:WW-type-fT}) could be consistent.
@@ -1805,7 +1814,7 @@ in tilde-terms.
 
 Presently too little is known in the theory of subleading-twist TMDs. 
 Below in Sec.~\ref{Sec-7.6:FUTsinphiS} and \ref{Sec-7.7:FUUcosphi} we 
-will present a pragmatic solution how to deal with the TMDs 
+will present a pragmatic solution for how to deal with the TMDs 
 $f_T^a(x,k_\perp)$ and $h^a(x,k_\perp)$ phenomenologically. 
 For now let us keep in mind that 
 one has to keep a vigilant eye on all WW-type approximations, and 
@@ -1813,12 +1822,12 @@ especially on those for $f_T^a(x,k_\perp)$ and $h^a(x,k_\perp)$.
 
 
 
-%\newpage
+%
 %======= SECTION 4: SIDIS IN WW APPROXIMATION ========================
-\section{SIDIS in WW-type approximation and Gaussian model}
+\section{SIDIS in the WW-type approximation and Gaussian model}
 \label{Sec-4:SIDIS-in-WW-approximation}
 
-In this section we consequently apply the WW- and WW-type approximation
+In this section, we consequently apply the WW and WW-type approximation
 to SIDIS, and describe our procedure to evaluate the structure 
 functions in this approximation and the Gaussian Ansatz which we use
 to model the $k_\perp$ dependence of TMDs.
@@ -1826,19 +1835,19 @@ to model the $k_\perp$ dependence of TMDs.
 \subsection{Leading structure functions amenable to WW-type approximations}
 \label{Sec-4.1:WW-twist-2}
 
-The WW- and WW-type approximations are useful for the following
-two leading--twist structure functions 
+The WW and WW-type approximations are useful for the following
+two leading-twist structure functions:
 \begin{subequations}\ba
  F_{LT}^{\cos(\phi_h -\phi_S)}
 	&\stackrel{\rm WW}{=}& 
 	{\cal C}\biggl[\omega^{\{1\}}_{\rm B}\, {g_{1T}^\perp}D_1 \biggr]
-        \with{ }{g_{1T}^{\perp a}\to g_1^a}{Eq.~(\ref{Eq:WW-approx-g1T})}
+        \with{ }{g_{1T}^{\perp a}\to g_1^a}{Eq.~(\ref{Eq:WW-approx-g1T})} \; ,
         \label{F_LTcos(phi-phiS)-WW} \\
  F_{UL}^{\sin 2\phi_h} 	
         &\stackrel{\rm WW}{=}& 
 	{\cal C}\biggl[\omega^{\{2\}}_{\rm AB}\,
     	{h_{1L}^{\perp }} H_{1}^{\perp }\biggr]  
-        \with{ }{h_{1L}^{\perp a}\to h_1^a}{Eq.~(\ref{Eq:WW-approx-h1L})} 
+        \with{ }{h_{1L}^{\perp a}\to h_1^a}{Eq.~(\ref{Eq:WW-approx-h1L})}  \; .
         \label{F_UUsin2phi-WW}
 \ea\end{subequations}
 
@@ -1856,32 +1865,32 @@ F_{LT}^{\cos \phi_S}&\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,
 	{\cal C}\biggl[-  \omega^{\{0\}}\, x\,g_T D_1 \biggr]
         \with{ }
 	{g_T^a\to g_1^a}
-	{Eq.~(\ref{Eq:WW-original1}),}\\
+	{Eq.~(\ref{Eq:WW-original1})}  \\
 F_{LL}^{\cos \phi_h} &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,{\cal C}\biggl[ 
    	-\omega^{\{1\}}_{\rm B}\,
    	xg_L^{\perp} D_1 \biggr]
         \with{ }
 	{g_L^{\perp a}\to g_1^a}
-	{Eq.~(\ref{Eq:WW-type-gLperp}),}\\
+	{Eq.~(\ref{Eq:WW-type-gLperp})}  \\
 F_{LT}^{\cos(2\phi_h - \phi_S)} &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,{\cal C}\biggl[
    	- \omega^{\{2\}}_{\rm C}\,
    	x g_T^{\perp } D_1 \biggr]
         \with{ }
 	{g_T^{\perp a}\to g_1^a}
-	{Eqs.~(\ref{Eq:WW-type-gTperp},~\ref{Eq:WW-approx-g1T}),}\\
+	{Eqs.~(\ref{Eq:WW-type-gTperp},~\ref{Eq:WW-approx-g1T})}   \\
 F_{UL}^{\sin\phi_h} &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,{\cal C}\biggl[
    	\phantom{-}\omega^{\{1\}}_{\rm A}\,
     	x\,h_L  H_1^{\perp } \biggr]
         \with{ }
 	{h_L^a\to h_{1L}^{\perp a}}
-	{with Eq.~(\ref{Eq:WW-type-6}),}
+	{with Eq.~(\ref{Eq:WW-type-6})}  
 	\label{Eq:WW-type-FULsinphi}\\
 F_{UU}^{\cos\phi_h} &\stackrel{\rm WW}{=}&\frac{2M_N}{Q}\,{\cal C}\biggl[\phantom{-}
 	 \omega^{\{1\}}_{\rm A}\,x\,h\,H_{1}^{\perp } 
    	-\omega^{\{1\}}_{\rm B}\,x\,f^\perp D_1\biggr]
         \with{ }
 	{f^{\perp a}\to f_1^a, \; h^a\to h_1^{\perp a}}
-	{with Eqs.~(\ref{Eq:WW-type-Cahn},~\ref{Eq:WW-type-last}),}
+	{with Eqs.~(\ref{Eq:WW-type-Cahn},~\ref{Eq:WW-type-last})} 
 	\label{Eq:WW-type-FUUcosphi}\\
 F_{UT}^{\sin \phi_S } &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,
 	{\cal C}\biggl[ \phantom{-}\omega^{\{0\}} \, x\,f_TD_1
@@ -1889,7 +1898,7 @@ F_{UT}^{\sin \phi_S } &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,
         \with
 	{f_T^a \to f_{1T}^{\perp a},}
 	{h_T^a-h_T^{\perp a}\to h_1^a}
-	{(\ref{Eq:WW-type-fT},~\ref{Eq:WW-type-7},~\ref{Eq:WW-type-8}),}
+	{(\ref{Eq:WW-type-fT},~\ref{Eq:WW-type-7},~\ref{Eq:WW-type-8})}  
 	\label{Eq:WW-type-FUTsinphiS}\\
 F_{UT}^{\sin(2\phi_h -\phi_S)} &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,{\cal C}\biggl[
    	\;\omega^{\{2\}}_{\rm C}\,
@@ -1899,7 +1908,7 @@ F_{UT}^{\sin(2\phi_h -\phi_S)} &\stackrel{\rm WW}{=}& \frac{2M_N}{Q}\,{\cal C}\b
         \with
 	{f_T^{\perp a}\to f_{1T}^{\perp a},}
 	{(h_T^a+h_T^{\perp a})\to h_{1T}^{\perp a}}{with 
-	(\ref{Eq:WW-type-fTperp},~\ref{Eq:WW-type-7},~\ref{Eq:WW-type-8}).}
+	(\ref{Eq:WW-type-fTperp},~\ref{Eq:WW-type-7},~\ref{Eq:WW-type-8})} \!.
 	\;\;\;\;
 \ea\end{subequations}
 
@@ -1928,7 +1937,7 @@ $\kperp$ \cite{Bacchetta:2008xw}.
 
 Nevertheless, if one limits oneself to work in a regime where the 
 transverse momenta (of hadrons produced in SIDIS, dileptons produced
-in the Drell-Yan process, etc) are small compared to the hard
+in the Drell--Yan process, etc) are small compared to the hard
 scale in the process, then the Ansatz works quantitatively
 very well. The most recent and detailed tests were reported in 
 \cite{Schweitzer:2010tt}, where the Gaussian Ansatz was shown to
@@ -1949,10 +1958,9 @@ Ansatz as a good approximation.
  Gaussian approximation}
 \label{Sec-4.4:evaluation}
 
-The Gaussian Ansatz is compatible with many WW-type approximations
+The Gaussian Ansatz is compatible with many WW-type approximations,
 but not all. The trivial approximations (\ref{Eq:WW-type-1}) and
-(\ref{Eq:WW-type-eLperp}--\ref{Eq:WW-type-fLperp}) of course 
-cause no issue. 
+(\ref{Eq:WW-type-eLperp}--\ref{Eq:WW-type-fLperp}) cause no issue. 
 The Gaussian Ansatz can also be applied to the nontrivial approximations 
 in Eqs.~(\ref{Eq:WW-type-Cahn}--\ref{Eq:WW-type-gTperp})
 and (\ref{Eq:WW-type-fTperp}), provided the corresponding Gaussian 
@@ -1970,7 +1978,7 @@ are related to transverse moments of twist-2 TMDs. In such cases the
 Gaussian Ansatz is not compatible with the WW-type approximations:
 for instance, the approximation (\ref{Eq:WW-type-gT}) relates
 $xg_T^q(x,\kperp^2)\approx\frac{k_\perp^2}{2M_N^2}\,g_{1T}^{q}(x,\kperp^2)$,
-i.e.\ if $g_{1T}^q(x,\kperp^2)$ was exactly Gaussian then 
+i.e., if $g_{1T}^q(x,\kperp^2)$ was exactly Gaussian then 
 $g_T^q(x,\kperp^2)$ certainly could not be Gaussian. If one wanted to take
 the Gaussian Ansatz and WW-type approximations literally, one clearly
 would deal with an incompatibility. However, we of course must keep 
@@ -2009,13 +2017,13 @@ Notice that in some cases (when T-even TMDs are involved)
 one could choose a different order of the steps: first apply 
 WW-type approximations and then solve convolution integrals 
 with Gaussian Ansatz.
-In general this would yield different (and bulkier) analytical 
+In general, this would yield different (and bulkier) analytical 
 expressions, but we convinced ourselves that the differences 
 are numerically within the accuracy expected for this approach.
 However, for the structure functions discussed in
-Secs.~\ref{Sec-7.6:FUTsinphiS} and \ref{Sec-7.7:FUUcosphi}
+Secs.~\ref{Sec-7.6:FUTsinphiS} and \ref{Sec-7.7:FUUcosphi},
 such an ``alternative scheme'' would give results at
-variance with the sum rules in for the twist-3 T-odd TMDs
+variance with the sum rules for the twist-3 T-odd TMDs
 in Eq.~(\ref{Eq:sum-rules-T-odd}), as discussed in 
 Sec.~\ref{Sec-3.8:limitations}. 
 The scheme presented here will allow us to implement those sum 
@@ -2081,7 +2089,7 @@ largely absorbed in the definitions of the transverse moments.
 % which helps to minimize the model-dependence. 
 Second,
 the $k_\perp$--moments of these TMDs have in principle simple definitions
-in QCD (whereas e.g.\ the function $f_{1T}^{\perp q}(x)$ can be computed in
+in QCD (whereas, e.g., the function $f_{1T}^{\perp q}(x)$ can be computed in
 models but is very cumbersome to define in QCD).
 The parametrizations for the basis functions read
 \begin{subequations}\ba
@@ -2119,15 +2127,15 @@ parameters are described in detail in App.~\ref{App:basis}.
 
 
 
-%\newpage
+%
 %======= SECTION 5: TWIST-2 AND BASIS FUNCTIONS ======================
-\section{Leading twist asymmetries and basis functions}
+\section{Leading-twist asymmetries and basis functions}
 \label{Sec-5:twist-2+basis}
 In this section we review how the basis functions describe available
-SIDIS data. This is of importance to asses the reliability of the
+SIDIS data. This is of importance to assess the reliability of the
 predictions presented in the next sections.
 
-\subsection{\boldmath Leading twist $F_{UU}$ and Gaussian Ansatz}
+\subsection{\boldmath Leading-twist $F_{UU}$ and Gaussian Ansatz}
 \label{Sec-5.1:FUU-basis}
 
 As explained in Sec.~\ref{Sec-4.3:evaluation} the Gaussian Ansatz is chosen
@@ -2143,7 +2151,7 @@ The parameters $\avkperp_{f_1}$ and $\avpperp_{D_1}$ can be
 assumed to be flavor- and $x$-- or $z$--independent, as present
 data hardly allow us to constrain too many parameters, see
 App.~\ref{App:basis-f1-D1} for a review. This assumption can be
-relaxed, e.g.\ theoretical studies in chiral effective theories 
+relaxed, e.g., theoretical studies in chiral effective theories 
 predict a strong flavor-dependence in the $\kperp$--behavior
 of sea and valence quark TMDs \cite{Schweitzer:2012hh}.
 
@@ -2175,7 +2183,7 @@ QCD the connection of TMDs to PDFs is subtle \cite{Collins:2016hqq}.
 Figure~\ref{FUU-show-pT-dependence} illustrates how the Gaussian Ansatz
 describes selected SIDIS data.
 
-Let us begin with JLab where, in the pre-12$\,$GeV era, electron beams 
+Let us begin with Jefferson Lab where, in the pre-12$\,$GeV era, electron beams 
 from CEBAF with energies in the range $4.3$ to $5.7$ GeV were scattered 
 off proton or deuterium targets in the typical kinematics 
 $1 \,{\rm GeV}^2 < Q^2 < 4.5 \,{\rm GeV}^2$, $W > 2\,{\rm GeV}$, 
@@ -2192,7 +2200,7 @@ for $\pi^+$ production from a proton target measured in the CLAS experiment
 with a $5.75$ GeV beam for the kinematics $\la Q^2\ra=2.37\,{\rm GeV}^2$, 
 $\la x\ra=0.24$, $\la z\ra=0.30$ \cite{Osipenko:2008aa}. Clearly, the 
 Gaussian model works for the entire region of $P_{hT}$ covered in this 
-experiment where structure function $F_{UU}$ falls down by 2 orders of 
+experiment, in which the structure function $F_{UU}$ falls down by 2 orders of 
 magnitude \cite{Schweitzer:2010tt}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2206,15 +2214,15 @@ Left panel:
 	$F_{UU}(P_{hT}^2)/F_{UU}(0)$ for $\pi^+$ 
 	production 
 	% for $\la Q^2\ra=2.37\,{\rm GeV}^2$, $\la x\ra=0.24$, $\la z\ra=0.30$ 
-	at JLab with 5.75 GeV beam \cite{Osipenko:2008aa}.
+	at Jefferson Lab with 5.75 GeV beam \cite{Osipenko:2008aa}.
 Middle panel: 
 	HERMES multiplicity (\ref{Eq:multiplicity-HERMES}) at 
 	$\la Q^2\ra=2.87\,{\rm GeV}^2$, $\la x\ra  =0.15$, $\la z\ra  =0.22$
-	from \cite{Airapetian:2012ki}.
+	 \cite{Airapetian:2012ki}.
 Right panel: 
 	COMPASS multiplicity (\ref{Eq:multiplicity-COMPASS}) at 
 	$\la Q^2\ra=20\,{\rm GeV}^2$, $\la x\ra  =0.15$, $\la z\ra  =0.2$
-	from \cite{Aghasyan:2017ctw}.}
+	 \cite{Aghasyan:2017ctw}.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -2222,18 +2230,18 @@ Next we discuss a representative plot from the HERMES experiment
 where pions or kaons were measured in the scattering of 27.6 GeV 
 positrons from the HERA polarized positron storage ring at DESY 
 off proton and deuteron targets in the SIDIS kinematics 
-$Q^2 > 1 \,{\rm GeV}^2$, $W > 2\,{\rm GeV}$, 
+$Q^2 > 1 \,{\rm GeV}^2$, $W^{2} > 10\,{\rm GeV}^{2}$, 
 $0.023 < x < 0.4$, $y < 0.85$, $0.2<z<0.7$. 
 The middle panel of Fig.~\ref{FUU-show-pT-dependence} displays the 
 HERMES multiplicity~\cite{Airapetian:2012ki}
 \be\label{Eq:multiplicity-HERMES}
 	M_n^h(x,z,\Phperp) \equiv 
 	\frac{d\sigma_{\rm SIDIS}(x,z,\Phperp)/dx\,dz\,d\Phperp}
-	{d\sigma_{\rm DIS}(x,z)/dx} =
+	{d\sigma_{\rm DIS}(x)/dx} =
 	2 \pi \Phperp \frac{F_{UU}(x,z,\Phperp) }{ x \sum_q e_q^2\,f^q_1(x)}
 \ee
 at $\la Q^2\ra=2.87\,{\rm GeV}^2$, $\la x\ra=0.15$, $\la z\ra=0.22$ 
-for $\pi^+$ production on the proton target \cite{Airapetian:2012ki}. 
+for $\pi^+$ production on the proton target~\cite{Airapetian:2012ki}.
 
 Finally we show also a representative plot from the COMPASS experiment 
 where charged pions, kaons, or hadrons were measured with 160 GeV 
@@ -2247,7 +2255,7 @@ Fig.~\ref{FUU-show-pT-dependence} shows the COMPASS multiplicity
 \be\label{Eq:multiplicity-COMPASS}
 	n^h(x,z,\Phperp^2)  \equiv 
 	\frac{d\sigma_{\rm SIDIS}(x,z,\Phperp^2)/dx\,dz\,d\Phperp^2}
-	{d\sigma_{\rm DIS}(x,z)/dx} =
+	{d\sigma_{\rm DIS}(x)/dx} =
 	\pi \frac{F_{UU}(x,z,\Phperp^2) }{ x \sum_q e_q^2\,f^q_1(x)}\;
 \ee
 at $\la Q^2\ra=20\,{\rm GeV}^2$, $\la x\ra  =0.15$, $\la z\ra  =0.2$ 
@@ -2276,16 +2284,15 @@ a fixed set of kinematics. Through dedicated fits to the HERMES, COMPASS
 it is possible to obtain a better description than in
 Fig.~\ref{FUU-show-pT-dependence}, see \cite{Bacchetta:2017gcc}.
 
-\newpage
 %========= SECTION 6: TESTING APPROACH WITH A_LL =====================
-\subsection{\boldmath Leading twist $A_{LL}$ and first test of Gaussian Ansatz
+\subsection{\boldmath Leading-twist $A_{LL}$ and first test of Gaussian Ansatz
 	in polarized scattering}
 \label{Sec-5.2:FLL-basis}
 
 The Gaussian Ansatz is useful in unpolarized case 
 \cite{Anselmino:2005nn,Collins:2005ie,D'Alesio:2007jt,Schweitzer:2010tt,
 Signori:2013mda,Anselmino:2013lza}, but nothing is known about its 
-applicability to spin asymmetries. The JLab data \cite{Avakian:2010ae} 
+applicability to spin asymmetries. The Jefferson Lab data \cite{Avakian:2010ae} 
 on $A_{LL}(\Phperp)$ put us in the position to conduct a first ``test'' 
 for polarized partons. We assume Gaussian form for $g_{1}^{a}(x,\kperp^2)$, 
 Eq.~(\ref{Eq:Gauss-g1}), and use lattice QCD results \cite{Hagler:2009mb} 
@@ -2304,9 +2311,9 @@ in ${\cal G}(\Phperp)$, the structure function $F_{LL}$  reads
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b]
 \centering 
-\includegraphics[width=0.3\textwidth]{\FigPath/all_jlab_pip}  
-\includegraphics[width=0.3\textwidth]{\FigPath/all_jlab_pi0}  
-\includegraphics[width=0.3\textwidth]{\FigPath/all_jlab_pim} 
+\includegraphics[width=0.45\textwidth]{\FigPath/all_jlab_pip}  
+\includegraphics[width=0.45\textwidth]{\FigPath/all_jlab_pi0}  
+\includegraphics[width=0.45\textwidth]{\FigPath/all_jlab_pim} 
 \caption{\label{jlab_ALL} 
 	$A_{LL,\la y\ra}$ as function of $P_{hT}$ vs 
 	JLab data \cite{Avakian:2010ae}
@@ -2318,7 +2325,7 @@ in ${\cal G}(\Phperp)$, the structure function $F_{LL}$  reads
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The definition of the asymmetry in  the JLab experiment \cite{Avakian:2010ae} 
+The definition of the asymmetry in  the Jefferson Lab experiment \cite{Avakian:2010ae} 
 was
 \be\label{Eq:ALLy}
 	A_{LL,\la y\ra}(x,z,\Phperp) 
@@ -2332,26 +2339,26 @@ We use the lattice data \cite{Hagler:2009mb} to
 constrain the Gaussian width $\la\kperp^2\ra_{g_1}$ as described in 
 App.~\ref{App:basis-g1}. All other ingredients in (\ref{Eq:ALLy}) are known 
 and tested through other observables in Sec.~\ref{Sec-5.1:FUU-basis}.
-Therefore the comparison of our results to JLab data \cite{Avakian:2010ae} 
+Therefore the comparison of our results to the Jefferson Lab data \cite{Avakian:2010ae} 
 shown in Fig.~\ref{jlab_ALL} provides several important tests.
-First, the JLab data \cite{Avakian:2010ae} are compatible
-with the Gaussian Ansatz within error bars. Second, the lattice results
-in the way we use them in App.~\ref{App:basis-g1} give an appropriate 
+First, the Jefferson Lab data \cite{Avakian:2010ae} are compatible
+with the Gaussian Ansatz within uncertainties. Second, the lattice 
+results---in the way we use them in App.~\ref{App:basis-g1}---give an appropriate 
 description of the data.
 	(Another important test was already presented in 
 	\cite{Avakian:2010ae}: the $\Phperp$--integrated (``collinear'')
 	asymmetry (\ref{Eq:FLL}) is compatible with data
 	from other experiments and theoretical results obtained from
 	parametrizations of $f_1^a(x)$, $g_1^a(x)$, $D_1^a(z)$. This 
-	shows that even at the moderate beam energies of the pre-12GeV 
-	era one was, to a good approximation, indeed probing DIS at JLab
-	\cite{Avakian:2010ae}.)
+	shows that even at the moderate beam energies of the pre-12~GeV 
+	era one was, to a good approximation, indeed probing DIS at 
+	Jefferson Lab~\cite{Avakian:2010ae}.)
 
 
 Encouraged by these findings we will use lattice predictions from 
 Ref.~\cite{Hagler:2009mb} below also for the Gaussian widths of 
 $g_{1T}^{\perp(1)a}$ and $h_{1L}^{\perp(1)a}$.
-Of course, at this point one could argue that the WW- and WW-type 
+Of course, at this point one could argue that the WW and WW-type 
 approximations (\ref{Eq:WW-approx-g1T},~\ref{Eq:WW-approx-h1L}) also
 dictate that $g_{1T}^\perp$ and $h_{1L}^\perp$ have the same Gaussian
 widths as $g_1$ and $h_1$. In fact, the lattice results for the 
@@ -2359,19 +2366,30 @@ respective widths are numerically similar, which can be interpreted as
 yet another argument in favor of the usefulness of the approximations. 
 The practical predictions depend only weakly on the choice of parameters.
 
-\newpage
 
 
-\subsection{\boldmath Leading twist $A_{UT}^{\sin(\phi_h-\phi_S)}$ Sivers asymmetry}
+
+\subsection{\boldmath Leading-twist $A_{UT}^{\sin(\phi_h-\phi_S)}$ Sivers asymmetry}
 \label{Sec-5.3:Sivers-basis}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[b!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_x.pdf}  \hspace{5mm}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_COMPASS_x.pdf}
+\caption{\label{aut_f1t_jlab} Sivers asymmetry 
+	$A_{UT}^{\sin(\phi_h-\phi_S)}$ from proton target as function of $ x $ 
+	based on the fit \cite{Anselmino:2011gs} in comparison to 
+	(left panel) HERMES \cite{Airapetian:2009ae}
+	and (right panel) COMPASS data \cite{Adolph:2012sp}.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The $F_{UT}^{\sin(\phi_h-\phi_S)}$ structure function is related to the 
 Sivers function~\cite{Sivers:1989cc}, which describes the distribution
-of unpolarized quarks inside a transversely polarized proton, has so far 
+of unpolarized quarks inside a transversely polarized proton. It has so far 
 received the widest attention, from both phenomenological and experimental 
 points of view. 
 
-The Sivers function $f_{1T}^\perp$ is related to initial and final state 
+The Sivers function $f_{1T}^\perp$ is related to initial and final-state 
 interactions of the struck quark and the rest of the nucleon and could 
 not exist without the contribution of the orbital angular momentum of 
 partons to the spin of the nucleon. As such it encodes the correlation 
@@ -2396,18 +2414,7 @@ where $\lambda=z^2 \avkperp_{f_{1T}^\perp} + \avpperp_{D_1}$ and
 $b^{(1)}_{\rm B}=2M_N$ and $c^{(1)}_{\rm B} = \sqrt{\pi}\,M_N$, 
 see App.~\ref{App:convol-details} for details.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b!]
-\centering
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_x.pdf}  \hspace{5mm}
-\includegraphics[width=0.45\textwidth]{\FigPath/AUTSivers_COMPASS_x.pdf}
-\caption{\label{aut_f1t_jlab} Sivers asymmetry 
-	$A_{UT}^{\sin(\phi_h-\phi_S)}$ from proton target as function of $ x $ 
-	based on the fit \cite{Anselmino:2011gs} in comparison to 
-	(left panel) HERMES \cite{Airapetian:2009ae}
-	and (right panel) COMPASS data \cite{Adolph:2012sp}.}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 Notice that integrating structure functions over $\Phperp$
 is different from integrating the cross section over $\Phperp$
@@ -2419,7 +2426,7 @@ and below in Secs.~\ref{Sec-7.2:FLTcosphiS}, \ref{Sec-7.6:FUTsinphiS}.
 In all other cases, despite integration over $\Phperp$, we end up 
 always with true convoluted TMDs (here within Gaussian model).
 We stress this important point by displaying the dependence of 
-the structure functions on the mean hadron momenta, for instance
+the structure functions on the mean transverse hadron momenta, for instance
 $F_{UT}^{\sin(\phi_h-\phi_S)}(x,z,\la\Phperp\ra) = 
 \int d^2\Phperp F_{UT}^{\sin(\phi_h-\phi_S)}(x,z,\Phperp)$
 in (\ref{FUTsiv-Gauss}).
@@ -2429,17 +2436,17 @@ obtained from the fit \cite{Anselmino:2011gs}
 are plotted in Fig.~\ref{aut_f1t_jlab} as functions of $x$ in comparison 
 to HERMES \cite{Airapetian:2009ae} and COMPASS \cite{Adolph:2012sp} data 
 on respectively charged pion and hadron production from a proton target.
-The $P_{hT}$--dependencies of the data are equally well described which
+The $P_{hT}$--dependences of the data are equally well described, which
 confirms that the Gaussian model works also in this case.
 
-\newpage
-\subsection{\boldmath Leading twist $A_{UT}^{\sin(\phi_h+\phi_S)}$ Collins asymmetry}
+
+\subsection{\boldmath Leading-twist $A_{UT}^{\sin(\phi_h+\phi_S)}$ Collins asymmetry}
 \label{Sec-5.4:Collins-basis}
 
 The $F_{UT}^{\sin(\phi_h+\phi_S)}$ modulation of the SIDIS cross section is due 
 to the convolution of the transversity distribution $h_1$ and the Collins 
 FF $H_1^\perp$. Transversity can in principle be accessed also as a PDF in
-Drell-Yan or in dihadron production 
+Drell--Yan or in dihadron production 
 \cite{Bacchetta:2002ux,Bacchetta:2003vn,Bacchetta:2011ip,Bacchetta:2012ty,
 Radici:2015mwa,Radici:2018iag}.
 It describes the distribution of transversely polarized quarks
@@ -2469,9 +2476,9 @@ where $\lambda=z^2 \avkperp_{h_1} + \avpperp_{H_1^\perp}$ and
 $b^{(1)}_{\rm A}=2m_h$ and $c^{(1)}_{\rm A} = \sqrt{\pi}\,m_h$,
 see App.~\ref{App:convol-details} for details.
 
-The asymmetries $A_{UT}^{\sin(\phi_h+\phi_S)}= F_{UT}^{\sin(\phi_h+\phi_S)}/F_{UU}$  
+The asymmetries $A_{UT, \langle y \rangle}^{\sin(\phi_h+\phi_S)}= (1-y)F_{UT}^{\sin(\phi_h+\phi_S)}/((1-y + y^2/2)F_{UU})$  
 are plotted in Fig.~\ref{aut_h1_jlab} as functions of $x$ in comparison 
-to HERMES \cite{Airapetian:2010ds} and COMPASS \cite{Adolph:2014zba} 
+to HERMES \cite{Airapetian:2010ds} and $A_{UT}^{\sin(\phi_h+\phi_S)}= F_{UT}^{\sin(\phi_h+\phi_S)}/F_{UU}$  for COMPASS \cite{Adolph:2014zba} 
 data on charged pion production from proton targets.
 We remark that the description of the $P_{hT}$--dependencies of 
 this azimuthal spin asymmetry is equally satisfactory by the 
@@ -2484,7 +2491,7 @@ data are compatible with the Gaussian Ansatz also in this case.
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTCollins_x.pdf}  
 \includegraphics[width=0.45\textwidth]{\FigPath/AUTCollins_COMPASS_x.pdf}
 \caption{\label{aut_h1_jlab}  Collins asymmetry 
-	$A_{UT}^{\sin(\phi_h+\phi_S)}$ from proton target as function of $ x $ 
+	$A_{UT,  \langle y\rangle}^{\sin(\phi_h+\phi_S)}$ from proton target as function of $ x $ 
 	based on the fit \cite{Anselmino:2013vqa} in comparison to 
 	(left panel) HERMES \cite{Airapetian:2010ds} and 
 	(right panel) COMPASS data \cite{Adolph:2014zba} (where
@@ -2494,8 +2501,8 @@ data are compatible with the Gaussian Ansatz also in this case.
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
-\subsection{\boldmath Leading twist $A_{UU}^{\cos(2\phi_h)}$ Boer-Mulders asymmetry}
+
+\subsection{\boldmath Leading-twist $A_{UU}^{\cos(2\phi_h)}$ Boer--Mulders asymmetry}
 \label{Sec-5.5:BM-basis}
 
 The structure function $F_{UU}^{\cos(2\phi_h)}$ arises from a convolution of
@@ -2522,49 +2529,49 @@ see App.~\ref{App:convol-details}.
 \includegraphics[width=0.45\textwidth]{\FigPath/AUUcos2phi_x.pdf} 
 \includegraphics[width=0.45\textwidth]{\FigPath/AUUcos2phi_COMPASS_x.pdf}
 \caption{\label{auu_cos2phi_jlab} The asymmetry 
-	$A_{UU}^{\cos(2\phi_h)}$ from proton target as function of $ x $ 
+	$A_{UU, \langle y\rangle}^{\cos(2\phi_h)}$ from proton target as function of $ x $ 
 	based on the fit \cite{Barone:2009hw} in comparison to 
-	(left panel) HERMES \cite{Airapetian:2012yg} and 
+	(left panel) HERMES \cite{Airapetian:2012yg} and $A_{UU}^{\cos(2\phi_h)}$
 	(right panel) COMPASS data \cite{Adolph:2014pwc}.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Asymmetries $A_{UU}^{\cos(2\phi_h)}=F_{UU}^{\cos(2\phi_h)}/F_{UU}$ for 
-HERMES \cite{Airapetian:2012yg} and COMPASS \cite{Adolph:2014pwc}
-are plotted in Fig.~\ref{auu_cos2phi_jlab} where we only considered the
-Boer-Mulders contribution to $A_{UU}^{\cos(2\phi_h)}$ which does not describe
+Asymmetries  for $A_{UU, \langle y\rangle}^{\cos(2\phi_h)}=(1-y)F_{UU}^{\cos(2\phi_h)}/((1-y + y^2/2)F_{UU})$
+HERMES \cite{Airapetian:2012yg} and $A_{UU}^{\cos(2\phi_h)}=F_{UU}^{\cos(2\phi_h)}/F_{UU}$ COMPASS \cite{Adolph:2014pwc}
+are plotted in Fig.~\ref{auu_cos2phi_jlab}, where we only considered the
+Boer--Mulders contribution to $A_{UU}^{\cos(2\phi_h)}$, which does not describe
 the data accurately. In fact, it is suspected that this observable receives 
 a significant contribution from the Cahn effect \cite{Cahn:1978se}, a 
-term of higher twist character of the type $\la\Phperp^2\ra/Q^2$ which 
-is not negligible in fixed target experiments \cite{Schweitzer:2010tt}. 
+term of higher-twist character of the type $\la\Phperp^2\ra/Q^2$ which 
+is not negligible in fixed-target experiments \cite{Schweitzer:2010tt}. 
 This contribution was estimated and corrected for in the phenomenological 
-works \cite{Barone:2009hw,Barone:2010gk,Barone:2015ksa} which was of
-importance to obtain a picture of the Boer-Mulders function undistorted 
+works \cite{Barone:2009hw,Barone:2010gk,Barone:2015ksa}, which was of
+importance to obtain a picture of the Boer--Mulders function undistorted 
 from Cahn effect. The point is that this substantial twist-4 contamination 
 can be estimated phenomenologically, even though there is no rigorous 
 theoretical basis for the description of such power-suppressed terms. 
 In this work we consistently neglect power-suppressed contributions of 
 order $1/Q^2$, and do so also in Fig.~\ref{auu_cos2phi_jlab}. 
-Nevertheless we of course use the parametrizations of 
+Nevertheless, we of course use the parametrizations of 
 \cite{Barone:2009hw,Barone:2010gk,Barone:2015ksa} offering
-the best currently available parametrizations for $h_1^{\perp}$
-which were corrected for Cahn effect as good as it is possible at
+the best currently available parametrizations for $h_1^{\perp}$,
+which were corrected for the Cahn effect as good as it is possible at
 the current state of art. It is unknown whether other asymmetries
 could be similarly effected by such type of power-corrections.
 This is an important point to be kept in mind as the lesson 
 from Fig.~\ref{auu_cos2phi_jlab} shows.
 
 
-\newpage
-\subsection{\boldmath Leading twist $A_{UT}^{\sin(3\phi_h-\phi_S)}$  asymmetry}
+
+\subsection{\boldmath Leading-twist $A_{UT}^{\sin(3\phi_h-\phi_S)}$  asymmetry}
 \label{Sec-5.6:pretzel-basis}
 
 The pretzelosity TMD $h_{1T}^{\perp q}$ is the least known of the basis 
 functions. It is of interest as it allows one to measure the deviation 
 of the nucleon spin density from spherical shape \cite{Miller:2007ae},
-is related to the only leading-twist SIDIS structure function where the 
+as it is related to the only leading-twist SIDIS structure function where the 
 small-$P_{hT}$ description in terms of TMDs and the large-$P_{hT}$ expansion 
-in perturbative QCD mismatch \cite{Bacchetta:2008xw}, and is the only
+in perturbative QCD mismatch \cite{Bacchetta:2008xw}, and as it is the only
 TMD where a clear relation to quark orbital angular momentum
 could be established (albeit only within quark models)
 \cite{Avakian:2008dz,She:2009jq,Avakian:2010br,Lorce:2011kn}.
@@ -2589,31 +2596,28 @@ momenta. This is the strongest $P_{hT}$-suppression of all SIDIS
 structure functions through leading and subleading twist, making
 it challenging to measure.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b!]
 \centering
-%\includegraphics[width=0.45\textwidth]{\FigPath/AUTPretzelosity_x.pdf}  
-%\includegraphics[width=0.45\textwidth]{\FigPath/AUTPretzelosity_PT.pdf}
-\includegraphics[width=0.3\textwidth]{\FigPath/Screenshot-Fig-COMPASS-A_UT_Pr10-left-panel-up.png} \ 
-\includegraphics[width=0.3\textwidth]{\FigPath/Screenshot-Fig-COMPASS-A_UT_Pr10-left-panel-down.png}
-\includegraphics[width=0.3\textwidth]{\FigPath/AUTPretzelosity_HERMES_x.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_pretzelosity_pip.pdf}  
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_pretzelosity_pim.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTPretzelosity_HERMES_x.pdf}
 
 \caption{\label{aut_h1tp_jlab} $A_{UT}^{\sin(3 \phi_h - \phi_S)}$  
 	as a function of $x$ from preliminary COMPASS \cite{Parsamyan:2010se} 
-	and HERMES \cite{Schnell:2010zza} in comparison to the best fit 
+	and $A_{UT,\langle y\rangle}^{\sin(3 \phi_h - \phi_S)}$ HERMES \cite{Schnell:2010zza} in comparison to the best fit 
 	(whose 1-$\sigma$ uncertainty band is compatible with zero) 
 	from \cite{Lefky:2014eia}. For comparison the COMPASS plots
 	show the model results \cite{Kotzinian:2008fe,Boffi:2009sh}.
-	\TD{\sf screenshot of {\tt Fig-COMPASS-A\_UT\_Pr10.pdf} 
-	which was previously shown in Fig.~\ref{autsinphi_jlab}. 
-	Bakur: please, can you produce such plot with Alexei's 
-	``best fit'' from \cite{Lefky:2014eia}?}}
+	}
 \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-The preliminary COMPASS data \cite{Parsamyan:2010se} for 
-$A_{UT}^{\sin(3 \phi_h - \phi_S)}=F_{UT}^{\sin(3 \phi_h - \phi_S)}/F_{UU}$ 
+The preliminary COMPASS data \cite{Parsamyan:2010se} for $A_{UT}^{\sin(3 \phi_h - \phi_S)}=F_{UT}^{\sin(3 \phi_h - \phi_S)}/F_{UU}$ and the preliminary HERMES data \cite{Schnell:2010zza} for 
+$A_{UT, \langle y \rangle}^{\sin(3 \phi_h - \phi_S)}=(1-y)F_{UT}^{\sin(3 \phi_h - \phi_S)}/((1-y + y^2/2)F_{UU})$ 
 are plotted in Fig.~\ref{aut_h1tp_jlab}.
 Clearly, the pretzelosity TMD is the least known of the basis TMDs.
 Nevertheless it is of fundamental importance, as it provides one of the
@@ -2639,18 +2643,18 @@ These uncertainties as well as those of $D_1^a(z)$ can safely
 be neglected for our purposes. 
 For TMDs the situation is different. Already the transverse
 momentum descriptions of $f_1^a(x,\kperp)$ and $D_1^a(z,\pperp)$ 
-are associated with non-negligible statistical uncertainties
+are associated with non-negligible statistical uncertainties,
 which are reviewed in App.~\ref{App:basis}, and with systematic
-uncertainties which are very difficult to assess as they are
+uncertainties that are very difficult to assess as they are
 related to model bias (because of Gaussian model and its limitations).
 The statistical and systematic uncertainties are significant
 when we deal with the basis functions 
 $f_{1T}^{\perp q}$, $h_{1}^{q}$, $H_{1}^{\perp q}$.
 The least well-controlled uncertainties are associated with the 
-Boer-Mulders function $h_1^{\perp q}$ and pretzelosity $h_{1T}^{\perp q}$.
+Boer--Mulders function $h_1^{\perp q}$ and pretzelosity $h_{1T}^{\perp q}$.
 
 In this work we are not interested in these uncertainties, which
-future data will allow us to diminish --- even though in practice 
+future data will allow us to diminish, even though in practice 
 they may be sizable. Rather in this work we are interested in
 making projections based on the WW-type approximation. To avoid
 cumbersome and difficult to interpret figures we will therefore
@@ -2665,10 +2669,9 @@ actual uncertainty of the predictions may be larger.
 
 
 %======= SECTION 6: TWIST-2 AND WW-APROXIMATION ======================
-\section{Leading twist asymmetries in WW-type approximation}
+\section{Leading-twist asymmetries in WW-type approximation}
 \label{Sec-6:twist-2-and-WW}
-
-\begin{figure}[b!]
+\begin{figure}[htb]
 \centering
 \includegraphics[width=0.45\textwidth]{\FigPath/g1t.pdf} \quad
 \includegraphics[width=0.45\textwidth]{\FigPath/h1Lperp.pdf}
@@ -2676,7 +2679,7 @@ actual uncertainty of the predictions may be larger.
 	$g^{\perp (1) q}_{1T}(x)$ (left panel) and
 	$h^{\perp (1) q}_{1L}(x)$ distributions (right panel) 
 	for $u$-- and $d$--flavor 
-	as predicted by the WW-ype approximations in
+	as predicted by the WW-type approximations in
 	Eqs.~(\ref{Eq:WW-approx-g1T},~\ref{Eq:WW-approx-h1L}).}
 \end{figure}
 
@@ -2688,20 +2691,20 @@ basis functions $g_1^q(x)$ and $h_1^a(x)$, see Fig.~\ref{g1t_h1l_functions}.
 These TMDs are sometimes referred to as ``gear worms:'' 
 $g_{1T}^{\perp q}$ describes the distributions of longitudinally 
 polarized quarks inside a transversely polarized nucleon,
-$h_{1L}^{\perp q}$ the opposite \bp{configuration}, namely transversely 
+$h_{1L}^{\perp q}$ the opposite configuration, namely transversely 
 polarized quarks inside a longitudinally polarized nucleon.
 It is interesting that both cases can be expressed in the
 WW-type approximation in terms of the basis functions.
 In this section we discuss the associated asymmetries.
 
-\newpage
-\subsection{\boldmath Leading twist $A_{LT}^{\cos(\phi_h-\phi_S)}$}
+
+\subsection{\boldmath Leading-twist $A_{LT}^{\cos(\phi_h-\phi_S)}$}
 \label{Sec-6.1:FLTcosphi-phiS}
 
 We assume for $g^{\perp}_{1T}$ the Gaussian Ansatz as shown 
 in Eq.~(\ref{eq:g1t}) of App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs}, 
 see also \cite{Kotzinian:2006dw}, and evaluate $g^{\perp (1) q}_{1T}(x)$ 
-using Eq.~(\ref{Eq:WW-approx-g1T}) which yields the result 
+using Eq.~(\ref{Eq:WW-approx-g1T}), which yields the result 
 shown in Fig.~\ref{g1t_h1l_functions}.
 For our numerical estimates we use $\avkperp_{g_{1T}^\perp} = \avkperp_{g_{1}}$ 
 which is supported by lattice results \cite{Hagler:2009mb}.
@@ -2724,59 +2727,46 @@ $b^{(1)}_{\rm B} = 2M_N$,
 $c^{(1)}_{\rm B} = \sqrt{\pi}\,M_N$,
 see App.~\ref{App:convol-details} for details.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b!]
-\centering
-%\includegraphics[width=0.3\textwidth]{\FigPath/ALT_COMPASS_x.pdf}  
-\includegraphics[width=0.9\textwidth]{\FigPath/LT_Pr10.pdf}
-	\caption{\label{g1t_jlab} 
-	Asymmetries as functions of $x$ from scattering of 160 GeV
-	longitudinally polarized muons off a transversely polarized 
-	proton target \cite{Parsamyan:2015dfa}.
-	Left panel: 
-	leading-twist asymmetry $A_{LT}^{\cos(\phi_h-\phi_S)}$ 
-	described in Sec.~\ref{Sec-6.1:FLTcosphi-phiS}.
-	Middle panel: 
-	subleading-twist $A_{LT}^{\cos\phi_S}$ 
-	discussed in Sec.~\ref{Sec-7.2:FLTcosphiS}.
-	Right panel: 
-	subleading-twist $A_{LT}^{\cos(2\phi_h-\phi_S)}$
-	on which we comment in Sec.~\ref{Sec-7.3:FLTcos2phi-phiS}.
-	\TD{(Bakur: can you prepare separate plots for these asymmetries?)}}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-This asymmetry was measured at JLab and COMPASS 
-\cite{Huang:2011bc,Parsamyan:2015dfa}. Left panel of Fig.~\ref{g1t_jlab} 
-shows 2010 COMPASS data \cite{Parsamyan:2015dfa}. We approximate the 
+This asymmetry was measured at Jefferson Lab~\cite{Huang:2011bc}, COMPASS~\cite{Parsamyan:2015dfa} and HERMES~\cite{Pappalardo:2011cu,Pappalardo:2012zz} (for the latter two experiments only preliminary results are available so far).
+ Fig.~\ref{cosphihphis} 
+shows the preliminary results from the 2010 COMPASS data \cite{Parsamyan:2015dfa}. 
+We approximate the 
 charged hadrons ($90\,\%$ of which are $\pi^\pm$ at COMPASS) by 
 charged pions, see App.~\ref{App:basis-f1-D1}.
-Our results are shown as a shaded area which indicates a rough estimate
+Our results are shown as a shaded area, which indicates a rough estimate
 of the uncertainty of the WW-type approximation.
 We observe that the WW-type approximation describes the data within 
 their experimental uncertainties.
-For comparison results from the theoretical works 
+For comparison also results from the theoretical works 
 \cite{Kotzinian:2006dw,Kotzinian:2008fe,Boffi:2009sh} are shown.
-Our results are also compatible with the JLab data which was 
+Our results are also compatible with the Jefferson Lab data, which was 
 taken with a neutron ($^3$He) target \cite{Huang:2011bc} and has 
-larger statistical uncertainty than COMPASS data. The middle and right 
-panels of Fig.~\ref{g1t_jlab} will be discussed in 
-Secs.~\ref{Sec-7.2:FLTcosphiS},~\ref{Sec-7.3:FLTcos2phi-phiS}.
+larger statistical uncertainty than the preliminary COMPASS data. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[b!]
+\centering
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cosphihphis_pip}
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cosphihphis_pim}
+	\caption{\label{cosphihphis} 
+	Leading-twist $A_{LT}^{\cos(\phi_h-\phi_S)}$ 
+	 in comparison to the preliminary COMPASS data \cite{Parsamyan:2015dfa}.
+	}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-\newpage
 
 \subsection{\boldmath 
-	Leading twist $A_{UL}^{\sin2\phi_h}$ Kotzinian-Mulders  asymmetry}
+	Leading-twist $A_{UL}^{\sin2\phi_h}$ Kotzinian--Mulders  asymmetry}
 	\label{Sec-6.2:FULsin2phi}
 
-We use the Gaussian form for the Kotzinian-Mulders function 
+We use the Gaussian form for the Kotzinian--Mulders function 
 $h_{1L}^{\perp a}$, Eq.~(\ref{eq:h1l_final}) in
 App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs}, with
 $\avkperp_{h_{1L}^\perp} = \avkperp_{h_{1}}$ as
 supported by lattice data \cite{Hagler:2009mb}.
->From (\ref{Eq:WW-approx-h1L}) we obtain the WW-type estimate
+From (\ref{Eq:WW-approx-h1L}) we obtain the WW-type estimate
 for $h_{1L}^{\perp(1) a}(x)$ shown in Fig.~\ref{g1t_h1l_functions}. 
 The structure function $F_{UL}^{\sin(2\phi_h)}$ reads
 \begin{subequations}\ba
@@ -2798,24 +2788,23 @@ see App.~\ref{App:convol-details} for details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b!]
 \centering
-\includegraphics[height=3.1cm]{\FigPath/A_UL2_Pr0711_Zgt02.pdf} \quad
-\includegraphics[height=3.0cm]{\FigPath/AULsin2phi_JLAB_x.pdf} 
-
+\includegraphics[width=0.8\textwidth]{\FigPath/A_UL2_Pr0711_Zgt02.pdf} \quad
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsin2phi_JLAB_x.pdf} 
 \vspace{-5mm}
  
 	\caption{\label{aul_jlab} 
-	$A_{UL}^{\sin(2\phi_h)}$ vs $x$ from the WW-type 
+	Leading twist $A_{UL}^{\sin(2\phi_h)}$ vs $x$ from the WW-type 
 	approximation in comparison to data from
-	HERMES \cite{Airapetian:1999tv}, 
-	COMPASS \cite{Parsamyan:2015dfa} (left panel), and
-	JLab \cite{Jawalkar:2017ube} (right panel). Results  
+	HERMES \cite{Airapetian:1999tv}, and $A_{UL}^{\sin(2\phi_h)}$
+	COMPASS \cite{Parsamyan:2015dfa} (left panel), and $A_{UL,  \langle y\rangle}^{\sin(2\phi_h)}$ 
+	Jefferson Lab \cite{Jawalkar:2017ube} (right panel). Results  
 	from \cite{Avakian:2007mv} are also shown.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The asymmetry $A_{UL}^{\sin(2\phi_h)}=F_{UL}^{\sin(2\phi_h)}/F_{UU}$  was 
 studied at HERMES \cite{Airapetian:1999tv,Airapetian:2002mf}, COMPASS 
-\cite{Parsamyan:2015dfa}, and JLab \cite{Avakian:2010ae,Jawalkar:2017ube}.
+\cite{Parsamyan:2015dfa}, and Jefferson Lab \cite{Avakian:2010ae,Jawalkar:2017ube}.
 In Fig.~\ref{aul_jlab} proton data are shown for $\pi^\pm$ in the
 HERMES experiment which were measured with the 27.6 GeV positron
 beam from the HERA polarized positron storage ring at DESY for 
@@ -2833,7 +2822,7 @@ target in the kinematics $1.0\,{\rm GeV}^2 < Q^2 < 3.2\,{\rm GeV}^2$,
 $0.12 < x < 0.48$ and $0.4 < z < 0.7$ \cite{Jawalkar:2017ube}.
 
 $A_{UL}^{\sin(2\phi_h)}$  can be expected to be smaller than 
-$A_{LT}^{\cos(\phi_h -\phi_S)}$ discussed in previous section,
+$A_{LT}^{\cos(\phi_h -\phi_S)}$ discussed in the previous section,
 even though both are leading twist. This is because 
 $F_{UL}^{\sin(2\phi_h)}$ is quadratic in the hadron transverse 
 momenta $P_{hT}\ll Q$, while $F_{LT}^{\cos(\phi_h -\phi_S)}$ is linear. 
@@ -2841,16 +2830,12 @@ In addition, the former is proportional to the Collins function
 which is smaller than $D_1^q(z)$, and the WW-type approximation 
 predicts the magnitude of $h_{1L}^{\perp(1)q}(x)$ to be about half 
 of the size of $g_{1T}^{\perp(1)q}(x)$.
-The data support these expectations. HERMES and JLab data are compatible
-with zero for this asymmetry. So are COMPASS data except for the region
+The data support these expectations. HERMES and Jefferson Lab data are compatible
+with zero for this asymmetry. So are the preliminary COMPASS data except for the region
 $x>0.1$ for negative hadrons, where the trend of the data provides a first 
 encouraging confirmation for our results. The current data are compatible
 with the WW-type approximation for $h_{1L}^{\perp(1)q}(x)$. 
 
-
-
-
-\newpage
 
 \subsection{Inequalities and a cross check}
 
@@ -2860,8 +2845,8 @@ in Secs.~\ref{Sec-6.1:FLTcosphi-phiS}, \ref{Sec-6.2:FULsin2phi}.
 Before proceeding with twist-3 let us pause and revisit positivity 
 bounds \cite{Bacchetta:1999kz}. % which offer unique cross checks. 
 
-The Kotzinian-Mulders function $h^{\perp q}_{1L}$ in conjunction with 
-the Boer-Mulders function, and the TMD $g^{\perp q}_{1T}$ in conjunction 
+The Kotzinian--Mulders function $h^{\perp q}_{1L}$ in conjunction with 
+the Boer--Mulders function, and the TMD $g^{\perp q}_{1T}$ in conjunction 
 with the Sivers function obey the positivity bounds 
 \cite{Bacchetta:1999kz}
 \begin{subequations}\ba
@@ -2879,7 +2864,7 @@ with the Sivers function obey the positivity bounds
 where $f^{(1)}(x,\kperp^2) \equiv \frac{\kperp^2}{2M_N^2} f(x,\kperp^2)$.
 The inequalities provide a non-trivial test of our approach.
 The inequalities (\ref{eq:positivity},~\ref{eq:positivity1}) 
-must be strictly satisfied by the {\it exact} leading--order QCD 
+must be strictly satisfied by the {\it exact} leading-order QCD 
 expressions for the TMDs.  
 (For PDFs it is known that positivity can be preserved in some 
 schemes and violated in others. For TMDs not much is 
@@ -2890,7 +2875,7 @@ and $h^{\perp q}_{1L}$ and Gaussian Ansatz for all TMDs), and (ii) we deal
 with first extractions which have sizable uncertainties including 
 poorly controlled systematic uncertainties.
 Therefore, considering that we deal with approximations 
-(WW-type, Gauss) and considering the current state of TMD-extractions, 
+(WW-type, Gauss) and considering the current state of TMD extractions, 
 the inequalities (\ref{eq:positivity},~\ref{eq:positivity1}) constitute
 a challenging test for the approach.
 
@@ -2912,7 +2897,7 @@ a challenging test for the approach.
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-To conduct a test we use the Gaussian Ans\"atze 
+To conduct a test we use the Gaussian Ans\''atze 
 (\ref{Eq:Gauss-f1}, \ref{Eq:Gauss-h1}, \ref{Eq:Gauss-f1Tperp}, 
 \ref{Eq:Gauss-h1perp}, \ref{eq:g1t}, \ref{eq:h1l_final}) for the
 TMDs and integrate over $k_\perp$. The results are shown in 
@@ -2926,9 +2911,9 @@ Fig.~\ref{h1l_pos} shows that the results of our approach for the
 zero and one, as it is dictated by positivity constraints.
 This is an important consistency cross-check for our approach.
 
-\newpage
+
 %========= SECTION 8: TWIST-3 IN WW-TYPE APPROXIMATION ===============
-\section{subleading-twist asymmetries in WW-type approximation}
+\section{Subleading-twist asymmetries in WW-type approximation}
 \label{Sec-7:twist-3-and-WW}
 
 WW-type approximations can be applied to all 8 subleading--twist asymmetries,
@@ -2936,17 +2921,17 @@ see Sec.~\ref{Sec-4.2:WW-twist-3}. In this section we discuss all of them,
 starting with less complex cases and proceeding then to those structure 
 functions whose description in WW-type approximation is more involved.
 
-\subsection{\boldmath subleading-twist  $A_{LU}^{\sin\phi_h}$}
+\subsection{\boldmath Subleading-twist  $A_{LU}^{\sin\phi_h}$}
 \label{Sec-7.1:FLU}
 
 We start our discussion with the structure function $F_{LU}^{\sin\phi_h}$,
 Eq.~(\ref{FLUsinphi}), containing 4 terms: 
 2 term are proportional to pure twist-3 fragmentation functions 
 $\tilde{G}^{\perp a}$ and $\tilde{E}^a$ and neglected; the other 2
-terms are proportional to the twist-3 TMDs $e^a$ and $g^{\perp a}$ which
+terms are proportional to the twist-3 TMDs $e^a$ and $g^{\perp a}$, which
 also turn out to be given in terms of pure twist-3 terms upon the 
 inspection of Eqs.~(\ref{Eq:WW-type-1},~\ref{Eq:WW-type-gperp}).
-Hence, after consequently applying the WW-type approximation we are left 
+Hence, after consequently applying the WW-type approximation, we are left 
 with no term. Our approximation predicts this structure function to be zero.
 
 In this asymmetry we encounter the generic limitation of the 
@@ -2959,7 +2944,7 @@ Remarkably, none of the twist-3 TMDs or FFs entering this structure
 function satisfy even the necessary condition. In this situation we 
 do not expect the WW-type approximation to be applicable. 
 
-Indeed, data from JLab, HERMES and COMPASS show a clearly non-zero 
+Indeed, data from Jefferson Lab, HERMES and COMPASS show a clearly non-zero 
 asymmetry $A_{LU}^{\sin\phi_h} = F_{LU}^{\sin\phi_h}/F_{UU}$ of the order of 2\,$\%$ 
 \cite{Avakian:2003pk,Airapetian:2006rx,Gohn:2009zz,
 Aghasyan:2011ha,Adolph:2014pwc,Gohn:2014zbz}. 
@@ -2992,7 +2977,7 @@ predicted to be non-zero in WW-approximation are not much larger and
 in some cases even smaller than the result in (\ref{Eq:ALU-small}).
 
 To conclude, the WW-type approximation predicts $A_{LU}^{\sin\phi}\approx 0$
-in contradiction with experiment. The size of the observed effect seems
+in contradiction to experiment. The size of the observed effect seems
 in line with the WW-type approximation, as
 $A_{LU}^{\sin\phi_h}\sim\la\bar{q}gq\ra/\la\bar{q}q\ra \sim {\cal O}(2\,\%)$
 is not large, although this interpretation has reservations.
@@ -3007,10 +2992,7 @@ But more phenomenological work and dedicated studies on the basis of models
 of $\bar{q}gq$ terms are needed to fully understand this asymmetry.
 
 
-
-\newpage
-
-\subsection{\boldmath subleading-twist  $A_{LT}^{\cos\phi_S}$}
+\subsection{\boldmath Subleading-twist  $A_{LT}^{\cos\phi_S}$}
 \label{Sec-7.2:FLTcosphiS}
 
 In  WW-type approximation the structure function
@@ -3020,7 +3002,7 @@ Secs.~\ref{Sec-3.4:WW-classic-experiment} and \ref{Sec-5.1:FUU-basis}.
 We assume the Gaussian Ansatz for $g_T^a(x,\kperp)$ shown in
 Eq.~(\ref{eq:gtnew}) of App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs} 
 with ${\avkperp_{g_T}}={\avkperp_{g_1}}$. We then determine $g^{q}_{T}(x)$ 
-according to Eq.~(\ref{Eq:WW-original1}) which is a well-tested
+according to Eq.~(\ref{Eq:WW-original1}), which is a well-tested
 approximation in DIS, see Sec.~\ref{Sec-3.4:WW-classic-experiment}.
 In this way we obtain for $F_{LT}^{\cos\phi_S}$ the result
 \begin{subequations}\ba
@@ -3047,7 +3029,7 @@ though it yields a numerically similar result. But there are 2 critical
 issues with that. First, the WW-type approximation (\ref{Eq:WW-type-gT}) 
 relates $g^{q}_{T}(x,\kperp^2)$ to $g^{\perp(1)q}_{1T}(x,\kperp^2)$ which
 (due to the weight $\kperp^2/(2M_N^2)$ in the (1)-moment) implies a kinematical 
-zero in $\kperp$ as $g^{q}_{T}(x, 0) = 0$  which is not supported by model 
+zero in $\kperp$ as $g^{q}_{T}(x, 0) = 0$,  which is not supported by model 
 calculations \cite{Avakian:2010br}. Second, the more economic (because 
 less bulky) expression in (\ref{Eq:FLTcosphiS-Gauss}) automatically 
 yields (\ref{Eq:FLTcosphiS-Gauss-b}) which is the correct collinear
@@ -3055,34 +3037,36 @@ result for this SIDIS function in Eq.~(\ref{Eq:FLT-collinear})
 in WW-type approximation. This technical remark confirms the
 consistency of the scheme suggested in Sec.~\ref{Sec-4.4:evaluation}.
 
-In the middle panel of Fig.~\ref{g1t_jlab} our predictions
+Fig.~\ref{altcosphis} shows our predictions
 for $A_{LT}^{\cos\phi_S}$ are shown in comparison to preliminary
 COMPASS data from Ref.~\cite{Parsamyan:2015dfa}. The predicted
 asymmetry is small and compatible with the COMPASS data within
-error bars. More precise data are necessary to judge how
+uncertainties. 
+Preliminary HERMES data~\cite{Pappalardo:2012zz} confirm a small asymmetry. 
+More precise data are necessary to judge how
 well the WW-type approximation works in this case. Such data
-could come from JLab 12 experiments, see Fig.~\ref{altcosphi_jlab}.
+could come from JLab12 experiments.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[b!]
+\begin{figure}[htb!]
 \centering
-\includegraphics[width=0.37\textwidth]{\FigPath/ALTcosPhi_COMPASS_x.pdf} 
-\caption{\label{altcosphi_jlab} Predictions for the double--spin asymmetry
-	$A_{LT}^{\cos\phi_S}$  as a function of $x$ from a proton target
-	at JLab 12.
-	\TD{Bakur: can you prepare a separate plot for this asymmetry 
-	based on the middle panel of Fig.~\ref{g1t_jlab}?
-	Then we could skip here the prediction.}}
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cosphis_pip.pdf} 
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cosphis_pim.pdf} 
+\caption{\label{altcosphis} Subleading-twist $A_{LT}^{\cos\phi_S}$ 
+	  as functions of $x$ from scattering of 160 GeV
+	longitudinally polarized muons off a transversely polarized 
+	proton target \cite{Parsamyan:2015dfa}.
+	}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\newpage
-\subsection{\boldmath subleading-twist  $A_{LT}^{\cos(2\phi_h - \phi_S)}$}
+
+\subsection{\boldmath Subleading-twist  $A_{LT}^{\cos(2\phi_h - \phi_S)}$}
 \label{Sec-7.3:FLTcos2phi-phiS}
 
 In the WW-type approximation this asymmetry is expressed in terms of
-$g_T^{\perp a}(x,\kperp)$ for which we assume a Gaussian Ansatz according to 
+$g_T^{\perp a}(x,\kperp)$, for which we assume a Gaussian Ansatz according to 
 Eq.~(\ref{eq:gtperpnew}) in App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs},
 and use the WW-type approximation (\ref{Eq:WW-type-gTperp}) as
 \be
@@ -3109,44 +3093,41 @@ see App.~\ref{App:convol-details} for details.
 
 Our predictions for the asymmetry  
 $A_{LT}^{\cos(2\phi_h -\phi_S)}=F_{LT}^{\cos(2\phi_h -\phi_S)}/F_{UU}$ as function 
-of $x$ are displayed in the right panel of Fig.~\ref{g1t_jlab} in
+of $x$ are displayed in  Fig.~\ref{altcos2phihphis} in
 comparison to preliminary COMPASS data from Ref.~\cite{Parsamyan:2015dfa}. 
-The asymmetry is very small, so we show our predictions on a larger
-scale in Fig.~\ref{altcos2phi_jlab}. At the current stage one may
+The asymmetry is very small, so at the current stage one may
 conclude that the WW-type approximation for the asymmetry 
 $A_{LT}^{\cos(2\phi_h -\phi_S)}$ is compatible with available data. In view 
-of the smallness of the effect, cf.\  Fig.~\ref{altcos2phi_jlab}, 
+of the smallness of the effect, cf.\  Fig.~\ref{altcos2phihphis}, 
 it might be difficult to obtain more quantitative insights
 in near future. 
-
-\
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.45\textwidth]{\FigPath/ALTcos2PhiminusPhiS_COMPASS_x.pdf} 
-\caption{\label{altcos2phi_jlab} $A_{LT}^{\cos(2\phi_h - \phi_S)}$ 
-	as a function of $ x $ from a proton target for the COMPASS
-	kinematics (enlarged detail of right panel Fig.~\ref{g1t_jlab} 
-	where also the preliminary COMPASS data \cite{Parsamyan:2015dfa}
-	are shown). The smallness
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cos2phihphis_pip}
+\includegraphics[width=0.45\textwidth]{\FigPath/LT_Pr10_cos2phihphis_pim} 
+\caption{\label{altcos2phihphis} $A_{LT}^{\cos(2\phi_h - \phi_S)}$ 
+	as a function of $ x $ from a proton target in comparison to the preliminary COMPASS data \cite{Parsamyan:2015dfa}. The smallness
 	of this asymmetry has two natural reasons. First, being twist-3
 	it is $M_N/Q$ suppressed. Second, it is proportional to
-	$P_{hT}^2$ with $P_{hT}\ll Q$ in TMD approach.
-	\TD{Bakur: can you prepare a separate plot for this asymmetry 
-	based on the right panel of Fig.~\ref{g1t_jlab}?
-	Then we could skip here the prediction.}}
+	$P_{hT}^2$ with $P_{hT}\ll Q$ in TMD approach.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
 
-\subsection{\boldmath   subleading-twist  $A_{LL}^{\cos\phi_h}$}
+
+
+
+
+
+
+
+
+\subsection{\boldmath   Subleading-twist  $A_{LL}^{\cos\phi_h}$}
 \label{Sec-7.3:FLLcosphi}
 
 In WW-type approximation the only contribution to $F_{LL}^{\cos\phi_h}$
-is due to $g_{L}^{\perp q}(x,k_\perp)$ which we assume to have a
+is due to $g_{L}^{\perp q}(x,k_\perp)$, which we assume to have a
 Gaussian $k_\perp$--behavior according to Eq.~(\ref{eq:gLperp})
 in App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs} with 
 the Gaussian width $\avkperp_{g_{L}^\perp}=\avkperp_{g_1}$. 
@@ -3174,9 +3155,8 @@ We remark that previously this asymmetry was studied in
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h!]
 \centering
-
-\vspace{1cm}
-\includegraphics[width=0.6\textwidth]{\FigPath/A_LL0_Pr0711_Zgt02.pdf}
+%\vspace{1cm}
+\includegraphics[width=0.9\textwidth]{\FigPath/A_LL_Pr0711_Zgt02.pdf}
 	\caption{\label{allcosphi_jlab} $A_{LL}^{\cos(\phi_h)}$  
 	as a function of $ x $ from the WW-type approximation in 
 	comparison to the preliminary COMPASS data 
@@ -3184,12 +3164,12 @@ We remark that previously this asymmetry was studied in
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%
 
-\newpage
-\subsection{\boldmath subleading-twist $A_{UL}^{\sin\phi_h}$ }
+
+\subsection{\boldmath Subleading-twist $A_{UL}^{\sin\phi_h}$ }
 \label{Sec-7.4:FULsinphi}
 
 In WW-type approximation $A_{UL}^{\sin\phi_h}$ is described by 
-$h_L^q(x,\kperp)$ for which we assume the Gaussian Ansatz 
+$h_L^q(x,\kperp)$, for which we assume the Gaussian Ansatz 
 (\ref{eq:hLnew}) in App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs}
 with $\avkperp_{h_L}=\avkperp_{h_1}$. We explore (\ref{Eq:WW-type-6}) 
 to estimate $x\,h_L^q(x) = -2 h_{1L}^{\perp(1)q}(x)$ and express
@@ -3211,9 +3191,9 @@ see App.~\ref{App:convol-details} for details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b]
 \centering
-\includegraphics[width=0.35\textwidth]{\FigPath/AULsinphi_HERMES_x.pdf}
-\includegraphics[width=0.35\textwidth]{\FigPath/AULsinphi_JLAB_x.pdf} \\
-\includegraphics[width=0.7\textwidth]{\FigPath/A_UL1_Pr0711_Zgt02.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_HERMES_x.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AULsinphi_JLAB_x.pdf} \\
+\includegraphics[width=0.9\textwidth]{\FigPath/A_UL1_Pr0711_Zgt02.pdf}
 \caption{\label{aulsinphi_jlab} 
 	$A_{UL}^{\sin\phi_h}$ for proton target vs $x$ from WW-type 
 	approximation in comparison to data for the following hadrons.
@@ -3225,7 +3205,7 @@ see App.~\ref{App:convol-details} for details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 The asymmetries $A_{UL}^{\sin\phi_h}=F_{UL}^{\sin\phi_h}/F_{UU}$ are compared
-to HERMES, JLab, and preliminary COMPASS data in Fig.~\ref{aulsinphi_jlab}.
+to HERMES, Jefferson Lab, and preliminary COMPASS data in Fig.~\ref{aulsinphi_jlab}.
 The WW-type approximation reproduces the positive sign of the asymmetry
 seen consistently at HERMES and COMPASS for $\pi^+$ and positive hadrons
 but underestimates its magnitude. The results for negative pions and 
@@ -3233,24 +3213,24 @@ hadrons at HERMES and COMPASS are compatible. An important test for this
 asymmetry is provided by neutral pions where in WW-type approximation
 the contributions of Collins fragmentation function largely cancel.
 The WW-type approximation is not able to explain the large effect
-observed at HERMES and JLab for $\pi^0$ in the large--$x$ region 
+observed at HERMES and Jefferson Lab for $\pi^0$ in the large--$x$ region 
 $0.1< x < 0.5$ in Fig.~\ref{aulsinphi_jlab}. 
-\ps{Overall, the WW-type approximation is not adequate to catch the
+Overall, the WW-type approximation is not adequate to catch the
 flavor dependence of this asymmetry. This indicates that here the 
 tilde-terms are not negligible, and have a characteristic flavor 
-dependence which is distinct from that of the Collins effect.}
+dependence that is distinct from that of the Collins effect.
 
-\newpage
 
-\subsection{\boldmath subleading-twist  $A_{UT}^{\sin\phi_S}$}
+
+\subsection{\boldmath Subleading-twist  $A_{UT}^{\sin\phi_S}$}
 \label{Sec-7.6:FUTsinphiS}
 
 In this structure function some interesting new features occur.
-The first feature is that after applying the WW-type approximation 
+The first feature is that after applying the WW-type approximation, 
 not one but three terms are left, cf.\ 
 Eqs.~(\ref{FUTsinphiS},~\ref{Eq:WW-type-FUTsinphiS}):
 two terms proportional to $h_T^{\perp q}(x,\kperp)$, $h_T^q(x,\kperp)$,
-and one term proportional to $f_T^q(x,\kperp)$ which is associated with
+and one term proportional to $f_T^q(x,\kperp)$, which is associated with
 the second interesting feature. This T-odd TMD must satisfy the sum rule 
 $\int d^2\kperp \,f_T^q(x,\kperp)=0$, see Eq.~(\ref{Eq:sum-rules-T-odd})
 and Sec.~\ref{Sec-3.8:limitations}. 
@@ -3266,12 +3246,12 @@ $f_T^q(x,\kperp)$.\footnote{\label{Footnote:fT-single-Gauss} This
 	{\pi\la\kperp^2\ra_{f_T}^{ }}$
 	with the ``coefficient'' $f_T^q(x)=0$ as dictated 
 	by the sum rule (\ref{Eq:sum-rules-T-odd}).}
-Assuming Gaussian Ans\"atze (\ref{eq:hTperpnew},~\ref{eq:hTnew}) 
+Assuming Gaussian Ans\''atze (\ref{eq:hTperpnew},~\ref{eq:hTnew}) 
 for $h_T^{\perp q}(x,\kperp)$, $h_T^q(x,\kperp)$ in 
 App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs} and relating 
 them to transversity via the WW-type approximations
 (\ref{Eq:WW-type-7},~\ref{Eq:WW-type-8}), the expression 
-for $F_{UT}^{\sin\phi_S}$ is given in terms a single term
+for $F_{UT}^{\sin\phi_S}$ is given in terms of a single term
 \begin{subequations}\begin{alignat}{1}
 	F_{UT}^{\sin\phi_S}(x,z,\Phperp) 
 	&= \,\frac{2M_N}{Q}\;x\sum_q e_q^2\,
@@ -3283,7 +3263,7 @@ for $F_{UT}^{\sin\phi_S}$ is given in terms a single term
 \end{alignat}\end{subequations}
 with $\lambda=z^2\la\kperp^2\ra_{h_T^\perp}+\la\pperp^2\ra_{H_1^\perp}$ and
 $\la\kperp^2\ra_{h_T^\perp}=\la\kperp^2\ra_{h_T^{ }}=\la\kperp^2\ra_{h_1^{ }}$. 
-The third interesting feature is the occurrence of a term which drops 
+The third interesting feature is the occurrence of a term that drops 
 out upon integrating the structure function over $\Phperp$, cf.\ 
 Eq.~(\ref{Eq:FUTsinphiS-final-PhT}) vs.\ (\ref{Eq:FUTsinphiS-final}).
 This is a property of the weight $\omega^{\{2\}}_{\rm B}$, see 
@@ -3294,63 +3274,47 @@ to discriminate experimentally the terms associated with this weight.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.4\textwidth]{\FigPath/AUTsinphiS_HERMES_x.pdf}
-\caption{\label{Fig-AUTsinphiS-HERMES} 
- 	Subleading--twist asymmetry $A_{UT}^{\sin\phi_S}(x)$, which 
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_sinphis_pip.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_sinphis_pim.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTsinphiS_HERMES_x.pdf}
+\caption{\label{autsinphis} 
+ 	Subleading-twist asymmetry $A_{UT}^{\sin\phi_S}(x)$, which 
 	is predicted to vanish in the WW-type approximation, in 
-	comparison to preliminary HERMES data \cite{Schnell:2010zza}.}
+	comparison to preliminary COMPASS~\cite{Parsamyan:2015dfa} and HERMES data \cite{Schnell:2010zza}.}
 \end{figure}
 
 The final result in Eq.~(\ref{Eq:FUTsinphiS-final}) is the consistent 
 result for the structure function $F_{UT}^{\sin\phi_S}(x,z)$ in WW-type 
 approximation, see Eq.~(\ref{Eq:FUT-collinear}). Our prediction is 
 therefore $A_{UT}^{\sin\phi_S}(x)=0$. 
-\ps{Preliminary 
-HERMES \cite{Schnell:2010zza} (Fig.~\ref{Fig-AUTsinphiS-HERMES}) and 
-COMPASS \cite{Parsamyan:2015dfa} (Fig.~\ref{autsinphi_jlab}) data 
+Preliminary 
+HERMES \cite{Schnell:2010zza} (Fig.~\ref{autsinphis}) and 
+COMPASS \cite{Parsamyan:2015dfa} (Fig.~\ref{autsinphis}) data 
 indicate that at $x\gtrsim 0.1$ the signal is clearly non-zero and 
-thus inconsistent with this WW-type prediction.} 
+thus inconsistent with this WW-type prediction. 
 
 
-
-
-
-
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[b]
 \centering
-\includegraphics[width=0.6\textwidth]{\FigPath/UT_Pr10.pdf}
-\includegraphics[width=0.3\textwidth]{\FigPath/AUTsin2PhiminusPhiS_HERMES_x.pdf}
-
-\caption{\label{autsinphi_jlab} 
-%	Preliminary data for azimuthal transverse target single--spin 
-%	asymmetries as functions of $x$ from the COMPASS experiment 
-%	\cite{Parsamyan:2015dfa}.
-%	Left panel: 
-%	leading--twist $A_{UT}^{\sin(3\phi_h-\phi_S)}(x)$ which 
-%	determines the pretzelosity TMD, one of our basis functions. 
-%	This asymmetry was discussed in Sec.~\ref{Sec-5.6:pretzel-basis} 
-%	and is included here for completeness. 
-	Left panel: 
-        \TD{remove and show in Fig.~\ref{aut_h1tp_jlab} instead.}
-	Middle panel:
-	subleading--twist $A_{UT}^{\sin\phi_S}(x)$ which is predicted to vanish
-	in the WW-type approximation, see Sec.~\ref{Sec-7.6:FUTsinphiS}.
-	Right panel: 
-	leading--twist $A_{UT}^{\sin(2\phi_h-\phi_S)}(x)$ in comparison to the 
-	WW-type prediction described in Sec.~\ref{Sec-7.8:FUTsin2phi-phiS}.
-	\TD{Bakur: please, can you re-do these plots in separate figures?}}
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_sin2phihphis_pip}
+\includegraphics[width=0.45\textwidth]{\FigPath/UT_Pr10_sin2phihphis_pip}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUTsin2PhiminusPhiS_HERMES_x.pdf}
+\caption{\label{autsin2phihphis} 
+	Subleading--twist $A_{UT}^{\sin(2 \phi_h - \phi_S)}(x)$  in comparison with preliminary COMPASS data~\cite{Parsamyan:2015dfa}, and 	
+	subleading--twist $A_{UT, \langle y \rangle}^{\sin(2\phi_h-\phi_S)}(x)$ in comparison to the 
+	preliminary HERMES data~\cite{Schnell:2010zza}.
+	}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\subsection{\boldmath subleading-twist  $A_{UT}^{\sin(2\phi_h-\phi_S)}$ }
+\subsection{\boldmath Subleading-twist  $A_{UT}^{\sin(2\phi_h-\phi_S)}$ }
 \label{Sec-7.8:FUTsin2phi-phiS}
 
-Also in this asymmetry we end up more than one surviving 
-contribution in our treatment. We assume Gaussian Ans\"atze for 
+Also in this asymmetry we end up with more than one surviving 
+contribution in our treatment. We assume Gaussian Ans\''atze for 
 $f_T^{\perp q}(x,\kperp)$, $h_T^{\perp q}(x,\kperp)$, $h_T^q(x,\kperp)$ 
 according to Eqs.~(\ref{eq:hTperpnew},~\ref{eq:hTnew},~\ref{eq:ftperpnew}) 
 in App.~\ref{App-B:Gauss-Ansatz-non-basis-TMDs} with
@@ -3397,14 +3361,13 @@ $-\,\frac12\,x \left(h_T^{(1)q}(x) + h_T^{\perp(1)q}(x)\right)
 = h_{1T}^{\perp(2)q}(x)$.
 
 The asymmetries $A_{UT}^{\sin (2 \phi_h-\phi_S)}=F_{UT}^{\sin (2 \phi_h-\phi_S)}/F_{UU}$  
-are plotted in the right panel of Fig.~\ref{autsinphi_jlab} in comparison 
-to preliminary COMPASS data \cite{Parsamyan:2015dfa}. The predicted
-asymmetry is small and compatible with data which are consistent
-with a zero effect within error bars.
+are plotted in Fig.~\ref{autsin2phihphis} in comparison 
+to preliminary COMPASS \cite{Parsamyan:2015dfa} and 
+HERMES \cite{Schnell:2010zza} data. The predicted
+asymmetry is small and compatible with the data that are consistent
+with a zero effect within uncertainties.
 
-
-\newpage
-\subsection{\boldmath subleading-twist  $A_{UU}^{\cos\phi_h}$ }
+\subsection{\boldmath Subleading-twist  $A_{UU}^{\cos\phi_h}$ }
 \label{Sec-7.7:FUUcosphi}
  
 Historically this was the earliest azimuthal SIDIS asymmetry to be
@@ -3457,64 +3420,63 @@ as well as the entire TMD formalism must be applied to small $\Phperp\ll Q$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.37\textwidth]{\FigPath/AUUcosphi_COMPASS_x.pdf} 
-\includegraphics[width=0.37\textwidth]{\FigPath/AUUcosphi_HERMES_x.pdf}
+\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_COMPASS_x.pdf} 
+\includegraphics[width=0.45\textwidth]{\FigPath/AUUcosphi_HERMES_x.pdf}
 \caption{\label{auucosphi_jlab} 
 	Left panel: asymmetry $A_{UU}^{\cos\phi_h}$ for positive and negative 
 	hadrons at COMPASS for a proton target \cite{Adolph:2014pwc}. Right 
-	panel: the same for $\pi^\pm$ from HERMES \cite{Airapetian:2012yg}.}
+	panel: the same asymmetry $A_{UU, \langle y \rangle}^{\cos\phi_h}$ for $\pi^\pm$ from HERMES \cite{Airapetian:2012yg}.}
 \end{figure}
 
-The asymmetries $A_{UU}^{\cos\phi_h}$ were measured in experiments at
-EMC \cite{Aubert:1983cz}, JLab \cite{Osipenko:2008aa,Mkrtchyan:2007sr}, 
+The asymmetries $A_{UU}^{\cos\phi_h}$ were measured by
+EMC \cite{Aubert:1983cz}, at Jefferson Lab \cite{Osipenko:2008aa,Mkrtchyan:2007sr}, 
 HERMES \cite{Airapetian:2012yg}, and COMPASS \cite{Adolph:2014pwc}.
 In Fig.~\ref{auucosphi_jlab} we compare our predictions to the HERMES and 
 COMPASS data. 
-\ps{The WW-type approximation tends to overstimate the data at
+The WW-type approximation tends to overstimate the data at
 COMPASS especially in the small-$x$ region. It is also not
 compatible with the flavor dependence seen at HERMES. 
-However both experiments seem not to agree for instance on the shape
+However, both experiments seem not to agree for instance on the shape
 of the asymmetry for negative pions or hadrons. More experimental and
 theoretical work is need to clarify whether this could be due to
-power corrections.}
+power corrections.
 
 
 
 
 %======= SECTION 9: CONCLUSIONS ======================================
-\newpage
 \section{Conclusions}
 \label{Sec-8:conclusions}
 
 In this work a comprehensive and complete treatment of SIDIS
 spin and azimuthal asymmetries was presented. 
 The theoretical and phenomenological understanding of most of the
-leading--twist SIDIS structure functions for the production of 
+leading-twist SIDIS structure functions for the production of 
 unpolarized hadrons is relatively advanced: factorization is
 proven, and each structure functions is unambiguously expressed in 
 terms of one of 8 twist-2 TMDs convoluted with one of 2 twist-2 FFs.
-For subleading--twist SIDIS structure functions the situation
+For subleading-twist SIDIS structure functions the situation
 is far more complex for two reasons. First, factorization is not 
 proven and must be assumed. 
-Second, each of the subleading--twist structure functions
+Second, each of the subleading-twist structure functions
 receives 4 or 6 contributions from various TMDs and FFs one of
 which is twist-2 and the other twist-3. Clearly, to make 
 predictions for new experiments or interpret early data, an
 organizing theoretical guideline is needed.
 
-In this work we have explored the so--called WW--type approximation
+In this work we have explored the so-called WW-type approximation
 as a candidate guideline for the description of SIDIS structure
 functions. This approximation consists of a systematic neglect 
 of $\bar{q}gq$-terms in the
 correlators defining the TMDs and FFs. We have shown that in such
 an approach all twist-2 and twist-3 structure functions can be
-described in terms of 8 basis functions: 6 TMDs and 2 FFs
+described in terms of 8 basis functions: 6 TMDs and 2 FFs,
 which are each twist-2. All other TMDs and FFs, assuming this
 approximation, are either related to the basis functions or
 vanish. 
 We remark that the generalized parton model 
-approach of Ref.~\cite{Anselmino:2011ch} provides a description,
-which is largely equivalent to ours. 
+approach of Ref.~\cite{Anselmino:2011ch} provides a description
+that is largely equivalent to ours. 
 
 To make this work self-contained we included a review of the 
 available phenomenological information on the basis functions 
@@ -3522,7 +3484,7 @@ which is given in terms of 6 SIDIS structure functions.
 (Of course, one cannot extract 8 basis
 functions from 6 observables: the extraction of 2 basis functions,
 the unpolarized TMD and FF $f_1^q(x,\kperp)$ and $D_1^q(x,\pperp)$,
-makes also use of other experiments, most notably Drell-Yan
+makes also use of other experiments, most notably Drell--Yan
 and hadron production in $e^+e^-$ annihilations.)
 
 The WW-type approximation for TMDs and FFs is inspired by the
@@ -3530,9 +3492,9 @@ observation that the classical WW-approximation for the twist-3
 SIDIS structure function $g_2(x)$ (or PDF $g_T^q(x)$) works well. 
 This was predicted in theoretical studies in the instanton model 
 of the QCD vacuum, and confirmed by data and lattice QCD studies.
-The classic WW-approximation for $g_2(x)$ works with a relative
+The classic WW approximation for $g_2(x)$ works with a relative
 accuracy of $\pm\,40\,\%$ or better. This is remarkable.
-The instanton vacuum model predicts an analogous WW-approximation
+The instanton vacuum model predicts an analogous WW approximation
 for the chirally odd twist-3 PDF $h_L^q(x)$ to work similarly
 well. This prediction remains to be tested in experiment.
 
@@ -3553,21 +3515,21 @@ We found that from theoretical point of view the WW-type
 approximations receive certain support, though there is 
 less evidence than in the collinear case.
 Most importantly, we have conducted systematic tests of
-WW-approximations with available published or 
+WW approximations with available published or 
 preliminary (and soon to be published) SIDIS data
-from HERMES, COMPASS, and JLab.
+from HERMES, COMPASS, and Jefferson Lab.
 
-We found the following results. The two leading--twist 
-structure functions amenable to WW-type approximation 
+We found the following results. The two leading-twist 
+structure functions amenable to WW-type approximations, 
 	$F_{LT}^{\cos(\phi_h -\phi_S)}$ and 
-	$F_{UL}^{\sin(2\phi_h)}$ 
-are well--described (the former) or at least compatible 
+	$F_{UL}^{\sin(2\phi_h)}$, 
+are well-described (the former) or at least compatible 
 (the latter) with the data in this approximation. For 
 $F_{UL}^{\sin(2\phi_h)}$ more precise data are needed, 
 but also in this case the trend is encouraging
-especially thanks to the recent COMPASS data.
+especially thanks to the recent preliminary COMPASS data.
 We have also shown that our approach satisfies positivity
-inequalities which is a non--trivial consistency check 
+inequalities, which is a non-trivial consistency check 
 considering the crude approximations (WW-type, Gaussian 
 Ansatz for TMDs) in our approach.
 
@@ -3579,7 +3541,7 @@ structure functions
 	$F_{UT}^{\sin(2\phi_h-\phi_S)}$
 is compatible with data, too. Some of these asymmetries are
 predicted to be very small in the WW-type approximation,
-sometimes smaller than a fraction or a percent. This is
+sometimes smaller than a fraction of a percent. This is
 compatible with the available data in the sense that the
 data are consistent with zero within their statistical
 accuracies. This cannot be considered a thorough evidence
@@ -3587,17 +3549,17 @@ for the applicability of the WW-type approximations, but
 on the positive site we also observe no alarming hints
 that the WW-type approximations fail in these cases.
 
-In the case of the three subleading--twist structure functions 
+In the case of the three subleading-twist structure functions 
 	$F_{UU}^{\cos\phi_h}$, 
 	$F_{UL}^{\sin\phi_h}$,
-	$F_{LU}^{\sin\phi_h}$,
+	$F_{LU}^{\sin\phi_h}$, and
 	$F_{UT}^{\sin\phi_S}$
 the situation is clearer and indicates that here the WW-type
 approximations do not work.
-Incidently, these asymmetries include the very first non--zero azimuthal 
-asymmetry measured in unpolarized SIDIS ($F_{UU}^{\cos(\phi_h)}$),
-the very first non--zero target single spin asymmetry measured in SIDIS
-($F_{UL}^{\sin\phi_h}$), and the very first non--zero beam single spin 
+Incidently, these asymmetries include the very first non-zero azimuthal 
+asymmetry measured in unpolarized SIDIS ($F_{UU}^{\cos\phi_h}$),
+the very first non-zero target single-spin asymmetry measured in SIDIS
+($F_{UL}^{\sin\phi_h}$), and the very first non-zero beam single-spin 
 asymmetry measured in SIDIS ($F_{LU}^{\sin\phi_h}$).
 The WW-type prediction for $F_{UU}^{\cos(\phi_h)}$ tends to overshoot
 the data. In the case of $F_{UL}^{\sin\phi_h}$ the WW-type approximation 
@@ -3611,30 +3573,30 @@ cases should not be too surprising. After all it is a crude method
 to model TMDs and FFs and an uncontrollable ``expansion''
 (in nuclear physics the concept of 2--body, 3--body, etc operators
 is well-justified and an effective expansion can be conducted; in
-the case of TMDs however it is less appropriate to speak about a
+the case of TMDs, however, it is less appropriate to speak about a
 systematic expansion in terms of $\bar{q}q$, $\bar{q}gq$, etc 
-correlators). It will be very interesting to learn whether e.g.\ 
+correlators). It will be very interesting to learn whether, e.g., 
 in $F_{UL}^{\sin\phi_h}$ or $F_{LU}^{\sin\phi_h}$ a single $\bar{q}gq$--term 
 is anomalously large, or whether it is a accumulative effect of 
 several small terms $\bar{q}gq$--terms adding up to the observed asymmetry.
 
 Among all SIDIS structure functions $F_{LU}^{\sin\phi_h}$ emerges as
 a particularly interesting case: this asymmetry is due to $\bar{q}gq$
-only with no contamination from $\bar{q}q$ terms.
-So $F_{LU}^{\sin\phi_h}$ offers a unique view on the physics of $\bar{q}gq$ 
-correlators which is worth--exploring for its own sake.
+only, without ``contamination'' from $\bar{q}q$ terms.
+Thus $F_{LU}^{\sin\phi_h}$ offers a unique view on the physics of $\bar{q}gq$ 
+correlators, worth exploring for its own sake.
 
 The results presented in this work are of importance for several reasons.
-To the best of our knowledge it is the first complete study of all SIDIS 
+To the best of our knowledge, it is the first complete study of all SIDIS 
 structure functions up to twist-3 in a unique approach. The results are 
-useful for experiments prepared in the near-term (JLab 12) or proposed 
-in the long-term (Electron Ion Collider), and provide helpful input for 
+useful for experiments prepared in the near term (JLab 12) or proposed 
+in the long term (Electron Ion Collider), and provide helpful input for 
 Monte Carlo event generators \cite{Avakian:2015vha}.
 Our predictions will help to pave the way
 towards a better understanding of the quark-gluon structure
 of the nucleon beyond leading twist.
 
-\newpage
+
 
 \section{Acknowledgments}
 First and foremost, the authors would like to thank their families 
@@ -3642,16 +3604,16 @@ for patience and constant support throughout writing this paper.
 The authors would like to thank Werner Vogelsang for many useful 
 discussions. This work was partially supported by the U.S.\ 
 Department of Energy under Contract No.~DE-AC05-06OR23177 (A.P.) 
-and within TMD Collaboration framework, and by the National 
+and within the TMD Collaboration framework, and by the National 
 Science Foundation under Contract No.\ PHY-1623454 (A.P.) and 
-Contract No.\ PHY-1406298 (P.S.) and the Wilhelm Schuler Stiftung (P.S.).
+Contract No.\ PHY-1406298 (P.S.), and the Wilhelm Schuler Stiftung (P.S.).
 
 
  
-\newpage
+
 \appendix
 
-\section{\boldmath The ``minimal basis" of TMDs and FFs}
+\section{\boldmath The ``minimal basis'' of TMDs and FFs}
 \label{App:basis}
 
 This Appendix describes the technical details of the parametrizations
@@ -3785,7 +3747,7 @@ underestimate the phenomenological numbers, see
 Table~\ref{Table:Gauss-paramaters}.
 The exact reasons for that are unknown, but it is natural to think it
 might be related to the fact that the lattice predictions \cite{Hagler:2009mb}
-do not refer to TMDs entering in SIDIS (or Drell-Yan or other process) 
+do not refer to TMDs entering in SIDIS (or Drell--Yan or other process) 
 because a different gauge link was chosen, see Sec.~\ref{Sec-3.5:WW-lattice}. 
 Still one may expect these results to bear considerable information 
 on QCD dynamics.\footnote{
@@ -4044,7 +4006,7 @@ $\alpha$ &=& $2.5\pm1.5$ & $\beta$ &=& $2$ fixed \\
 \end{table}
 %
  
-\newpage
+
 \section{Convolution integrals and expressions in Gaussian Ansatz}
 \label{App:factor}
 
@@ -4157,13 +4119,13 @@ from higher twist matrix element instead of the usual twist-2 one.
 In those cases equivalent formulas to Eqs.~(\ref{eq:moments}) can 
 be easily derived.
 
-\subsection{Gaussian Ans\"atze for the derived TMDs used in this work}
+\subsection{Gaussian Ans\''atze for the derived TMDs used in this work}
 \label{App-B:Gauss-Ansatz-non-basis-TMDs}
 
-Having discussed the Gaussian Ans\"atze for the 8 basis functions
+Having discussed the Gaussian Ans\''atze for the 8 basis functions
 in Eqs.~(\ref{Eq:Gauss-f1}--\ref{Eq:Gauss-h1Tperp}) of
 Sec.~\ref{Sec-4.4:evaluation} and in App.~\ref{App:basis},
-we list here the Ans\"atze for the following derived TMDs:
+we list here the Ans\''atze for the following derived TMDs:
 \begin{subequations}\begin{align}
 	g_{1T}^{\perp q}(x,\kperp^2) 
 	  &=	g_{1T}^{\perp (1) q}(x)\,
@@ -4220,7 +4182,7 @@ we list here the Ans\"atze for the following derived TMDs:
 		\label{eq:fperpnew}
 \end{align}\end{subequations}
 
-\newpage
+
 \subsection{Comment on TMDs subject to the sum rules (\ref{Eq:sum-rules-T-odd})}
 \label{App-B:comment-Todd-twist-3}
 
@@ -4272,7 +4234,7 @@ the present stage, but in principle this could be a
 pragmatic way of modeling the TMD $f_T^q(x,\kperp)$
 and analogously $h^q(x,\kperp)$, $e_L^q(x,\kperp)$.
 
-\newpage
+
 \subsection{Convolution integrals in Gaussian Ansatz}
 \label{App:convol-details}
 
@@ -4422,7 +4384,7 @@ with
 	\label{Eq:Gaussian-integrals-working-IV}
 \end{alignat}
 
-\newpage
+
 \section{Mathematica package}
 \label{app:package}
 
@@ -4458,7 +4420,7 @@ you will see an example of usage of the code, code description and
 several visualizations of functions, asymmetries, and SIDIS cross-sections. 
 Please note that, for now, the package can compute the aforementioned 
 observables for a proton target, detected charged pions and beam 
-helicities \ps{$\pm1$ or $0$ (with the latter denoting an unpolarized beam).}
+helicities $\pm1$ or $0$ (with the latter denoting an unpolarized beam).
 Make sure that you do not move \texttt{example.nb} to another directory 
 as it uses grids for TMDs, PDFs, and FFs.
 
@@ -4484,7 +4446,7 @@ SIDIS cross section examples are presented in Fig.~\ref{fig:package} .
 
 
 
-\newpage
+
 \bibliography{\BibPath/biblio_ww}
 
 \end{document}
