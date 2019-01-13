@@ -1,0 +1,56 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{The SIDIS process in terms of TMDs and FFs}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{The SIDIS process}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{TMDs, FFs and structure functions}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{WW and WW-type approximations}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{WW approximation for PDFs}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{WW-type approximations for TMDs and FFs}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Predictions from instanton vacuum model}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Tests of WW approximation in DIS experiments}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Tests in lattice QCD}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.6}{Tests in models}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.7}{Basis functions for the WW-type approximations}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.8}{Limitation of WW-type approximation}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{SIDIS in the WW-type approximation and Gaussian model}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Leading structure functions amenable to WW-type approximations}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Subleading structure functions in WW-type approximations}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Gaussian Ansatz for TMDs and FFs}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.4}{Evaluation of structure functions in WW-type \046 Gaussian approximation}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{Phenomenological information on basis functions}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Leading-twist asymmetries and basis functions}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Leading-twist F_UU and Gaussian Ansatz}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Leading-twist A_LL and first test of Gaussian Ansatz in polarized scattering}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.3}{Leading-twist A_UT^sin\(_h-_S\) Sivers asymmetry}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.4}{Leading-twist A_UT^sin\(_h+_S\) Collins asymmetry}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.5}{Leading-twist A_UU^cos\(2_h\) Boer\205Mulders asymmetry}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.6}{Leading-twist A_UT^sin\(3_h-_S\) asymmetry}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.7}{Statistical and systematic uncertainties of basis functions}{section.5}% 27
+\BOOKMARK [1][-]{section.6}{Leading-twist asymmetries in WW-type approximation}{}% 28
+\BOOKMARK [2][-]{subsection.6.1}{Leading-twist A_LT^cos\(_h-_S\)}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.2}{Leading-twist A_UL^sin2_h Kotzinian\205Mulders asymmetry}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.3}{Inequalities and a cross check}{section.6}% 31
+\BOOKMARK [1][-]{section.7}{Subleading-twist asymmetries in WW-type approximation}{}% 32
+\BOOKMARK [2][-]{subsection.7.1}{Subleading-twist A_LU^sin_h}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.2}{Subleading-twist A_LT^cos_S}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.3}{Subleading-twist A_LT^cos\(2_h - _S\)}{section.7}% 35
+\BOOKMARK [2][-]{subsection.7.4}{Subleading-twist A_LL^cos_h}{section.7}% 36
+\BOOKMARK [2][-]{subsection.7.5}{Subleading-twist A_UL^sin_h }{section.7}% 37
+\BOOKMARK [2][-]{subsection.7.6}{Subleading-twist A_UT^sin_S}{section.7}% 38
+\BOOKMARK [2][-]{subsection.7.7}{Subleading-twist A_UT^sin\(2_h-_S\) }{section.7}% 39
+\BOOKMARK [2][-]{subsection.7.8}{Subleading-twist A_UU^cos_h }{section.7}% 40
+\BOOKMARK [1][-]{section.8}{Conclusions}{}% 41
+\BOOKMARK [1][-]{section.9}{Acknowledgments}{}% 42
+\BOOKMARK [1][-]{appendix.A}{The ``minimal basis'' of TMDs and FFs}{}% 43
+\BOOKMARK [2][-]{subsection.A.1}{Unpolarized functions f_1^a\(x,k_^2\) and D_1^a\(z,P_^2\)}{appendix.A}% 44
+\BOOKMARK [2][-]{subsection.A.2}{Helicity distribution g_1^a\(x,k_^2\)}{appendix.A}% 45
+\BOOKMARK [2][-]{subsection.A.3}{Sivers function f_1T^q\(x,k_\)}{appendix.A}% 46
+\BOOKMARK [2][-]{subsection.A.4}{Transversity h_1^q\(x,k_\) and Collins function H_1^q\(x,P_\)}{appendix.A}% 47
+\BOOKMARK [2][-]{subsection.A.5}{Boer-Mulders function h_1^q\(x,k_\)}{appendix.A}% 48
+\BOOKMARK [2][-]{subsection.A.6}{Pretzelosity distribution h_1T^q\(x,k_\)}{appendix.A}% 49
+\BOOKMARK [1][-]{appendix.B}{Convolution integrals and expressions in Gaussian Ansatz}{}% 50
+\BOOKMARK [2][-]{subsection.B.1}{Notation for convolution integrals }{appendix.B}% 51
+\BOOKMARK [2][-]{subsection.B.2}{Gaussian Ansatz}{appendix.B}% 52
+\BOOKMARK [2][-]{subsection.B.3}{Gaussian Ansatz for the derived TMDs used in this work}{appendix.B}% 53
+\BOOKMARK [2][-]{subsection.B.4}{Comment on TMDs subject to the sum rules \(2.14\)}{appendix.B}% 54
+\BOOKMARK [2][-]{subsection.B.5}{Convolution integrals in Gaussian Ansatz}{appendix.B}% 55
+\BOOKMARK [1][-]{appendix.C}{Mathematica package}{}% 56

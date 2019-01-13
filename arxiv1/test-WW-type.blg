@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: test-WW-type.aux
+The style file: JHEP.bst
+Reallocated field_info (elt_size=4) to 11293 items from 5000.
+Database file #1: ./biblio_ww.bib
+Warning--empty booktitle in Dakin:1972db
+You've used 217 entries,
+            2188 wiz_defined-function locations,
+            2353 strings with 53140 characters,
+and the built_in function-call counts, 72251 in all, are:
+= -- 7545
+> -- 2719
+< -- 0
++ -- 798
+- -- 581
+* -- 6335
+:= -- 9765
+add.period$ -- 220
+call.type$ -- 217
+change.case$ -- 217
+chr.to.int$ -- 0
+cite$ -- 218
+duplicate$ -- 3773
+empty$ -- 6276
+format.name$ -- 581
+if$ -- 19119
+int.to.chr$ -- 0
+int.to.str$ -- 217
+missing$ -- 839
+newline$ -- 658
+num.names$ -- 217
+pop$ -- 371
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3176
+stack$ -- 0
+substring$ -- 3289
+swap$ -- 2068
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 490
+width$ -- 220
+write$ -- 2340
+(There was 1 warning)
