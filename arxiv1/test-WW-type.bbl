@@ -1,9 +1,11 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
 \bibitem{Kotzinian:1994dv}
-A.~Kotzinian, \emph{New quark distributions and semiinclusive electroproduction
-  on the polarized nucleons}, {\emph{Nucl. Phys.} {\bf B441} (1995) 234--248},
-  [\href{https://arxiv.org/abs/hep-ph/9412283}{{\tt hep-ph/9412283}}].
+A.~Kotzinian, \emph{{New quark distributions and semiinclusive
+  electroproduction on the polarized nucleons}},
+  \href{http://dx.doi.org/10.1016/0550-3213(95)00098-D}{\emph{Nucl. Phys.} {\bf
+  B441} (1995) 234--248}, [\href{https://arxiv.org/abs/hep-ph/9412283}{{\tt
+  hep-ph/9412283}}].
 
 \bibitem{Mulders:1995dh}
 P.~J. Mulders and R.~D. Tangerman, \emph{{The complete tree-level result up to
@@ -20,21 +22,31 @@ D.~Boer and P.~J. Mulders, \emph{{Time-reversal odd distribution functions in
   hep-ph/9711485}}].
 
 \bibitem{Goeke:2005hb}
-K.~Goeke, A.~Metz and M.~Schlegel, \emph{{Parameterization of the quark-quark
+K.~Goeke, A.~Metz and M.~Schlegel, \emph{{Parameterization of the quark--quark
   correlator of a spin-1/2 hadron}},
   \href{http://dx.doi.org/10.1016/j.physletb.2005.05.037}{\emph{Phys. Lett.}
   {\bf B618} (2005) 90--96}, [\href{https://arxiv.org/abs/hep-ph/0504130}{{\tt
   hep-ph/0504130}}].
 
 \bibitem{Bacchetta:2006tn}
-A.~Bacchetta et~al., \emph{{Semi-inclusive deep inelastic scattering at small
-  transverse momentum}}, {\emph{JHEP} {\bf 02} (2007) 093},
-  [\href{https://arxiv.org/abs/hep-ph/0611265}{{\tt hep-ph/0611265}}].
+A.~Bacchetta, M.~Diehl, K.~Goeke, A.~Metz, P.~J. Mulders and M.~Schlegel,
+  \emph{{Semi-inclusive deep inelastic scattering at small transverse
+  momentum}},
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/02/093}{\emph{JHEP} {\bf 02}
+  (2007) 093}, [\href{https://arxiv.org/abs/hep-ph/0611265}{{\tt
+  hep-ph/0611265}}].
 
 \bibitem{Stock:1994vv}
 F.~Stock et~al., \emph{{The FILTEX / HERMES polarized hydrogen atomic beam
   source}}, \href{http://dx.doi.org/10.1016/0168-9002(94)90210-0}{\emph{Nucl.
   Instrum. Meth.} {\bf A343} (1994) 334--342}.
+
+\bibitem{Airapetian:2004yf}
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{The HERMES
+  polarized hydrogen and deuterium gas target in the HERA electron storage
+  ring}}, \href{http://dx.doi.org/10.1016/j.nima.2004.11.020}{\emph{Nucl.
+  Instrum. Meth.} {\bf A540} (2005) 68--101},
+  [\href{https://arxiv.org/abs/physics/0408137}{{\tt physics/0408137}}].
 
 \bibitem{Crabb:1997cy}
 D.~G. Crabb and W.~Meyer, \emph{{Solid polarized targets for nuclear and
@@ -43,86 +55,91 @@ D.~G. Crabb and W.~Meyer, \emph{{Solid polarized targets for nuclear and
   Part. Sci.} {\bf 47} (1997) 67--109}.
 
 \bibitem{Goertz:2002vv}
-S.~Goertz, W.~Meyer and G.~Reicherz, \emph{{Polarized H, D and He-3 targets for
-  particle physics experiments}},
+S.~Goertz, W.~Meyer and G.~Reicherz, \emph{{Polarized H, D and $^{3}$He targets
+  for particle physics experiments}},
   \href{http://dx.doi.org/10.1016/S0146-6410(02)00159-X}{\emph{Prog. Part.
   Nucl. Phys.} {\bf 49} (2002) 403--489}.
 
 \bibitem{Arnold:2008kf}
 S.~Arnold, A.~Metz and M.~Schlegel, \emph{{Dilepton production from polarized
-  hadron hadron collisions}},  \href{https://arxiv.org/abs/0809.2262}{{\tt
-  0809.2262}}.
+  hadron hadron collisions}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.79.034005}{\emph{Phys. Rev.} {\bf
+  D79} (2009) 034005}, [\href{https://arxiv.org/abs/0809.2262}{{\tt
+  0809.2262}}].
 
 \bibitem{Metz:2016swz}
-A.~Metz and A.~Vossen, \emph{{Parton Fragmentation Functions}},
+A.~Metz and A.~Vossen, \emph{{Parton fragmentation functions}},
   \href{http://dx.doi.org/10.1016/j.ppnp.2016.08.003}{\emph{Prog. Part. Nucl.
   Phys.} {\bf 91} (2016) 136--202},
   [\href{https://arxiv.org/abs/1607.02521}{{\tt 1607.02521}}].
 
 \bibitem{Miller:2007ae}
-G.~A. Miller, \emph{{Densities, Parton Distributions, and Measuring the
-  Non-Spherical Shape of the Nucleon}},
+G.~A. Miller, \emph{{Densities, parton distributions, and measuring the
+  nonspherical shape of the nucleon}},
   \href{http://dx.doi.org/10.1103/PhysRevC.76.065209}{\emph{Phys. Rev.} {\bf
   C76} (2007) 065209}, [\href{https://arxiv.org/abs/0708.2297}{{\tt
   0708.2297}}].
 
 \bibitem{Burkardt:2007rv}
-M.~Burkardt, \emph{{Spin-orbit correlations and single-spin asymmetries}},
-  \href{https://arxiv.org/abs/0709.2966}{{\tt 0709.2966}}.
+M.~Burkardt, \emph{{Spin-orbit correlations and single-spin asymmetries}},  in
+  \emph{{Workshop on Exclusive Reactions at High Momentum Transfer Newport
+  News, Virginia, May 21-24, 2007}}, 2007.
+\newblock \href{https://arxiv.org/abs/0709.2966}{{\tt 0709.2966}}.
 
 \bibitem{Burkardt:2009rf}
-M.~Burkardt, \emph{{The g(2) Structure Function}},
+M.~Burkardt, \emph{{The $g_{2}$ Structure Function}},
   \href{http://dx.doi.org/10.1063/1.3203298}{\emph{AIP Conf.Proc.} {\bf 1155}
   (2009) 26--34}, [\href{https://arxiv.org/abs/0905.4079}{{\tt 0905.4079}}].
 
 \bibitem{Bacchetta:1999kz}
 A.~Bacchetta, M.~Boglione, A.~Henneman and P.~J. Mulders, \emph{{Bounds on
-  transverse momentum dependent distribution and fragmentation functions}},
+  Transverse Momentum Dependent Distribution and Fragmentation Functions}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.85.712}{\emph{Phys. Rev. Lett.}
   {\bf 85} (2000) 712--715}, [\href{https://arxiv.org/abs/hep-ph/9912490}{{\tt
   hep-ph/9912490}}].
 
 \bibitem{Wandzura:1977qf}
-S.~Wandzura and F.~Wilczek, \emph{{Sum Rules for Spin Dependent
-  Electroproduction: Test of Relativistic Constituent Quarks}},
+S.~Wandzura and F.~Wilczek, \emph{{Sum rules for spin-dependent
+  electroproduction: Test of relativistic constituent quarks}},
   \href{http://dx.doi.org/10.1016/0370-2693(77)90700-6}{\emph{Phys. Lett.} {\bf
   B72} (1977) 195}.
 
 \bibitem{Jaffe:1991ra}
-R.~Jaffe and X.~Ji, \emph{{Chiral odd parton distributions and Drell--Yan
+R.~Jaffe and X.~Ji, \emph{{Chiral-odd parton distributions and Drell--Yan
   processes}},
   \href{http://dx.doi.org/10.1016/0550-3213(92)90110-W}{\emph{Nucl. Phys.} {\bf
   B375} (1992) 527--560}.
 
 \bibitem{Jaffe:1989xx}
-R.~Jaffe, \emph{{G(2): The Nucleon's Other Spin Dependent Structure Function}},
-  {\emph{Comments Nucl. Part. Phys.} {\bf 19} (1990) 239}.
+R.~L. Jaffe, \emph{{$g_{2}$-The Nucleon's Other Spin-Dependent Structure
+  Function}}, {\emph{Comments Nucl. Part. Phys.} {\bf 19} (1990) 239--257}.
 
 \bibitem{Balla:1997hf}
-J.~Balla, M.~V. Polyakov and C.~Weiss, \emph{{Nucleon matrix elements of higher
-  twist operators from the instanton vacuum}},
+J.~Balla, M.~V. Polyakov and C.~Weiss, \emph{{Nucleon matrix elements of
+  higher-twist operators from the instanton vacuum}},
   \href{http://dx.doi.org/10.1016/S0550-3213(98)00638-5}{\emph{Nucl. Phys.}
   {\bf B510} (1998) 327--364},
   [\href{https://arxiv.org/abs/hep-ph/9707515}{{\tt hep-ph/9707515}}].
 
 \bibitem{Dressler:1999hc}
-B.~Dressler and M.~V. Polyakov, \emph{{On the twist-three contribution to h(L)
-  in the instanton vacuum}},
+B.~Dressler and M.~V. Polyakov, \emph{{Twist-three contribution to $h_{L}$ in
+  the instanton vacuum}},
   \href{http://dx.doi.org/10.1103/PhysRevD.61.097501}{\emph{Phys. Rev.} {\bf
   D61} (2000) 097501}, [\href{https://arxiv.org/abs/hep-ph/9912376}{{\tt
   hep-ph/9912376}}].
 
 \bibitem{Gockeler:2000ja}
-M.~Gockeler, R.~Horsley, W.~Kurzinger, H.~Oelrich, D.~Pleiter et~al., \emph{{A
-  Lattice calculation of the nucleon's spin dependent structure function g(2)
-  revisited}}, \href{http://dx.doi.org/10.1103/PhysRevD.63.074506}{\emph{Phys.
-  Rev.} {\bf D63} (2001) 074506},
-  [\href{https://arxiv.org/abs/hep-lat/0011091}{{\tt hep-lat/0011091}}].
+M.~G{\"o}ckeler, R.~Horsley, W.~K{\"u}rzinger, H.~Oelrich, D.~Pleiter et~al.,
+  \emph{{Lattice calculation of the nucleon's spin-dependent structure function
+  $g_{2}$ reexamined}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.63.074506}{\emph{Phys. Rev.} {\bf
+  D63} (2001) 074506}, [\href{https://arxiv.org/abs/hep-lat/0011091}{{\tt
+  hep-lat/0011091}}].
 
 \bibitem{Gockeler:2005vw}
-{Gockeler, M. and Horsley, R. and Pleiter, D. and Rakow, Paul E.L. and
-  Sch\"afer, A. and others}, \emph{{Investigation of the second moment of the
-  nucleon's g(1) and g(2) structure functions in two-flavor lattice QCD}},
+M.~G{\"o}ckeler, R.~Horsley, D.~Pleiter, P.~E. Rakow, A.~Sch{\"a}fer et~al.,
+  \emph{{Investigation of the second moment of the nucleon's $g_{1}$ and
+  $g_{2}$ structure functions in two-flavor lattice QCD}},
   \href{http://dx.doi.org/10.1103/PhysRevD.72.054507}{\emph{Phys. Rev.} {\bf
   D72} (2005) 054507}, [\href{https://arxiv.org/abs/hep-lat/0506017}{{\tt
   hep-lat/0506017}}].
@@ -136,8 +153,8 @@ M.~Gockeler, R.~Horsley, W.~Kurzinger, H.~Oelrich, D.~Pleiter et~al., \emph{{A
 
 \bibitem{Anthony:2002hy}
 {\scshape E155} collaboration, P.~L. Anthony et~al., \emph{{Precision
-  measurement of the proton and deuteron spin structure functions g2 and
-  asymmetries A(2)}},
+  measurement of the proton and deuteron spin structure functions $g_{2}$ and
+  asymmetries $A_{2}$}},
   \href{http://dx.doi.org/10.1016/S0370-2693(02)03015-0}{\emph{Phys. Lett.}
   {\bf B553} (2003) 18--24}, [\href{https://arxiv.org/abs/hep-ex/0204028}{{\tt
   hep-ex/0204028}}].
@@ -166,7 +183,7 @@ A.~M. Kotzinian and P.~J. Mulders, \emph{{Probing transverse quark polarization
 
 \bibitem{Kotzinian:2006dw}
 A.~Kotzinian, B.~Parsamyan and A.~Prokudin, \emph{{Predictions for double spin
-  asymmetry A(LT) in semi inclusive DIS}},
+  asymmetry $A_{LT}$ in semiinclusive DIS}},
   \href{http://dx.doi.org/10.1103/PhysRevD.73.114017}{\emph{Phys. Rev.} {\bf
   D73} (2006) 114017}, [\href{https://arxiv.org/abs/hep-ph/0603194}{{\tt
   hep-ph/0603194}}].
@@ -180,21 +197,21 @@ H.~Avakian et~al., \emph{{Are there approximate relations among transverse
 
 \bibitem{Metz:2008ib}
 A.~Metz, P.~Schweitzer and T.~Teckentrup, \emph{{Lorentz invariance relations
-  between parton distributions and the Wandzura-Wilczek approximation}},
+  between parton distributions and the Wandzura--Wilczek approximation}},
   \href{http://dx.doi.org/10.1016/j.physletb.2009.08.052}{\emph{Phys. Lett.}
   {\bf B680} (2009) 141--147}, [\href{https://arxiv.org/abs/0810.5212}{{\tt
   0810.5212}}].
 
 \bibitem{Teckentrup:2009tk}
 T.~Teckentrup, A.~Metz and P.~Schweitzer, \emph{{Lorentz invariance relations
-  and Wandzura-Wilczek approximation}},
+  and Wandzura--Wilczek approximation}},
   \href{http://dx.doi.org/10.1142/S0217732309001169}{\emph{Mod. Phys. Lett.}
   {\bf A24} (2009) 2950--2959}, [\href{https://arxiv.org/abs/0910.2567}{{\tt
   0910.2567}}].
 
 \bibitem{Tangerman:1994bb}
-R.~Tangerman and P.~Mulders, \emph{{Polarized twist-three distributions g(T)
-  and h(L) and the role of intrinsic transverse momentum}},
+R.~Tangerman and P.~Mulders, \emph{{Polarized twist-three distributions $g_{T}$
+  and $h_{L}$ and the role of intrinsic transverse momentum}},
   \href{https://arxiv.org/abs/hep-ph/9408305}{{\tt hep-ph/9408305}}.
 
 \bibitem{Avakian:2015vha}
@@ -204,8 +221,8 @@ H.~Avakian, H.~Matevosyan, B.~Pasquini and P.~Schweitzer, \emph{{Studying the
   G42} (2015) 034015}.
 
 \bibitem{Metz:2004je}
-A.~Metz and M.~Schlegel, \emph{{Twist three single spin asymmetries in
-  semiinclusive deep inelastic scattering}},
+A.~Metz and M.~Schlegel, \emph{{Twist-3 single-spin asymmetries in
+  semi-inclusive deep-inelastic scattering}},
   \href{http://dx.doi.org/10.1140/epja/i2004-10050-8}{\emph{Eur. Phys. J.} {\bf
   A22} (2004) 489--494}, [\href{https://arxiv.org/abs/hep-ph/0403182}{{\tt
   hep-ph/0403182}}].
@@ -238,7 +255,7 @@ J.~C. Collins and D.~E. Soper, \emph{{Back-To-Back Jets in QCD}},
   B193} (1981) 381}.
 
 \bibitem{Ji:2004wu}
-X.~Ji, J.-p. Ma and F.~Yuan, \emph{{QCD factorization for semi-inclusive
+X.~Ji, J.-P. Ma and F.~Yuan, \emph{{QCD factorization for semi-inclusive
   deep-inelastic scattering at low transverse momentum}},
   \href{http://dx.doi.org/10.1103/PhysRevD.71.034005}{\emph{Phys. Rev.} {\bf
   D71} (2005) 034005}, [\href{https://arxiv.org/abs/hep-ph/0404183}{{\tt
@@ -256,9 +273,9 @@ J.~Collins, \emph{{Foundations of perturbative QCD}}, {\emph{Camb. Monogr.
   Part. Phys. Nucl. Phys. Cosmol.} {\bf 32} (2011) 1--624}.
 
 \bibitem{Echevarria:2012js}
-M.~G. Echevarr\'ia, A.~Idilbi and I.~Scimemi, \emph{{Soft and Collinear
-  Factorization and Transverse Momentum Dependent Parton Distribution
-  Functions}},
+M.~G. Echevarr\'ia, A.~Idilbi and I.~Scimemi, \emph{{Soft and collinear
+  factorization and transverse momentum dependent parton distribution
+  functions}},
   \href{http://dx.doi.org/10.1016/j.physletb.2013.09.003}{\emph{Phys. Lett.}
   {\bf B726} (2013) 795--801}, [\href{https://arxiv.org/abs/1211.1947}{{\tt
   1211.1947}}].
@@ -293,8 +310,8 @@ J.~Collins and T.~Rogers, \emph{{Understanding the large-distance behavior of
   1412.3820}}].
 
 \bibitem{Ma:2013aca}
-J.~P. Ma and G.~P. Zhang, \emph{{QCD Corrections of All Structure Functions in
-  Transverse Momentum Dependent Factorization for Drell-Yan Processes}},
+J.~P. Ma and G.~P. Zhang, \emph{{QCD corrections of all structure functions in
+  transverse momentum dependent factorization for Drell--Yan processes}},
   \href{http://dx.doi.org/10.1007/JHEP02(2014)100}{\emph{JHEP} {\bf 02} (2014)
   100}, [\href{https://arxiv.org/abs/1308.2044}{{\tt 1308.2044}}].
 
@@ -306,9 +323,9 @@ S.~M. Aybat, A.~Prokudin and T.~C. Rogers, \emph{{Calculation of TMD Evolution
   1112.4423}}].
 
 \bibitem{Kang:2015msa}
-Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Extraction of Quark
-  Transversity Distribution and Collins Fragmentation Functions with QCD
-  Evolution}}, \href{http://dx.doi.org/10.1103/PhysRevD.93.014009}{\emph{Phys.
+Z.-B. Kang, A.~Prokudin, P.~Sun and F.~Yuan, \emph{{Extraction of quark
+  transversity distribution and Collins fragmentation functions with QCD
+  evolution}}, \href{http://dx.doi.org/10.1103/PhysRevD.93.014009}{\emph{Phys.
   Rev.} {\bf D93} (2016) 014009}, [\href{https://arxiv.org/abs/1505.05589}{{\tt
   1505.05589}}].
 
@@ -320,49 +337,57 @@ D.~Gutiérrez-Reyes, I.~Scimemi and A.~A. Vladimirov, \emph{{Twist-2 matching of
   1702.06558}}].
 
 \bibitem{Gutierrez-Reyes:2018qez}
-D.~Gutierrez-Reyes, I.~Scimemi, W.~J. Waalewijn and L.~Zoppi, \emph{{Transverse
-  momentum dependent distributions with jets}},
-  \href{https://arxiv.org/abs/1807.07573}{{\tt 1807.07573}}.
+D.~Gutierrez-Reyes, I.~Scimemi, W.~J. Waalewijn and L.~Zoppi,
+  \emph{{Transverse-Momentum-Dependent Distributions with Jets}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.121.162001}{\emph{Phys. Rev.
+  Lett.} {\bf 121} (2018) 162001},
+  [\href{https://arxiv.org/abs/1807.07573}{{\tt 1807.07573}}].
 
 \bibitem{Scimemi:2018mmi}
 I.~Scimemi and A.~Vladimirov, \emph{{Matching of transverse momentum dependent
-  distributions at twist-3}},  \href{https://arxiv.org/abs/1804.08148}{{\tt
-  1804.08148}}.
+  distributions at twist-3}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-018-6263-5}{\emph{Eur. Phys. J.}
+  {\bf C78} (2018) 802}, [\href{https://arxiv.org/abs/1804.08148}{{\tt
+  1804.08148}}].
 
 \bibitem{Chen:2016hgw}
-A.~P. Chen and J.~P. Ma, \emph{{Light-Cone Singularities and
-  Transverse-Momentum-Dependent Factorization at Twist-3}},
+A.~P. Chen and J.~P. Ma, \emph{{Light-cone singularities and
+  transverse-momentum-dependent factorization at twist-3}},
   \href{http://dx.doi.org/10.1016/j.physletb.2017.03.015}{\emph{Phys. Lett.}
   {\bf B768} (2017) 380--386}, [\href{https://arxiv.org/abs/1610.08634}{{\tt
   1610.08634}}].
 
 \bibitem{Efremov:2002qh}
-A.~Efremov and P.~Schweitzer, \emph{{The Chirally odd twist 3 distribution
-  e(a)(x)}}, {\emph{JHEP} {\bf 0308} (2003) 006},
-  [\href{https://arxiv.org/abs/hep-ph/0212044}{{\tt hep-ph/0212044}}].
+A.~V. Efremov and P.~Schweitzer, \emph{{The chirally-odd twist-3 distribution
+  $e^{a}(x)$}},
+  \href{http://dx.doi.org/10.1088/1126-6708/2003/08/006}{\emph{JHEP} {\bf 08}
+  (2003) 006}, [\href{https://arxiv.org/abs/hep-ph/0212044}{{\tt
+  hep-ph/0212044}}].
 
 \bibitem{Jaffe:1996zw}
 R.~L. Jaffe, \emph{{Spin, twist and hadron structure in deep inelastic
-  processes}},  \href{https://arxiv.org/abs/hep-ph/9602236}{{\tt
-  hep-ph/9602236}}.
+  processes}},  in \emph{{The spin structure of the nucleon. Proceedings,
+  International School of Nucleon Structure, 1st Course, Erice, Italy, August
+  3-10, 1995}}, pp.~42--129, 1996.
+\newblock \href{https://arxiv.org/abs/hep-ph/9602236}{{\tt hep-ph/9602236}}.
 
 \bibitem{Kanazawa:2015ajw}
 K.~Kanazawa, Y.~Koike, A.~Metz, D.~Pitonyak and M.~Schlegel, \emph{{Operator
-  Constraints for Twist-3 Functions and Lorentz Invariance Properties of
-  Twist-3 Observables}},
+  constraints for twist-3 functions and Lorentz invariance properties of
+  twist-3 observables}},
   \href{http://dx.doi.org/10.1103/PhysRevD.93.054024}{\emph{Phys. Rev.} {\bf
   D93} (2016) 054024}, [\href{https://arxiv.org/abs/1512.07233}{{\tt
   1512.07233}}].
 
 \bibitem{Shuryak:1981ff}
-E.~V. Shuryak, \emph{{The Role of Instantons in Quantum Chromodynamics. 1.
-  Physical Vacuum}},
+E.~V. Shuryak, \emph{{The role of instantons in quantum chromodynamics: (I).
+  Physical vacuum}},
   \href{http://dx.doi.org/10.1016/0550-3213(82)90478-3}{\emph{Nucl. Phys.} {\bf
   B203} (1982) 93}.
 
 \bibitem{Diakonov:1983hh}
-D.~Diakonov and V.~Y. Petrov, \emph{{Instanton Based Vacuum from Feynman
-  Variational Principle}},
+D.~Diakonov and V.~Y. Petrov, \emph{{Instanton-based vacuum from Feynman
+  variational principle}},
   \href{http://dx.doi.org/10.1016/0550-3213(84)90432-2}{\emph{Nucl. Phys.} {\bf
   B245} (1984) 259}.
 
@@ -374,9 +399,8 @@ D.~Diakonov, M.~V. Polyakov and C.~Weiss, \emph{{Hadronic matrix elements of
   hep-ph/9510232}}].
 
 \bibitem{Adams:1994id}
-{\scshape Spin Muon (SMC)} collaboration, D.~Adams et~al., \emph{{Spin
-  asymmetry in muon - proton deep inelastic scattering on a transversely
-  polarized target}},
+{\scshape Spin Muon} collaboration, D.~Adams et~al., \emph{{Spin asymmetry in
+  muon-proton deep inelastic scattering on a transversely polarized target}},
   \href{http://dx.doi.org/10.1016/0370-2693(94)00968-6}{\emph{Phys. Lett.} {\bf
   B336} (1994) 125--130}, [\href{https://arxiv.org/abs/hep-ex/9408001}{{\tt
   hep-ex/9408001}}].
@@ -388,15 +412,18 @@ A.~Accardi, A.~Bacchetta, W.~Melnitchouk and M.~Schlegel, \emph{{What can break
   (2009) 093}, [\href{https://arxiv.org/abs/0907.2942}{{\tt 0907.2942}}].
 
 \bibitem{Gluck:1998xa}
-M.~Gluck, E.~Reya and A.~Vogt, \emph{{Dynamical parton distributions
+M.~Gl{\"u}ck, E.~Reya and A.~Vogt, \emph{{Dynamical parton distributions
   revisited}}, \href{http://dx.doi.org/10.1007/s100520050289}{\emph{Eur. Phys.
   J.} {\bf C5} (1998) 461--470},
   [\href{https://arxiv.org/abs/hep-ph/9806404}{{\tt hep-ph/9806404}}].
 
 \bibitem{Efremov:2006qm}
-A.~V. Efremov, K.~Goeke and P.~Schweitzer, \emph{Collins effect in
-  semi-inclusive deeply inelastic scattering and in $e^{+} e^{-}$
-  annihilation}, {\emph{Phys. Rev.} {\bf D73} (2006) 094025}.
+A.~V. Efremov, K.~Goeke and P.~Schweitzer, \emph{{Collins effect in
+  semiinclusive deeply inelastic scattering and in
+  electron-positron-annihilation}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.73.094025}{\emph{Phys. Rev.} {\bf
+  D73} (2006) 094025}, [\href{https://arxiv.org/abs/hep-ph/0603054}{{\tt
+  hep-ph/0603054}}].
 
 \bibitem{Anselmino:2007fs}
 M.~Anselmino et~al., \emph{{Transversity and Collins functions from SIDIS and
@@ -413,38 +440,38 @@ M.~Anselmino et~al., \emph{{Update on transversity and Collins functions from
   [\href{https://arxiv.org/abs/0812.4366}{{\tt 0812.4366}}].
 
 \bibitem{Koike:2008du}
-Y.~Koike, K.~Tanaka and S.~Yoshida, \emph{{Drell-Yan double-spin asymmetry
-  A(LT) in polarized p anti-p collisions: Wandzura-Wilczek contribution}},
+Y.~Koike, K.~Tanaka and S.~Yoshida, \emph{{Drell--Yan double-spin asymmetry
+  $A_{LT}$ in polarized $p\bar{p}$ collisions: Wandzura--Wilczek
+  contribution}},
   \href{http://dx.doi.org/10.1016/j.physletb.2008.08.049}{\emph{Phys. Lett.}
   {\bf B668} (2008) 286--292}, [\href{https://arxiv.org/abs/0805.2289}{{\tt
   0805.2289}}].
 
 \bibitem{Hagler:2009mb}
-{H\"agler, Ph. and Musch, B. U. and Negele, J. W. and Sch\"afer, A.},
-  \emph{{Intrinsic quark transverse momentum in the nucleon from lattice QCD}},
+P.~H{\"a}gler, B.~U. Musch, J.~W. Negele and A.~Sch{\"a}fer, \emph{{Intrinsic
+  quark transverse momentum in the nucleon from lattice QCD}},
   \href{http://dx.doi.org/10.1209/0295-5075/88/61001}{\emph{Europhys. Lett.}
   {\bf 88} (2009) 61001}, [\href{https://arxiv.org/abs/0908.1283}{{\tt
   0908.1283}}].
 
 \bibitem{Musch:2010ka}
-{Musch, Bernhard U. and H\"agler, Philipp and Negele, John W. and Sch\"afer,
-  Andreas}, \emph{{Exploring quark transverse momentum distributions with
-  lattice QCD}},
+B.~U. Musch, P.~H{\"a}gler, J.~W. Negele and A.~Sch{\"a}fer, \emph{{Exploring
+  quark transverse momentum distributions with lattice QCD}},
   \href{http://dx.doi.org/10.1103/PhysRevD.83.094507}{\emph{Phys. Rev.} {\bf
   D83} (2011) 094507}, [\href{https://arxiv.org/abs/1011.1213}{{\tt
   1011.1213}}].
 
 \bibitem{Yoon:2017qzo}
 B.~Yoon, M.~Engelhardt, R.~Gupta, T.~Bhattacharya, J.~R. Green, B.~U. Musch
-  et~al., \emph{{Nucleon Transverse Momentum-dependent Parton Distributions in
-  Lattice QCD: Renormalization Patterns and Discretization Effects}},
+  et~al., \emph{{Nucleon transverse-momentum-dependent parton distributions in
+  lattice QCD: Renormalization patterns and discretization effects}},
   \href{http://dx.doi.org/10.1103/PhysRevD.96.094508}{\emph{Phys. Rev.} {\bf
   D96} (2017) 094508}, [\href{https://arxiv.org/abs/1706.03406}{{\tt
   1706.03406}}].
 
 \bibitem{Engelhardt:2015xja}
-{Engelhardt, M. and H\"agler, P. and Musch, B. and Negele, J. and Sch\"afer,
-  A.}, \emph{{Lattice QCD study of the Boer-Mulders effect in a pion}},
+M.~Engelhardt, P.~H{\"a}gler, B.~Musch, J.~Negele and A.~Sch{\"a}fer,
+  \emph{{Lattice QCD study of the Boer-Mulders effect in a pion}},
   \href{http://dx.doi.org/10.1103/PhysRevD.93.054501}{\emph{Phys. Rev.} {\bf
   D93} (2016) 054501}, [\href{https://arxiv.org/abs/1506.07826}{{\tt
   1506.07826}}].
@@ -457,10 +484,10 @@ X.~Ji, P.~Sun, X.~Xiong and F.~Yuan, \emph{{Soft factor subtraction and
   1405.7640}}].
 
 \bibitem{Musch:2011er}
-{Musch, B. U. and H\"agler, Ph. and Engelhardt, M. and Negele, J. W. and
-  Sch\"afer, A.}, \emph{{Sivers and Boer-Mulders observables from lattice
-  QCD}}, \href{http://dx.doi.org/10.1103/PhysRevD.85.094510}{\emph{Phys. Rev.}
-  {\bf D85} (2012) 094510}, [\href{https://arxiv.org/abs/1111.4249}{{\tt
+B.~U. Musch, P.~H{\"a}gler, M.~Engelhardt, J.~W. Negele and A.~Sch{\"a}fer,
+  \emph{{Sivers and Boer-Mulders observables from lattice QCD}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.85.094510}{\emph{Phys. Rev.} {\bf
+  D85} (2012) 094510}, [\href{https://arxiv.org/abs/1111.4249}{{\tt
   1111.4249}}].
 
 \bibitem{Alexandrou:2017dzj}
@@ -486,42 +513,46 @@ X.~Ji, J.-H. Zhang and Y.~Zhao, \emph{{Renormalization in Large Momentum
   [\href{https://arxiv.org/abs/1706.08962}{{\tt 1706.08962}}].
 
 \bibitem{Green:2017xeu}
-J.~Green, K.~Jansen and F.~Steffens, \emph{{Nonperturbative renormalization of
-  nonlocal quark bilinears for quasi-PDFs on the lattice using an auxiliary
-  field}}, \href{http://dx.doi.org/10.1103/PhysRevLett.121.022004}{\emph{Phys.
-  Rev. Lett.} {\bf 121} (2018) 022004},
+J.~Green, K.~Jansen and F.~Steffens, \emph{{Nonperturbative Renormalization of
+  Nonlocal Quark Bilinears for Parton Quasidistribution Functions on the
+  Lattice Using an Auxiliary Field}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.121.022004}{\emph{Phys. Rev.
+  Lett.} {\bf 121} (2018) 022004},
   [\href{https://arxiv.org/abs/1707.07152}{{\tt 1707.07152}}].
 
 \bibitem{Zhang:2017bzy}
-J.-H. Zhang, J.-W. Chen, X.~Ji, L.~Jin and H.-W. Lin, \emph{{Pion Distribution
-  Amplitude from Lattice QCD}},
+J.-H. Zhang, J.-W. Chen, X.~Ji, L.~Jin and H.-W. Lin, \emph{{Pion distribution
+  amplitude from lattice QCD}},
   \href{http://dx.doi.org/10.1103/PhysRevD.95.094514}{\emph{Phys. Rev.} {\bf
   D95} (2017) 094514}, [\href{https://arxiv.org/abs/1702.00008}{{\tt
   1702.00008}}].
 
 \bibitem{Hagler:2003is}
-{\scshape LHPC} collaboration, LHPC et~al., \emph{{Transverse structure of
+{\scshape LHPC and SESAM} collaboration, LHPC, P.~H{\"a}gler, J.~W. Negele,
+  D.~B. Renner, W.~Schroers, T.~Lippert et~al., \emph{{Transverse structure of
   nucleon parton distributions from lattice QCD}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.93.112001}{\emph{Phys. Rev.
   Lett.} {\bf 93} (2004) 112001},
   [\href{https://arxiv.org/abs/hep-lat/0312014}{{\tt hep-lat/0312014}}].
 
 \bibitem{Hagler:2007xi}
-{\scshape LHPC Collaborations} collaboration, {H\"agler, Ph. and others},
-  \emph{{Nucleon Generalized Parton Distributions from Full Lattice QCD}},
+{\scshape LHPC} collaboration, P.~H{\"a}gler, W.~Schroers, J.~Bratt, J.~W.
+  Negele, A.~V. Pochinsky, R.~G. Edwards et~al., \emph{{Nucleon generalized
+  parton distributions from full lattice QCD}},
   \href{http://dx.doi.org/10.1103/PhysRevD.77.094502}{\emph{Phys. Rev.} {\bf
   D77} (2008) 094502}, [\href{https://arxiv.org/abs/0705.4295}{{\tt
   0705.4295}}].
 
 \bibitem{Gockeler:2005cj}
-{\scshape QCDSF} collaboration, M.~Gockeler et~al., \emph{{Quark helicity flip
-  generalized parton distributions from two-flavor lattice QCD}},
+{\scshape QCDSF and UKQCD} collaboration, M.~G{\"o}ckeler, P.~H{\"a}gler,
+  R.~Horsley, D.~Pleiter, P.~E.~L. Rakow, A.~Sch{\"a}fer et~al., \emph{{Quark
+  helicity flip generalized parton distributions from two-flavor lattice QCD}},
   \href{http://dx.doi.org/10.1016/j.physletb.2005.09.002}{\emph{Phys. Lett.}
   {\bf B627} (2005) 113--123},
   [\href{https://arxiv.org/abs/hep-lat/0507001}{{\tt hep-lat/0507001}}].
 
 \bibitem{Burkardt:2001iy}
-M.~Burkardt and Y.~Koike, \emph{{Violation of sum rules for twist three parton
+M.~Burkardt and Y.~Koike, \emph{{Violation of sum rules for twist-3 parton
   distributions in QCD}},
   \href{http://dx.doi.org/10.1016/S0550-3213(02)00263-8}{\emph{Nucl. Phys.}
   {\bf B632} (2002) 311--329},
@@ -534,7 +565,7 @@ S.~D. Bass, \emph{{Fixed poles, polarized glue and nucleon spin structure}},
 
 \bibitem{Stratmann:1993aw}
 M.~Stratmann, \emph{{Bag model predictions for polarized structure functions
-  and their Q**2 evolutions}},
+  and their $Q^{2}$-evolutions}},
   \href{http://dx.doi.org/10.1007/BF01558408}{\emph{Z. Phys.} {\bf C60} (1993)
   763--772}.
 
@@ -560,8 +591,8 @@ R.~Jakob, P.~Mulders and J.~Rodrigues, \emph{{Modeling quark distribution and
   [\href{https://arxiv.org/abs/hep-ph/9704335}{{\tt hep-ph/9704335}}].
 
 \bibitem{Wakamatsu:2000ex}
-M.~Wakamatsu, \emph{{Polarized structure functions g(2)(x) in the chiral quark
-  soliton model}},
+M.~Wakamatsu, \emph{{Polarized structure functions $g_{2}(x)$ in the chiral
+  quark soliton model}},
   \href{http://dx.doi.org/10.1016/S0370-2693(00)00790-5}{\emph{Phys. Lett.}
   {\bf B487} (2000) 118--124},
   [\href{https://arxiv.org/abs/hep-ph/0006212}{{\tt hep-ph/0006212}}].
@@ -589,8 +620,10 @@ R.~Kundu and A.~Metz, \emph{{Higher twist and transverse momentum dependent
 
 \bibitem{Schlegel:2004rg}
 M.~Schlegel and A.~Metz, \emph{{On the validity of Lorentz invariance relations
-  between parton distributions}},
-  \href{https://arxiv.org/abs/hep-ph/0406289}{{\tt hep-ph/0406289}}.
+  between parton distributions}},  in \emph{{Proceedings, 10th Advanced
+  Research Workshop on High-Energy Spin Physics, Dubna, Russia, September
+  16-20, 2003}}, pp.~169--173, 2004.
+\newblock \href{https://arxiv.org/abs/hep-ph/0406289}{{\tt hep-ph/0406289}}.
 
 \bibitem{Goeke:2003az}
 K.~Goeke, A.~Metz, P.~Pobylitsa and M.~Polyakov, \emph{{Lorentz invariance
@@ -636,23 +669,23 @@ A.~V. Efremov, P.~Schweitzer, O.~V. Teryaev and P.~Zavada, \emph{{Transverse
   0903.3490}}].
 
 \bibitem{Schweitzer:2003uy}
-P.~Schweitzer, \emph{{The Chirally odd twist three distribution function
-  e**alpha(x) in the chiral quark soliton model}},
+P.~Schweitzer, \emph{{Chirally-odd twist-3 distribution function $e^{a}(x)$ in
+  the chiral quark-soliton model}},
   \href{http://dx.doi.org/10.1103/PhysRevD.67.114010}{\emph{Phys. Rev.} {\bf
   D67} (2003) 114010}, [\href{https://arxiv.org/abs/hep-ph/0303011}{{\tt
   hep-ph/0303011}}].
 
 \bibitem{Ohnishi:2003mf}
-Y.~Ohnishi and M.~Wakamatsu, \emph{{pi N sigma term and chiral odd twist three
-  distribution function e(x) of the nucleon in the chiral quark soliton
+Y.~Ohnishi and M.~Wakamatsu, \emph{{$\pi N$ sigma term and chira-odd twist-3
+  distribution function $e(x)$ of the nucleon in the chiral quark soliton
   model}}, \href{http://dx.doi.org/10.1103/PhysRevD.69.114002}{\emph{Phys.
   Rev.} {\bf D69} (2004) 114002},
   [\href{https://arxiv.org/abs/hep-ph/0312044}{{\tt hep-ph/0312044}}].
 
 \bibitem{Cebulla:2007ej}
-C.~Cebulla, J.~Ossmann, P.~Schweitzer and D.~Urbano, \emph{{The Twist-3 parton
-  distribution function e**a(x) in large-N(c) chiral theory}}, {\emph{Acta
-  Phys. Polon.} {\bf B39} (2008) 609--640},
+C.~Cebulla, J.~Ossmann, P.~Schweitzer and D.~Urbano, \emph{{The Twist-3 Parton
+  Distribution Function $e^{a}(x)$ in Large-N$_{c}$ Chiral Theory}},
+  {\emph{Acta Phys. Polon.} {\bf B39} (2008) 609--640},
   [\href{https://arxiv.org/abs/0710.3103}{{\tt 0710.3103}}].
 
 \bibitem{Meissner:2007rx}
@@ -670,8 +703,8 @@ A.~Mukherjee, \emph{{Twist Three Distribution e(x): Sum Rules and Equation of
   0912.1446}}].
 
 \bibitem{Harindranath:1997qn}
-A.~Harindranath and W.-M. Zhang, \emph{{Examination of Wandzura-Wilczek
-  relation for g2 (x, q**2) in pQCD}},
+A.~Harindranath and W.-M. Zhang, \emph{{Examination of Wandzura--Wilczek
+  relation for $g_{2} (x,Q^{2})$ in pQCD}},
   \href{http://dx.doi.org/10.1016/S0370-2693(97)00771-5}{\emph{Phys. Lett.}
   {\bf B408} (1997) 347--356},
   [\href{https://arxiv.org/abs/hep-ph/9706419}{{\tt hep-ph/9706419}}].
@@ -684,8 +717,8 @@ D.~Boer, P.~J. Mulders and F.~Pijlman, \emph{{Universality of T-odd effects in
   [\href{https://arxiv.org/abs/hep-ph/0303034}{{\tt hep-ph/0303034}}].
 
 \bibitem{Ji:2006ub}
-X.~Ji, J.-W. Qiu, W.~Vogelsang and F.~Yuan, \emph{{A unified picture for single
-  transverse-spin asymmetries in hard processes}},
+X.~Ji, J.-W. Qiu, W.~Vogelsang and F.~Yuan, \emph{{Unified Picture for Single
+  Transverse-Spin Asymmetries in Hard-Scattering Processes}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.97.082002}{\emph{Phys. Rev.
   Lett.} {\bf 97} (2006) 082002},
   [\href{https://arxiv.org/abs/hep-ph/0602239}{{\tt hep-ph/0602239}}].
@@ -698,13 +731,15 @@ M.~Anselmino et~al., \emph{{The role of Cahn and Sivers effects in deep
   hep-ph/0501196}}].
 
 \bibitem{Collins:2005ie}
-J.~C. Collins et~al., \emph{Sivers effect in semi-inclusive deeply inelastic
-  scattering}, {\emph{Phys. Rev.} {\bf D73} (2006) 014021},
-  [\href{https://arxiv.org/abs/hep-ph/0509076}{{\tt hep-ph/0509076}}].
+J.~C. Collins, A.~V. Efremov, K.~Goeke, S.~Menzel, A.~Metz and P.~Schweitzer,
+  \emph{{Sivers effect in semiinclusive deeply inelastic scattering}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.73.014021}{\emph{Phys. Rev.} {\bf
+  D73} (2006) 014021}, [\href{https://arxiv.org/abs/hep-ph/0509076}{{\tt
+  hep-ph/0509076}}].
 
 \bibitem{D'Alesio:2007jt}
-U.~D'Alesio and F.~Murgia, \emph{{Azimuthal and Single Spin Asymmetries in Hard
-  Scattering Processes}},
+U.~D'Alesio and F.~Murgia, \emph{{Azimuthal and single spin asymmetries in hard
+  scattering processes}},
   \href{http://dx.doi.org/10.1016/j.ppnp.2008.01.001}{\emph{Prog. Part. Nucl.
   Phys. 61} {\bf 2008} (2008) 394--454},
   [\href{https://arxiv.org/abs/0712.4328}{{\tt 0712.4328}}].
@@ -724,20 +759,20 @@ A.~Signori, A.~Bacchetta, M.~Radici and G.~Schnell, \emph{{Investigations into
 
 \bibitem{Anselmino:2013lza}
 M.~Anselmino, M.~Boglione, J.~O. Gonzalez~Hernandez, S.~Melis and A.~Prokudin,
-  \emph{{Unpolarised Transverse Momentum Dependent Distribution and
-  Fragmentation Functions from SIDIS Multiplicities}},
+  \emph{{Unpolarised transverse momentum dependent distribution and
+  fragmentation functions from SIDIS multiplicities}},
   \href{http://dx.doi.org/10.1007/JHEP04(2014)005}{\emph{JHEP} {\bf 04} (2014)
   005}, [\href{https://arxiv.org/abs/1312.6261}{{\tt 1312.6261}}].
 
 \bibitem{Bacchetta:2008xw}
 A.~Bacchetta, D.~Boer, M.~Diehl and P.~J. Mulders, \emph{{Matches and
-  mismatches in the descriptions of semi- inclusive processes at low and high
+  mismatches in the descriptions of semi-inclusive processes at low and high
   transverse momentum}},
   \href{http://dx.doi.org/10.1088/1126-6708/2008/08/023}{\emph{JHEP} {\bf 08}
   (2008) 023}, [\href{https://arxiv.org/abs/0803.0227}{{\tt 0803.0227}}].
 
 \bibitem{Landry:2002ix}
-F.~Landry, R.~Brock, P.~M. Nadolsky and C.~Yuan, \emph{{Tevatron Run-1 $Z$
+F.~Landry, R.~Brock, P.~M. Nadolsky and C.~Yuan, \emph{{Tevatron run-1 $Z$
   boson data and Collins-Soper-Sterman resummation formalism}},
   \href{http://dx.doi.org/10.1103/PhysRevD.67.073016}{\emph{Phys. Rev.} {\bf
   D67} (2003) 073016}, [\href{https://arxiv.org/abs/hep-ph/0212159}{{\tt
@@ -765,15 +800,15 @@ P.~Schweitzer, M.~Strikman and C.~Weiss, \emph{{Intrinsic transverse momentum
 
 \bibitem{Collins:2016hqq}
 J.~Collins, L.~Gamberg, A.~Prokudin, T.~C. Rogers, N.~Sato and B.~Wang,
-  \emph{{Relating Transverse Momentum Dependent and Collinear Factorization
-  Theorems in a Generalized Formalism}},
+  \emph{{Relating transverse-momentum-dependent and collinear factorization
+  theorems in a generalized formalism}},
   \href{http://dx.doi.org/10.1103/PhysRevD.94.034014}{\emph{Phys. Rev.} {\bf
   D94} (2016) 034014}, [\href{https://arxiv.org/abs/1605.00671}{{\tt
   1605.00671}}].
 
 \bibitem{Osipenko:2008aa}
 {\scshape CLAS} collaboration, M.~Osipenko et~al., \emph{{Measurement of
-  unpolarized semi-inclusive pi+ electroproduction off the proton}},
+  unpolarized semi-inclusive $\pi^{+}$ electroproduction off the proton}},
   \href{http://dx.doi.org/10.1103/PhysRevD.80.032004}{\emph{Phys. Rev.} {\bf
   D80} (2009) 032004}, [\href{https://arxiv.org/abs/0809.1153}{{\tt
   0809.1153}}].
@@ -788,20 +823,23 @@ J.~Collins, L.~Gamberg, A.~Prokudin, T.~C. Rogers, N.~Sato and B.~Wang,
 
 \bibitem{Aghasyan:2017ctw}
 {\scshape COMPASS} collaboration, M.~Aghasyan et~al.,
-  \emph{{Transverse-momentum-dependent Multiplicities of Charged Hadrons in
-  Muon-Deuteron Deep Inelastic Scattering}},
-  \href{https://arxiv.org/abs/1709.07374}{{\tt 1709.07374}}.
+  \emph{{Transverse-momentum-dependent multiplicities of charged hadrons in
+  muon-deuteron deep inelastic scattering}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.97.032006}{\emph{Phys. Rev.} {\bf
+  D97} (2018) 032006}, [\href{https://arxiv.org/abs/1709.07374}{{\tt
+  1709.07374}}].
 
 \bibitem{Bacchetta:2017gcc}
 A.~Bacchetta, F.~Delcarro, C.~Pisano, M.~Radici and A.~Signori,
   \emph{{Extraction of partonic transverse momentum distributions from
-  semi-inclusive deep-inelastic scattering, Drell-Yan and Z-boson production}},
-  \href{http://dx.doi.org/10.1007/JHEP06(2017)081}{\emph{JHEP} {\bf 06} (2017)
-  081}, [\href{https://arxiv.org/abs/1703.10157}{{\tt 1703.10157}}].
+  semi-inclusive deep-inelastic scattering, Drell--Yan and Z-boson
+  production}}, \href{http://dx.doi.org/10.1007/JHEP06(2017)081}{\emph{JHEP}
+  {\bf 06} (2017) 081}, [\href{https://arxiv.org/abs/1703.10157}{{\tt
+  1703.10157}}].
 
 \bibitem{Avakian:2010ae}
-{\scshape CLAS} collaboration, H.~Avakian et~al., \emph{{Measurement of Single
-  and Double Spin Asymmetries in Deep Inelastic Pion Electroproduction with a
+{\scshape CLAS} collaboration, H.~Avakian et~al., \emph{{Measurement of Single-
+  and Double-Spin Asymmetries in Deep Inelastic Pion Electroproduction with a
   Longitudinally Polarized Target}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.105.262002}{\emph{Phys. Rev.
   Lett.} {\bf 105} (2010) 262002}, [\href{https://arxiv.org/abs/1003.4549}{{\tt
@@ -830,8 +868,10 @@ M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
   1205.5122}}].
 
 \bibitem{Sivers:1989cc}
-D.~W. Sivers, \emph{Single spin production asymmetries from the hard scattering
-  of point-like constituents}, {\emph{Phys. Rev.} {\bf D41} (1990) 83}.
+D.~W. Sivers, \emph{{Single-spin production asymmetries from the hard
+  scattering of pointlike constituents}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.41.83}{\emph{Phys. Rev.} {\bf D41}
+  (1990) 83}.
 
 \bibitem{Anselmino:2010bs}
 M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
@@ -841,56 +881,65 @@ M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia and A.~Prokudin,
   [\href{https://arxiv.org/abs/1012.3565}{{\tt 1012.3565}}].
 
 \bibitem{Anselmino:2005ea}
-M.~Anselmino et~al., \emph{Extracting the sivers function from polarized sidis
-  data and making predictions}, {\emph{Phys. Rev.} {\bf D72} (2005) 094007},
+M.~Anselmino, M.~Boglione, U.~D'Alesio, A.~Kotzinian, F.~Murgia and
+  A.~Prokudin, \emph{{Extracting the Sivers function from polarized
+  semi-inclusive deep inelastic scattering data and making predictions}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.72.094007,
+  10.1103/PhysRevD.72.099903}{\emph{Phys. Rev.} {\bf D72} (2005) 094007},
   [\href{https://arxiv.org/abs/hep-ph/0507181}{{\tt hep-ph/0507181}}].
 
 \bibitem{Anselmino:2005an}
-M.~Anselmino et~al., \emph{{Comparing extractions of Sivers functions}},
-  \href{https://arxiv.org/abs/hep-ph/0511017}{{\tt hep-ph/0511017}}.
+M.~Anselmino et~al., \emph{{Comparing extractions of Sivers functions}},  in
+  \emph{{Transversity. Proceedings, Workshop, Como, Italy, September 7-10,
+  2005}}, pp.~236--243, 2005.
+\newblock \href{https://arxiv.org/abs/hep-ph/0511017}{{\tt hep-ph/0511017}}.
 
 \bibitem{Vogelsang:2005cs}
-W.~Vogelsang and F.~Yuan, \emph{Single-transverse spin asymmetries: From dis to
-  hadronic collisions}, {\emph{Phys. Rev.} {\bf D72} (2005) 054028}.
+W.~Vogelsang and F.~Yuan, \emph{{Single-transverse-spin asymmetries: From deep
+  inelastic scattering to hadronic collisions}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.72.054028}{\emph{Phys. Rev.} {\bf
+  D72} (2005) 054028}, [\href{https://arxiv.org/abs/hep-ph/0507266}{{\tt
+  hep-ph/0507266}}].
 
 \bibitem{Anselmino:2008sga}
-M.~Anselmino et~al., \emph{{Sivers Effect for Pion and Kaon Production in Semi-
-  Inclusive Deep Inelastic Scattering}},
+M.~Anselmino, M.~Boglione, U.~D'Alesio, A.~Kotzinian, S.~Melis, F.~Murgia
+  et~al., \emph{{Sivers effect for pion and kaon production in semi-inclusive
+  deep inelastic scattering}},
   \href{http://dx.doi.org/10.1140/epja/i2008-10697-y}{\emph{Eur. Phys. J.} {\bf
   A39} (2009) 89--100}, [\href{https://arxiv.org/abs/0805.2677}{{\tt
   0805.2677}}].
 
 \bibitem{Bacchetta:2011gx}
-A.~Bacchetta and M.~Radici, \emph{{Constraining quark angular momentum through
-  semi-inclusive measurements}},
+A.~Bacchetta and M.~Radici, \emph{{Constraining Quark Angular Momentum through
+  Semi-Inclusive Measurements}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.107.212001}{\emph{Phys. Rev.
   Lett.} {\bf 107} (2011) 212001}, [\href{https://arxiv.org/abs/1107.5755}{{\tt
   1107.5755}}].
 
 \bibitem{Anselmino:2012aa}
-M.~Anselmino, M.~Boglione and S.~Melis, \emph{{A Strategy towards the
-  extraction of the Sivers function with TMD evolution}},
+M.~Anselmino, M.~Boglione and S.~Melis, \emph{{Strategy towards the extraction
+  of the Sivers function with transverse momentum dependent evolution}},
   \href{http://dx.doi.org/10.1103/PhysRevD.86.014028}{\emph{Phys. Rev.} {\bf
   D86} (2012) 014028}, [\href{https://arxiv.org/abs/1204.1239}{{\tt
   1204.1239}}].
 
 \bibitem{Bacchetta:2002ux}
-A.~Bacchetta and M.~Radici, \emph{{Partial wave analysis of two hadron
+A.~Bacchetta and M.~Radici, \emph{{Partial-wave analysis of two-hadron
   fragmentation functions}},
   \href{http://dx.doi.org/10.1103/PhysRevD.67.094002}{\emph{Phys. Rev.} {\bf
   D67} (2003) 094002}, [\href{https://arxiv.org/abs/hep-ph/0212300}{{\tt
   hep-ph/0212300}}].
 
 \bibitem{Bacchetta:2003vn}
-A.~Bacchetta and M.~Radici, \emph{{Two hadron semiinclusive production
-  including subleading twist}},
+A.~Bacchetta and M.~Radici, \emph{{Two-hadron semi-inclusive production
+  including subleading twist contributions}},
   \href{http://dx.doi.org/10.1103/PhysRevD.69.074026}{\emph{Phys. Rev.} {\bf
   D69} (2004) 074026}, [\href{https://arxiv.org/abs/hep-ph/0311173}{{\tt
   hep-ph/0311173}}].
 
 \bibitem{Bacchetta:2011ip}
-A.~Bacchetta, A.~Courtoy and M.~Radici, \emph{{First glances at the
-  transversity parton distribution through dihadron fragmentation functions}},
+A.~Bacchetta, A.~Courtoy and M.~Radici, \emph{{First Glances at the
+  Transversity Parton Distribution through Dihadron Fragmentation Functions}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.107.012001}{\emph{Phys. Rev.
   Lett.} {\bf 107} (2011) 012001}, [\href{https://arxiv.org/abs/1104.3855}{{\tt
   1104.3855}}].
@@ -916,9 +965,9 @@ M.~Radici and A.~Bacchetta, \emph{{First Extraction of Transversity from a
   [\href{https://arxiv.org/abs/1802.05212}{{\tt 1802.05212}}].
 
 \bibitem{Aghasyan:2017jop}
-{\scshape COMPASS} collaboration, M.~Aghasyan et~al., \emph{{First measurement
-  of transverse-spin-dependent azimuthal asymmetries in the Drell-Yan
-  process}},
+{\scshape COMPASS} collaboration, M.~Aghasyan et~al., \emph{{First Measurement
+  of Transverse-Spin-Dependent Azimuthal Asymmetries in the Drell--Yan
+  Process}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.119.112002}{\emph{Phys. Rev.
   Lett.} {\bf 119} (2017) 112002},
   [\href{https://arxiv.org/abs/1704.00488}{{\tt 1704.00488}}].
@@ -996,8 +1045,8 @@ V.~Barone, S.~Melis and A.~Prokudin, \emph{{The Boer-Mulders effect in
   1401.6284}}].
 
 \bibitem{Cahn:1978se}
-R.~N. Cahn, \emph{{Azimuthal Dependence in Leptoproduction: A Simple Parton
-  Model Calculation}},
+R.~N. Cahn, \emph{{Azimuthal dependence in leptoproduction: A simple parton
+  model calculation}},
   \href{http://dx.doi.org/10.1016/0370-2693(78)90020-5}{\emph{Phys. Lett.} {\bf
   B78} (1978) 269}.
 
@@ -1010,7 +1059,7 @@ X.~Cao, \emph{{Parton distributions and $\cos 2\phi_h$ asymmetry induced by
 
 \bibitem{Barone:2010gk}
 V.~Barone, S.~Melis and A.~Prokudin, \emph{{Azimuthal asymmetries in
-  unpolarized Drell-Yan processes and the Boer-Mulders distributions of
+  unpolarized Drell--Yan processes and the Boer--Mulders distributions of
   antiquarks}}, \href{http://dx.doi.org/10.1103/PhysRevD.82.114025}{\emph{Phys.
   Rev.} {\bf D82} (2010) 114025}, [\href{https://arxiv.org/abs/1009.3423}{{\tt
   1009.3423}}].
@@ -1032,15 +1081,14 @@ H.~Avakian, A.~V. Efremov, P.~Schweitzer and F.~Yuan, \emph{{Transverse
   0805.3355}}].
 
 \bibitem{She:2009jq}
-J.~She, J.~Zhu and B.-Q. Ma, \emph{{Pretzelosity h(1T)**perpendicular and quark
-  orbital angular momentum}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.79.054008}{\emph{Phys. Rev.} {\bf
-  D79} (2009) 054008}, [\href{https://arxiv.org/abs/0902.3718}{{\tt
+J.~She, J.~Zhu and B.-Q. Ma, \emph{{$h_{1T}^{\perp}$ and quark orbital angular
+  momentum}}, \href{http://dx.doi.org/10.1103/PhysRevD.79.054008}{\emph{Phys.
+  Rev.} {\bf D79} (2009) 054008}, [\href{https://arxiv.org/abs/0902.3718}{{\tt
   0902.3718}}].
 
 \bibitem{Lorce:2011kn}
-C.~Lorce and B.~Pasquini, \emph{{Pretzelosity TMD and Quark Orbital Angular
-  Momentum}},
+C.~Lorce and B.~Pasquini, \emph{{The pretzelosity TMD and quark orbital angular
+  momentum}},
   \href{http://dx.doi.org/10.1016/j.physletb.2012.03.025}{\emph{Phys. Lett.}
   {\bf B710} (2012) 486--488}, [\href{https://arxiv.org/abs/1111.6069}{{\tt
   1111.6069}}].
@@ -1053,8 +1101,9 @@ C.~Lorce and B.~Pasquini, \emph{{Pretzelosity TMD and Quark Orbital Angular
 
 \bibitem{Schnell:2010zza}
 {\scshape HERMES} collaboration, G.~Schnell, \emph{{The Sivers and other
-  semi-inclusive single-spin asymmetries at HERMES}}, {\emph{PoS} {\bf DIS2010}
-  (2010) 247}.
+  semi-inclusive single-spin asymmetries at HERMES}},
+  \href{http://dx.doi.org/10.22323/1.106.0247}{\emph{PoS} {\bf DIS2010} (2010)
+  247}.
 
 \bibitem{Lefky:2014eia}
 C.~Lefky and A.~Prokudin, \emph{{Extraction of the distribution function
@@ -1069,7 +1118,6 @@ A.~Kotzinian, \emph{{SIDIS Asymmetries in Quark-Diquark Model}},  in
   Polarization Phenomena in Hard Processes Ferrara, Italy, May 28-31, 2008}},
   2008.
 \newblock \href{https://arxiv.org/abs/0806.3804}{{\tt 0806.3804}}.
-\newblock \href{http://dx.doi.org/10.1142/9789814277785_0029}{DOI}.
 
 \bibitem{Boffi:2009sh}
 S.~Boffi, A.~V. Efremov, B.~Pasquini and P.~Schweitzer, \emph{{Azimuthal spin
@@ -1087,7 +1135,7 @@ S.~Boffi, A.~V. Efremov, B.~Pasquini and P.~Schweitzer, \emph{{Azimuthal spin
 \bibitem{Huang:2011bc}
 {\scshape Jefferson Lab Hall A} collaboration, J.~Huang et~al.,
   \emph{{Beam-Target Double Spin Asymmetry $A_{LT}$ in Charged Pion Production
-  from Deep Inelastic Scattering on a Transversely Polarized He-3 Target at
+  from Deep Inelastic Scattering on a Transversely Polarized $^{3}$He Target at
   $1.4 < Q^2 < 2.7 GeV^2$}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.108.052001}{\emph{Phys. Rev.
   Lett.} {\bf 108} (2012) 052001}, [\href{https://arxiv.org/abs/1108.0489}{{\tt
@@ -1124,8 +1172,8 @@ S.~Boffi, A.~V. Efremov, B.~Pasquini and P.~Schweitzer, \emph{{Azimuthal spin
   {\bf 1441} (2012) 229--232}.
 
 \bibitem{Airapetian:1999tv}
-{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Observation of a
-  single spin azimuthal asymmetry in semiinclusive pion electro production}},
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Evidence for a
+  Single-Spin Azimuthal Asymmetry in Semi-inclusive Pion Electroproduction}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.84.4047}{\emph{Phys. Rev. Lett.}
   {\bf 84} (2000) 4047--4051},
   [\href{https://arxiv.org/abs/hep-ex/9910062}{{\tt hep-ex/9910062}}].
@@ -1137,28 +1185,32 @@ S.~Boffi, A.~V. Efremov, B.~Pasquini and P.~Schweitzer, \emph{{Azimuthal spin
   [\href{https://arxiv.org/abs/1801.01488}{{\tt 1801.01488}}].
 
 \bibitem{Jawalkar:2017ube}
-S.~Jawalkar et~al., \emph{{Semi-Inclusive $\pi_0$ target and beam-target
-  asymmetries from 6 GeV electron scattering with CLAS}},
-  \href{https://arxiv.org/abs/1709.10054}{{\tt 1709.10054}}.
+{\scshape CLAS} collaboration, S.~Jawalkar et~al., \emph{{Semi-Inclusive
+  $\pi^0$ target and beam-target asymmetries from 6 GeV electron scattering
+  with CLAS}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2018.06.014}{\emph{Phys. Lett.}
+  {\bf B782} (2018) 662--667}, [\href{https://arxiv.org/abs/1709.10054}{{\tt
+  1709.10054}}].
 
 \bibitem{Airapetian:2002mf}
 {\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Measurement of
-  single spin azimuthal asymmetries in semiinclusive electroproduction of pions
-  and kaons on a longitudinally polarized deuterium target}},
+  single-spin azimuthal asymmetries in semi-inclusive electroproduction of
+  pions and kaons on a longitudinally polarised deuterium target}},
   \href{http://dx.doi.org/10.1016/S0370-2693(03)00566-5}{\emph{Phys. Lett.}
   {\bf B562} (2003) 182--192},
   [\href{https://arxiv.org/abs/hep-ex/0212039}{{\tt hep-ex/0212039}}].
 
 \bibitem{Avakian:2003pk}
 {\scshape CLAS} collaboration, H.~Avakian et~al., \emph{{Measurement of
-  beam-spin asymmetries for pi + electroproduction above the baryon resonance
-  region}}, \href{http://dx.doi.org/10.1103/PhysRevD.69.112004}{\emph{Phys.
-  Rev.} {\bf D69} (2004) 112004},
-  [\href{https://arxiv.org/abs/hep-ex/0301005}{{\tt hep-ex/0301005}}].
+  beam-spin asymmetries for $\pi^{+}$ electroproduction above the baryon
+  resonance region}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.69.112004}{\emph{Phys. Rev.} {\bf
+  D69} (2004) 112004}, [\href{https://arxiv.org/abs/hep-ex/0301005}{{\tt
+  hep-ex/0301005}}].
 
 \bibitem{Airapetian:2006rx}
-{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Beam-Spin
-  Asymmetries in the Azimuthal Distribution of Pion Electroproduction}},
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{Beam-spin
+  asymmetries in the azimuthal distribution of pion electroproduction},
   \href{http://dx.doi.org/10.1016/j.physletb.2007.03.015}{\emph{Phys. Lett.}
   {\bf B648} (2007) 164--170},
   [\href{https://arxiv.org/abs/hep-ex/0612059}{{\tt hep-ex/0612059}}].
@@ -1171,8 +1223,8 @@ W.~Gohn, H.~Avakian, K.~Joo and M.~Ungaro, \emph{{Beam spin asymmetries from
 
 \bibitem{Aghasyan:2011ha}
 M.~Aghasyan, H.~Avakian, P.~Rossi, E.~De~Sanctis, D.~Hasch et~al.,
-  \emph{{Precise Measurements of Beam Spin Asymmetries in Semi-Inclusive
-  $\pi^0$ production}},
+  \emph{Precise measurements of beam spin asymmetries in semi-inclusive $\pi^0$
+  production},
   \href{http://dx.doi.org/10.1016/j.physletb.2011.09.044}{\emph{Phys. Lett.}
   {\bf B704} (2011) 397--402}, [\href{https://arxiv.org/abs/1106.2293}{{\tt
   1106.2293}}].
@@ -1186,7 +1238,7 @@ M.~Aghasyan, H.~Avakian, P.~Rossi, E.~De~Sanctis, D.~Hasch et~al.,
 
 \bibitem{Efremov:2002ut}
 A.~V. Efremov, K.~Goeke and P.~Schweitzer, \emph{{Azimuthal asymmetries at
-  CLAS: extraction of e**a(x) and prediction of A(UL)}},
+  CLAS: Extraction of $e^{a}(x)$ and prediction of $A_{UL}$}},
   \href{http://dx.doi.org/10.1103/PhysRevD.67.114014}{\emph{Phys. Rev.} {\bf
   D67} (2003) 114014}, [\href{https://arxiv.org/abs/hep-ph/0208124}{{\tt
   hep-ph/0208124}}].
@@ -1199,22 +1251,22 @@ A.~Afanasev and C.~E. Carlson, \emph{{Single spin beam asymmetry in
 \newblock \href{https://arxiv.org/abs/hep-ph/0308163}{{\tt hep-ph/0308163}}.
 
 \bibitem{Yuan:2003gu}
-F.~Yuan, \emph{{The Beam single spin asymmetry in semiinclusive deep inelastic
+F.~Yuan, \emph{{The Beam single spin asymmetry in semi-inclusive deep inelastic
   scattering}},
   \href{http://dx.doi.org/10.1016/j.physletb.2004.03.040}{\emph{Phys. Lett.}
   {\bf B589} (2004) 28--34}, [\href{https://arxiv.org/abs/hep-ph/0310279}{{\tt
   hep-ph/0310279}}].
 
 \bibitem{Gamberg:2003pz}
-L.~P. Gamberg, D.~S. Hwang and K.~A. Oganessyan, \emph{{Chiral odd
+L.~P. Gamberg, D.~S. Hwang and K.~A. Oganessyan, \emph{{Chiral-odd
   fragmentation functions in single pion inclusive electroproduction}},
   \href{http://dx.doi.org/10.1016/j.physletb.2004.01.054}{\emph{Phys. Lett.}
   {\bf B584} (2004) 276--284},
   [\href{https://arxiv.org/abs/hep-ph/0311221}{{\tt hep-ph/0311221}}].
 
 \bibitem{Afanasev:2006gw}
-A.~V. Afanasev and C.~E. Carlson, \emph{{Beam Single-Spin Asymmetry in
-  Semi-Inclusive Deep Inelastic Scattering}},
+A.~V. Afanasev and C.~E. Carlson, \emph{Beam single-spin asymmetry in
+  semiinclusive deep inelastic scattering},
   \href{http://dx.doi.org/10.1103/PhysRevD.74.114027}{\emph{Phys. Rev.} {\bf
   D74} (2006) 114027}, [\href{https://arxiv.org/abs/hep-ph/0603269}{{\tt
   hep-ph/0603269}}].
@@ -1274,7 +1326,7 @@ X.~Wang, W.~Mao and Z.~Lu, \emph{{Double-spin asymmetry $A^{\cos\phi_S}_{LT}$
 \bibitem{Anselmino:2006yc}
 M.~Anselmino, A.~Efremov, A.~Kotzinian and B.~Parsamyan, \emph{{Transverse
   momentum dependence of the quark helicity distributions and the Cahn effect
-  in double-spin asymmetry A(LL) in semi inclusive DIS}},
+  in double-spin asymmetry $A_{LL}$ in semi inclusive DIS}},
   \href{http://dx.doi.org/10.1103/PhysRevD.74.074015}{\emph{Phys. Rev.} {\bf
   D74} (2006) 074015}, [\href{https://arxiv.org/abs/hep-ph/0608048}{{\tt
   hep-ph/0608048}}].
@@ -1287,23 +1339,24 @@ W.~Mao, X.~Wang, X.~Du, Z.~Lu and B.-Q. Ma, \emph{{On the cos $\phi_h$
   {\bf A945} (2016) 153--167}.
 
 \bibitem{Airapetian:2001eg}
-{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Single spin
-  azimuthal asymmetries in electroproduction of neutral pions in semiinclusive
-  deep inelastic scattering}},
+{\scshape HERMES} collaboration, A.~Airapetian et~al., \emph{{Single-spin
+  azimuthal asymmetries in electroproduction of neutral pions in semi-inclusive
+  deep-inelastic scattering}},
   \href{http://dx.doi.org/10.1103/PhysRevD.64.097101}{\emph{Phys. Rev.} {\bf
   D64} (2001) 097101}, [\href{https://arxiv.org/abs/hep-ex/0104005}{{\tt
   hep-ex/0104005}}].
 
 \bibitem{DeSanctis:2000fh}
-E.~De~Sanctis, W.~D. Nowak and K.~A. Oganesian, \emph{{Single spin azimuthal
-  asymmetries in the `Reduced twist - three approximation'}},
+E.~De~Sanctis, W.~D. Nowak and K.~A. Oganesian, \emph{{Single-spin azimuthal
+  asymmetries in the ``Reduced twist-3 approximation''}},
   \href{http://dx.doi.org/10.1016/S0370-2693(00)00596-7}{\emph{Phys. Lett.}
   {\bf B483} (2000) 69--73}, [\href{https://arxiv.org/abs/hep-ph/0002091}{{\tt
   hep-ph/0002091}}].
 
 \bibitem{Oganessian:2000um}
 K.~A. Oganessian, N.~Bianchi, E.~De~Sanctis and W.~D. Nowak,
-  \emph{{Investigation of single spin asymmetries in pi+ electroproduction}},
+  \emph{{Investigation of single spin asymmetries in $\pi^{+}$
+  electroproduction}},
   \href{http://dx.doi.org/10.1016/S0375-9474(00)00609-6}{\emph{Nucl. Phys.}
   {\bf A689} (2001) 784--792},
   [\href{https://arxiv.org/abs/hep-ph/0010261}{{\tt hep-ph/0010261}}].
@@ -1374,14 +1427,14 @@ W.~Mao, Z.~Lu and B.-Q. Ma, \emph{{Transverse single-spin asymmetries of pion
   1405.3876}}].
 
 \bibitem{Cheng:1972sy}
-T.~P. Cheng and A.~Zee, \emph{{Coincidence electroproduction and scaling in the
-  regge region}}, \href{http://dx.doi.org/10.1103/PhysRevD.6.885}{\emph{Phys.
+T.~P. Cheng and A.~Zee, \emph{{Coincidence Electroproduction and Scaling in the
+  Regge Region}}, \href{http://dx.doi.org/10.1103/PhysRevD.6.885}{\emph{Phys.
   Rev.} {\bf D6} (1972) 885--893}.
 
 \bibitem{Aubert:1983cz}
-{\scshape European Muon} collaboration, J.~J. Aubert et~al., \emph{{Measurement
-  of Hadronic Azimuthal Distributions in Deep Inelastic Muon Proton
-  Scattering}},
+{\scshape European Muon} collaboration, J.~J. Aubert et~al., \emph{Measurement
+  of hadronic azimuthal distributions in deep inelastic muon proton
+  scattering},
   \href{http://dx.doi.org/10.1016/0370-2693(83)91076-6}{\emph{Phys. Lett.} {\bf
   130B} (1983) 118--122}.
 
@@ -1399,33 +1452,33 @@ H.~Mkrtchyan, P.~Bosted, G.~Adams, A.~Ahmidouch, T.~Angelescu et~al.,
 
 \bibitem{Anselmino:2011ch}
 M.~Anselmino, M.~Boglione, U.~D'Alesio, S.~Melis, F.~Murgia et~al.,
-  \emph{{General Helicity Formalism for Polarized Semi-Inclusive Deep Inelastic
-  Scattering}}, \href{http://dx.doi.org/10.1103/PhysRevD.83.114019}{\emph{Phys.
+  \emph{General helicity formalism for polarized semi-inclusive deep inelastic
+  scattering}, \href{http://dx.doi.org/10.1103/PhysRevD.83.114019}{\emph{Phys.
   Rev.} {\bf D83} (2011) 114019}, [\href{https://arxiv.org/abs/1101.1011}{{\tt
   1101.1011}}].
 
 \bibitem{Efremov:2004tp}
 A.~V. Efremov, K.~Goeke, S.~Menzel, A.~Metz and P.~Schweitzer, \emph{{Sivers
-  effect in semi-inclusive DIS and in the Drell-Yan process}},
+  effect in semi-inclusive DIS and in the Drell--Yan process}},
   \href{http://dx.doi.org/10.1016/j.physletb.2005.03.010}{\emph{Phys. Lett.}
   {\bf B612} (2005) 233--244},
   [\href{https://arxiv.org/abs/hep-ph/0412353}{{\tt hep-ph/0412353}}].
 
 \bibitem{Gamberg:2013kla}
-L.~Gamberg, Z.-B. Kang and A.~Prokudin, \emph{{Indication on the
-  process-dependence of the Sivers effect}},
+L.~Gamberg, Z.-B. Kang and A.~Prokudin, \emph{{Indication on the Process
+  Dependence of the Sivers Effect}},
   \href{http://dx.doi.org/10.1103/PhysRevLett.110.232301}{\emph{Phys. Rev.
   Lett.} {\bf 110} (2013) 232301}, [\href{https://arxiv.org/abs/1302.3218}{{\tt
   1302.3218}}].
 
 \bibitem{Sun:2013dya}
-P.~Sun and F.~Yuan, \emph{{Energy Evolution for the Sivers Asymmetries in Hard
-  Processes}}, \href{http://dx.doi.org/10.1103/PhysRevD.88.034016}{\emph{Phys.
+P.~Sun and F.~Yuan, \emph{{Energy evolution for the Sivers asymmetries in hard
+  processes}}, \href{http://dx.doi.org/10.1103/PhysRevD.88.034016}{\emph{Phys.
   Rev.} {\bf D88} (2013) 034016}, [\href{https://arxiv.org/abs/1304.5037}{{\tt
   1304.5037}}].
 
 \bibitem{Gluck:2000dy}
-M.~Gluck, E.~Reya, M.~Stratmann and W.~Vogelsang, \emph{{Models for the
+M.~Gl{\"u}ck, E.~Reya, M.~Stratmann and W.~Vogelsang, \emph{{Models for the
   polarized parton distributions of the nucleon}},
   \href{http://dx.doi.org/10.1103/PhysRevD.63.094005}{\emph{Phys. Rev.} {\bf
   D63} (2001) 094005}, [\href{https://arxiv.org/abs/hep-ph/0011215}{{\tt
