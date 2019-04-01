@@ -1,28 +1,2 @@
-#The notation used is:
-#
-#the asymmetries  were extracted as
-#  C \cdot ( 1 + A_{\sin \phi_h}\cdot \sin \phi_h +  A_{\cos \phi_h}\cdot 
-#\cos \phi_h +  A_{\cos 2 \phi_h}\cdot \cos 2 \phi_h )
-#where C is a constant term and \phi_h is the azimuthal angle of the
-#hadron evaluated in the Gamma-Nucleon system.
-#
-#
-#Please refer to them quoting: 
-#
-#W. K\"afer [COMPASS Collaboration], (Measurements of unpolarised
-#azimuthal asymmetries at COMPASS) 
-#Proceedings of Transversity 2008, Ferrara (2008), World Scientific 
-#(forthcoming). 
-#Preliminary COMPASS unpolarized asymmetries A_{\cos \phi_h}, A_{\cos 2\phi_h} and A_{\sin \phi_h} vs x, z and p_T,
-#and mean values of x, Q2, y, p_T
-#on 2004 data (part), neative hadrons sample.
-# <x>       range   <Q2>     <y>    <z>    <pt>  A_cosphi  error   A_cos2phi  error   A_sinphi  error   
-0.006  0.003 0.008  1.260    0.670  0.357  0.510   -0.055    0.007   0.030      0.007   -0.006    0.005   
-0.011  0.008 0.013  1.520    0.490  0.352  0.507   -0.076    0.005   0.045      0.005   -0.007    0.004   
-0.016  0.013 0.020  1.780    0.368  0.351  0.497   -0.110    0.005   0.053      0.005   0.004     0.004   
-0.025  0.020 0.032  2.090    0.277  0.358  0.470   -0.124    0.004   0.055      0.004   -0.001    0.003   
-0.040  0.032 0.050  2.860    0.241  0.364  0.450   -0.125    0.005   0.045      0.005   0.006     0.004   
-0.062  0.050 0.080  4.600    0.247  0.357  0.450   -0.120    0.006   0.032      0.006   0.001     0.005   
-0.100  0.080 0.130  7.430    0.248  0.349  0.451   -0.087    0.008   0.028      0.008   0.007     0.006   
-0.160  0.130 0.210  11.800   0.247  0.343  0.451   -0.054    0.012   0.021      0.012   -0.006    0.009   
-0.280  0.210 1.000  25.000   0.291  0.333  0.480   -0.043    0.021   0.032      0.022   -0.002    0.017   
+#: table_doi: 10.17182/hepdata.64754.v1/t7					#: name: Table 7					#: description: ASYMUU(COS(2*PHI(HADRON))) asymmetries for positive and negative hadrons as a function of XB. The errors are statistical only.					#: data_file: Table7.yaml					#: keyword reactions: MU+ LI6DEUT --> MU+ HADRONS X					#: keyword observables: ASYM					#: keyword phrases: Inclusive | Asymmetry Measurement | Muon production | Neutral Current | Deep Inelastic Scattering					#: 			NEGATIVE HADRONS		#: W [GEV]			> 5		#: PT(HADRON) [GeV]			0.1-1.0		#: RE			MU+ LI6DEUT --> MU+ HADRONS X		#: Y			0.2-0.9		#: Z			0.2-0.85		#: THETALAB(GAMMA*) [MILLIRAD]			< 60		#: Q**2 [GEV**2]			> 1		
+#XB	XB LOW	XB HIGH	ASYMUU(COS(2*PHI(HADRON)))	error +	error -0.0055	0.003	0.008	0.08	0.014	-0.0140.0105	0.008	0.013	0.071	0.007	-0.0070.0165	0.013	0.02	0.057	0.006	-0.0060.026	0.02	0.032	0.046	0.006	-0.0060.041	0.032	0.05	0.034	0.008	-0.0080.065	0.05	0.08	0.025	0.009	-0.0090.105	0.08	0.13	0	0.014	-0.014

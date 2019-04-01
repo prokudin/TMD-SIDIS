@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: test-WW-type-v2F.aux
+The style file: JHEP.bst
+Reallocated field_info (elt_size=4) to 11438 items from 5000.
+Database file #1: ./biblio_ww.bib
+Name 2 in "Prokudin, A and Tezgin, K," has a comma at the end for entry Mathematica
+while executing---line 1097 of file JHEP.bst
+Warning--empty booktitle in Dakin:1972db
+You've used 222 entries,
+            2188 wiz_defined-function locations,
+            2429 strings with 56573 characters,
+and the built_in function-call counts, 77058 in all, are:
+= -- 8005
+> -- 2968
+< -- 0
++ -- 861
+- -- 639
+* -- 6803
+:= -- 10366
+add.period$ -- 228
+call.type$ -- 222
+change.case$ -- 222
+chr.to.int$ -- 0
+cite$ -- 223
+duplicate$ -- 4009
+empty$ -- 6700
+format.name$ -- 639
+if$ -- 20379
+int.to.chr$ -- 0
+int.to.str$ -- 222
+missing$ -- 856
+newline$ -- 676
+num.names$ -- 222
+pop$ -- 399
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 3382
+stack$ -- 0
+substring$ -- 3654
+swap$ -- 2204
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 520
+width$ -- 225
+write$ -- 2432
+(There was 1 error message)
