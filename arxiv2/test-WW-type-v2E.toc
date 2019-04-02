@@ -1,0 +1,55 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}The SIDIS process in terms of TMDs and FFs}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}The SIDIS process}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}TMDs, FFs and structure functions}{8}{subsection.2.2}
+\contentsline {section}{\numberline {3}WW and WW-type approximations}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}WW approximation for PDF\lowercase {s}}{13}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}WW-type approximations for TMDs and FFs}{13}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Predictions from instanton vacuum model}{15}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Tests of WW approximation in DIS experiments}{16}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Tests in lattice QCD}{17}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Tests in models}{20}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Basis functions for the WW-type approximations}{21}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Limitation of WW-type approximations}{21}{subsection.3.8}
+\contentsline {section}{\numberline {4}SIDIS in the WW-type approximation and Gaussian model}{23}{section.4}
+\contentsline {subsection}{\numberline {4.1}Leading structure functions amenable to WW-type approximations}{23}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Subleading structure functions in WW-type approximations}{23}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Gaussian Ansatz for TMDs and FFs}{24}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Evaluation of structure functions in WW-type \& Gaussian approximation}{24}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Phenomenological information on basis functions}{26}{subsection.4.5}
+\contentsline {section}{\numberline {5}Leading-twist asymmetries and basis functions}{27}{section.5}
+\contentsline {subsection}{\numberline {5.1}\relax \mathversion {bold}Leading-twist $F_{UU}$ and Gaussian Ansatz}{27}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}\relax \mathversion {bold}Leading-twist $A_{LL}$ and first test of Gaussian Ansatz in polarized scattering}{29}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}\relax \mathversion {bold}Leading-twist $A_{UT}^{\qopname \relax o{sin}(\phi _h-\phi _S)}$ Sivers asymmetry}{30}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}\relax \mathversion {bold}Leading-twist $A_{UT}^{\qopname \relax o{sin}(\phi _h+\phi _S)}$ Collins asymmetry}{31}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}\relax \mathversion {bold}Leading-twist $A_{UU}^{\qopname \relax o{cos}(2\phi _h)}$ Boer--Mulders asymmetry}{32}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}\relax \mathversion {bold}Leading-twist $A_{UT}^{\qopname \relax o{sin}(3\phi _h-\phi _S)}$ asymmetry}{33}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Statistical and systematic uncertainties of basis functions}{34}{subsection.5.7}
+\contentsline {section}{\numberline {6}Leading-twist asymmetries in WW-type approximation}{35}{section.6}
+\contentsline {subsection}{\numberline {6.1}\relax \mathversion {bold}Leading-twist $A_{LT}^{\qopname \relax o{cos}(\phi _h-\phi _S)}$}{35}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}\relax \mathversion {bold}Leading-twist $A_{UL}^{\qopname \relax o{sin}2\phi _h}$ Kotzinian--Mulders asymmetry}{36}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Inequalities and a cross check}{37}{subsection.6.3}
+\contentsline {section}{\numberline {7}Subleading-twist asymmetries in WW-type approximation}{38}{section.7}
+\contentsline {subsection}{\numberline {7.1}\relax \mathversion {bold}Subleading-twist $A_{LU}^{\qopname \relax o{sin}\phi _h}$}{39}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}\relax \mathversion {bold}Subleading-twist $A_{LT}^{\qopname \relax o{cos}\phi _S}$}{39}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}\relax \mathversion {bold}Subleading-twist $A_{LT}^{\qopname \relax o{cos}(2\phi _h - \phi _S)}$}{41}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}\relax \mathversion {bold}Subleading-twist $A_{LL}^{\qopname \relax o{cos}\phi _h}$}{42}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}\relax \mathversion {bold}Subleading-twist $A_{UL}^{\qopname \relax o{sin}\phi _h}$ }{42}{subsection.7.5}
+\contentsline {subsection}{\numberline {7.6}\relax \mathversion {bold}Subleading-twist $A_{UT}^{\qopname \relax o{sin}\phi _S}$}{43}{subsection.7.6}
+\contentsline {subsection}{\numberline {7.7}\relax \mathversion {bold}Subleading-twist $A_{UT}^{\qopname \relax o{sin}(2\phi _h-\phi _S)}$ }{45}{subsection.7.7}
+\contentsline {subsection}{\numberline {7.8}\relax \mathversion {bold}Subleading-twist $A_{UU}^{\qopname \relax o{cos}\phi _h}$ }{46}{subsection.7.8}
+\contentsline {section}{\numberline {8}Conclusions}{47}{section.8}
+\contentsline {section}{\numberline {9}Acknowledgments}{49}{section.9}
+\contentsline {section}{\numberline {A}\relax \mathversion {bold}The ``minimal basis'' of TMDs and FFs}{49}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}\relax \mathversion {bold}Unpolarized functions $f_1^a(x,k_\perp ^2)$ and $D_1^a(z,P_\perp ^2)$}{49}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}\relax \mathversion {bold}Helicity distribution $g_1^a(x,k_\perp ^2)$}{50}{subsection.A.2}
+\contentsline {subsection}{\numberline {A.3}\relax \mathversion {bold}Sivers function $f_{1T}^{\perp q}(x,k_\perp ^{2})$}{51}{subsection.A.3}
+\contentsline {subsection}{\numberline {A.4}\relax \mathversion {bold}Transversity $h_{1}^{q}(x,k_\perp ^{2})$ and Collins function $H_{1}^{\perp q}(x,P_\perp ^{2})$}{51}{subsection.A.4}
+\contentsline {subsection}{\numberline {A.5}\relax \mathversion {bold}Boer--Mulders function $h_{1}^{\perp q}(x,k_\perp ^{2})$}{52}{subsection.A.5}
+\contentsline {subsection}{\numberline {A.6}\relax \mathversion {bold}Pretzelosity distribution $h_{1T}^{\perp q}(x,k_\perp ^{2})$}{53}{subsection.A.6}
+\contentsline {section}{\numberline {B}Convolution integrals and expressions in Gaussian Ansatz}{54}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Notation for convolution integrals }{54}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Gaussian Ansatz}{55}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Gaussian Ansatz for the derived TMDs used in this work}{55}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}Comment on TMDs subject to the sum rules (\ref {Eq:sum-rules-T-odd})}{56}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}Convolution integrals in Gaussian Ansatz}{56}{subsection.B.5}
