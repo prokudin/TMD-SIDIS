@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 APR 2019 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 APR 2019 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1783,13 +1783,13 @@ Package pdftex.def Info: ./figs/AUUcosphi_COMPASS_x.pdf used on input line 3580
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figs/AUUcosphi_HERMES_x.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<./figs/AUUcosphi_HERMES_x.pdf, id=4043, 260.975pt x 165.61874pt>
+<./figs/AUUcosphi_HERMES_x.pdf, id=4043, 260.975pt x 159.59625pt>
 File: ./figs/AUUcosphi_HERMES_x.pdf Graphic file (type pdf)
 
 <use ./figs/AUUcosphi_HERMES_x.pdf>
 Package pdftex.def Info: ./figs/AUUcosphi_HERMES_x.pdf used on input line 3581.
 
-(pdftex.def)             Requested size: 163.48051pt x 103.749pt.
+(pdftex.def)             Requested size: 163.48051pt x 99.9763pt.
  [44 <./figs/UT_Pr10_sin2phihphis_pip.pdf, page is rotated 90 degrees> <./figs/
 AUTsin2PhiminusPhiS_COMPASS_x.pdf> <./figs/AUTsin2PhiminusPhiS_HERMES_x.pdf
 
@@ -1992,7 +1992,7 @@ public/cm-super/sfti1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt1000.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /cm-super/sftt1095.pfb>
-Output written on test-WW-type-v2F.pdf (72 pages, 4285498 bytes).
+Output written on test-WW-type-v2F.pdf (72 pages, 4286258 bytes).
 PDF statistics:
  5403 PDF objects out of 6186 (max. 8388607)
  552 named destinations out of 1000 (max. 500000)
