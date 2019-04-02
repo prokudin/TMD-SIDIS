@@ -1,0 +1,32 @@
+#**************************************************************************
+#
+#   These are published data of the HERMES Collaboration.                  
+#   You are free to use these data in any publication. However, you must   
+#   make a reference to the following publication:                         
+#
+#   A. Airapetian et al, Phys. Rev. D 87 (2013) 012010 
+#
+#**************************************************************************
+###########################################################
+#                                                         #
+#           Kinematic range of integration                #
+#                                                         #
+#                  0.023 < x <0.27                        #
+#                  0.3 < y < 0.85                         #
+#                  0.2 < z < 0.75                         #
+#           0.05 GeV < P_{h\perp} <1.0 GeV                #
+#                                                         #
+########################################################### 
+###################################################
+#               cos2phi moments                   #
+#      for pi+  extracted with Hydrogen target    #
+#             as a function of  pt                #
+#        	                                  #
+# <pt>     2<cos2phi>    stat.error   sys. error  #
+###################################################
+0.138      -0.0044       0.0075         0.0091
+0.276      -0.0088       0.0040         0.0080
+0.419       0.0042       0.0049         0.0085
+0.581      -0.0065       0.0061         0.011
+0.799      -0.030        0.0089         0.015
+
