@@ -1,0 +1,156 @@
+Dear Editor,
+Thank you for sending the proofs.
+Here are our replies and additional corrections:
+
+
+1. Please note that we have updated the author/affiliation list. 
+Please check.
+
+OK
+
+
+
+2. Please note that we have introduced a comma just before the 
+footnote mark for footnote 10. This was done in order to make the 
+footnote symbol not be confused as superscript in the previous equation.
+
+OK
+
+
+
+3. Please note that ref. [36] is usually considered as an
+endnote/comment in JHEP. Therefore, we turned it into a footnote
+(page 3) where the reference is first cited.
+
+Please, change the text of the footnote on page 3 to:
+
+Open-source packages with implementations of SIDIS structure functions
+in the WW-type approximation are publicly available on github.com: in
+Mathematica, Version 11.3 on https://github.com/prokudin/WW-SIDIS, in Python on https://jeffersonlab.github.io/jam3d.
+
+4. Following the JHEP style, figures and tables should be referred to in
+the text: please note that table 4 is not referred to in the text.
+
+On page 52, 2nd sentence in App. A.5: please change 
+the following sentences:
+
+The Boer-Mulders functions were studied phenomenologically in 
+refs. [157, 162, 163].
+
+--->
+
+The Boer-Mulders functions were studied phenomenologically in
+refs. [157, 162, 163], we present the parameters of extractions of 
+the Boer-Mulders frunction from Ref. [162] in Table 4.
+
+
+
+Additional changes:
+
+- Acknowledgements. Please make the following 2 changes:
+Please, replace:
+
+  "and Contract No. PHY-1406298 (P.S.)" ---> 
+  "and Contract No. PHY-1812423 (P.S.)"
+
+After the sentence ending with "Wilhelm Schuler Stiftung (P.S.)."
+please insert the following sentence 
+
+  "The work was supported by DOE grant no. DE-FG02-04ER41309."
+
+
+- In Eq.(2.5) please change 3 times:
+
+   \phi ----> \phi_h  
+
+	N(x,\dots,\phi_h) = \frac{N_0(x,\dots)}{2\pi} \biggl(1
+		+ \cos\phi_h\;\asympre{UU}{\cos\phi_h}(x,\dots)
+		+ \cos2\phi_h\;\asympre{UU}{\cos2\phi_h}(x,\dots)\Biggr)
+
+
+- In Eq.(2.6a,2.6b): please, replace 
+
+  \frac{d\hat{\sigma}}{dy}   
+  --->
+  \frac{4\pi \alpha_{em}^2}{xyQ^2}\biggl(1-y+\frac12y^2\biggr)
+
+
+\begin{subequations}\ba
+     	\frac{d^4\sigma_{\rm leading}}{dx\,dy\,dz\,d\psi_l}
+   &=&	 \frac{1}{2\pi}\; \frac{4\pi \alpha_{em}^2}{xyQ^2}\biggl(1-y+\frac12y^2\biggr) \; F_{UU}(x,z)
+        \Biggl\{\;1 + \lambda\,S_L\,    p_2\,A_{LL} \Biggr\}
+    	\label{Eq:SIDIS-leading-integrated} \\
+	\frac{d^4\sigma_{\rm subleading}}{dx\,dy\,dz\,d\psi_l}
+   &=&	 \frac{1}{2\pi}\; \frac{4\pi \alpha_{em}^2}{xyQ^2}\biggl(1-y+\frac12y^2\biggr) \; F_{UU}(x,z)
+        \Biggl\{ S_T\sin(\phi_S)\,p_3\,A_{UT}^{\sin(\phi_S)} +
+  \nonumber \\
+  & &	 \lambda\,S_T\cos(\phi_S)\,p_4\,A_{LT}^{\cos(\phi_S)}
+          \Biggr\} \, ,
+     \hspace{1cm} \label{Eq:SIDIS-subleading-integrated}
+\ea\end{subequations}
+
+-- In Eq.(4.5e): 
+please add the superscript "a" twice (once on left-hand-side, and 
+once on right-hand-side of the equation, it should look analog to Eq.(4.5f))
+  
+
+-- Bibliography, please make the following fixes:
+   Ref.[21,22]   Gockeler ---> G\"ockeler
+   Ref.[67,68,73]  Hagler  ---> H\"agler,   Schafer ---> Sch\"afer
+   Ref.[109]  Mueller ---> M\"uller
+   Ref.[166]  Lorce ---> Lorc\'e
+   Ref.[222]  Gluck ---> Gl\"uck
+
+
+-- on page 39 we cite the references [34,54,93,98-100,188-197]
+in the penultimate sentence of Sec.7.1. Please, add here the new 
+reference:
+
+@article{Pasquini:2018oyz,
+       author         = "Pasquini, Barbara and Rodini, Simone",
+       title          = "{The twist-three distribution $e^q(x,k_\perp)$ in a
+                         light-front model}",
+       journal        = "Phys. Lett.",
+       volume         = "B788",
+       year           = "2019",
+       pages          = "414-424",
+       doi            = "10.1016/j.physletb.2018.11.033",
+       eprint         = "1806.10932",
+       archivePrefix  = "arXiv",
+       primaryClass   = "hep-ph",
+       SLACcitation   = "%%CITATION = ARXIV:1806.10932;%%"
+}
+
+
+
+page 13: On the right hand side of equations 3.3g, 3.3h and 3.4h add the flavor index "q":
+
+xh_T^q(x,\kperp^2)      &\WWtype&
+                       	- h_1^q(x,\kperp^2) - h_{1T}^{\perp(1)q}(x,\kperp^2),
+                       	\label{Eq:WW-type-7}\\
+xh_T^{\perp q}(x,\kperp^2)&\WWtype&
+                       	\phantom{-}h_1^q(x,\kperp^2)-h_{1T}^{\perp(1)q}(x,\kperp^2).
+                       	\phantom{\frac11} \label{Eq:WW-type-8}
+
+
+xh^q(x,\kperp^2)           	&\WWtype&
+                       	- 2\,{h_1^{\perp(1)q}(x,\kperp^2)}.\phantom{\frac11 XXXXx}
+                       	\label{Eq:WW-type-last}
+
+
+
+page 22: In the first paragraph there is a sentence: "... we will present pragmatic solutions for how to deal with the TMDs f_T and h". There, the TMD h(x,k_\perp) should be h(x,k_\perp^2).
+
+
+
+
+page 55: In equation B.9b, the Gaussian width in the exponential factor has an extra square term after the bracket. This should be deleted.
+
+h_{1L}^{\perp a}(x,\kperp^2)
+	  &= 	h_{1L}^{\perp (1) a}(x)\,
+		\frac{2 M_N^2}{\pi{\avkperp_{h_{1L}^\perp}^2}}\,
+		e^{-\kperp^2/{\avkperp_{h_{1L}^\perp}}}
+	  && 	\mbox{cf.\ Sec.~\ref{Sec-6.2:FULsin2phi},}	
+		\label{eq:h1l_final}\\
+
+
