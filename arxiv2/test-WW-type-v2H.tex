@@ -1829,7 +1829,7 @@ and $h^a(x,k_\perp^{2})$? Not necessarily! The approximations may
 work in some but not all regions of $\kperp$, but the sum rules
 (\ref{Eq:sum-rules-T-odd}) include integration over all $k_\perp$.
 Notice also that, e.g., $f_{1T}^{\perp (1),q}(x)$ is related to the
-soft-gluon-pole matrix element $F_{FT}(x,x)$ \cite{Boer:2003cm,Ji:2006ub},
+soft-gluon-pole matrix element $T_{F}(x,x)$ \cite{Boer:2003cm,Ji:2006ub},
 which is a $\bar{q}gq$-term that one would naturally neglect
 in WW-type approximation.
 In this sense (\ref{Eq:WW-type-fT}) could be consistent.
@@ -2155,7 +2155,7 @@ The parametrizations for the basis functions read
 	h_{1}^{a} (x, \kperp^2) &=& h_{1}^{a} (x)\;
   	\frac{1}{\,\pi \avkperp_{h_1}}\;e^{-{\kperp^2}/{\avkperp_{h_1} }} \, ,
 	\label{Eq:Gauss-h1}\\
-	H_{1}^{\perp}(z,\pperp^2) &=&  H_{1}^{\perp (1)}(z) \;
+	H_{1}^{\perp a}(z,\pperp^2) &=&  H_{1}^{\perp (1) a}(z) \;
 	\frac{2 z^2 \mh^2}{\pi \avpperp_{H_{1}^\perp}^2} \;
 	e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}\, ,\\
 	f_{1T}^{\perp a}(x,\kperp^2) &=&  f_{1T}^{\perp (1) a}(x)   \;
@@ -2555,7 +2555,7 @@ see App.~\ref{App:convol-details} for details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-The asymmetries $A_{UT, \langle y \rangle}^{\sin(\phi_h+\phi_S)}= (1-y)F_{UT}^{\sin(\phi_h+\phi_S)}/((1-y + y^2/2)F_{UU})$
+The asymmetries $A_{UT, \langle y \rangle}^{\sin(\phi_h+\phi_S)}= \langle(1-y)F_{UT}^{\sin(\phi_h+\phi_S)}\rangle/\langle(1-y + y^2/2)F_{UU}\rangle$
 are plotted in Fig.~\ref{aut_h1_jlab} as functions of $x$ in comparison
 to HERMES \cite{Airapetian:2010ds} and $A_{UT}^{\sin(\phi_h+\phi_S)}= F_{UT}^{\sin(\phi_h+\phi_S)}/F_{UU}$  for COMPASS \cite{Adolph:2014zba}
 data on charged-pion production from proton targets.
@@ -2600,7 +2600,7 @@ see App.~\ref{App:convol-details}.
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The asymmetries  $A_{UU, \langle y\rangle}^{\cos(2\phi_h)}=(1-y)F_{UU}^{\cos(2\phi_h)}/((1-y + y^2/2)F_{UU})$
+The asymmetries  $A_{UU, \langle y\rangle}^{\cos(2\phi_h)}=\langle(1-y)F_{UU}^{\cos(2\phi_h)}\rangle/\langle(1-y + y^2/2)F_{UU}\rangle$
 for HERMES \cite{Airapetian:2012yg} and $A_{UU}^{\cos(2\phi_h)}=F_{UU}^{\cos(2\phi_h)}/F_{UU}$ for COMPASS \cite{Adolph:2014pwc}
 are plotted in Fig.~\ref{auu_cos2phi_jlab}, where we only considered the
 Boer--Mulders contribution to $A_{UU}^{\cos(2\phi_h)}$, which does not describe
@@ -3482,7 +3482,7 @@ yields the expressions
 	F_{UT}^{\sin(2\phi_h -\phi_S)}(x,z,\Phperp) \;
 	=
 	\frac{2M_N}{Q}\;x\sum_q e_q^2\,\Biggl[
-	x \, f_T^{\perp(2)q}(x) \; D_1(z) \;b^{(2)}_{\rm C}\;
+	x \, f_T^{\perp(2)q}(x) \; D_1^q(z) \;b^{(2)}_{\rm C}\;
 	\left(\frac{z\Phperp}{\lambda}\right)^{\!\!2}\,{ \cal G}(\Phperp)&
 	\nonumber\\
 	+ \;
@@ -3494,7 +3494,7 @@ yields the expressions
 	F_{UT}^{\sin(2\phi_h -\phi_S)}(x,z,\la\Phperp\ra) \;
 	= \;
 	\frac{2M_N}{Q}\;x\sum_q e_q^2\,\Biggl[
-	x \; f_T^{\perp(2)q}(x) \; D_1(z) \; c^{(2)}_{\rm C} \;
+	x \; f_T^{\perp(2)q}(x) \; D_1^q(z) \; c^{(2)}_{\rm C} \;
 	\biggl(\frac{z}{\lambda^{1/2}}\biggr)^{\!\!2} &
 	\nonumber\\
 	+ \;
@@ -3828,7 +3828,7 @@ These parametrizations were used in \cite{Anselmino:2005nn} and other
 works whose extractions we adopt.
 
 To describe the transverse momentum dependence of $f_1^a(x,k_\perp^2)$
-and $D_1(z,P_\perp^2)$ we use the Gaussian Ansatz in
+and $D_1^a(z,P_\perp^2)$ we use the Gaussian Ansatz in
 Eqs.~(\ref{Eq:Gauss-f1},~\ref{Eq:Gauss-D1}). All early
 \cite{Anselmino:2005nn,Collins:2005ie,D'Alesio:2007jt,Schweitzer:2010tt}
 and some recent \cite{Signori:2013mda} analyses employed flavor and
@@ -4100,7 +4100,7 @@ The Boer--Mulders function $h_{1}^{\perp}$~\cite{Boer:1997nt} measures
 the transverse polarization asymmetry of quarks inside an unpolarized
 nucleon. The Boer--Mulders functions were studied phenomenologically in
 Refs.~\cite{Barone:2009hw,Barone:2010gk,Barone:2015ksa},  we present the parameters of extractions of 
-the Boer-Mulders frunction from Ref.~\cite{Barone:2010gk} in Tablel~\ref{fitparbm}.
+the Boer-Mulders function from Ref.~\cite{Barone:2010gk} in Tablel~\ref{fitparbm}.
 
 Ref.~\cite{Barone:2010gk} used the parametrization in which the Boer--Mulders function is proportional to the Sivers functions, such that
 \ba

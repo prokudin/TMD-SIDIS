@@ -1,0 +1,74 @@
+Dear Editor,
+Thank you for sending the proofs.
+We found a few more corrections to add:
+
+
+
+
+1. On page 52, 2nd sentence in App. A.5: 
+
+…the Boer-Mulders frunction from Ref. [162] in table 4…—>
+
+the Boer-Mulders function from Ref. [162] in table 4
+
+
+2. Page 10:
+
+In equation 2.20-c, please, change g_T^q(x) to g_T^a(x)
+
+3. Page 21:
+
+soft-gluon-pole matrix element $F_{FT}(x,x)$ —>
+soft-gluon-pole matrix element $T_{F}(x,x)$
+
+
+4. Page 26:
+Eq. 4.5 e
+
+H_{1}^{\perp}(z,\pperp^2) &=&  H_{1}^{\perp (1)}(z) \;
+	\frac{2 z^2 \mh^2}{\pi \avpperp_{H_{1}^\perp}^2} \;
+	e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}\, ,\\
+
+—>
+
+H_{1}^{\perp a}(z,\pperp^2) &=&  H_{1}^{\perp (1) a}(z) \;
+	\frac{2 z^2 \mh^2}{\pi \avpperp_{H_{1}^\perp}^2} \;
+	e^{-\pperp^2/{\avpperp_{H_{1}^\perp}}}\, ,\\
+
+
+5. Page 31:
+
+The asymmetries $A_{UT, \langle y \rangle}^{\sin(\phi_h+\phi_S)}= (1-y)F_{UT}^{\sin(\phi_h+\phi_S)}/((1-y + y^2/2)F_{UU})$
+—>
+
+The asymmetries $A_{UT, \langle y \rangle}^{\sin(\phi_h+\phi_S)}= \langle(1-y)F_{UT}^{\sin(\phi_h+\phi_S)}\rangle/\langle(1-y + y^2/2)F_{UU}\rangle$
+
+6. Page 32:
+
+The asymmetries  $A_{UU, \langle y\rangle}^{\cos(2\phi_h)}=(1-y)F_{UU}^{\cos(2\phi_h)}/((1-y + y^2/2)F_{UU})$ 
+
+—>
+
+The asymmetries  $A_{UU, \langle y\rangle}^{\cos(2\phi_h)}=\langle(1-y)F_{UU}^{\cos(2\phi_h)}\rangle/\langle(1-y + y^2/2)F_{UU}\rangle$
+
+
+
+Page 44:
+
+In eqs 7.8 a and 7.8 b, please, change
+
+
+D_1(z) —> D_1^q(z)
+
+Page 49:
+
+To describe the transverse momentum dependence of $f_1^a(x,k_\perp^2)$
+and $D_1(z,P_\perp^2)$
+
+—>
+
+To describe the transverse momentum dependence of $f_1^a(x,k_\perp^2)$
+and $D_1^a(z,P_\perp^2)$
+
+
+
