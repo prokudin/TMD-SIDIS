@@ -2,7 +2,11 @@ Dear Editor,
 Thank you for sending the proofs.
 We found a few more corrections to add:
 
+0. Author list:
 
+Could you, please, add affiliation e (INFN, Sezione di Torino,
+	10125 Torino, Italy)
+to B. Parsamyan
 
 
 1. On page 52, 2nd sentence in App. A.5: 
